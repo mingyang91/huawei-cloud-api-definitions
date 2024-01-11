@@ -1,6 +1,6 @@
 use std::collections::{HashMap, HashSet};
 use std::ffi::OsStr;
-
+use std::env;
 use tokio::io::AsyncWriteExt;
 use tokio::{fs::{read_dir, File, OpenOptions}, io::AsyncReadExt};
 
@@ -48,7 +48,8 @@ async fn main() -> Result<(), Error> {
 }
 
 async fn get_features() -> Result<Vec<String>, Error> {
-	let mut dir = read_dir("./src/schemas").await?;
+	let schema_dir = env::var("OUT_DIR").map(|x| x.to_string()).map_err(|e| Error::Parse(e.to_string()))?;
+	let mut dir = read_dir(schema_dir).await?;
 	let mut product_map = HashMap::new();
 	while let Some(entry) = dir.next_entry().await? {
 		let path = entry.path();

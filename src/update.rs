@@ -68,11 +68,11 @@ async fn main() -> Result<(), reqwest::Error> {
 				.filter_map(|x| async { x })
 				.collect::<Vec<String>>()
 				.await;
-			write_file(format!("{}/{}/mod.rs", gen_dir.display(), normalize_productshort), feature_mod_gen(&api_names).as_bytes()).await;
+			write_file(format!("{}/{}/mod.rs", gen_dir.display(), normalize_productshort), feature_mod_gen(&productshort, &api_names).as_bytes()).await;
 		}
 	}
 
-	write_file(format!("{}/mod.rs", &gen_dir.display()), feature_mod_gen(&product_names).as_bytes()).await;
+	write_file(format!("{}/mod.rs", &gen_dir.display()), feature_mod_gen("", &product_names).as_bytes()).await;
 
 	println!("cargo:rustc-env=GENERATED_ENV={}", gen_dir.display());
 
@@ -120,11 +120,15 @@ fn companie_rs_gen<P: AsRef<Path>>(schema: P, reference: &str) -> String {
 	"#, reference, schema.as_ref().display())
 }
 
-fn feature_mod_gen(name_list: &[String]) -> String {
+fn feature_mod_gen(ns: &str, name_list: &[String]) -> String {
+	let mut prefix = String::new();
+	if ns.len() > 0 {
+		prefix = format!("{}_", ns);
+	}
 	let mut mod_gen = String::new();
 	for name in name_list {
-		// feature = name
-		mod_gen.push_str(&format!("#[cfg(feature = \"{}\")]\n", name));
+		let feature_name = format!("{}{}", prefix, name);
+		mod_gen.push_str(&format!("#[cfg(feature = \"{}\")]\n", feature_name));
 		mod_gen.push_str(&format!("pub mod {};\n", name));
 		println!("cargo:rustc-cfg={}", name);
 	}
