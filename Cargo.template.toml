@@ -15,11 +15,11 @@ name = "huawei_cloud_api_definitions"
 path = "src/lib.rs"
 
 [dependencies]
-serde = { version = "*", features = ["derive"] }
-serde_json = { version = "*" }
-typify = { version = "*" }
-chrono = { version = "*", features = ["serde"] }
-regress = { version = "*" }
+serde = { version = "1", features = ["derive"] }
+serde_json = { version = "1" }
+typify = { version = "0" }
+chrono = { version = "0", features = ["serde"] }
+regress = { version = "0" }
 
 [features]
 # --- GENERATED FEATURES LIST START ---
