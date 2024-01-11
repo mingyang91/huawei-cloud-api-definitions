@@ -396,11 +396,17 @@ async fn render_cargo_toml(name: &str, features: &[String]) -> Result<String, Er
 		.clone();
 
 	// update package.name with base and product name
-	let pkg_name = cargo_toml
+	let pkg = cargo_toml
 		.get_mut("package")
 		.ok_or(Error::Parse("Failed to find 'package' in Cargo.toml".to_string()))?
 		.as_table_mut()
-		.ok_or(Error::Parse("Failed to parse 'package' in Cargo.toml".to_string()))?
+		.ok_or(Error::Parse("Failed to parse 'package' in Cargo.toml".to_string()))?;
+
+	let pkg_version = pkg
+		.get_mut("version")
+		.ok_or(Error::Parse("Failed to find 'version' in 'package' in Cargo.toml".to_string()))?;
+
+	let pkg_name = pkg
 		.get_mut("name")
 		.ok_or(Error::Parse("Failed to find 'name' in 'package' in Cargo.toml".to_string()))?;
 

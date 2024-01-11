@@ -1,6 +1,6 @@
 [package]
 name = "huawei-cloud-api-definitions"
-version = "0.1.0"
+version = "0.1.1"
 edition = "2021"
 authors = ["mingyang91 <mingyang91@qq.com>"]
 description = "Huawei Cloud API definitions, generated from OpenAPI spec"
