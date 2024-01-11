@@ -189,7 +189,6 @@ fn companie_rs_gen<P: AsRef<Path>>(schema: P, reference: &str) -> String {
 }
 
 fn feature_mod_gen(name_list: &[String]) -> String {
-    let mut prefix = String::new();
     let mut mod_gen = String::new();
     for name in name_list {
         mod_gen.push_str(&format!("#[cfg(feature = \"{}\")]\n", name));
