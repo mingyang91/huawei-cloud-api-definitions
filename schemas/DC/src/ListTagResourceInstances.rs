@@ -7,5 +7,5 @@
 		use std::fmt::Debug;
 		use serde::{Serialize, Deserialize};
 		use typify::import_types;
-		import_types!(schema="/Users/famer.me/Repository/huawei-cloud-api-definitions/schemas/DC/src/ListTagResourceInstances.json", struct_builder = true);
+		import_types!(schema="./DC/src/ListTagResourceInstances.json", struct_builder = true);
 	

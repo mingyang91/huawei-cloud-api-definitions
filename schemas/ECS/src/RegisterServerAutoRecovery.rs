@@ -7,5 +7,5 @@
 		use std::fmt::Debug;
 		use serde::{Serialize, Deserialize};
 		use typify::import_types;
-		import_types!(schema="/Users/famer.me/Repository/huawei-cloud-api-definitions/schemas/ECS/src/RegisterServerAutoRecovery.json", struct_builder = true);
+		import_types!(schema="./ECS/src/RegisterServerAutoRecovery.json", struct_builder = true);
 	
