@@ -7,5 +7,5 @@
 		use std::fmt::Debug;
 		use serde::{Serialize, Deserialize};
 		use typify::import_types;
-		import_types!(schema="./APIG/src/CreateSpecialThrottlingConfiguration.json", struct_builder = true);
+		import_types!(schema="./CreateSpecialThrottlingConfiguration.json", struct_builder = true);
 	

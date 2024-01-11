@@ -7,5 +7,5 @@
 		use std::fmt::Debug;
 		use serde::{Serialize, Deserialize};
 		use typify::import_types;
-		import_types!(schema="./DWS/src/ListTablesStatistic.json", struct_builder = true);
+		import_types!(schema="./ListTablesStatistic.json", struct_builder = true);
 	

@@ -7,5 +7,5 @@
 		use std::fmt::Debug;
 		use serde::{Serialize, Deserialize};
 		use typify::import_types;
-		import_types!(schema="./EIP/src/UpdatePublicip.json", struct_builder = true);
+		import_types!(schema="./UpdatePublicip.json", struct_builder = true);
 	

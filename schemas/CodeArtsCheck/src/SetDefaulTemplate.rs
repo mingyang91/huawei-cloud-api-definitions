@@ -7,5 +7,5 @@
 		use std::fmt::Debug;
 		use serde::{Serialize, Deserialize};
 		use typify::import_types;
-		import_types!(schema="./CodeArtsCheck/src/SetDefaulTemplate.json", struct_builder = true);
+		import_types!(schema="./SetDefaulTemplate.json", struct_builder = true);
 	

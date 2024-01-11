@@ -7,5 +7,5 @@
 		use std::fmt::Debug;
 		use serde::{Serialize, Deserialize};
 		use typify::import_types;
-		import_types!(schema="./CPTS/src/UpdateCase.json", struct_builder = true);
+		import_types!(schema="./UpdateCase.json", struct_builder = true);
 	

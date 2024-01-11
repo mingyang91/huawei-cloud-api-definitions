@@ -7,5 +7,5 @@
 		use std::fmt::Debug;
 		use serde::{Serialize, Deserialize};
 		use typify::import_types;
-		import_types!(schema="./MAS/src/UpdateMonitor.json", struct_builder = true);
+		import_types!(schema="./UpdateMonitor.json", struct_builder = true);
 	

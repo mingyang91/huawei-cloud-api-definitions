@@ -7,5 +7,5 @@
 		use std::fmt::Debug;
 		use serde::{Serialize, Deserialize};
 		use typify::import_types;
-		import_types!(schema="./ROMA/src/CheckRomaAppDetails.json", struct_builder = true);
+		import_types!(schema="./CheckRomaAppDetails.json", struct_builder = true);
 	

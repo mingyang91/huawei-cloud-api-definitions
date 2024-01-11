@@ -7,5 +7,5 @@
 		use std::fmt::Debug;
 		use serde::{Serialize, Deserialize};
 		use typify::import_types;
-		import_types!(schema="./CC/src/ListCloudConnectionTags.json", struct_builder = true);
+		import_types!(schema="./ListCloudConnectionTags.json", struct_builder = true);
 	

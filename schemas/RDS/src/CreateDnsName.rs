@@ -7,5 +7,5 @@
 		use std::fmt::Debug;
 		use serde::{Serialize, Deserialize};
 		use typify::import_types;
-		import_types!(schema="./RDS/src/CreateDnsName.json", struct_builder = true);
+		import_types!(schema="./CreateDnsName.json", struct_builder = true);
 	

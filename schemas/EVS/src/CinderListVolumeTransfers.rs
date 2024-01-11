@@ -7,5 +7,5 @@
 		use std::fmt::Debug;
 		use serde::{Serialize, Deserialize};
 		use typify::import_types;
-		import_types!(schema="./EVS/src/CinderListVolumeTransfers.json", struct_builder = true);
+		import_types!(schema="./CinderListVolumeTransfers.json", struct_builder = true);
 	

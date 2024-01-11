@@ -7,5 +7,5 @@
 		use std::fmt::Debug;
 		use serde::{Serialize, Deserialize};
 		use typify::import_types;
-		import_types!(schema="./RAM/src/DeleteResourceShare.json", struct_builder = true);
+		import_types!(schema="./DeleteResourceShare.json", struct_builder = true);
 	

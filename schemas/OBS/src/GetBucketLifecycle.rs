@@ -7,5 +7,5 @@
 		use std::fmt::Debug;
 		use serde::{Serialize, Deserialize};
 		use typify::import_types;
-		import_types!(schema="./OBS/src/GetBucketLifecycle.json", struct_builder = true);
+		import_types!(schema="./GetBucketLifecycle.json", struct_builder = true);
 	

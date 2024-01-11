@@ -7,5 +7,5 @@
 		use std::fmt::Debug;
 		use serde::{Serialize, Deserialize};
 		use typify::import_types;
-		import_types!(schema="./IEC/src/ListPorts.json", struct_builder = true);
+		import_types!(schema="./ListPorts.json", struct_builder = true);
 	

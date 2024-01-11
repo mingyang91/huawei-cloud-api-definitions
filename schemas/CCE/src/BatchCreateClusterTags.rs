@@ -7,5 +7,5 @@
 		use std::fmt::Debug;
 		use serde::{Serialize, Deserialize};
 		use typify::import_types;
-		import_types!(schema="./CCE/src/BatchCreateClusterTags.json", struct_builder = true);
+		import_types!(schema="./BatchCreateClusterTags.json", struct_builder = true);
 	

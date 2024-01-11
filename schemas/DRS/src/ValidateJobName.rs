@@ -7,5 +7,5 @@
 		use std::fmt::Debug;
 		use serde::{Serialize, Deserialize};
 		use typify::import_types;
-		import_types!(schema="./DRS/src/ValidateJobName.json", struct_builder = true);
+		import_types!(schema="./ValidateJobName.json", struct_builder = true);
 	

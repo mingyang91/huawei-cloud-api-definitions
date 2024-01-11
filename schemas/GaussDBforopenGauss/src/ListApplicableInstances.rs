@@ -7,5 +7,5 @@
 		use std::fmt::Debug;
 		use serde::{Serialize, Deserialize};
 		use typify::import_types;
-		import_types!(schema="./GaussDBforopenGauss/src/ListApplicableInstances.json", struct_builder = true);
+		import_types!(schema="./ListApplicableInstances.json", struct_builder = true);
 	

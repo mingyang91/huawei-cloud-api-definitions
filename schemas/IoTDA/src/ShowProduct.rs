@@ -7,5 +7,5 @@
 		use std::fmt::Debug;
 		use serde::{Serialize, Deserialize};
 		use typify::import_types;
-		import_types!(schema="./IoTDA/src/ShowProduct.json", struct_builder = true);
+		import_types!(schema="./ShowProduct.json", struct_builder = true);
 	

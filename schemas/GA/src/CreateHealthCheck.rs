@@ -7,5 +7,5 @@
 		use std::fmt::Debug;
 		use serde::{Serialize, Deserialize};
 		use typify::import_types;
-		import_types!(schema="./GA/src/CreateHealthCheck.json", struct_builder = true);
+		import_types!(schema="./CreateHealthCheck.json", struct_builder = true);
 	

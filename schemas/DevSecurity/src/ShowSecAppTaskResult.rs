@@ -7,5 +7,5 @@
 		use std::fmt::Debug;
 		use serde::{Serialize, Deserialize};
 		use typify::import_types;
-		import_types!(schema="./DevSecurity/src/ShowSecAppTaskResult.json", struct_builder = true);
+		import_types!(schema="./ShowSecAppTaskResult.json", struct_builder = true);
 	

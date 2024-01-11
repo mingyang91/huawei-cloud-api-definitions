@@ -7,5 +7,5 @@
 		use std::fmt::Debug;
 		use serde::{Serialize, Deserialize};
 		use typify::import_types;
-		import_types!(schema="./RMS/src/ShowResourceById.json", struct_builder = true);
+		import_types!(schema="./ShowResourceById.json", struct_builder = true);
 	

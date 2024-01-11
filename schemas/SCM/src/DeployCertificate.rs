@@ -7,5 +7,5 @@
 		use std::fmt::Debug;
 		use serde::{Serialize, Deserialize};
 		use typify::import_types;
-		import_types!(schema="./SCM/src/DeployCertificate.json", struct_builder = true);
+		import_types!(schema="./DeployCertificate.json", struct_builder = true);
 	

@@ -7,5 +7,5 @@
 		use std::fmt::Debug;
 		use serde::{Serialize, Deserialize};
 		use typify::import_types;
-		import_types!(schema="./DDS/src/DeleteInstance.json", struct_builder = true);
+		import_types!(schema="./DeleteInstance.json", struct_builder = true);
 	
