@@ -17,9 +17,9 @@ path = "src/lib.rs"
 [dependencies]
 serde = { version = "*", features = ["derive"] }
 serde_json = { version = "*" }
-typify = { version = "*", optional = true }
-chrono = { version = "*", features = ["serde"], optional = true }
-regress = { version = "*", optional = true }
+typify = { version = "*" }
+chrono = { version = "*", features = ["serde"] }
+regress = { version = "*" }
 
 [features]
 # --- GENERATED FEATURES LIST START ---

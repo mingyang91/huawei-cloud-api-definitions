@@ -1,0 +1,73 @@
+[dependencies.chrono]
+features = ["serde"]
+optional = true
+version = "*"
+
+[dependencies.regress]
+optional = true
+version = "*"
+
+[dependencies.serde]
+features = ["derive"]
+version = "*"
+
+[dependencies.serde_json]
+version = "*"
+
+[dependencies.typify]
+optional = true
+version = "*"
+
+[features]
+AddBlackWhiteIpList = []
+AddPolicyBlackAndWhiteIpList = []
+AssociateIpToPolicy = []
+BatchCreateInstanceIpRule = []
+BatchDeleteInstanceIpRule = []
+CreateAadDomain = []
+CreateCertificate = []
+CreatePolicy = []
+DeleteAlarmConfig = []
+DeleteBlackWhiteIpList = []
+DeletePolicy = []
+DeletePolicyBlackAndWhiteIpList = []
+DisassociateIpFromPolicy = []
+ExecuteUnblockIp = []
+ListBlockIps = []
+ListDomain = []
+ListInstance = []
+ListInstanceId = []
+ListInstanceIpRule = []
+ListPackage = []
+ListPeak = []
+ListPolicy = []
+ListProtectedIp = []
+ListSourceIps = []
+ListUnblockQuotaStatistics = []
+ListUnboundProtectedIp = []
+ModifyDomainWebSwitch = []
+ShowAlarmConfig = []
+ShowBlockStatistics = []
+ShowPolicy = []
+ShowUnblockRecord = []
+UpdateAlarmConfig = []
+UpdateDomain = []
+UpdateInstanceIpRule = []
+UpdatePackageIp = []
+UpdatePackageName = []
+UpdatePolicy = []
+UpdateTagForProtectedIp = []
+full = ["AddBlackWhiteIpList", "AddPolicyBlackAndWhiteIpList", "AssociateIpToPolicy", "BatchCreateInstanceIpRule", "BatchDeleteInstanceIpRule", "CreateAadDomain", "CreateCertificate", "CreatePolicy", "DeleteAlarmConfig", "DeleteBlackWhiteIpList", "DeletePolicy", "DeletePolicyBlackAndWhiteIpList", "DisassociateIpFromPolicy", "ExecuteUnblockIp", "ListBlockIps", "ListDomain", "ListInstance", "ListInstanceId", "ListInstanceIpRule", "ListPackage", "ListPeak", "ListPolicy", "ListProtectedIp", "ListSourceIps", "ListUnblockQuotaStatistics", "ListUnboundProtectedIp", "ModifyDomainWebSwitch", "ShowAlarmConfig", "ShowBlockStatistics", "ShowPolicy", "ShowUnblockRecord", "UpdateAlarmConfig", "UpdateDomain", "UpdateInstanceIpRule", "UpdatePackageIp", "UpdatePackageName", "UpdatePolicy", "UpdateTagForProtectedIp"]
+
+[lib]
+name = "huawei_cloud_api_definitions_AAD"
+path = "src/lib.rs"
+
+[package]
+authors = ["mingyang91 <mingyang91@qq.com>"]
+description = "Huawei Cloud API definitions, generated from OpenAPI spec"
+edition = "2021"
+license = "MIT"
+name = "huawei-cloud-api-definitions-AAD"
+repository = "https://github.com/mingyang91/huawei-cloud-api-definitions"
+version = "0.1.0"

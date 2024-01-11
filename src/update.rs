@@ -113,7 +113,7 @@ async fn main() -> Result<(), Error> {
                 .await;
             write_file(
                 format!("{}/lib.rs", gen_dir.display()),
-                feature_mod_gen(&productshort, &api_names).as_bytes(),
+                feature_mod_gen( &api_names).as_bytes(),
             )
             .await?;
 						generate_cargo_toml(
@@ -188,15 +188,11 @@ fn companie_rs_gen<P: AsRef<Path>>(schema: P, reference: &str) -> String {
     )
 }
 
-fn feature_mod_gen(ns: &str, name_list: &[String]) -> String {
+fn feature_mod_gen(name_list: &[String]) -> String {
     let mut prefix = String::new();
-    if ns.len() > 0 {
-        prefix = format!("{}_", ns);
-    }
     let mut mod_gen = String::new();
     for name in name_list {
-        let feature_name = format!("{}{}", prefix, name);
-        mod_gen.push_str(&format!("#[cfg(feature = \"{}\")]\n", feature_name));
+        mod_gen.push_str(&format!("#[cfg(feature = \"{}\")]\n", name));
         mod_gen.push_str(&format!("pub mod {};\n", name));
         println!("cargo:rustc-cfg={}", name);
     }
