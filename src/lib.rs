@@ -1,2 +1,2 @@
 #[cfg(feature = "codegen")]
-pub mod schemas
+pub mod schemas;
