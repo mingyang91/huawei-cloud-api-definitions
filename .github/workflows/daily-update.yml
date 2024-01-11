@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - run: OUT_DIR=$(pwd)/src/schemas cargo run
+      - run: OUT_DIR=$(pwd)/src/schemas cargo run --bin update
       - name: Commit & Push changes
         uses: actions-js/push@master
         with:

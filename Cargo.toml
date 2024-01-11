@@ -6,8 +6,8 @@ edition = "2021"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [[bin]]
-name = "huawei-cloud-api-definitions"
-path = "src/main.rs"
+name = "update"
+path = "src/update.rs"
 
 [lib]
 name = "huawei_cloud_api_definitions"
