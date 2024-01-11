@@ -28,25 +28,3 @@ serde_json = { version = "*" }
 futures = { version = "*" }
 futures-util = { version = "*" }
 thiserror = { version = "*" }
-
-typify = { version = "*", optional = true }
-chrono = { version = "*", features = ["serde"], optional = true }
-regress = { version = "*", optional = true }
-
-[features]
-codegen = ["dep:typify", "dep:chrono", "dep:regress"]
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
