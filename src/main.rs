@@ -1,6 +1,5 @@
 use std::path::Path;
 use std::env;
-use std::collections::HashSet;
 use reqwest::Client;
 use serde::{Serialize, Deserialize};
 use serde_json::Value;
@@ -80,14 +79,6 @@ async fn main() -> Result<(), reqwest::Error> {
 	Ok(())
 }
 
-fn enabled_features() -> HashSet<String> {
-	let features = env::vars()
-		.filter(|(key, _value)| key.starts_with("CARGO_FEATURE_"))
-		.filter(|(_key, value)| value == "1")
-		.map(|(key, _value)| key[14..].to_string())
-		.collect::<HashSet<String>>();
-	features
-}
 
 async fn write_file<P: AsRef<Path>>(path: P, content: &[u8]) {
 	let parent = path.as_ref().parent().expect("parent");
