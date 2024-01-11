@@ -1,0 +1,97 @@
+[dependencies.chrono]
+features = ["serde"]
+version = "0"
+
+[dependencies.regress]
+version = "0"
+
+[dependencies.serde]
+features = ["derive"]
+version = "1"
+
+[dependencies.serde_json]
+version = "1"
+
+[dependencies.typify]
+version = "0"
+
+[features]
+ChangeAlert = []
+ChangeIncident = []
+ChangePlaybookInstance = []
+CheckProductHealthy = []
+CopyPlaybookVersion = []
+CreateAlert = []
+CreateAlertRule = []
+CreateAlertRuleSimulation = []
+CreateBatchOrderAlerts = []
+CreateDataobjectRelations = []
+CreateDataspace = []
+CreateIncident = []
+CreateIndicator = []
+CreatePipe = []
+CreatePlaybook = []
+CreatePlaybookAction = []
+CreatePlaybookApprove = []
+CreatePlaybookRule = []
+CreatePlaybookVersion = []
+DeleteAlert = []
+DeleteAlertRule = []
+DeleteDataobjectRelations = []
+DeleteIncident = []
+DeleteIndicator = []
+DeletePlaybook = []
+DeletePlaybookAction = []
+DeletePlaybookRule = []
+DeletePlaybookVersion = []
+DisableAlertRule = []
+EnableAlertRule = []
+ImportEvents = []
+ListAlertRuleMetrics = []
+ListAlertRuleTemplates = []
+ListAlertRules = []
+ListAlerts = []
+ListDataclass = []
+ListDataclassFields = []
+ListDataobjectRelations = []
+ListIncidents = []
+ListIndicators = []
+ListPlaybookActions = []
+ListPlaybookApproves = []
+ListPlaybookAuditLogs = []
+ListPlaybookInstances = []
+ListPlaybookVersions = []
+ListPlaybooks = []
+ListWorkflows = []
+ShowAlert = []
+ShowAlertRule = []
+ShowAlertRuleTemplate = []
+ShowIncident = []
+ShowIndicatorDetail = []
+ShowPlaybook = []
+ShowPlaybookInstance = []
+ShowPlaybookMonitors = []
+ShowPlaybookRule = []
+ShowPlaybookStatistics = []
+ShowPlaybookTopology = []
+ShowPlaybookVersion = []
+UpdateAlertRule = []
+UpdateIndicator = []
+UpdatePlaybook = []
+UpdatePlaybookAction = []
+UpdatePlaybookRule = []
+UpdatePlaybookVersion = []
+full = ["ChangeAlert", "ChangeIncident", "ChangePlaybookInstance", "CheckProductHealthy", "CopyPlaybookVersion", "CreateAlert", "CreateAlertRule", "CreateAlertRuleSimulation", "CreateBatchOrderAlerts", "CreateDataobjectRelations", "CreateDataspace", "CreateIncident", "CreateIndicator", "CreatePipe", "CreatePlaybook", "CreatePlaybookAction", "CreatePlaybookApprove", "CreatePlaybookRule", "CreatePlaybookVersion", "DeleteAlert", "DeleteAlertRule", "DeleteDataobjectRelations", "DeleteIncident", "DeleteIndicator", "DeletePlaybook", "DeletePlaybookAction", "DeletePlaybookRule", "DeletePlaybookVersion", "DisableAlertRule", "EnableAlertRule", "ImportEvents", "ListAlertRuleMetrics", "ListAlertRules", "ListAlertRuleTemplates", "ListAlerts", "ListDataclass", "ListDataclassFields", "ListDataobjectRelations", "ListIncidents", "ListIndicators", "ListPlaybookActions", "ListPlaybookApproves", "ListPlaybookAuditLogs", "ListPlaybookInstances", "ListPlaybooks", "ListPlaybookVersions", "ListWorkflows", "ShowAlert", "ShowAlertRule", "ShowAlertRuleTemplate", "ShowIncident", "ShowIndicatorDetail", "ShowPlaybook", "ShowPlaybookInstance", "ShowPlaybookMonitors", "ShowPlaybookRule", "ShowPlaybookStatistics", "ShowPlaybookTopology", "ShowPlaybookVersion", "UpdateAlertRule", "UpdateIndicator", "UpdatePlaybook", "UpdatePlaybookAction", "UpdatePlaybookRule", "UpdatePlaybookVersion"]
+
+[lib]
+name = "huawei_cloud_api_definitions_SecMaster"
+path = "src/lib.rs"
+
+[package]
+authors = ["mingyang91 <mingyang91@qq.com>"]
+description = "Huawei Cloud API definitions, generated from OpenAPI spec"
+edition = "2021"
+license = "MIT"
+name = "huawei-cloud-api-definitions-SecMaster"
+repository = "https://github.com/mingyang91/huawei-cloud-api-definitions"
+version = "0.1.0"

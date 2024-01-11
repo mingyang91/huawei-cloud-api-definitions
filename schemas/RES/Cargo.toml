@@ -1,0 +1,65 @@
+[dependencies.chrono]
+features = ["serde"]
+version = "0"
+
+[dependencies.regress]
+version = "0"
+
+[dependencies.serde]
+features = ["derive"]
+version = "1"
+
+[dependencies.serde_json]
+version = "1"
+
+[dependencies.typify]
+version = "0"
+
+[features]
+CreateResDatasource = []
+CreateResIntelligentScene = []
+CreateResJob = []
+CreateResJobs = []
+CreateResOnlineInstance = []
+CreateResScene = []
+CreateResWorkspace = []
+DeleteResDatasource = []
+DeleteResJob = []
+DeleteResOnlineInstance = []
+DeleteResScene = []
+DeleteResWorkspace = []
+ListResDatasources = []
+ListResEnterprises = []
+ListResOnlineServiceDetails = []
+ListResResourceSpec = []
+ListResScenes = []
+ListResWorkspaces = []
+ShowResDatasource = []
+ShowResDatasourceWorkDetail = []
+ShowResJob = []
+ShowResRecallSet = []
+ShowResScene = []
+ShowResWrokspace = []
+StartResJob = []
+StartResSceneJobs = []
+UpdateResDatasource = []
+UpdateResDatastruct = []
+UpdateResIntelligentScene = []
+UpdateResJob = []
+UpdateResOnlineInstance = []
+UpdateResScene = []
+UpdateResWorkspace = []
+full = ["CreateResDatasource", "CreateResIntelligentScene", "CreateResJob", "CreateResJobs", "CreateResOnlineInstance", "CreateResScene", "CreateResWorkspace", "DeleteResDatasource", "DeleteResJob", "DeleteResOnlineInstance", "DeleteResScene", "DeleteResWorkspace", "ListResDatasources", "ListResEnterprises", "ListResOnlineServiceDetails", "ListResResourceSpec", "ListResScenes", "ListResWorkspaces", "ShowResDatasource", "ShowResDatasourceWorkDetail", "ShowResJob", "ShowResRecallSet", "ShowResScene", "ShowResWrokspace", "StartResJob", "StartResSceneJobs", "UpdateResDatasource", "UpdateResDatastruct", "UpdateResIntelligentScene", "UpdateResJob", "UpdateResOnlineInstance", "UpdateResScene", "UpdateResWorkspace"]
+
+[lib]
+name = "huawei_cloud_api_definitions_RES"
+path = "src/lib.rs"
+
+[package]
+authors = ["mingyang91 <mingyang91@qq.com>"]
+description = "Huawei Cloud API definitions, generated from OpenAPI spec"
+edition = "2021"
+license = "MIT"
+name = "huawei-cloud-api-definitions-RES"
+repository = "https://github.com/mingyang91/huawei-cloud-api-definitions"
+version = "0.1.0"

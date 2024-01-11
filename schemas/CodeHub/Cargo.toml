@@ -1,0 +1,98 @@
+[dependencies.chrono]
+features = ["serde"]
+version = "0"
+
+[dependencies.regress]
+version = "0"
+
+[dependencies.serde]
+features = ["derive"]
+version = "1"
+
+[dependencies.serde_json]
+version = "1"
+
+[dependencies.typify]
+version = "0"
+
+[features]
+AddDeployKey = []
+AddDeployKeyV2 = []
+AddHooks = []
+AddProtectBranchV2 = []
+AddRepoMembers = []
+AddSshKey = []
+AddTagV2 = []
+AssociateIssues = []
+CreateCommit = []
+CreateMergeRequestDiscussion = []
+CreateMergeRequestDiscussionNote = []
+CreateNewBranch = []
+CreateProjectAndRepositories = []
+CreateProjectAndforkRepositories = []
+CreateRepository = []
+DeleteDeployKey = []
+DeleteDeployKeyV2 = []
+DeleteHooks = []
+DeleteRepoMember = []
+DeleteRepository = []
+DeleteSShkey = []
+GetAllRepositoryByProjectId = []
+GetProductTemplates = []
+GetRepositoryByProjectId = []
+GetTemplates = []
+ListBranchesByRepositoryId = []
+ListCommitStatistics = []
+ListCommits = []
+ListFiles = []
+ListFilesByQuery = []
+ListHooks = []
+ListMergeRequest = []
+ListProductTwoTemplates = []
+ListRepoMembers = []
+ListRepositoryStatus = []
+ListSshKeys = []
+ListSubfiles = []
+ListTemplatesTwo = []
+ListTwoTemplates = []
+ListUserAllRepositories = []
+SetRepoRole = []
+ShareTemplates = []
+ShowAllRepositoryByTwoProjectId = []
+ShowBranchesByRepositoryId = []
+ShowBranchesByTwoRepositoryId = []
+ShowCommitsByBranch = []
+ShowCommitsByRepoId = []
+ShowDiffCommit = []
+ShowFile = []
+ShowHasPipeline = []
+ShowImageBlob = []
+ShowMaster = []
+ShowMergeRequest = []
+ShowPrivateKeyVerify = []
+ShowRepoId = []
+ShowRepositoryArchive = []
+ShowRepositoryByUuid = []
+ShowRepositoryNameExist = []
+ShowRepositoryStatistics = []
+ShowReviewSetting = []
+ShowSingleCommit = []
+ShowStatisticCommit = []
+ShowStatisticCommitV3 = []
+ShowStatisticalData = []
+ValidateHttpsInfo = []
+ValidateHttpsInfoV2 = []
+full = ["AddDeployKey", "AddDeployKeyV2", "AddHooks", "AddProtectBranchV2", "AddRepoMembers", "AddSshKey", "AddTagV2", "AssociateIssues", "CreateCommit", "CreateMergeRequestDiscussion", "CreateMergeRequestDiscussionNote", "CreateNewBranch", "CreateProjectAndforkRepositories", "CreateProjectAndRepositories", "CreateRepository", "DeleteDeployKey", "DeleteDeployKeyV2", "DeleteHooks", "DeleteRepoMember", "DeleteRepository", "DeleteSShkey", "GetAllRepositoryByProjectId", "GetProductTemplates", "GetRepositoryByProjectId", "GetTemplates", "ListBranchesByRepositoryId", "ListCommits", "ListCommitStatistics", "ListFiles", "ListFilesByQuery", "ListHooks", "ListMergeRequest", "ListProductTwoTemplates", "ListRepoMembers", "ListRepositoryStatus", "ListSshKeys", "ListSubfiles", "ListTemplatesTwo", "ListTwoTemplates", "ListUserAllRepositories", "SetRepoRole", "ShareTemplates", "ShowAllRepositoryByTwoProjectId", "ShowBranchesByRepositoryId", "ShowBranchesByTwoRepositoryId", "ShowCommitsByBranch", "ShowCommitsByRepoId", "ShowDiffCommit", "ShowFile", "ShowHasPipeline", "ShowImageBlob", "ShowMaster", "ShowMergeRequest", "ShowPrivateKeyVerify", "ShowRepoId", "ShowRepositoryArchive", "ShowRepositoryByUuid", "ShowRepositoryNameExist", "ShowRepositoryStatistics", "ShowReviewSetting", "ShowSingleCommit", "ShowStatisticalData", "ShowStatisticCommit", "ShowStatisticCommitV3", "ValidateHttpsInfo", "ValidateHttpsInfoV2"]
+
+[lib]
+name = "huawei_cloud_api_definitions_CodeHub"
+path = "src/lib.rs"
+
+[package]
+authors = ["mingyang91 <mingyang91@qq.com>"]
+description = "Huawei Cloud API definitions, generated from OpenAPI spec"
+edition = "2021"
+license = "MIT"
+name = "huawei-cloud-api-definitions-CodeHub"
+repository = "https://github.com/mingyang91/huawei-cloud-api-definitions"
+version = "0.1.0"

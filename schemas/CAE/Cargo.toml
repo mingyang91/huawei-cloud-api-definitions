@@ -1,0 +1,75 @@
+[dependencies.chrono]
+features = ["serde"]
+version = "0"
+
+[dependencies.regress]
+version = "0"
+
+[dependencies.serde]
+features = ["derive"]
+version = "1"
+
+[dependencies.serde_json]
+version = "1"
+
+[dependencies.typify]
+version = "0"
+
+[features]
+CreateAgency = []
+CreateApplication = []
+CreateCertificate = []
+CreateComponent = []
+CreateComponentConfiguration = []
+CreateDomain = []
+CreateEnvironment = []
+CreateMonitorSystem = []
+CreateTimerRule = []
+CreateVolume = []
+DeleteApplication = []
+DeleteCertificate = []
+DeleteComponent = []
+DeleteComponentConfiguration = []
+DeleteDomain = []
+DeleteEnvironment = []
+DeleteTimerRule = []
+DeleteVolume = []
+ExecuteAction = []
+ListAgencies = []
+ListApplications = []
+ListCertificates = []
+ListComponentConfigurations = []
+ListComponentEvents = []
+ListComponentInstances = []
+ListComponentSnapshots = []
+ListComponents = []
+ListDomains = []
+ListEips = []
+ListEnvironments = []
+ListTimerRules = []
+ListVolumes = []
+RetryJob = []
+ShowApplication = []
+ShowComponent = []
+ShowExecutionResult = []
+ShowJob = []
+ShowMonitorSystem = []
+UpdateCertificate = []
+UpdateComponent = []
+UpdateEip = []
+UpdateMonitorSystem = []
+UpdateTimerRule = []
+full = ["CreateAgency", "CreateApplication", "CreateCertificate", "CreateComponent", "CreateComponentConfiguration", "CreateDomain", "CreateEnvironment", "CreateMonitorSystem", "CreateTimerRule", "CreateVolume", "DeleteApplication", "DeleteCertificate", "DeleteComponent", "DeleteComponentConfiguration", "DeleteDomain", "DeleteEnvironment", "DeleteTimerRule", "DeleteVolume", "ExecuteAction", "ListAgencies", "ListApplications", "ListCertificates", "ListComponentConfigurations", "ListComponentEvents", "ListComponentInstances", "ListComponents", "ListComponentSnapshots", "ListDomains", "ListEips", "ListEnvironments", "ListTimerRules", "ListVolumes", "RetryJob", "ShowApplication", "ShowComponent", "ShowExecutionResult", "ShowJob", "ShowMonitorSystem", "UpdateCertificate", "UpdateComponent", "UpdateEip", "UpdateMonitorSystem", "UpdateTimerRule"]
+
+[lib]
+name = "huawei_cloud_api_definitions_CAE"
+path = "src/lib.rs"
+
+[package]
+authors = ["mingyang91 <mingyang91@qq.com>"]
+description = "Huawei Cloud API definitions, generated from OpenAPI spec"
+edition = "2021"
+license = "MIT"
+name = "huawei-cloud-api-definitions-CAE"
+repository = "https://github.com/mingyang91/huawei-cloud-api-definitions"
+version = "0.1.0"

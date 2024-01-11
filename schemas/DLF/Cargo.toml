@@ -1,0 +1,71 @@
+[dependencies.chrono]
+features = ["serde"]
+version = "0"
+
+[dependencies.regress]
+version = "0"
+
+[dependencies.serde]
+features = ["derive"]
+version = "1"
+
+[dependencies.serde_json]
+version = "1"
+
+[dependencies.typify]
+version = "0"
+
+[features]
+CancelScript = []
+CreateConnection = []
+CreateJob = []
+CreateResource = []
+CreateScript = []
+DeleteConnction = []
+DeleteJob = []
+DeleteResource = []
+DeleteScript = []
+ExecuteScript = []
+ExportConnections = []
+ExportJob = []
+ExportJobList = []
+ImportConnections = []
+ImportJob = []
+ListConnections = []
+ListJobInstances = []
+ListJobs = []
+ListResources = []
+ListScriptResults = []
+ListScripts = []
+ListSystemTasks = []
+RestoreJobInstance = []
+RunOnce = []
+ShowConnection = []
+ShowDirectoryTree = []
+ShowFileInfo = []
+ShowJob = []
+ShowJobInstance = []
+ShowJobStatus = []
+ShowResource = []
+ShowScript = []
+StartJob = []
+StopJob = []
+StopJobInstance = []
+UpdateConnection = []
+UpdateJob = []
+UpdateResource = []
+UpdateScript = []
+full = ["CancelScript", "CreateConnection", "CreateJob", "CreateResource", "CreateScript", "DeleteConnction", "DeleteJob", "DeleteResource", "DeleteScript", "ExecuteScript", "ExportConnections", "ExportJob", "ExportJobList", "ImportConnections", "ImportJob", "ListConnections", "ListJobInstances", "ListJobs", "ListResources", "ListScriptResults", "ListScripts", "ListSystemTasks", "RestoreJobInstance", "RunOnce", "ShowConnection", "ShowDirectoryTree", "ShowFileInfo", "ShowJob", "ShowJobInstance", "ShowJobStatus", "ShowResource", "ShowScript", "StartJob", "StopJob", "StopJobInstance", "UpdateConnection", "UpdateJob", "UpdateResource", "UpdateScript"]
+
+[lib]
+name = "huawei_cloud_api_definitions_DLF"
+path = "src/lib.rs"
+
+[package]
+authors = ["mingyang91 <mingyang91@qq.com>"]
+description = "Huawei Cloud API definitions, generated from OpenAPI spec"
+edition = "2021"
+license = "MIT"
+name = "huawei-cloud-api-definitions-DLF"
+repository = "https://github.com/mingyang91/huawei-cloud-api-definitions"
+version = "0.1.0"

@@ -1,0 +1,108 @@
+[dependencies.chrono]
+features = ["serde"]
+version = "0"
+
+[dependencies.regress]
+version = "0"
+
+[dependencies.serde]
+features = ["derive"]
+version = "1"
+
+[dependencies.serde_json]
+version = "1"
+
+[dependencies.typify]
+version = "0"
+
+[features]
+AddApplyJoinProjectForAgc = []
+AddIssueWorkHours = []
+AddMemberV4 = []
+BatchAddMembersV4 = []
+BatchDeleteIssuesV4 = []
+BatchDeleteIterationsV4 = []
+BatchDeleteMembersV4 = []
+BatchUpdateChildNickNames = []
+CancelProjectDomain = []
+CheckProjectNameV4 = []
+CreateCustomfields = []
+CreateIssueV4 = []
+CreateIterationV4 = []
+CreateProjectDomain = []
+CreateProjectModule = []
+CreateProjectV4 = []
+CreateSystemIssueV4 = []
+DeleteAttachment = []
+DeleteIssueV4 = []
+DeleteIterationV4 = []
+DeleteProjectModule = []
+DeleteProjectV4 = []
+DownloadAttachment = []
+DownloadImageFile = []
+ListAssociatedIssues = []
+ListAssociatedTestCases = []
+ListAssociatedWikis = []
+ListChildIssuesV4 = []
+ListDomainNotAddedProjectsV4 = []
+ListIssueAssociatedCommits = []
+ListIssueCommentsV4 = []
+ListIssueCustomFields = []
+ListIssueRecordsV4 = []
+ListIssuesSfV4 = []
+ListIssuesV4 = []
+ListIterationHistories = []
+ListProjectBugStaticsV4 = []
+ListProjectDemandStaticV4 = []
+ListProjectDomains = []
+ListProjectIssuesRecordsV4 = []
+ListProjectIterationsV4 = []
+ListProjectMembersV4 = []
+ListProjectModules = []
+ListProjectWorkHours = []
+ListProjectWorkHoursType = []
+ListProjectsV4 = []
+ListScrumProjectStatuses = []
+ListSpecIssueStayTimes = []
+ListStatusStatistic = []
+ListTemplates = []
+ListWorkitemStatusRecordsV4 = []
+ListWorkitems = []
+RemoveProject = []
+SearchIssues = []
+ShowBugDensityV2 = []
+ShowBugsPerDeveloper = []
+ShowCompletionRate = []
+ShowCurUserInfo = []
+ShowCurUserRole = []
+ShowIssueCompletionRate = []
+ShowIssueV4 = []
+ShowIssuesWrokFlowConfig = []
+ShowIterationV4 = []
+ShowProjectInfoV4 = []
+ShowProjectSummaryV4 = []
+ShowProjectWorkHours = []
+ShowWorkItemWrokflowConfig = []
+UpdateIssueV4 = []
+UpdateIterationV4 = []
+UpdateMembesRoleV4 = []
+UpdateNickNameV4 = []
+UpdateProjectDomain = []
+UpdateProjectModule = []
+UpdateProjectV4 = []
+UploadAttachments = []
+UploadIssueImg = []
+full = ["AddApplyJoinProjectForAgc", "AddIssueWorkHours", "AddMemberV4", "BatchAddMembersV4", "BatchDeleteIssuesV4", "BatchDeleteIterationsV4", "BatchDeleteMembersV4", "BatchUpdateChildNickNames", "CancelProjectDomain", "CheckProjectNameV4", "CreateCustomfields", "CreateIssueV4", "CreateIterationV4", "CreateProjectDomain", "CreateProjectModule", "CreateProjectV4", "CreateSystemIssueV4", "DeleteAttachment", "DeleteIssueV4", "DeleteIterationV4", "DeleteProjectModule", "DeleteProjectV4", "DownloadAttachment", "DownloadImageFile", "ListAssociatedIssues", "ListAssociatedTestCases", "ListAssociatedWikis", "ListChildIssuesV4", "ListDomainNotAddedProjectsV4", "ListIssueAssociatedCommits", "ListIssueCommentsV4", "ListIssueCustomFields", "ListIssueRecordsV4", "ListIssuesSfV4", "ListIssuesV4", "ListIterationHistories", "ListProjectBugStaticsV4", "ListProjectDemandStaticV4", "ListProjectDomains", "ListProjectIssuesRecordsV4", "ListProjectIterationsV4", "ListProjectMembersV4", "ListProjectModules", "ListProjectsV4", "ListProjectWorkHours", "ListProjectWorkHoursType", "ListScrumProjectStatuses", "ListSpecIssueStayTimes", "ListStatusStatistic", "ListTemplates", "ListWorkitems", "ListWorkitemStatusRecordsV4", "RemoveProject", "SearchIssues", "ShowBugDensityV2", "ShowBugsPerDeveloper", "ShowCompletionRate", "ShowCurUserInfo", "ShowCurUserRole", "ShowIssueCompletionRate", "ShowIssuesWrokFlowConfig", "ShowIssueV4", "ShowIterationV4", "ShowProjectInfoV4", "ShowProjectSummaryV4", "ShowProjectWorkHours", "ShowWorkItemWrokflowConfig", "UpdateIssueV4", "UpdateIterationV4", "UpdateMembesRoleV4", "UpdateNickNameV4", "UpdateProjectDomain", "UpdateProjectModule", "UpdateProjectV4", "UploadAttachments", "UploadIssueImg"]
+
+[lib]
+name = "huawei_cloud_api_definitions_ProjectMan"
+path = "src/lib.rs"
+
+[package]
+authors = ["mingyang91 <mingyang91@qq.com>"]
+description = "Huawei Cloud API definitions, generated from OpenAPI spec"
+edition = "2021"
+license = "MIT"
+name = "huawei-cloud-api-definitions-ProjectMan"
+repository = "https://github.com/mingyang91/huawei-cloud-api-definitions"
+version = "0.1.0"

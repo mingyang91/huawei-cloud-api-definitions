@@ -1,0 +1,74 @@
+[dependencies.chrono]
+features = ["serde"]
+version = "0"
+
+[dependencies.regress]
+version = "0"
+
+[dependencies.serde]
+features = ["derive"]
+version = "1"
+
+[dependencies.serde_json]
+version = "1"
+
+[dependencies.typify]
+version = "0"
+
+[features]
+BatchCreateCaTags = []
+BatchCreateCertTags = []
+BatchDeleteCaTags = []
+BatchDeleteCertTags = []
+CountCaResourceInstances = []
+CountCertResourceInstances = []
+CreateCaTag = []
+CreateCertTag = []
+CreateCertificate = []
+CreateCertificateAuthority = []
+CreateCertificateAuthorityObsAgency = []
+CreateCertificateAuthorityOrder = []
+CreateCertificateByCsr = []
+DeleteCertificate = []
+DeleteCertificateAuthority = []
+DisableCertificateAuthority = []
+DisableCertificateAuthorityCrl = []
+EnableCertificateAuthority = []
+EnableCertificateAuthorityCrl = []
+ExportCertificate = []
+ExportCertificateAuthorityCertificate = []
+ExportCertificateAuthorityCsr = []
+ImportCertificateAuthorityCertificate = []
+IssueCertificateAuthorityCertificate = []
+ListCaResourceInstances = []
+ListCaTags = []
+ListCertResourceInstances = []
+ListCertTags = []
+ListCertificate = []
+ListCertificateAuthority = []
+ListCertificateAuthorityObsBucket = []
+ListDomainCaTags = []
+ListDomainCertTags = []
+ParseCertificateSigningRequest = []
+RestoreCertificateAuthority = []
+RevokeCertificate = []
+RevokeCertificateAuthority = []
+ShowCertificate = []
+ShowCertificateAuthority = []
+ShowCertificateAuthorityObsAgency = []
+ShowCertificateAuthorityQuota = []
+ShowCertificateQuota = []
+full = ["BatchCreateCaTags", "BatchCreateCertTags", "BatchDeleteCaTags", "BatchDeleteCertTags", "CountCaResourceInstances", "CountCertResourceInstances", "CreateCaTag", "CreateCertificate", "CreateCertificateAuthority", "CreateCertificateAuthorityObsAgency", "CreateCertificateAuthorityOrder", "CreateCertificateByCsr", "CreateCertTag", "DeleteCertificate", "DeleteCertificateAuthority", "DisableCertificateAuthority", "DisableCertificateAuthorityCrl", "EnableCertificateAuthority", "EnableCertificateAuthorityCrl", "ExportCertificate", "ExportCertificateAuthorityCertificate", "ExportCertificateAuthorityCsr", "ImportCertificateAuthorityCertificate", "IssueCertificateAuthorityCertificate", "ListCaResourceInstances", "ListCaTags", "ListCertificate", "ListCertificateAuthority", "ListCertificateAuthorityObsBucket", "ListCertResourceInstances", "ListCertTags", "ListDomainCaTags", "ListDomainCertTags", "ParseCertificateSigningRequest", "RestoreCertificateAuthority", "RevokeCertificate", "RevokeCertificateAuthority", "ShowCertificate", "ShowCertificateAuthority", "ShowCertificateAuthorityObsAgency", "ShowCertificateAuthorityQuota", "ShowCertificateQuota"]
+
+[lib]
+name = "huawei_cloud_api_definitions_CCM"
+path = "src/lib.rs"
+
+[package]
+authors = ["mingyang91 <mingyang91@qq.com>"]
+description = "Huawei Cloud API definitions, generated from OpenAPI spec"
+edition = "2021"
+license = "MIT"
+name = "huawei-cloud-api-definitions-CCM"
+repository = "https://github.com/mingyang91/huawei-cloud-api-definitions"
+version = "0.1.0"

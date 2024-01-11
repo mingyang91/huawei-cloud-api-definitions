@@ -1,0 +1,14 @@
+#[cfg(feature = "CreateAutoLaunchGroup")]
+pub mod CreateAutoLaunchGroup;
+#[cfg(feature = "DeleteAutoLaunchGroup")]
+pub mod DeleteAutoLaunchGroup;
+#[cfg(feature = "ListAutoLaunchGroups")]
+pub mod ListAutoLaunchGroups;
+#[cfg(feature = "ListInstances")]
+pub mod ListInstances;
+#[cfg(feature = "ListSupplyRecommendation")]
+pub mod ListSupplyRecommendation;
+#[cfg(feature = "ShowAutoLaunchGroup")]
+pub mod ShowAutoLaunchGroup;
+#[cfg(feature = "UpdateAutoLaunchGroup")]
+pub mod UpdateAutoLaunchGroup;

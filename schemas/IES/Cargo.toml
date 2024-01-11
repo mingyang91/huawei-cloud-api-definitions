@@ -1,0 +1,44 @@
+[dependencies.chrono]
+features = ["serde"]
+version = "0"
+
+[dependencies.regress]
+version = "0"
+
+[dependencies.serde]
+features = ["derive"]
+version = "1"
+
+[dependencies.serde_json]
+version = "1"
+
+[dependencies.typify]
+version = "0"
+
+[features]
+CreateEdgeSite = []
+DeleteEdgeSite = []
+ListEdgeSiteMetrics = []
+ListEdgeSites = []
+ListQuotas = []
+ListRacks = []
+ListStoragePools = []
+ListSupportedRegions = []
+ShowEdgeSite = []
+ShowRack = []
+ShowStoragePool = []
+UpdateEdgeSite = []
+full = ["CreateEdgeSite", "DeleteEdgeSite", "ListEdgeSiteMetrics", "ListEdgeSites", "ListQuotas", "ListRacks", "ListStoragePools", "ListSupportedRegions", "ShowEdgeSite", "ShowRack", "ShowStoragePool", "UpdateEdgeSite"]
+
+[lib]
+name = "huawei_cloud_api_definitions_IES"
+path = "src/lib.rs"
+
+[package]
+authors = ["mingyang91 <mingyang91@qq.com>"]
+description = "Huawei Cloud API definitions, generated from OpenAPI spec"
+edition = "2021"
+license = "MIT"
+name = "huawei-cloud-api-definitions-IES"
+repository = "https://github.com/mingyang91/huawei-cloud-api-definitions"
+version = "0.1.0"

@@ -1,0 +1,90 @@
+[dependencies.chrono]
+features = ["serde"]
+version = "0"
+
+[dependencies.regress]
+version = "0"
+
+[dependencies.serde]
+features = ["derive"]
+version = "1"
+
+[dependencies.serde_json]
+version = "1"
+
+[dependencies.typify]
+version = "0"
+
+[features]
+AddForwardingConfigs = []
+BatchShowEdgeAppVersions = []
+BatchShowEdgeApps = []
+BatchShowIpcs = []
+BatchShowRadars = []
+BatchShowRsus = []
+BatchShowTrafficControllers = []
+BatchShowTrafficEvents = []
+BatchShowVehicles = []
+CreateDataChannel = []
+CreateEdgeApp = []
+CreateEdgeApplicationVersion = []
+CreateRsu = []
+CreateRsuModel = []
+CreateTrafficController = []
+CreateTrafficEvent = []
+CreateV2xEdge = []
+CreateV2xEdgeApp = []
+CreateVehicle = []
+DeleteDataChannel = []
+DeleteEdgeApp = []
+DeleteEdgeApplicationVersion = []
+DeleteForwardingConfig = []
+DeleteRsu = []
+DeleteRsuModel = []
+DeleteTrafficController = []
+DeleteTrafficEvent = []
+DeleteV2XEdgeAppByEdgeAppId = []
+DeleteV2XEdgeByV2xEdgeId = []
+DeleteVehicle = []
+ListEdgeFlows = []
+ListRsuModels = []
+ListV2xEdgeApp = []
+ListV2xEdges = []
+SendImmediateEvent = []
+ShowDataChannel = []
+ShowDeploymentCode = []
+ShowEdgeApplicationVersion = []
+ShowForwardingConfig = []
+ShowForwardingConfigs = []
+ShowHistoryTrafficEvents = []
+ShowIpc = []
+ShowRsuModel = []
+ShowTrafficEvent = []
+ShowV2XEdgeAppDetailByEdgeAppId = []
+ShowV2xEdgeDetail = []
+UpdateDataChannel = []
+UpdateEdgeApp = []
+UpdateEdgeApplicationVersion = []
+UpdateEdgeApplicationVersionState = []
+UpdateForwardingConfig = []
+UpdateRsu = []
+UpdateRsuModel = []
+UpdateTrafficController = []
+UpdateTrafficEvent = []
+UpdateV2xEdge = []
+UpdateV2xEdgeApp = []
+UpdateVehicle = []
+full = ["AddForwardingConfigs", "BatchShowEdgeApps", "BatchShowEdgeAppVersions", "BatchShowIpcs", "BatchShowRadars", "BatchShowRsus", "BatchShowTrafficControllers", "BatchShowTrafficEvents", "BatchShowVehicles", "CreateDataChannel", "CreateEdgeApp", "CreateEdgeApplicationVersion", "CreateRsu", "CreateRsuModel", "CreateTrafficController", "CreateTrafficEvent", "CreateV2xEdge", "CreateV2xEdgeApp", "CreateVehicle", "DeleteDataChannel", "DeleteEdgeApp", "DeleteEdgeApplicationVersion", "DeleteForwardingConfig", "DeleteRsu", "DeleteRsuModel", "DeleteTrafficController", "DeleteTrafficEvent", "DeleteV2XEdgeAppByEdgeAppId", "DeleteV2XEdgeByV2xEdgeId", "DeleteVehicle", "ListEdgeFlows", "ListRsuModels", "ListV2xEdgeApp", "ListV2xEdges", "SendImmediateEvent", "ShowDataChannel", "ShowDeploymentCode", "ShowEdgeApplicationVersion", "ShowForwardingConfig", "ShowForwardingConfigs", "ShowHistoryTrafficEvents", "ShowIpc", "ShowRsuModel", "ShowTrafficEvent", "ShowV2XEdgeAppDetailByEdgeAppId", "ShowV2xEdgeDetail", "UpdateDataChannel", "UpdateEdgeApp", "UpdateEdgeApplicationVersion", "UpdateEdgeApplicationVersionState", "UpdateForwardingConfig", "UpdateRsu", "UpdateRsuModel", "UpdateTrafficController", "UpdateTrafficEvent", "UpdateV2xEdge", "UpdateV2xEdgeApp", "UpdateVehicle"]
+
+[lib]
+name = "huawei_cloud_api_definitions_DRIS"
+path = "src/lib.rs"
+
+[package]
+authors = ["mingyang91 <mingyang91@qq.com>"]
+description = "Huawei Cloud API definitions, generated from OpenAPI spec"
+edition = "2021"
+license = "MIT"
+name = "huawei-cloud-api-definitions-DRIS"
+repository = "https://github.com/mingyang91/huawei-cloud-api-definitions"
+version = "0.1.0"

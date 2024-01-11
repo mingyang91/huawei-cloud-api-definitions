@@ -1,0 +1,61 @@
+[dependencies.chrono]
+features = ["serde"]
+version = "0"
+
+[dependencies.regress]
+version = "0"
+
+[dependencies.serde]
+features = ["derive"]
+version = "1"
+
+[dependencies.serde_json]
+version = "1"
+
+[dependencies.typify]
+version = "0"
+
+[features]
+BatchCreateVolumeTags = []
+BatchDeleteVolumeTags = []
+CinderAcceptVolumeTransfer = []
+CinderCreateVolumeTransfer = []
+CinderDeleteVolumeTransfer = []
+CinderListAvailabilityZones = []
+CinderListQuotas = []
+CinderListVolumeTransfers = []
+CinderListVolumeTypes = []
+CinderShowVolumeTransfer = []
+CreateSnapshot = []
+CreateVolume = []
+DeleteSnapshot = []
+DeleteVolume = []
+ListSnapshots = []
+ListVersions = []
+ListVolumeTags = []
+ListVolumes = []
+ListVolumesByTags = []
+ModifyVolumeQoS = []
+ResizeVolume = []
+RollbackSnapshot = []
+ShowJob = []
+ShowSnapshot = []
+ShowVersion = []
+ShowVolume = []
+ShowVolumeTags = []
+UpdateSnapshot = []
+UpdateVolume = []
+full = ["BatchCreateVolumeTags", "BatchDeleteVolumeTags", "CinderAcceptVolumeTransfer", "CinderCreateVolumeTransfer", "CinderDeleteVolumeTransfer", "CinderListAvailabilityZones", "CinderListQuotas", "CinderListVolumeTransfers", "CinderListVolumeTypes", "CinderShowVolumeTransfer", "CreateSnapshot", "CreateVolume", "DeleteSnapshot", "DeleteVolume", "ListSnapshots", "ListVersions", "ListVolumes", "ListVolumesByTags", "ListVolumeTags", "ModifyVolumeQoS", "ResizeVolume", "RollbackSnapshot", "ShowJob", "ShowSnapshot", "ShowVersion", "ShowVolume", "ShowVolumeTags", "UpdateSnapshot", "UpdateVolume"]
+
+[lib]
+name = "huawei_cloud_api_definitions_EVS"
+path = "src/lib.rs"
+
+[package]
+authors = ["mingyang91 <mingyang91@qq.com>"]
+description = "Huawei Cloud API definitions, generated from OpenAPI spec"
+edition = "2021"
+license = "MIT"
+name = "huawei-cloud-api-definitions-EVS"
+repository = "https://github.com/mingyang91/huawei-cloud-api-definitions"
+version = "0.1.0"
