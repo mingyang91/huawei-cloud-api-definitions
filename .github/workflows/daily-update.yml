@@ -1,0 +1,15 @@
+name: daily-update
+on:
+  schedule:
+    - cron: '0 0 * * *'
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions-rust-lang/setup-rust-toolchain@v1
+      - run: OUT_DIR=$(pwd)/src/schemas cargo run
+      - name: Commit & Push changes
+        uses: actions-js/push@master
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}

@@ -1,0 +1,31 @@
+[package]
+name = "huawei-cloud-api-definitions"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[[bin]]
+name = "huawei-cloud-api-definitions"
+path = "src/main.rs"
+
+[lib]
+name = "huawei_cloud_api_definitions"
+path = "src/lib.rs"
+
+[features]
+codegen = ["dep:typify", "dep:chrono", "dep:regress"]
+
+[dependencies]
+reqwest = { version = "*", features = ["json"] }
+tokio = { version = "*", features = ["full"] }
+tokio-stream = { version = "*" }
+serde = { version = "*", features = ["derive"] }
+serde_json = { version = "*" }
+futures = { version = "*" }
+futures-util = { version = "*" }
+
+typify = { version = "*", optional = true }
+chrono = { version = "*", features = ["serde"], optional = true }
+regress = { version = "*", optional = true }
+
