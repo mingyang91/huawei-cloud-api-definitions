@@ -15,7 +15,7 @@ jobs:
       - name: Publish
         run: |
           for dir in schemas/*/; do
-            (cd "$dir" && cargo publish)
+            (cd "$dir" && cargo publish || true)
           done
         env:
           CARGO_REGISTRY_TOKEN: ${{ secrets.CARGO_REGISTRY_TOKEN }}
