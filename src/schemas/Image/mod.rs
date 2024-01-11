@@ -1,0 +1,12 @@
+#[cfg(feature = "RunCelebrityRecognition")]
+pub mod RunCelebrityRecognition;
+#[cfg(feature = "RunImageMainObjectDetection")]
+pub mod RunImageMainObjectDetection;
+#[cfg(feature = "RunImageMediaTagging")]
+pub mod RunImageMediaTagging;
+#[cfg(feature = "RunImageMediaTaggingDet")]
+pub mod RunImageMediaTaggingDet;
+#[cfg(feature = "RunImageTagging")]
+pub mod RunImageTagging;
+#[cfg(feature = "RunRecaptureDetect")]
+pub mod RunRecaptureDetect;

@@ -1,0 +1,16 @@
+#[cfg(feature = "CheckAudioJob")]
+pub mod CheckAudioJob;
+#[cfg(feature = "CheckVideoJob")]
+pub mod CheckVideoJob;
+#[cfg(feature = "CreateAudioJob")]
+pub mod CreateAudioJob;
+#[cfg(feature = "CreateVideoJob")]
+pub mod CreateVideoJob;
+#[cfg(feature = "DeleteDemoInfo")]
+pub mod DeleteDemoInfo;
+#[cfg(feature = "DeleteVideoJob")]
+pub mod DeleteVideoJob;
+#[cfg(feature = "ListAudioJobs")]
+pub mod ListAudioJobs;
+#[cfg(feature = "ListVideoJobs")]
+pub mod ListVideoJobs;

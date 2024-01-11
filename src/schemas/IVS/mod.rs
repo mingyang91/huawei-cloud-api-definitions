@@ -1,0 +1,12 @@
+#[cfg(feature = "DetectExtentionByIdCardImage")]
+pub mod DetectExtentionByIdCardImage;
+#[cfg(feature = "DetectExtentionByNameAndId")]
+pub mod DetectExtentionByNameAndId;
+#[cfg(feature = "DetectStandardByIdCardImage")]
+pub mod DetectStandardByIdCardImage;
+#[cfg(feature = "DetectStandardByNameAndId")]
+pub mod DetectStandardByNameAndId;
+#[cfg(feature = "DetectStandardByVideoAndIdCardImage")]
+pub mod DetectStandardByVideoAndIdCardImage;
+#[cfg(feature = "DetectStandardByVideoAndNameAndId")]
+pub mod DetectStandardByVideoAndNameAndId;
