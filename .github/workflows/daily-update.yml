@@ -15,3 +15,8 @@ jobs:
         uses: actions-js/push@master
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
+          author_email: mingyang91@qq.com
+          author_name: mingyang91
+          coauthor_email: github-actions[bot]@users.noreply.github.com
+          coauthor_name: github-actions[bot]
+          message: 'chore: auto-update ${date}'
