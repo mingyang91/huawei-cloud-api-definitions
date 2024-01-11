@@ -15,7 +15,7 @@ jobs:
       - name: Publish
         run: |
           for dir in schemas/*/; do
-            (cd "$dir" && cargo publish || true)
+            (cd "$dir" && cargo publish --all-features || true)
             cargo clean
           done
         env:
