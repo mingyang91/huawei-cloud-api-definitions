@@ -7,5 +7,5 @@
 		use std::fmt::Debug;
 		use serde::{Serialize, Deserialize};
 		use typify::import_types;
-		import_types!(schema="./NovaShowServerGroup.json", struct_builder = true);
+		import_types!(schema="src/NovaShowServerGroup.json", struct_builder = true);
 	

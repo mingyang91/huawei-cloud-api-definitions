@@ -7,5 +7,5 @@
 		use std::fmt::Debug;
 		use serde::{Serialize, Deserialize};
 		use typify::import_types;
-		import_types!(schema="./ShowIpGroup.json", struct_builder = true);
+		import_types!(schema="src/ShowIpGroup.json", struct_builder = true);
 	

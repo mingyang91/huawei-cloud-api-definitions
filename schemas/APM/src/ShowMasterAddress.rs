@@ -7,5 +7,5 @@
 		use std::fmt::Debug;
 		use serde::{Serialize, Deserialize};
 		use typify::import_types;
-		import_types!(schema="./ShowMasterAddress.json", struct_builder = true);
+		import_types!(schema="src/ShowMasterAddress.json", struct_builder = true);
 	

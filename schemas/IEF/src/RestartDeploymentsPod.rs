@@ -7,5 +7,5 @@
 		use std::fmt::Debug;
 		use serde::{Serialize, Deserialize};
 		use typify::import_types;
-		import_types!(schema="./RestartDeploymentsPod.json", struct_builder = true);
+		import_types!(schema="src/RestartDeploymentsPod.json", struct_builder = true);
 	

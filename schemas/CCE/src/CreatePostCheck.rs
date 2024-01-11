@@ -7,5 +7,5 @@
 		use std::fmt::Debug;
 		use serde::{Serialize, Deserialize};
 		use typify::import_types;
-		import_types!(schema="./CreatePostCheck.json", struct_builder = true);
+		import_types!(schema="src/CreatePostCheck.json", struct_builder = true);
 	

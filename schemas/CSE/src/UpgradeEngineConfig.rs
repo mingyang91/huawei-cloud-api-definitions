@@ -7,5 +7,5 @@
 		use std::fmt::Debug;
 		use serde::{Serialize, Deserialize};
 		use typify::import_types;
-		import_types!(schema="./UpgradeEngineConfig.json", struct_builder = true);
+		import_types!(schema="src/UpgradeEngineConfig.json", struct_builder = true);
 	

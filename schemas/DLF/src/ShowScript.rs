@@ -7,5 +7,5 @@
 		use std::fmt::Debug;
 		use serde::{Serialize, Deserialize};
 		use typify::import_types;
-		import_types!(schema="./ShowScript.json", struct_builder = true);
+		import_types!(schema="src/ShowScript.json", struct_builder = true);
 	

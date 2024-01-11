@@ -7,5 +7,5 @@
 		use std::fmt::Debug;
 		use serde::{Serialize, Deserialize};
 		use typify::import_types;
-		import_types!(schema="./AddExtensionEvaluationReply.json", struct_builder = true);
+		import_types!(schema="src/AddExtensionEvaluationReply.json", struct_builder = true);
 	
