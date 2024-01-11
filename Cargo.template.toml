@@ -10,43 +10,17 @@ repository = "https://github.com/mingyang91/huawei-cloud-api-definitions"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
-[[bin]]
-name = "update"
-path = "src/update.rs"
-
 [lib]
 name = "huawei_cloud_api_definitions"
 path = "src/lib.rs"
 
 [dependencies]
-toml = { version = "*" }
-reqwest = { version = "*", features = ["json"] }
-tokio = { version = "*", features = ["full"] }
-tokio-stream = { version = "*" }
 serde = { version = "*", features = ["derive"] }
 serde_json = { version = "*" }
-futures = { version = "*" }
-futures-util = { version = "*" }
-thiserror = { version = "*" }
-
 typify = { version = "*", optional = true }
 chrono = { version = "*", features = ["serde"], optional = true }
 regress = { version = "*", optional = true }
 
 [features]
-codegen = ["dep:typify", "dep:chrono", "dep:regress"]
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+# --- GENERATED FEATURES LIST START ---
+# --- GENERATED FEATURES LIST END ---
