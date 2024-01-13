@@ -1,0 +1,12 @@
+#[cfg(feature = "CreateSimSmMaps")]
+pub mod CreateSimSmMaps;
+#[cfg(feature = "CreateSimSmScenarios")]
+pub mod CreateSimSmScenarios;
+#[cfg(feature = "CreateSimSmScenariosFiles")]
+pub mod CreateSimSmScenariosFiles;
+#[cfg(feature = "ListSimSmScenarios")]
+pub mod ListSimSmScenarios;
+#[cfg(feature = "UpdateSimSmMapsFiles")]
+pub mod UpdateSimSmMapsFiles;
+#[cfg(feature = "UpdateSimSmScenariosFiles")]
+pub mod UpdateSimSmScenariosFiles;

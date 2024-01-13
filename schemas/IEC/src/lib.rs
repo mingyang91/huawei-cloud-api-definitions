@@ -2,6 +2,8 @@
 pub mod AddNics;
 #[cfg(feature = "AssociateSubnet")]
 pub mod AssociateSubnet;
+#[cfg(feature = "AttachVipBandwidth")]
+pub mod AttachVipBandwidth;
 #[cfg(feature = "BatchRebootInstance")]
 pub mod BatchRebootInstance;
 #[cfg(feature = "BatchStartInstance")]
@@ -68,6 +70,8 @@ pub mod DeleteSecurityGroupRule;
 pub mod DeleteSubnet;
 #[cfg(feature = "DeleteVpc")]
 pub mod DeleteVpc;
+#[cfg(feature = "DetachVipBandwidth")]
+pub mod DetachVipBandwidth;
 #[cfg(feature = "DisassociateSubnet")]
 pub mod DisassociateSubnet;
 #[cfg(feature = "ExecuteDeployment")]

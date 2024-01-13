@@ -14,6 +14,8 @@ pub mod BatchChangeTags;
 pub mod BatchCreateUsers;
 #[cfg(feature = "BatchDeleteAccessPolicies")]
 pub mod BatchDeleteAccessPolicies;
+#[cfg(feature = "BatchDeleteDesktopNamePolicy")]
+pub mod BatchDeleteDesktopNamePolicy;
 #[cfg(feature = "BatchDeleteDesktops")]
 pub mod BatchDeleteDesktops;
 #[cfg(feature = "BatchDeleteDesktopsTags")]
@@ -40,6 +42,8 @@ pub mod ChangeUserStatus;
 pub mod CreateAccessPolicy;
 #[cfg(feature = "CreateDesktop")]
 pub mod CreateDesktop;
+#[cfg(feature = "CreateDesktopNamePolicy")]
+pub mod CreateDesktopNamePolicy;
 #[cfg(feature = "CreateDesktopUser")]
 pub mod CreateDesktopUser;
 #[cfg(feature = "CreateTag")]
@@ -72,6 +76,8 @@ pub mod ListAccessPolicyObjects;
 pub mod ListAvailabilityZones;
 #[cfg(feature = "ListDesktopByTags")]
 pub mod ListDesktopByTags;
+#[cfg(feature = "ListDesktopNamePolicy")]
+pub mod ListDesktopNamePolicy;
 #[cfg(feature = "ListDesktops")]
 pub mod ListDesktops;
 #[cfg(feature = "ListDesktopsDetail")]
@@ -134,6 +140,8 @@ pub mod UnlockWorkspace;
 pub mod UpdateAccessPolicyObjects;
 #[cfg(feature = "UpdateAssistAuthMethodConfig")]
 pub mod UpdateAssistAuthMethodConfig;
+#[cfg(feature = "UpdateDesktopNamePolicy")]
+pub mod UpdateDesktopNamePolicy;
 #[cfg(feature = "UpdateTerminalsBindingDesktops")]
 pub mod UpdateTerminalsBindingDesktops;
 #[cfg(feature = "UpdateTerminalsBindingDesktopsConfig")]

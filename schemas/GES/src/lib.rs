@@ -40,10 +40,14 @@ pub mod DetachEip2;
 pub mod ExpandGraph;
 #[cfg(feature = "ExpandGraph2")]
 pub mod ExpandGraph2;
+#[cfg(feature = "ExportBackup2")]
+pub mod ExportBackup2;
 #[cfg(feature = "ExportGraph")]
 pub mod ExportGraph;
 #[cfg(feature = "ExportGraph2")]
 pub mod ExportGraph2;
+#[cfg(feature = "ImportBackup2")]
+pub mod ImportBackup2;
 #[cfg(feature = "ImportGraph")]
 pub mod ImportGraph;
 #[cfg(feature = "ImportGraph2")]

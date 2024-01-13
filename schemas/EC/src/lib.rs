@@ -2,6 +2,8 @@
 pub mod AddEcnWithEr;
 #[cfg(feature = "AddEcnWithIeg")]
 pub mod AddEcnWithIeg;
+#[cfg(feature = "AddEcnWithVpc")]
+pub mod AddEcnWithVpc;
 #[cfg(feature = "AddVrrpConfig")]
 pub mod AddVrrpConfig;
 #[cfg(feature = "ChangeIegPassword")]
@@ -20,6 +22,8 @@ pub mod DeleteEcnAccessPoint;
 pub mod DeleteEcnWithEr;
 #[cfg(feature = "DeleteEcnWithIeg")]
 pub mod DeleteEcnWithIeg;
+#[cfg(feature = "DeleteEcnWithVpc")]
+pub mod DeleteEcnWithVpc;
 #[cfg(feature = "DeleteEquipment")]
 pub mod DeleteEquipment;
 #[cfg(feature = "DeleteEquipmentLanConfig")]
@@ -38,6 +42,8 @@ pub mod ListEcnAccessPointByEcnId;
 pub mod ListEcnWithEr;
 #[cfg(feature = "ListEcnWithIeg")]
 pub mod ListEcnWithIeg;
+#[cfg(feature = "ListEcnWithVpc")]
+pub mod ListEcnWithVpc;
 #[cfg(feature = "ListEquipmentInterfaceName")]
 pub mod ListEquipmentInterfaceName;
 #[cfg(feature = "ListEquipments")]
@@ -78,6 +84,8 @@ pub mod SwitchEquipmentHaType;
 pub mod UpdateEcn;
 #[cfg(feature = "UpdateEcnAccessPoint")]
 pub mod UpdateEcnAccessPoint;
+#[cfg(feature = "UpdateEcnWithVpc")]
+pub mod UpdateEcnWithVpc;
 #[cfg(feature = "UpdateEquipmentDnsInfo")]
 pub mod UpdateEquipmentDnsInfo;
 #[cfg(feature = "UpdateEquipmentEsn")]

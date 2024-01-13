@@ -154,10 +154,10 @@ pub mod DeleteWorkspaceusers;
 pub mod ExecuteApiToInstance;
 #[cfg(feature = "ExecuteTaskAction")]
 pub mod ExecuteTaskAction;
-#[cfg(feature = "GetAllTables")]
-pub mod GetAllTables;
 #[cfg(feature = "ImportCatalogs")]
 pub mod ImportCatalogs;
+#[cfg(feature = "ImportLineage")]
+pub mod ImportLineage;
 #[cfg(feature = "ImportModels")]
 pub mod ImportModels;
 #[cfg(feature = "ImportResult")]
@@ -170,6 +170,8 @@ pub mod ListAggregationLogicTables;
 pub mod ListAllCatalogList;
 #[cfg(feature = "ListAllStandards")]
 pub mod ListAllStandards;
+#[cfg(feature = "ListAllTables")]
+pub mod ListAllTables;
 #[cfg(feature = "ListApiCatalogList")]
 pub mod ListApiCatalogList;
 #[cfg(feature = "ListApicGroups")]
@@ -196,5 +198,3 @@ pub mod ListBizMetricDimensions;
 pub mod ListBizMetricOwners;
 #[cfg(feature = "ListBizMetrics")]
 pub mod ListBizMetrics;
-#[cfg(feature = "ListBusiness")]
-pub mod ListBusiness;
