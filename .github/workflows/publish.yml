@@ -13,6 +13,6 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
       - name: Publish
-        run: sh publish.sh ${{ inputs.version }}
+        run: bash publish.sh ${{ inputs.version }}
         env:
           CARGO_REGISTRY_TOKEN: ${{ secrets.CARGO_REGISTRY_TOKEN }}
