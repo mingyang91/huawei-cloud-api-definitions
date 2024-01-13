@@ -68,4 +68,5 @@ for crate_dir in schemas/* ; do
 
     # Publish the crate, if error occurs, skip to the next crate
     cargo publish --manifest-path "$crate_dir/Cargo.toml" --allow-dirty || continue
+    cargo clean --manifest-path "$crate_dir/Cargo.toml"
 done

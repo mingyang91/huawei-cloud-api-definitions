@@ -1,5 +1,7 @@
 name: publish
 on:
+  schedule:
+    - cron: "0 0 * * *"
   workflow_dispatch:
     inputs:
       version:
@@ -13,6 +15,6 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
       - name: Publish
-        run: bash publish.sh ${{ inputs.version }}
+        run: bash publish.sh ${{ inputs.version || '0.1.' }}
         env:
           CARGO_REGISTRY_TOKEN: ${{ secrets.CARGO_REGISTRY_TOKEN }}
