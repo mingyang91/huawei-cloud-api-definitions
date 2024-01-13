@@ -421,7 +421,7 @@ async fn render_cargo_toml(name: &str, features: &[String]) -> Result<String, Er
 		.ok_or(Error::Parse("Failed to find 'name' in 'lib' in Cargo.toml".to_string()))?;
 
 	let common_name = lib_name.as_str().ok_or(Error::Parse("Failed to parse 'name' in 'package' in Cargo.toml".to_string()))?;
-	let new_name = format!("{}_{}", common_name, name);
+	let new_name = format!("{}_{}", common_name, normalize_identifier(name));
 	*lib_name = TomlValue::String(new_name);
 
 	let mut features_table = cargo_toml
