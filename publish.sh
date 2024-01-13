@@ -66,6 +66,6 @@ for crate_dir in schemas/* ; do
     # Update the version in Cargo.toml
     update_version "$crate_dir" "$target_version"
 
-    # Publish the crate
-    cargo publish --manifest-path "$crate_dir/Cargo.toml" --allow-dirty
+    # Publish the crate, if error occurs, skip to the next crate
+    cargo publish --manifest-path "$crate_dir/Cargo.toml" --allow-dirty || continue
 done
