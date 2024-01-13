@@ -37,21 +37,27 @@ update_version() {
     fi
 }
 
+# Function to get the last modification timestamp of the most recently modified file in a directory
+get_last_modification_timestamp() {
+    local folder_path=$1
+    local last_mod_time
+
+    # Find the most recently modified file and get its modification time
+    last_mod_time=$(find "$folder_path" -type f -printf '%T@ %p\n' | sort -n -r | head -n 1 | cut -d' ' -f1)
+
+    echo "$last_mod_time"
+}
+
 # Main loop for each sub-crate
 for crate_dir in schemas/* ; do
     echo "Processing $crate_dir"
     crate_name=$(basename "$crate_dir") # Extract just the directory name
     crate_name="huawei-cloud-api-definitions-$crate_name"
 
-    # Check for changes in the last day
-    if git diff --quiet HEAD "HEAD@{1 day ago}" -- "$crate_dir"; then
-        echo "No changes in $crate_dir"
-        continue
-    fi
-
-    # Get the current date in the format yearmonthday (e.g., 20211231)
-    current_date=$(date +"%Y%m%d")
-    target_version="$base_version$current_date"
+    # Get the last change date in the format yearmonthday (e.g., 20211231)
+		last_mod_time=$(get_last_modification_timestamp "$crate_dir")
+    last_change_date=$(date -d "@$last_mod_time" +"%Y%m%d")
+    target_version="$base_version$last_change_date"
 
     if check_crate_version_published "$crate_name" "$target_version"; then
         continue
