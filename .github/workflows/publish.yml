@@ -3,7 +3,7 @@ on:
   workflow_dispatch:
     inputs:
       version:
-        description: "Version to publish"
+        description: "version"
         required: true
         type: string
 jobs:
@@ -13,10 +13,6 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
       - name: Publish
-        run: |
-          for dir in schemas/*/; do
-            (cd "$dir" && cargo publish --all-features || true)
-            cargo clean
-          done
+        run: sh publish.sh ${{ inputs.version }}
         env:
           CARGO_REGISTRY_TOKEN: ${{ secrets.CARGO_REGISTRY_TOKEN }}
