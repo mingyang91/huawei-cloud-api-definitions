@@ -12,6 +12,8 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 10
       - name: Publish
         run: sh publish.sh ${{ inputs.version }}
         env:
