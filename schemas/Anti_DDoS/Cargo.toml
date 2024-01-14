@@ -33,7 +33,7 @@ UpdateDDos = []
 full = ["CreateDefaultConfig", "DeleteDefaultConfig", "ListDailyLog", "ListDailyReport", "ListDDosStatus", "ListNewConfigs", "ListWeeklyReports", "ShowAlertConfig", "ShowDDos", "ShowDDosStatus", "ShowDefaultConfig", "ShowNewTaskStatus", "UpdateAlertConfig", "UpdateDDos"]
 
 [lib]
-name = "huawei_cloud_api_definitions_Anti-DDoS"
+name = "huawei_cloud_api_definitions_Anti_DDoS"
 path = "src/lib.rs"
 
 [package]
