@@ -18,6 +18,9 @@ path = "src/update.rs"
 name = "huawei_cloud_api_definitions"
 path = "src/lib.rs"
 
+[features]
+reqwest = ["dep:http"]
+
 [dependencies]
 toml = { version = "*" }
 reqwest = { version = "*", features = ["json"] }
@@ -28,3 +31,9 @@ serde_json = { version = "*" }
 futures = { version = "*" }
 futures-util = { version = "*" }
 thiserror = { version = "*" }
+async-trait = { version = "*" }
+sha2 = "0.10.8"
+hmac = "0.12.1"
+hex = "0.4.3"
+chrono = "0.4.19"
+http = { version = "0.2", optional = true }
