@@ -30,6 +30,8 @@ pub mod DeleteBucket;
 pub mod DeleteRule;
 #[cfg(feature = "DeleteRuleGroup")]
 pub mod DeleteRuleGroup;
+#[cfg(feature = "DeleteScanJob")]
+pub mod DeleteScanJob;
 #[cfg(feature = "ListBuckets")]
 pub mod ListBuckets;
 #[cfg(feature = "ListDbMaskTask")]

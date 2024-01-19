@@ -20,6 +20,8 @@ pub mod DownloadRegionCarrierExcel;
 pub mod DownloadStatisticsExcel;
 #[cfg(feature = "EnableDomain")]
 pub mod EnableDomain;
+#[cfg(feature = "ListCdnDomainTopRefers")]
+pub mod ListCdnDomainTopRefers;
 #[cfg(feature = "ListDomains")]
 pub mod ListDomains;
 #[cfg(feature = "SetChargeModes")]

@@ -46,12 +46,16 @@ pub mod RecognizeQualificationCertificate;
 pub mod RecognizeQuotaInvoice;
 #[cfg(feature = "RecognizeRealEstateCertificate")]
 pub mod RecognizeRealEstateCertificate;
+#[cfg(feature = "RecognizeSeal")]
+pub mod RecognizeSeal;
 #[cfg(feature = "RecognizeSmartDocumentRecognizer")]
 pub mod RecognizeSmartDocumentRecognizer;
 #[cfg(feature = "RecognizeTaxiInvoice")]
 pub mod RecognizeTaxiInvoice;
 #[cfg(feature = "RecognizeThailandIdcard")]
 pub mod RecognizeThailandIdcard;
+#[cfg(feature = "RecognizeThailandLicensePlate")]
+pub mod RecognizeThailandLicensePlate;
 #[cfg(feature = "RecognizeTollInvoice")]
 pub mod RecognizeTollInvoice;
 #[cfg(feature = "RecognizeTrainTicket")]

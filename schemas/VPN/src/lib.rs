@@ -1,3 +1,9 @@
+#[cfg(feature = "BatchCreateResourceTags")]
+pub mod BatchCreateResourceTags;
+#[cfg(feature = "BatchDeleteResourceTags")]
+pub mod BatchDeleteResourceTags;
+#[cfg(feature = "CountResourcesByTags")]
+pub mod CountResourcesByTags;
 #[cfg(feature = "CreateCgw")]
 pub mod CreateCgw;
 #[cfg(feature = "CreateConnectionMonitor")]
@@ -22,6 +28,10 @@ pub mod ListAvailabilityZones;
 pub mod ListCgws;
 #[cfg(feature = "ListConnectionMonitors")]
 pub mod ListConnectionMonitors;
+#[cfg(feature = "ListProjectTags")]
+pub mod ListProjectTags;
+#[cfg(feature = "ListResourcesByTags")]
+pub mod ListResourcesByTags;
 #[cfg(feature = "ListVgws")]
 pub mod ListVgws;
 #[cfg(feature = "ListVpnConnections")]
@@ -32,6 +42,8 @@ pub mod ShowCgw;
 pub mod ShowConnectionMonitor;
 #[cfg(feature = "ShowQuotasInfo")]
 pub mod ShowQuotasInfo;
+#[cfg(feature = "ShowResourceTags")]
+pub mod ShowResourceTags;
 #[cfg(feature = "ShowVgw")]
 pub mod ShowVgw;
 #[cfg(feature = "ShowVpnConnection")]

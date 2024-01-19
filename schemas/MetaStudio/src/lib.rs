@@ -14,6 +14,8 @@ pub mod ConfirmTrainingSegment;
 pub mod Create2DDigitalHumanVideo;
 #[cfg(feature = "Create2dModelTrainingJob")]
 pub mod Create2dModelTrainingJob;
+#[cfg(feature = "CreateDialogUrl")]
+pub mod CreateDialogUrl;
 #[cfg(feature = "CreateDigitalAsset")]
 pub mod CreateDigitalAsset;
 #[cfg(feature = "CreateDigitalHumanBusinessCard")]
@@ -24,6 +26,8 @@ pub mod CreateFacialAnimations;
 pub mod CreateFile;
 #[cfg(feature = "CreateInteractionRuleGroup")]
 pub mod CreateInteractionRuleGroup;
+#[cfg(feature = "CreateOnceCode")]
+pub mod CreateOnceCode;
 #[cfg(feature = "CreatePhotoDetection")]
 pub mod CreatePhotoDetection;
 #[cfg(feature = "CreatePhotoDigitalHumanVideo")]
@@ -32,6 +36,10 @@ pub mod CreatePhotoDigitalHumanVideo;
 pub mod CreatePictureModelingByUrlJob;
 #[cfg(feature = "CreatePictureModelingJob")]
 pub mod CreatePictureModelingJob;
+#[cfg(feature = "CreateRobot")]
+pub mod CreateRobot;
+#[cfg(feature = "CreateSmartChatRoom")]
+pub mod CreateSmartChatRoom;
 #[cfg(feature = "CreateSmartLiveRoom")]
 pub mod CreateSmartLiveRoom;
 #[cfg(feature = "CreateTrainingAdvanceJob")]
@@ -58,6 +66,10 @@ pub mod DeleteDigitalHumanBusinessCard;
 pub mod DeleteFile;
 #[cfg(feature = "DeleteInteractionRuleGroup")]
 pub mod DeleteInteractionRuleGroup;
+#[cfg(feature = "DeleteRobot")]
+pub mod DeleteRobot;
+#[cfg(feature = "DeleteSmartChatRoom")]
+pub mod DeleteSmartChatRoom;
 #[cfg(feature = "DeleteSmartLiveRoom")]
 pub mod DeleteSmartLiveRoom;
 #[cfg(feature = "DeleteVideoScript")]
@@ -86,6 +98,10 @@ pub mod ListFacialAnimationsData;
 pub mod ListInteractionRuleGroups;
 #[cfg(feature = "ListPictureModelingJobs")]
 pub mod ListPictureModelingJobs;
+#[cfg(feature = "ListRobot")]
+pub mod ListRobot;
+#[cfg(feature = "ListSmartChatRooms")]
+pub mod ListSmartChatRooms;
 #[cfg(feature = "ListSmartLive")]
 pub mod ListSmartLive;
 #[cfg(feature = "ListSmartLiveRooms")]
@@ -124,6 +140,12 @@ pub mod ShowPhotoDetection;
 pub mod ShowPhotoDigitalHumanVideo;
 #[cfg(feature = "ShowPictureModelingJob")]
 pub mod ShowPictureModelingJob;
+#[cfg(feature = "ShowRobot")]
+pub mod ShowRobot;
+#[cfg(feature = "ShowSmartChatJob")]
+pub mod ShowSmartChatJob;
+#[cfg(feature = "ShowSmartChatRoom")]
+pub mod ShowSmartChatRoom;
 #[cfg(feature = "ShowSmartLive")]
 pub mod ShowSmartLive;
 #[cfg(feature = "ShowSmartLiveRoom")]
@@ -138,8 +160,12 @@ pub mod ShowVideoMotionCaptureJob;
 pub mod ShowVideoScript;
 #[cfg(feature = "ShowVoiceTrainingJob")]
 pub mod ShowVoiceTrainingJob;
+#[cfg(feature = "StartSmartChatJob")]
+pub mod StartSmartChatJob;
 #[cfg(feature = "StartSmartLive")]
 pub mod StartSmartLive;
+#[cfg(feature = "StopSmartChatJob")]
+pub mod StopSmartChatJob;
 #[cfg(feature = "StopSmartLive")]
 pub mod StopSmartLive;
 #[cfg(feature = "StopVideoMotionCaptureJob")]
@@ -152,6 +178,10 @@ pub mod UpdateDigitalAsset;
 pub mod UpdateDigitalHumanBusinessCard;
 #[cfg(feature = "UpdateInteractionRuleGroup")]
 pub mod UpdateInteractionRuleGroup;
+#[cfg(feature = "UpdateRobot")]
+pub mod UpdateRobot;
+#[cfg(feature = "UpdateSmartChatRoom")]
+pub mod UpdateSmartChatRoom;
 #[cfg(feature = "UpdateSmartLiveRoom")]
 pub mod UpdateSmartLiveRoom;
 #[cfg(feature = "UpdateVideoScript")]

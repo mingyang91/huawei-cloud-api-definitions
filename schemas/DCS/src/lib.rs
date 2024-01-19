@@ -8,6 +8,8 @@ pub mod BatchShowNodesInformation;
 pub mod BatchStopMigrationTasks;
 #[cfg(feature = "ChangeMasterStandby")]
 pub mod ChangeMasterStandby;
+#[cfg(feature = "ChangeMasterStandbyAsync")]
+pub mod ChangeMasterStandbyAsync;
 #[cfg(feature = "CopyInstance")]
 pub mod CopyInstance;
 #[cfg(feature = "CreateAclAccount")]
@@ -196,5 +198,3 @@ pub mod UpdateAclAccountRemark;
 pub mod UpdateBigkeyAutoscanConfig;
 #[cfg(feature = "UpdateClientIpTransparentTransmission")]
 pub mod UpdateClientIpTransparentTransmission;
-#[cfg(feature = "UpdateConfigTemplate")]
-pub mod UpdateConfigTemplate;

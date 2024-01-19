@@ -50,8 +50,6 @@ pub mod ShowCase;
 pub mod ShowHistoryRunInfo;
 #[cfg(feature = "ShowMergeCaseDetail")]
 pub mod ShowMergeCaseDetail;
-#[cfg(feature = "ShowMergeReportLogsOutline")]
-pub mod ShowMergeReportLogsOutline;
 #[cfg(feature = "ShowMergeTaskCase")]
 pub mod ShowMergeTaskCase;
 #[cfg(feature = "ShowProcess")]
