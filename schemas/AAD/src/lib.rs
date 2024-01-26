@@ -10,8 +10,6 @@ pub mod BatchCreateInstanceIpRule;
 pub mod BatchDeleteInstanceIpRule;
 #[cfg(feature = "CreateAadDomain")]
 pub mod CreateAadDomain;
-#[cfg(feature = "CreateCertificate")]
-pub mod CreateCertificate;
 #[cfg(feature = "CreatePolicy")]
 pub mod CreatePolicy;
 #[cfg(feature = "DeleteAlarmConfig")]
@@ -52,6 +50,8 @@ pub mod ListUnblockQuotaStatistics;
 pub mod ListUnboundProtectedIp;
 #[cfg(feature = "ModifyDomainWebSwitch")]
 pub mod ModifyDomainWebSwitch;
+#[cfg(feature = "SetCertForDomain")]
+pub mod SetCertForDomain;
 #[cfg(feature = "ShowAlarmConfig")]
 pub mod ShowAlarmConfig;
 #[cfg(feature = "ShowBlockStatistics")]

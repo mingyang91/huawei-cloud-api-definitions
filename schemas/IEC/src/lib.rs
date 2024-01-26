@@ -118,6 +118,8 @@ pub mod ListSecurityGroups;
 pub mod ListSites;
 #[cfg(feature = "ListSubnets")]
 pub mod ListSubnets;
+#[cfg(feature = "ListVolume")]
+pub mod ListVolume;
 #[cfg(feature = "ListVpcs")]
 pub mod ListVpcs;
 #[cfg(feature = "RebuildImage")]

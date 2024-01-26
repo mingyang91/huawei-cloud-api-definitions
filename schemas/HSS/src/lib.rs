@@ -44,16 +44,12 @@ pub mod ListAutoLaunchStatistics;
 pub mod ListBlockedIp;
 #[cfg(feature = "ListContainerNodes")]
 pub mod ListContainerNodes;
-#[cfg(feature = "ListEvents")]
-pub mod ListEvents;
 #[cfg(feature = "ListHostGroups")]
 pub mod ListHostGroups;
 #[cfg(feature = "ListHostProtectHistoryInfo")]
 pub mod ListHostProtectHistoryInfo;
 #[cfg(feature = "ListHostRaspProtectHistoryInfo")]
 pub mod ListHostRaspProtectHistoryInfo;
-#[cfg(feature = "ListHosts")]
-pub mod ListHosts;
 #[cfg(feature = "ListHostStatus")]
 pub mod ListHostStatus;
 #[cfg(feature = "ListHostVuls")]
