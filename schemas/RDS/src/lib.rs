@@ -54,6 +54,8 @@ pub mod CreatePostgresqlDatabaseSchema;
 pub mod CreatePostgresqlDbUser;
 #[cfg(feature = "CreatePostgresqlExtension")]
 pub mod CreatePostgresqlExtension;
+#[cfg(feature = "CreateRdSforMySqlProxy")]
+pub mod CreateRdSforMySqlProxy;
 #[cfg(feature = "CreateRestoreInstance")]
 pub mod CreateRestoreInstance;
 #[cfg(feature = "CreateSqlserverDatabase")]
@@ -84,6 +86,8 @@ pub mod DeletePostgresqlDbUser;
 pub mod DeletePostgresqlExtension;
 #[cfg(feature = "DeletePostgresqlHbaConf")]
 pub mod DeletePostgresqlHbaConf;
+#[cfg(feature = "DeleteRdSforMySqlProxy")]
+pub mod DeleteRdSforMySqlProxy;
 #[cfg(feature = "DeleteSqlserverDatabase")]
 pub mod DeleteSqlserverDatabase;
 #[cfg(feature = "DeleteSqlserverDatabaseEx")]
@@ -178,6 +182,10 @@ pub mod ListPostgresqlListHistoryTables;
 pub mod ListPredefinedTag;
 #[cfg(feature = "ListProjectTags")]
 pub mod ListProjectTags;
+#[cfg(feature = "ListRdSforMySqlProxy")]
+pub mod ListRdSforMySqlProxy;
+#[cfg(feature = "ListRdSforMysqlProxyFlavors")]
+pub mod ListRdSforMysqlProxyFlavors;
 #[cfg(feature = "ListRecycleInstances")]
 pub mod ListRecycleInstances;
 #[cfg(feature = "ListRestoreTimes")]
@@ -190,11 +198,3 @@ pub mod ListSlowLogFile;
 pub mod ListSlowlogForLts;
 #[cfg(feature = "ListSlowLogs")]
 pub mod ListSlowLogs;
-#[cfg(feature = "ListSlowLogsNew")]
-pub mod ListSlowLogsNew;
-#[cfg(feature = "ListSlowlogStatistics")]
-pub mod ListSlowlogStatistics;
-#[cfg(feature = "ListSlowLogStatisticsForLts")]
-pub mod ListSlowLogStatisticsForLts;
-#[cfg(feature = "ListSqlserverDatabases")]
-pub mod ListSqlserverDatabases;

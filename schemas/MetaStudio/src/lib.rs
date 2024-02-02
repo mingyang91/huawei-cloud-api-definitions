@@ -10,6 +10,8 @@ pub mod CommitVoiceTrainingJob;
 pub mod ConfirmFileUpload;
 #[cfg(feature = "ConfirmTrainingSegment")]
 pub mod ConfirmTrainingSegment;
+#[cfg(feature = "CopyVideoScripts")]
+pub mod CopyVideoScripts;
 #[cfg(feature = "Create2DDigitalHumanVideo")]
 pub mod Create2DDigitalHumanVideo;
 #[cfg(feature = "Create2dModelTrainingJob")]
@@ -104,6 +106,8 @@ pub mod ListRobot;
 pub mod ListSmartChatRooms;
 #[cfg(feature = "ListSmartLive")]
 pub mod ListSmartLive;
+#[cfg(feature = "ListSmartLiveJobs")]
+pub mod ListSmartLiveJobs;
 #[cfg(feature = "ListSmartLiveRooms")]
 pub mod ListSmartLiveRooms;
 #[cfg(feature = "ListStyles")]

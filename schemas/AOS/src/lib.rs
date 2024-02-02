@@ -6,6 +6,10 @@ pub mod ContinueDeployStack;
 pub mod ContinueRollbackStack;
 #[cfg(feature = "CreateExecutionPlan")]
 pub mod CreateExecutionPlan;
+#[cfg(feature = "CreatePrivateProvider")]
+pub mod CreatePrivateProvider;
+#[cfg(feature = "CreatePrivateProviderVersion")]
+pub mod CreatePrivateProviderVersion;
 #[cfg(feature = "CreateStack")]
 pub mod CreateStack;
 #[cfg(feature = "CreateStackInstance")]

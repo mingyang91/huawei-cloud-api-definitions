@@ -116,8 +116,6 @@ pub mod ShowPartitionBeginningMessage;
 pub mod ShowPartitionEndMessage;
 #[cfg(feature = "ShowPartitionMessage")]
 pub mod ShowPartitionMessage;
-#[cfg(feature = "ShowShrinkCheckResult")]
-pub mod ShowShrinkCheckResult;
 #[cfg(feature = "ShowSinkTaskDetail")]
 pub mod ShowSinkTaskDetail;
 #[cfg(feature = "ShowTopicAccessPolicy")]
@@ -136,8 +134,6 @@ pub mod UpdateInstanceTopic;
 pub mod UpdateInstanceUser;
 #[cfg(feature = "UpdateKafkaUserClientQuotaTask")]
 pub mod UpdateKafkaUserClientQuotaTask;
-#[cfg(feature = "UpdateSinkTaskQuota")]
-pub mod UpdateSinkTaskQuota;
 #[cfg(feature = "UpdateTopicAccessPolicy")]
 pub mod UpdateTopicAccessPolicy;
 #[cfg(feature = "UpdateTopicReplica")]
