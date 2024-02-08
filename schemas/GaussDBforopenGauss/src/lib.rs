@@ -134,6 +134,8 @@ pub mod ShowProjectQuotas;
 pub mod ShowRecyclePolicy;
 #[cfg(feature = "ShowSslCertDownloadLink")]
 pub mod ShowSslCertDownloadLink;
+#[cfg(feature = "StopBackup")]
+pub mod StopBackup;
 #[cfg(feature = "SwitchConfiguration")]
 pub mod SwitchConfiguration;
 #[cfg(feature = "SwitchShard")]

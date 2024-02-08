@@ -72,6 +72,8 @@ pub mod ShowTopDomainNames;
 pub mod ShowTopUrl;
 #[cfg(feature = "ShowUrlTaskInfo")]
 pub mod ShowUrlTaskInfo;
+#[cfg(feature = "ShowVerifyDomainOwnerInfo")]
+pub mod ShowVerifyDomainOwnerInfo;
 #[cfg(feature = "UpdateBlackWhiteList")]
 pub mod UpdateBlackWhiteList;
 #[cfg(feature = "UpdateCacheRules")]
@@ -96,3 +98,5 @@ pub mod UpdateRangeSwitch;
 pub mod UpdateRefer;
 #[cfg(feature = "UpdateResponseHeader")]
 pub mod UpdateResponseHeader;
+#[cfg(feature = "VerifyDomainOwner")]
+pub mod VerifyDomainOwner;

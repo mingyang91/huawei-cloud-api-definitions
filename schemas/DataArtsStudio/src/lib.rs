@@ -68,8 +68,6 @@ pub mod CreateCodeTable;
 pub mod CreateConnections;
 #[cfg(feature = "CreateDirectory")]
 pub mod CreateDirectory;
-#[cfg(feature = "CreateFactoryJob")]
-pub mod CreateFactoryJob;
 #[cfg(feature = "CreateFactorySupplementDataInstance")]
 pub mod CreateFactorySupplementDataInstance;
 #[cfg(feature = "CreateManagerWorkSpace")]
@@ -198,3 +196,5 @@ pub mod ListBizMetricDimensions;
 pub mod ListBizMetricOwners;
 #[cfg(feature = "ListBizMetrics")]
 pub mod ListBizMetrics;
+#[cfg(feature = "ListBusiness")]
+pub mod ListBusiness;

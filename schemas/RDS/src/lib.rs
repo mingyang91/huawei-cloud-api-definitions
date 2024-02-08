@@ -98,6 +98,10 @@ pub mod DeleteSqlserverDbUser;
 pub mod DownloadSlowlog;
 #[cfg(feature = "EnableConfiguration")]
 pub mod EnableConfiguration;
+#[cfg(feature = "ExecutePrivilegeDatabaseUserRole")]
+pub mod ExecutePrivilegeDatabaseUserRole;
+#[cfg(feature = "ExecuteRevokeDatabaseUserRole")]
+pub mod ExecuteRevokeDatabaseUserRole;
 #[cfg(feature = "ListApiVersion")]
 pub mod ListApiVersion;
 #[cfg(feature = "ListApiVersionNew")]
@@ -118,6 +122,8 @@ pub mod ListCollations;
 pub mod ListConfigurations;
 #[cfg(feature = "ListDatabases")]
 pub mod ListDatabases;
+#[cfg(feature = "ListDatabaseUserRole")]
+pub mod ListDatabaseUserRole;
 #[cfg(feature = "ListDatastores")]
 pub mod ListDatastores;
 #[cfg(feature = "ListDbUsers")]
@@ -192,9 +198,3 @@ pub mod ListRecycleInstances;
 pub mod ListRestoreTimes;
 #[cfg(feature = "ListSimplifiedInstances")]
 pub mod ListSimplifiedInstances;
-#[cfg(feature = "ListSlowLogFile")]
-pub mod ListSlowLogFile;
-#[cfg(feature = "ListSlowlogForLts")]
-pub mod ListSlowlogForLts;
-#[cfg(feature = "ListSlowLogs")]
-pub mod ListSlowLogs;

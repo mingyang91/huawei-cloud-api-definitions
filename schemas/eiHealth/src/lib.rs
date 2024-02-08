@@ -48,6 +48,8 @@ pub mod CreateApp;
 pub mod CreateAutoJob;
 #[cfg(feature = "CreateBackup")]
 pub mod CreateBackup;
+#[cfg(feature = "CreateClusterJob")]
+pub mod CreateClusterJob;
 #[cfg(feature = "CreateCode")]
 pub mod CreateCode;
 #[cfg(feature = "CreateComputingResource")]
@@ -196,5 +198,3 @@ pub mod DownloadDataTrace;
 pub mod ExecuteAssetAction;
 #[cfg(feature = "ExecuteJob")]
 pub mod ExecuteJob;
-#[cfg(feature = "ImportData")]
-pub mod ImportData;
