@@ -74,6 +74,8 @@ pub mod CreateAclStrategyV2;
 pub mod CreateAnApp;
 #[cfg(feature = "CreateAnAppV2")]
 pub mod CreateAnAppV2;
+#[cfg(feature = "CreateApi")]
+pub mod CreateApi;
 #[cfg(feature = "CreateApiAclBindingV2")]
 pub mod CreateApiAclBindingV2;
 #[cfg(feature = "CreateApiGroup")]
