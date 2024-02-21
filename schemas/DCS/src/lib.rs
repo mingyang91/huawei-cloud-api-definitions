@@ -70,6 +70,10 @@ pub mod ExecuteCommandMobilization;
 pub mod ExportExcelJob;
 #[cfg(feature = "ExportInstancesTask")]
 pub mod ExportInstancesTask;
+#[cfg(feature = "HangUpClients")]
+pub mod HangUpClients;
+#[cfg(feature = "HangUpKillAllClients")]
+pub mod HangUpKillAllClients;
 #[cfg(feature = "ListAclAccounts")]
 pub mod ListAclAccounts;
 #[cfg(feature = "ListAvailableZones")]
@@ -84,6 +88,8 @@ pub mod ListBackupRecords;
 pub mod ListBigkeyScanTasks;
 #[cfg(feature = "ListCenterTask")]
 pub mod ListCenterTask;
+#[cfg(feature = "ListClients")]
+pub mod ListClients;
 #[cfg(feature = "ListConfigHistories")]
 pub mod ListConfigHistories;
 #[cfg(feature = "ListConfigTemplates")]
@@ -138,6 +144,8 @@ pub mod ResizeInstance;
 pub mod RestartOrFlushInstances;
 #[cfg(feature = "RestoreInstance")]
 pub mod RestoreInstance;
+#[cfg(feature = "ScanClients")]
+pub mod ScanClients;
 #[cfg(feature = "ScanExpireKey")]
 pub mod ScanExpireKey;
 #[cfg(feature = "SetOnlineMigrationTask")]
@@ -190,11 +198,3 @@ pub mod StopMigrationTask;
 pub mod StopMigrationTaskSync;
 #[cfg(feature = "UpdateAclAccount")]
 pub mod UpdateAclAccount;
-#[cfg(feature = "UpdateAclAccountPassWord")]
-pub mod UpdateAclAccountPassWord;
-#[cfg(feature = "UpdateAclAccountRemark")]
-pub mod UpdateAclAccountRemark;
-#[cfg(feature = "UpdateBigkeyAutoscanConfig")]
-pub mod UpdateBigkeyAutoscanConfig;
-#[cfg(feature = "UpdateClientIpTransparentTransmission")]
-pub mod UpdateClientIpTransparentTransmission;
