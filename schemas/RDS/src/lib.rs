@@ -194,5 +194,7 @@ pub mod ListRdSforMySqlProxy;
 pub mod ListRdSforMysqlProxyFlavors;
 #[cfg(feature = "ListRecycleInstances")]
 pub mod ListRecycleInstances;
+#[cfg(feature = "ListRestoreTimes")]
+pub mod ListRestoreTimes;
 #[cfg(feature = "ListSimplifiedInstances")]
 pub mod ListSimplifiedInstances;
