@@ -30,6 +30,8 @@ pub mod BatchOffline;
 pub mod BatchPublish;
 #[cfg(feature = "BatchSyncMetadata")]
 pub mod BatchSyncMetadata;
+#[cfg(feature = "CancelFactoryPackages")]
+pub mod CancelFactoryPackages;
 #[cfg(feature = "ChangeCatalog")]
 pub mod ChangeCatalog;
 #[cfg(feature = "ChangeResource")]
@@ -74,6 +76,8 @@ pub mod CreateFactorySupplementDataInstance;
 pub mod CreateManagerWorkSpace;
 #[cfg(feature = "CreateOrUpdateAsset")]
 pub mod CreateOrUpdateAsset;
+#[cfg(feature = "CreateOrUpdateEntities")]
+pub mod CreateOrUpdateEntities;
 #[cfg(feature = "CreateSecurityDataClassificationRule")]
 pub mod CreateSecurityDataClassificationRule;
 #[cfg(feature = "CreateSecurityPermissionSet")]
@@ -148,6 +152,8 @@ pub mod DeleteTaskInfo;
 pub mod DeleteWorkspaces;
 #[cfg(feature = "DeleteWorkspaceusers")]
 pub mod DeleteWorkspaceusers;
+#[cfg(feature = "DeployFactoryPackages")]
+pub mod DeployFactoryPackages;
 #[cfg(feature = "ExecuteApiToInstance")]
 pub mod ExecuteApiToInstance;
 #[cfg(feature = "ExecuteTaskAction")]
@@ -192,9 +198,3 @@ pub mod ListApps;
 pub mod ListAppsTop;
 #[cfg(feature = "ListBizMetricDimensions")]
 pub mod ListBizMetricDimensions;
-#[cfg(feature = "ListBizMetricOwners")]
-pub mod ListBizMetricOwners;
-#[cfg(feature = "ListBizMetrics")]
-pub mod ListBizMetrics;
-#[cfg(feature = "ListBusiness")]
-pub mod ListBusiness;

@@ -32,8 +32,8 @@ pub mod CreateHealthmonitor;
 pub mod CreateIpGroup;
 #[cfg(feature = "CreateL7policy")]
 pub mod CreateL7policy;
-#[cfg(feature = "CreateL7Rule")]
-pub mod CreateL7Rule;
+#[cfg(feature = "CreateL7rule")]
+pub mod CreateL7rule;
 #[cfg(feature = "CreateListener")]
 pub mod CreateListener;
 #[cfg(feature = "CreateListenerTags")]

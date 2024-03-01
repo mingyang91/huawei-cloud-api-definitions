@@ -12,6 +12,8 @@ pub mod BatchRestartOrDeleteInstances;
 pub mod CloseKafkaManager;
 #[cfg(feature = "CreateConnector")]
 pub mod CreateConnector;
+#[cfg(feature = "CreateConnectorTask")]
+pub mod CreateConnectorTask;
 #[cfg(feature = "CreateDeleteConnectorOrder")]
 pub mod CreateDeleteConnectorOrder;
 #[cfg(feature = "CreateInstanceByEngine")]
@@ -26,14 +28,14 @@ pub mod CreateKafkaConsumerGroup;
 pub mod CreateKafkaUserClientQuotaTask;
 #[cfg(feature = "CreateReassignmentTask")]
 pub mod CreateReassignmentTask;
-#[cfg(feature = "CreateShrinkageJob")]
-pub mod CreateShrinkageJob;
 #[cfg(feature = "CreateSinkTask")]
 pub mod CreateSinkTask;
 #[cfg(feature = "DeleteBackgroundTask")]
 pub mod DeleteBackgroundTask;
 #[cfg(feature = "DeleteConnector")]
 pub mod DeleteConnector;
+#[cfg(feature = "DeleteConnectorTask")]
+pub mod DeleteConnectorTask;
 #[cfg(feature = "DeleteInstance")]
 pub mod DeleteInstance;
 #[cfg(feature = "DeleteKafkaUserClientQuotaTask")]
@@ -44,6 +46,8 @@ pub mod DeleteSinkTask;
 pub mod ListAvailableZones;
 #[cfg(feature = "ListBackgroundTasks")]
 pub mod ListBackgroundTasks;
+#[cfg(feature = "ListConnectorTasks")]
+pub mod ListConnectorTasks;
 #[cfg(feature = "ListEngineProducts")]
 pub mod ListEngineProducts;
 #[cfg(feature = "ListInstanceConsumerGroups")]
@@ -60,6 +64,8 @@ pub mod ListTopicPartitions;
 pub mod ListTopicProducers;
 #[cfg(feature = "ModifyInstanceConfigs")]
 pub mod ModifyInstanceConfigs;
+#[cfg(feature = "PauseConnectorTask")]
+pub mod PauseConnectorTask;
 #[cfg(feature = "ResetManagerPassword")]
 pub mod ResetManagerPassword;
 #[cfg(feature = "ResetMessageOffset")]
@@ -72,8 +78,12 @@ pub mod ResetPassword;
 pub mod ResetUserPasswrod;
 #[cfg(feature = "ResizeEngineInstance")]
 pub mod ResizeEngineInstance;
+#[cfg(feature = "RestartConnectorTask")]
+pub mod RestartConnectorTask;
 #[cfg(feature = "RestartManager")]
 pub mod RestartManager;
+#[cfg(feature = "ResumeConnectorTask")]
+pub mod ResumeConnectorTask;
 #[cfg(feature = "SendKafkaMessage")]
 pub mod SendKafkaMessage;
 #[cfg(feature = "ShowBackgroundTask")]
@@ -82,6 +92,8 @@ pub mod ShowBackgroundTask;
 pub mod ShowCesHierarchy;
 #[cfg(feature = "ShowCluster")]
 pub mod ShowCluster;
+#[cfg(feature = "ShowConnectorTask")]
+pub mod ShowConnectorTask;
 #[cfg(feature = "ShowCoordinators")]
 pub mod ShowCoordinators;
 #[cfg(feature = "ShowEngineInstanceExtendProductInfo")]
@@ -134,6 +146,8 @@ pub mod UpdateInstanceTopic;
 pub mod UpdateInstanceUser;
 #[cfg(feature = "UpdateKafkaUserClientQuotaTask")]
 pub mod UpdateKafkaUserClientQuotaTask;
+#[cfg(feature = "UpdateSinkTaskQuota")]
+pub mod UpdateSinkTaskQuota;
 #[cfg(feature = "UpdateTopicAccessPolicy")]
 pub mod UpdateTopicAccessPolicy;
 #[cfg(feature = "UpdateTopicReplica")]
