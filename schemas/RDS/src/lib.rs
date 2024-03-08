@@ -58,6 +58,8 @@ pub mod CreatePostgresqlExtension;
 pub mod CreateRdSforMySqlProxy;
 #[cfg(feature = "CreateRestoreInstance")]
 pub mod CreateRestoreInstance;
+#[cfg(feature = "CreateSqlLimit")]
+pub mod CreateSqlLimit;
 #[cfg(feature = "CreateSqlserverDatabase")]
 pub mod CreateSqlserverDatabase;
 #[cfg(feature = "CreateSqlserverDbUser")]
@@ -88,6 +90,8 @@ pub mod DeletePostgresqlExtension;
 pub mod DeletePostgresqlHbaConf;
 #[cfg(feature = "DeleteRdSforMySqlProxy")]
 pub mod DeleteRdSforMySqlProxy;
+#[cfg(feature = "DeleteSqlLimit")]
+pub mod DeleteSqlLimit;
 #[cfg(feature = "DeleteSqlserverDatabase")]
 pub mod DeleteSqlserverDatabase;
 #[cfg(feature = "DeleteSqlserverDatabaseEx")]
@@ -194,7 +198,3 @@ pub mod ListRdSforMySqlProxy;
 pub mod ListRdSforMysqlProxyFlavors;
 #[cfg(feature = "ListRecycleInstances")]
 pub mod ListRecycleInstances;
-#[cfg(feature = "ListRestoreTimes")]
-pub mod ListRestoreTimes;
-#[cfg(feature = "ListSimplifiedInstances")]
-pub mod ListSimplifiedInstances;

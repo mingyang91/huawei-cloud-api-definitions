@@ -96,6 +96,8 @@ pub mod RunPipeline;
 pub mod ShowBasicPlugin;
 #[cfg(feature = "ShowInstanceStatus")]
 pub mod ShowInstanceStatus;
+#[cfg(feature = "ShowPipelineArtifacts")]
+pub mod ShowPipelineArtifacts;
 #[cfg(feature = "ShowPipelineDetail")]
 pub mod ShowPipelineDetail;
 #[cfg(feature = "ShowPipelineGroupTree")]
@@ -122,6 +124,8 @@ pub mod ShowProjectStrategy;
 pub mod ShowPublisher;
 #[cfg(feature = "ShowRule")]
 pub mod ShowRule;
+#[cfg(feature = "ShowStepOutputs")]
+pub mod ShowStepOutputs;
 #[cfg(feature = "ShowStrategy")]
 pub mod ShowStrategy;
 #[cfg(feature = "ShowTemplateDetail")]

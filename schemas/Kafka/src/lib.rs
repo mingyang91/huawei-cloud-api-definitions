@@ -14,8 +14,6 @@ pub mod CloseKafkaManager;
 pub mod CreateConnector;
 #[cfg(feature = "CreateConnectorTask")]
 pub mod CreateConnectorTask;
-#[cfg(feature = "CreateDeleteConnectorOrder")]
-pub mod CreateDeleteConnectorOrder;
 #[cfg(feature = "CreateInstanceByEngine")]
 pub mod CreateInstanceByEngine;
 #[cfg(feature = "CreateInstanceTopic")]
@@ -28,8 +26,6 @@ pub mod CreateKafkaConsumerGroup;
 pub mod CreateKafkaUserClientQuotaTask;
 #[cfg(feature = "CreateReassignmentTask")]
 pub mod CreateReassignmentTask;
-#[cfg(feature = "CreateSinkTask")]
-pub mod CreateSinkTask;
 #[cfg(feature = "DeleteBackgroundTask")]
 pub mod DeleteBackgroundTask;
 #[cfg(feature = "DeleteConnector")]
@@ -40,8 +36,6 @@ pub mod DeleteConnectorTask;
 pub mod DeleteInstance;
 #[cfg(feature = "DeleteKafkaUserClientQuotaTask")]
 pub mod DeleteKafkaUserClientQuotaTask;
-#[cfg(feature = "DeleteSinkTask")]
-pub mod DeleteSinkTask;
 #[cfg(feature = "ListAvailableZones")]
 pub mod ListAvailableZones;
 #[cfg(feature = "ListBackgroundTasks")]
@@ -56,8 +50,6 @@ pub mod ListInstanceConsumerGroups;
 pub mod ListInstances;
 #[cfg(feature = "ListInstanceTopics")]
 pub mod ListInstanceTopics;
-#[cfg(feature = "ListSinkTasks")]
-pub mod ListSinkTasks;
 #[cfg(feature = "ListTopicPartitions")]
 pub mod ListTopicPartitions;
 #[cfg(feature = "ListTopicProducers")]
@@ -68,8 +60,6 @@ pub mod ModifyInstanceConfigs;
 pub mod PauseConnectorTask;
 #[cfg(feature = "ResetManagerPassword")]
 pub mod ResetManagerPassword;
-#[cfg(feature = "ResetMessageOffset")]
-pub mod ResetMessageOffset;
 #[cfg(feature = "ResetMessageOffsetWithEngine")]
 pub mod ResetMessageOffsetWithEngine;
 #[cfg(feature = "ResetPassword")]
@@ -128,8 +118,6 @@ pub mod ShowPartitionBeginningMessage;
 pub mod ShowPartitionEndMessage;
 #[cfg(feature = "ShowPartitionMessage")]
 pub mod ShowPartitionMessage;
-#[cfg(feature = "ShowSinkTaskDetail")]
-pub mod ShowSinkTaskDetail;
 #[cfg(feature = "ShowTopicAccessPolicy")]
 pub mod ShowTopicAccessPolicy;
 #[cfg(feature = "UpdateInstance")]
@@ -146,8 +134,6 @@ pub mod UpdateInstanceTopic;
 pub mod UpdateInstanceUser;
 #[cfg(feature = "UpdateKafkaUserClientQuotaTask")]
 pub mod UpdateKafkaUserClientQuotaTask;
-#[cfg(feature = "UpdateSinkTaskQuota")]
-pub mod UpdateSinkTaskQuota;
 #[cfg(feature = "UpdateTopicAccessPolicy")]
 pub mod UpdateTopicAccessPolicy;
 #[cfg(feature = "UpdateTopicReplica")]
