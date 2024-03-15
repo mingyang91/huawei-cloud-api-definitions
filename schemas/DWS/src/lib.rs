@@ -172,6 +172,10 @@ pub mod ListLogicalClusterTasks;
 pub mod ListLogicalClusterVolumes;
 #[cfg(feature = "ListLtsLogs")]
 pub mod ListLtsLogs;
+#[cfg(feature = "ListMetrics")]
+pub mod ListMetrics;
+#[cfg(feature = "ListMetricsData")]
+pub mod ListMetricsData;
 #[cfg(feature = "ListMonitorIndicatorData")]
 pub mod ListMonitorIndicatorData;
 #[cfg(feature = "ListMonitorIndicators")]
@@ -194,7 +198,3 @@ pub mod ListSnapshotCrossRegionPolicy;
 pub mod ListSnapshotDetails;
 #[cfg(feature = "ListSnapshotPolicy")]
 pub mod ListSnapshotPolicy;
-#[cfg(feature = "ListSnapshots")]
-pub mod ListSnapshots;
-#[cfg(feature = "ListSnapshotStatistics")]
-pub mod ListSnapshotStatistics;

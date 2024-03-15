@@ -102,6 +102,8 @@ pub mod ImportBatchCreateJobs;
 pub mod ListAsyncJobDetail;
 #[cfg(feature = "ListAsyncJobs")]
 pub mod ListAsyncJobs;
+#[cfg(feature = "ListAvailableNodeTypes")]
+pub mod ListAvailableNodeTypes;
 #[cfg(feature = "ListAvailableZone")]
 pub mod ListAvailableZone;
 #[cfg(feature = "ListCompareResult")]
@@ -196,5 +198,3 @@ pub mod UpdateJobConfigurations;
 pub mod UpdateParams;
 #[cfg(feature = "UpdateStartPosition")]
 pub mod UpdateStartPosition;
-#[cfg(feature = "UpdateTuningParams")]
-pub mod UpdateTuningParams;

@@ -40,6 +40,8 @@ pub mod InviteAccount;
 pub mod LeaveOrganization;
 #[cfg(feature = "ListAccounts")]
 pub mod ListAccounts;
+#[cfg(feature = "ListCloseAccountStatuses")]
+pub mod ListCloseAccountStatuses;
 #[cfg(feature = "ListCreateAccountStatuses")]
 pub mod ListCreateAccountStatuses;
 #[cfg(feature = "ListDelegatedAdministrators")]

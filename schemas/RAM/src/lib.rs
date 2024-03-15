@@ -22,6 +22,8 @@ pub mod DisassociateResourceSharePermission;
 pub mod EnableOrganizationShare;
 #[cfg(feature = "ListPermissions")]
 pub mod ListPermissions;
+#[cfg(feature = "ListPermissionVersions")]
+pub mod ListPermissionVersions;
 #[cfg(feature = "ListQuota")]
 pub mod ListQuota;
 #[cfg(feature = "ListResourceSharePermissions")]
