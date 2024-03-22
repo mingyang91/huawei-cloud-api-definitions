@@ -20,6 +20,8 @@ pub mod ChangeIsolatedFile;
 pub mod ChangeVulScanPolicy;
 #[cfg(feature = "ChangeVulStatus")]
 pub mod ChangeVulStatus;
+#[cfg(feature = "CreateQuotasOrder")]
+pub mod CreateQuotasOrder;
 #[cfg(feature = "CreateVulnerabilityScanTask")]
 pub mod CreateVulnerabilityScanTask;
 #[cfg(feature = "DeleteHostsGroup")]
@@ -130,6 +132,8 @@ pub mod ShowBackupPolicyInfo;
 pub mod ShowCheckRuleDetail;
 #[cfg(feature = "ShowImageCheckRuleDetail")]
 pub mod ShowImageCheckRuleDetail;
+#[cfg(feature = "ShowProductdataOfferingInfos")]
+pub mod ShowProductdataOfferingInfos;
 #[cfg(feature = "ShowResourceQuotas")]
 pub mod ShowResourceQuotas;
 #[cfg(feature = "ShowRiskConfigDetail")]

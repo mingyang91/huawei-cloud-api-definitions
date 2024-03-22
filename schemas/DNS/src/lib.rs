@@ -1,5 +1,3 @@
-#[cfg(feature = "AssociateHealthCheck")]
-pub mod AssociateHealthCheck;
 #[cfg(feature = "AssociateRouter")]
 pub mod AssociateRouter;
 #[cfg(feature = "BatchCreateTag")]
@@ -40,8 +38,6 @@ pub mod DeleteRecordSet;
 pub mod DeleteRecordSets;
 #[cfg(feature = "DeleteTag")]
 pub mod DeleteTag;
-#[cfg(feature = "DisassociateHealthCheck")]
-pub mod DisassociateHealthCheck;
 #[cfg(feature = "DisassociateRouter")]
 pub mod DisassociateRouter;
 #[cfg(feature = "ListApiVersions")]

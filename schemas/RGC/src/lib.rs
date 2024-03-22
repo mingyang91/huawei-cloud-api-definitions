@@ -4,8 +4,12 @@ pub mod CheckLaunch;
 pub mod CreateAccount;
 #[cfg(feature = "CreateManagedOrganizationalUnit")]
 pub mod CreateManagedOrganizationalUnit;
+#[cfg(feature = "CreateTemplate")]
+pub mod CreateTemplate;
 #[cfg(feature = "DeleteManagedOrganizationalUnits")]
 pub mod DeleteManagedOrganizationalUnits;
+#[cfg(feature = "DeleteTemplate")]
+pub mod DeleteTemplate;
 #[cfg(feature = "DeregisterOrganizationalUnit")]
 pub mod DeregisterOrganizationalUnit;
 #[cfg(feature = "DisableControl")]
@@ -34,6 +38,10 @@ pub mod ListManagedAccounts;
 pub mod ListManagedAccountsForParent;
 #[cfg(feature = "ListManagedOrganizationalUnits")]
 pub mod ListManagedOrganizationalUnits;
+#[cfg(feature = "ListOperation")]
+pub mod ListOperation;
+#[cfg(feature = "ListPredefinedTemplates")]
+pub mod ListPredefinedTemplates;
 #[cfg(feature = "RegisterOrganizationalUnit")]
 pub mod RegisterOrganizationalUnit;
 #[cfg(feature = "ReRegisterOrganizationalUnit")]
@@ -68,6 +76,8 @@ pub mod ShowManagedCoreAccount;
 pub mod ShowManagedOrganizationalUnit;
 #[cfg(feature = "ShowOperation")]
 pub mod ShowOperation;
+#[cfg(feature = "ShowTemplateDeployParams")]
+pub mod ShowTemplateDeployParams;
 #[cfg(feature = "UnEnrollAccount")]
 pub mod UnEnrollAccount;
 #[cfg(feature = "UpdateManagedAccount")]

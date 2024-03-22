@@ -16,6 +16,14 @@ pub mod DescribeGroup;
 pub mod DescribeGroupMembership;
 #[cfg(feature = "DescribeUser")]
 pub mod DescribeUser;
+#[cfg(feature = "GetGroupId")]
+pub mod GetGroupId;
+#[cfg(feature = "GetGroupMembershipId")]
+pub mod GetGroupMembershipId;
+#[cfg(feature = "GetUserId")]
+pub mod GetUserId;
+#[cfg(feature = "IsMemberInGroups")]
+pub mod IsMemberInGroups;
 #[cfg(feature = "ListGroupMemberships")]
 pub mod ListGroupMemberships;
 #[cfg(feature = "ListGroupMembershipsForMember")]

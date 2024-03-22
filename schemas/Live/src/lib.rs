@@ -4,6 +4,8 @@ pub mod BatchShowIpBelongs;
 pub mod CreateDomain;
 #[cfg(feature = "CreateDomainMapping")]
 pub mod CreateDomainMapping;
+#[cfg(feature = "CreateOttChannelInfo")]
+pub mod CreateOttChannelInfo;
 #[cfg(feature = "CreateRecordCallbackConfig")]
 pub mod CreateRecordCallbackConfig;
 #[cfg(feature = "CreateRecordIndex")]
@@ -26,6 +28,8 @@ pub mod DeleteDomainHttpsCert;
 pub mod DeleteDomainKeyChain;
 #[cfg(feature = "DeleteDomainMapping")]
 pub mod DeleteDomainMapping;
+#[cfg(feature = "DeleteOttChannelInfo")]
+pub mod DeleteOttChannelInfo;
 #[cfg(feature = "DeletePublishTemplate")]
 pub mod DeletePublishTemplate;
 #[cfg(feature = "DeleteRecordCallbackConfig")]
@@ -60,6 +64,8 @@ pub mod ListIpAuthList;
 pub mod ListLiveSampleLogs;
 #[cfg(feature = "ListLiveStreamsOnline")]
 pub mod ListLiveStreamsOnline;
+#[cfg(feature = "ListOttChannelInfo")]
+pub mod ListOttChannelInfo;
 #[cfg(feature = "ListPublishTemplate")]
 pub mod ListPublishTemplate;
 #[cfg(feature = "ListQueryHttpCode")]
@@ -88,6 +94,18 @@ pub mod ListTranscodeData;
 pub mod ListUpStreamDetail;
 #[cfg(feature = "ListUsersOfStream")]
 pub mod ListUsersOfStream;
+#[cfg(feature = "ModifyOttChannelInfoEncoderSettings")]
+pub mod ModifyOttChannelInfoEncoderSettings;
+#[cfg(feature = "ModifyOttChannelInfoEndPoints")]
+pub mod ModifyOttChannelInfoEndPoints;
+#[cfg(feature = "ModifyOttChannelInfoGeneral")]
+pub mod ModifyOttChannelInfoGeneral;
+#[cfg(feature = "ModifyOttChannelInfoInput")]
+pub mod ModifyOttChannelInfoInput;
+#[cfg(feature = "ModifyOttChannelInfoRecordSettings")]
+pub mod ModifyOttChannelInfoRecordSettings;
+#[cfg(feature = "ModifyOttChannelInfoStats")]
+pub mod ModifyOttChannelInfoStats;
 #[cfg(feature = "RunRecord")]
 pub mod RunRecord;
 #[cfg(feature = "ShowDomain")]

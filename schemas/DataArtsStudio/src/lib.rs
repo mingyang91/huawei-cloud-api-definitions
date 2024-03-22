@@ -22,6 +22,8 @@ pub mod BatchDeleteSecurityDataClassificationRule;
 pub mod BatchDeleteSecurityPermissionSetMembers;
 #[cfg(feature = "BatchDeleteSecurityPermissionSetPermissions")]
 pub mod BatchDeleteSecurityPermissionSetPermissions;
+#[cfg(feature = "BatchDeleteSecuritySecrecyLevels")]
+pub mod BatchDeleteSecuritySecrecyLevels;
 #[cfg(feature = "BatchDeleteTemplates")]
 pub mod BatchDeleteTemplates;
 #[cfg(feature = "BatchOffline")]
@@ -86,6 +88,8 @@ pub mod CreateSecurityPermissionSet;
 pub mod CreateSecurityPermissionSetMember;
 #[cfg(feature = "CreateSecurityPermissionSetPermission")]
 pub mod CreateSecurityPermissionSetPermission;
+#[cfg(feature = "CreateSecuritySecrecyLevel")]
+pub mod CreateSecuritySecrecyLevel;
 #[cfg(feature = "CreateServiceCatalog")]
 pub mod CreateServiceCatalog;
 #[cfg(feature = "CreateStandard")]
@@ -134,6 +138,8 @@ pub mod DeleteSecurityDataClassificationRule;
 pub mod DeleteSecurityLevelFromEntity;
 #[cfg(feature = "DeleteSecurityPermissionSet")]
 pub mod DeleteSecurityPermissionSet;
+#[cfg(feature = "DeleteSecuritySecrecyLevel")]
+pub mod DeleteSecuritySecrecyLevel;
 #[cfg(feature = "DeleteServiceCatalog")]
 pub mod DeleteServiceCatalog;
 #[cfg(feature = "DeleteStandard")]
@@ -192,9 +198,3 @@ pub mod ListApiTopN;
 pub mod ListApply;
 #[cfg(feature = "ListApprovers")]
 pub mod ListApprovers;
-#[cfg(feature = "ListApps")]
-pub mod ListApps;
-#[cfg(feature = "ListAppsTop")]
-pub mod ListAppsTop;
-#[cfg(feature = "ListBizMetricDimensions")]
-pub mod ListBizMetricDimensions;

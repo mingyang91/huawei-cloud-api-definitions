@@ -36,6 +36,10 @@ pub mod DescribePermissionSetProvisioningStatus;
 pub mod DetachManagedPolicyFromPermissionSet;
 #[cfg(feature = "DetachManagedRoleFromPermissionSet")]
 pub mod DetachManagedRoleFromPermissionSet;
+#[cfg(feature = "GetCustomPolicyForPermissionSet")]
+pub mod GetCustomPolicyForPermissionSet;
+#[cfg(feature = "GetCustomRoleForPermissionSet")]
+pub mod GetCustomRoleForPermissionSet;
 #[cfg(feature = "ListAccountAssignmentCreationStatus")]
 pub mod ListAccountAssignmentCreationStatus;
 #[cfg(feature = "ListAccountAssignmentDeletionStatus")]
@@ -58,6 +62,8 @@ pub mod ListPermissionSets;
 pub mod ListPermissionSetsProvisionedToAccount;
 #[cfg(feature = "ListTagResources")]
 pub mod ListTagResources;
+#[cfg(feature = "ProvisionPermissionSet")]
+pub mod ProvisionPermissionSet;
 #[cfg(feature = "PutCustomPolicyToPermissionSet")]
 pub mod PutCustomPolicyToPermissionSet;
 #[cfg(feature = "PutCustomRoleToPermissionSet")]

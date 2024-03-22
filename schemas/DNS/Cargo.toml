@@ -16,7 +16,6 @@ version = "1"
 version = "0"
 
 [features]
-AssociateHealthCheck = []
 AssociateRouter = []
 BatchCreateTag = []
 BatchDeleteRecordSetWithLine = []
@@ -37,7 +36,6 @@ DeletePublicZone = []
 DeleteRecordSet = []
 DeleteRecordSets = []
 DeleteTag = []
-DisassociateHealthCheck = []
 DisassociateRouter = []
 ListApiVersions = []
 ListCustomLine = []
@@ -73,7 +71,7 @@ UpdatePublicZone = []
 UpdatePublicZoneStatus = []
 UpdateRecordSet = []
 UpdateRecordSets = []
-full = ["AssociateHealthCheck", "AssociateRouter", "BatchCreateTag", "BatchDeleteRecordSetWithLine", "BatchUpdateRecordSetWithLine", "CreateCustomLine", "CreateEipRecordSet", "CreateLineGroup", "CreatePrivateZone", "CreatePublicZone", "CreateRecordSet", "CreateRecordSetWithBatchLines", "CreateRecordSetWithLine", "CreateTag", "DeleteCustomLine", "DeleteLineGroup", "DeletePrivateZone", "DeletePublicZone", "DeleteRecordSet", "DeleteRecordSets", "DeleteTag", "DisassociateHealthCheck", "DisassociateRouter", "ListApiVersions", "ListCustomLine", "ListLineGroups", "ListNameServers", "ListPrivateZones", "ListPtrRecords", "ListPublicZones", "ListRecordSets", "ListRecordSetsByZone", "ListRecordSetsWithLine", "ListTag", "ListTags", "RestorePtrRecord", "SetRecordSetsStatus", "ShowApiInfo", "ShowDomainQuota", "ShowLineGroup", "ShowPrivateZone", "ShowPrivateZoneNameServer", "ShowPtrRecordSet", "ShowPublicZone", "ShowPublicZoneNameServer", "ShowRecordSet", "ShowRecordSetByZone", "ShowRecordSetWithLine", "ShowResourceTag", "UpdateCustomLine", "UpdateLineGroups", "UpdatePrivateZone", "UpdatePtrRecord", "UpdatePublicZone", "UpdatePublicZoneStatus", "UpdateRecordSet", "UpdateRecordSets"]
+full = ["AssociateRouter", "BatchCreateTag", "BatchDeleteRecordSetWithLine", "BatchUpdateRecordSetWithLine", "CreateCustomLine", "CreateEipRecordSet", "CreateLineGroup", "CreatePrivateZone", "CreatePublicZone", "CreateRecordSet", "CreateRecordSetWithBatchLines", "CreateRecordSetWithLine", "CreateTag", "DeleteCustomLine", "DeleteLineGroup", "DeletePrivateZone", "DeletePublicZone", "DeleteRecordSet", "DeleteRecordSets", "DeleteTag", "DisassociateRouter", "ListApiVersions", "ListCustomLine", "ListLineGroups", "ListNameServers", "ListPrivateZones", "ListPtrRecords", "ListPublicZones", "ListRecordSets", "ListRecordSetsByZone", "ListRecordSetsWithLine", "ListTag", "ListTags", "RestorePtrRecord", "SetRecordSetsStatus", "ShowApiInfo", "ShowDomainQuota", "ShowLineGroup", "ShowPrivateZone", "ShowPrivateZoneNameServer", "ShowPtrRecordSet", "ShowPublicZone", "ShowPublicZoneNameServer", "ShowRecordSet", "ShowRecordSetByZone", "ShowRecordSetWithLine", "ShowResourceTag", "UpdateCustomLine", "UpdateLineGroups", "UpdatePrivateZone", "UpdatePtrRecord", "UpdatePublicZone", "UpdatePublicZoneStatus", "UpdateRecordSet", "UpdateRecordSets"]
 
 [lib]
 name = "huawei_cloud_api_definitions_DNS"

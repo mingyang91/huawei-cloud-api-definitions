@@ -114,6 +114,8 @@ pub mod ShowJob;
 pub mod ShowNode;
 #[cfg(feature = "ShowNodePool")]
 pub mod ShowNodePool;
+#[cfg(feature = "ShowNodePoolConfigurationDetails")]
+pub mod ShowNodePoolConfigurationDetails;
 #[cfg(feature = "ShowNodePoolConfigurations")]
 pub mod ShowNodePoolConfigurations;
 #[cfg(feature = "ShowPartition")]
