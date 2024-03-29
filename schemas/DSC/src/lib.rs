@@ -36,16 +36,6 @@ pub mod DeleteScanJob;
 pub mod ListBuckets;
 #[cfg(feature = "ListDbMaskTask")]
 pub mod ListDbMaskTask;
-#[cfg(feature = "ListRelationBuckets")]
-pub mod ListRelationBuckets;
-#[cfg(feature = "ListRelationColumn")]
-pub mod ListRelationColumn;
-#[cfg(feature = "ListRelationDb")]
-pub mod ListRelationDb;
-#[cfg(feature = "ListRelationFile")]
-pub mod ListRelationFile;
-#[cfg(feature = "ListRelationTable")]
-pub mod ListRelationTable;
 #[cfg(feature = "ListRuleGroups")]
 pub mod ListRuleGroups;
 #[cfg(feature = "ShowDatabaseWaterMark")]

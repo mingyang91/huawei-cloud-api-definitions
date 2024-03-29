@@ -18,6 +18,8 @@ pub mod CreateAuthorisation;
 pub mod CreateBandwidthPackage;
 #[cfg(feature = "CreateCentralNetwork")]
 pub mod CreateCentralNetwork;
+#[cfg(feature = "CreateCentralNetworkErRouteTableAttachment")]
+pub mod CreateCentralNetworkErRouteTableAttachment;
 #[cfg(feature = "CreateCentralNetworkGdgwAttachment")]
 pub mod CreateCentralNetworkGdgwAttachment;
 #[cfg(feature = "CreateCentralNetworkPolicy")]
@@ -74,6 +76,8 @@ pub mod ListCentralNetworkAttachments;
 pub mod ListCentralNetworkCapabilities;
 #[cfg(feature = "ListCentralNetworkConnections")]
 pub mod ListCentralNetworkConnections;
+#[cfg(feature = "ListCentralNetworkErRouteTableAttachments")]
+pub mod ListCentralNetworkErRouteTableAttachments;
 #[cfg(feature = "ListCentralNetworkGdgwAttachments")]
 pub mod ListCentralNetworkGdgwAttachments;
 #[cfg(feature = "ListCentralNetworkPolicies")]
@@ -84,6 +88,8 @@ pub mod ListCentralNetworkPolicyChangeSet;
 pub mod ListCentralNetworkQuotas;
 #[cfg(feature = "ListCentralNetworks")]
 pub mod ListCentralNetworks;
+#[cfg(feature = "ListCentralNetworksByTags")]
+pub mod ListCentralNetworksByTags;
 #[cfg(feature = "ListCentralNetworkTags")]
 pub mod ListCentralNetworkTags;
 #[cfg(feature = "ListCloudConnectionQuotas")]
@@ -130,6 +136,8 @@ pub mod ListTags;
 pub mod ShowBandwidthPackage;
 #[cfg(feature = "ShowCentralNetwork")]
 pub mod ShowCentralNetwork;
+#[cfg(feature = "ShowCentralNetworkErRouteTableAttachment")]
+pub mod ShowCentralNetworkErRouteTableAttachment;
 #[cfg(feature = "ShowCentralNetworkGdgwAttachment")]
 pub mod ShowCentralNetworkGdgwAttachment;
 #[cfg(feature = "ShowCloudConnection")]
@@ -162,6 +170,8 @@ pub mod UpdateBandwidthPackage;
 pub mod UpdateCentralNetwork;
 #[cfg(feature = "UpdateCentralNetworkConnection")]
 pub mod UpdateCentralNetworkConnection;
+#[cfg(feature = "UpdateCentralNetworkErRouteTableAttachment")]
+pub mod UpdateCentralNetworkErRouteTableAttachment;
 #[cfg(feature = "UpdateCentralNetworkGdgwAttachment")]
 pub mod UpdateCentralNetworkGdgwAttachment;
 #[cfg(feature = "UpdateCloudConnection")]

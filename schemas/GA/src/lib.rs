@@ -2,6 +2,8 @@
 pub mod AddIpGroupIp;
 #[cfg(feature = "AssociateListener")]
 pub mod AssociateListener;
+#[cfg(feature = "CountResourcesByTag")]
+pub mod CountResourcesByTag;
 #[cfg(feature = "CreateAccelerator")]
 pub mod CreateAccelerator;
 #[cfg(feature = "CreateEndpoint")]
@@ -46,6 +48,10 @@ pub mod ListIpGroups;
 pub mod ListListeners;
 #[cfg(feature = "ListRegions")]
 pub mod ListRegions;
+#[cfg(feature = "ListResourcesByTag")]
+pub mod ListResourcesByTag;
+#[cfg(feature = "ListTags")]
+pub mod ListTags;
 #[cfg(feature = "RemoveIpGroupIp")]
 pub mod RemoveIpGroupIp;
 #[cfg(feature = "ShowAccelerator")]

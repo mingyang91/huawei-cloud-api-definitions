@@ -146,6 +146,8 @@ pub mod TagDevice;
 pub mod UnfreezeDevice;
 #[cfg(feature = "UntagDevice")]
 pub mod UntagDevice;
+#[cfg(feature = "UpdateApplication")]
+pub mod UpdateApplication;
 #[cfg(feature = "UpdateDevice")]
 pub mod UpdateDevice;
 #[cfg(feature = "UpdateDeviceGroup")]

@@ -6,6 +6,8 @@ pub mod BatchDeleteGroup;
 pub mod BatchDeleteInstanceTopic;
 #[cfg(feature = "BatchDeleteInstanceUsers")]
 pub mod BatchDeleteInstanceUsers;
+#[cfg(feature = "BatchDeleteMessageDiagnosisReports")]
+pub mod BatchDeleteMessageDiagnosisReports;
 #[cfg(feature = "BatchRestartOrDeleteInstances")]
 pub mod BatchRestartOrDeleteInstances;
 #[cfg(feature = "CloseKafkaManager")]
@@ -24,6 +26,8 @@ pub mod CreateInstanceUser;
 pub mod CreateKafkaConsumerGroup;
 #[cfg(feature = "CreateKafkaUserClientQuotaTask")]
 pub mod CreateKafkaUserClientQuotaTask;
+#[cfg(feature = "CreateMessageDiagnosisTask")]
+pub mod CreateMessageDiagnosisTask;
 #[cfg(feature = "CreateReassignmentTask")]
 pub mod CreateReassignmentTask;
 #[cfg(feature = "DeleteBackgroundTask")]
@@ -50,6 +54,8 @@ pub mod ListInstanceConsumerGroups;
 pub mod ListInstances;
 #[cfg(feature = "ListInstanceTopics")]
 pub mod ListInstanceTopics;
+#[cfg(feature = "ListMessageDiagnosisReports")]
+pub mod ListMessageDiagnosisReports;
 #[cfg(feature = "ListTopicPartitions")]
 pub mod ListTopicPartitions;
 #[cfg(feature = "ListTopicProducers")]
@@ -86,6 +92,8 @@ pub mod ShowCluster;
 pub mod ShowConnectorTask;
 #[cfg(feature = "ShowCoordinators")]
 pub mod ShowCoordinators;
+#[cfg(feature = "ShowDiagnosisPreCheck")]
+pub mod ShowDiagnosisPreCheck;
 #[cfg(feature = "ShowEngineInstanceExtendProductInfo")]
 pub mod ShowEngineInstanceExtendProductInfo;
 #[cfg(feature = "ShowGroups")]
@@ -110,6 +118,8 @@ pub mod ShowKafkaTopicPartitionDiskusage;
 pub mod ShowKafkaUserClientQuota;
 #[cfg(feature = "ShowMaintainWindows")]
 pub mod ShowMaintainWindows;
+#[cfg(feature = "ShowMessageDiagnosisReport")]
+pub mod ShowMessageDiagnosisReport;
 #[cfg(feature = "ShowMessages")]
 pub mod ShowMessages;
 #[cfg(feature = "ShowPartitionBeginningMessage")]

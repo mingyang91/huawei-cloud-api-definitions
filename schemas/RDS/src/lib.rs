@@ -18,6 +18,8 @@ pub mod BatchDeleteManualBackup;
 pub mod BatchRestoreDatabase;
 #[cfg(feature = "BatchRestorePostgreSqlTables")]
 pub mod BatchRestorePostgreSqlTables;
+#[cfg(feature = "BatchStopInstance")]
+pub mod BatchStopInstance;
 #[cfg(feature = "BatchTagAddAction")]
 pub mod BatchTagAddAction;
 #[cfg(feature = "BatchTagDelAction")]
@@ -196,5 +198,3 @@ pub mod ListProjectTags;
 pub mod ListRdSforMySqlProxy;
 #[cfg(feature = "ListRdSforMysqlProxyFlavors")]
 pub mod ListRdSforMysqlProxyFlavors;
-#[cfg(feature = "ListRecycleInstances")]
-pub mod ListRecycleInstances;
