@@ -42,8 +42,8 @@ get_last_modification_timestamp() {
     local folder_path=$1
     local last_mod_time
 
-    # Find the most recently modified file and get its modification time
-    last_mod_time=$(find "$folder_path" -type f -printf '%T@ %p\n' | sort -n -r | head -n 1 | cut -d' ' -f1)
+    # Find the most recently modified file and get its modification time by git log
+    last_mod_time=$(git -C "$folder_path" log -1 --format=%ct -- .)
 
     echo "$last_mod_time"
 }
@@ -55,7 +55,7 @@ for crate_dir in schemas/* ; do
     crate_name="huawei-cloud-api-definitions-$crate_name"
 
     # Get the last change date in the format yearmonthday (e.g., 20211231)
-		last_mod_time=$(get_last_modification_timestamp "$crate_dir")
+	last_mod_time=$(get_last_modification_timestamp "$crate_dir")
     last_change_date=$(date -d "@$last_mod_time" +"%Y%m%d")
     target_version="$base_version$last_change_date"
 
