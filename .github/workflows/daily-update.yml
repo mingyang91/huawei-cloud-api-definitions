@@ -11,6 +11,10 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - run: OUT_DIR=$(pwd)/schemas cargo run --bin update
+      - name: Get current date
+        id: date
+        run: |
+          echo "{date}={$(date +'%Y-%m-%d')}" >> $GITHUB_STATE
       - name: Commit & Push changes
         uses: actions-js/push@master
         with:
@@ -19,4 +23,4 @@ jobs:
           author_name: mingyang91
           coauthor_email: github-actions[bot]@users.noreply.github.com
           coauthor_name: github-actions[bot]
-          message: 'chore: auto-update ${date}'
+          message: 'chore: auto-update ${{ env.date }}'
