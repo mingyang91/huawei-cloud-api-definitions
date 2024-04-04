@@ -160,8 +160,6 @@ pub mod NovaUpdateServer;
 pub mod NovaUpdateServerMetadata;
 #[cfg(feature = "NovaUpdateServerMetadataItem")]
 pub mod NovaUpdateServerMetadataItem;
-#[cfg(feature = "RegisterServerAutoRecovery")]
-pub mod RegisterServerAutoRecovery;
 #[cfg(feature = "RegisterServerMonitor")]
 pub mod RegisterServerMonitor;
 #[cfg(feature = "ReinstallServerWithCloudInit")]
@@ -180,8 +178,6 @@ pub mod ShowJob;
 pub mod ShowResetPasswordFlag;
 #[cfg(feature = "ShowServer")]
 pub mod ShowServer;
-#[cfg(feature = "ShowServerAutoRecovery")]
-pub mod ShowServerAutoRecovery;
 #[cfg(feature = "ShowServerBlockDevice")]
 pub mod ShowServerBlockDevice;
 #[cfg(feature = "ShowServerGroup")]
@@ -198,3 +194,7 @@ pub mod ShowServerTags;
 pub mod UpdateServer;
 #[cfg(feature = "UpdateServerAutoTerminateTime")]
 pub mod UpdateServerAutoTerminateTime;
+#[cfg(feature = "UpdateServerBlockDevice")]
+pub mod UpdateServerBlockDevice;
+#[cfg(feature = "UpdateServerMetadata")]
+pub mod UpdateServerMetadata;

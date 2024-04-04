@@ -158,6 +158,8 @@ pub mod ShowTrackedResourceDetail;
 pub mod ShowTrackerConfig;
 #[cfg(feature = "UpdateConfigurationAggregator")]
 pub mod UpdateConfigurationAggregator;
+#[cfg(feature = "UpdateOrganizationPolicyAssignment")]
+pub mod UpdateOrganizationPolicyAssignment;
 #[cfg(feature = "UpdatePolicyAssignment")]
 pub mod UpdatePolicyAssignment;
 #[cfg(feature = "UpdatePolicyState")]

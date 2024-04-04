@@ -1,3 +1,5 @@
+#[cfg(feature = "ApplyCertificate")]
+pub mod ApplyCertificate;
 #[cfg(feature = "BatchPushCertificate")]
 pub mod BatchPushCertificate;
 #[cfg(feature = "DeleteCertificate")]
@@ -10,7 +12,13 @@ pub mod ExportCertificate;
 pub mod ImportCertificate;
 #[cfg(feature = "ListCertificates")]
 pub mod ListCertificates;
+#[cfg(feature = "ListDeployedResources")]
+pub mod ListDeployedResources;
 #[cfg(feature = "PushCertificate")]
 pub mod PushCertificate;
 #[cfg(feature = "ShowCertificate")]
 pub mod ShowCertificate;
+#[cfg(feature = "SubscribeCertificate")]
+pub mod SubscribeCertificate;
+#[cfg(feature = "UnsubscribeCertificate")]
+pub mod UnsubscribeCertificate;

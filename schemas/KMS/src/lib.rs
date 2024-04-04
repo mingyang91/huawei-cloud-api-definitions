@@ -50,6 +50,8 @@ pub mod EnableKeyStore;
 pub mod EncryptData;
 #[cfg(feature = "EncryptDatakey")]
 pub mod EncryptDatakey;
+#[cfg(feature = "GenerateMac")]
+pub mod GenerateMac;
 #[cfg(feature = "ImportKeyMaterial")]
 pub mod ImportKeyMaterial;
 #[cfg(feature = "ListGrants")]
@@ -92,3 +94,5 @@ pub mod UpdateKeyDescription;
 pub mod UpdateKeyRotationInterval;
 #[cfg(feature = "ValidateSignature")]
 pub mod ValidateSignature;
+#[cfg(feature = "VerifyMac")]
+pub mod VerifyMac;

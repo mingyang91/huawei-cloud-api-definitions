@@ -16,15 +16,19 @@ version = "1"
 version = "0"
 
 [features]
+ApplyCertificate = []
 BatchPushCertificate = []
 DeleteCertificate = []
 DeployCertificate = []
 ExportCertificate = []
 ImportCertificate = []
 ListCertificates = []
+ListDeployedResources = []
 PushCertificate = []
 ShowCertificate = []
-full = ["BatchPushCertificate", "DeleteCertificate", "DeployCertificate", "ExportCertificate", "ImportCertificate", "ListCertificates", "PushCertificate", "ShowCertificate"]
+SubscribeCertificate = []
+UnsubscribeCertificate = []
+full = ["ApplyCertificate", "BatchPushCertificate", "DeleteCertificate", "DeployCertificate", "ExportCertificate", "ImportCertificate", "ListCertificates", "ListDeployedResources", "PushCertificate", "ShowCertificate", "SubscribeCertificate", "UnsubscribeCertificate"]
 
 [lib]
 name = "huawei_cloud_api_definitions_SCM"

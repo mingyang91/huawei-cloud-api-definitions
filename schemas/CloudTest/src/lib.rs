@@ -20,6 +20,8 @@ pub mod ListEnvironments;
 pub mod ListTestCaseHistories;
 #[cfg(feature = "ListTestCases")]
 pub mod ListTestCases;
+#[cfg(feature = "ListTestcasesByProjectIssuesRelation")]
+pub mod ListTestcasesByProjectIssuesRelation;
 #[cfg(feature = "RunTestCase")]
 pub mod RunTestCase;
 #[cfg(feature = "ShowApiTestcaseHistories")]

@@ -38,6 +38,8 @@ pub mod BatchLogoffDesktops;
 pub mod BatchRebuildDesktopsSystemDisk;
 #[cfg(feature = "BatchRunDesktops")]
 pub mod BatchRunDesktops;
+#[cfg(feature = "CancelRemoteAssistance")]
+pub mod CancelRemoteAssistance;
 #[cfg(feature = "CancelWorkspace")]
 pub mod CancelWorkspace;
 #[cfg(feature = "ChangeDesktopNetwork")]
@@ -54,6 +56,8 @@ pub mod CreateDesktop;
 pub mod CreateDesktopNamePolicy;
 #[cfg(feature = "CreateDesktopUser")]
 pub mod CreateDesktopUser;
+#[cfg(feature = "CreateRemoteAssistance")]
+pub mod CreateRemoteAssistance;
 #[cfg(feature = "CreateScheduledTasks")]
 pub mod CreateScheduledTasks;
 #[cfg(feature = "CreateTag")]
@@ -162,6 +166,8 @@ pub mod ShowAssistAuthConfig;
 pub mod ShowDesktopDetail;
 #[cfg(feature = "ShowDesktopNetwork")]
 pub mod ShowDesktopNetwork;
+#[cfg(feature = "ShowDesktopRemoteAssistanceInfo")]
+pub mod ShowDesktopRemoteAssistanceInfo;
 #[cfg(feature = "ShowQuotas")]
 pub mod ShowQuotas;
 #[cfg(feature = "ShowScheduledTasks")]
