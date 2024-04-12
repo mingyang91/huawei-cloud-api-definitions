@@ -12,6 +12,8 @@ pub mod BatchDeleteIssuesV4;
 pub mod BatchDeleteIterationsV4;
 #[cfg(feature = "BatchDeleteMembersV4")]
 pub mod BatchDeleteMembersV4;
+#[cfg(feature = "BatchListAssociatedIssues")]
+pub mod BatchListAssociatedIssues;
 #[cfg(feature = "BatchUpdateChildNickNames")]
 pub mod BatchUpdateChildNickNames;
 #[cfg(feature = "CancelProjectDomain")]

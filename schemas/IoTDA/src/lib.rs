@@ -36,6 +36,10 @@ pub mod CreateOrDeleteDeviceInGroup;
 pub mod CreateOtaPackage;
 #[cfg(feature = "CreateProduct")]
 pub mod CreateProduct;
+#[cfg(feature = "CreateRoutingBacklogPolicy")]
+pub mod CreateRoutingBacklogPolicy;
+#[cfg(feature = "CreateRoutingFlowControlPolicy")]
+pub mod CreateRoutingFlowControlPolicy;
 #[cfg(feature = "CreateRoutingRule")]
 pub mod CreateRoutingRule;
 #[cfg(feature = "CreateRule")]
@@ -62,6 +66,10 @@ pub mod DeleteOtaPackage;
 pub mod DeleteProduct;
 #[cfg(feature = "DeleteQueue")]
 pub mod DeleteQueue;
+#[cfg(feature = "DeleteRoutingBacklogPolicy")]
+pub mod DeleteRoutingBacklogPolicy;
+#[cfg(feature = "DeleteRoutingFlowControlPolicy")]
+pub mod DeleteRoutingFlowControlPolicy;
 #[cfg(feature = "DeleteRoutingRule")]
 pub mod DeleteRoutingRule;
 #[cfg(feature = "DeleteRule")]
@@ -92,6 +100,10 @@ pub mod ListProducts;
 pub mod ListProperties;
 #[cfg(feature = "ListResourcesByTags")]
 pub mod ListResourcesByTags;
+#[cfg(feature = "ListRoutingBacklogPolicy")]
+pub mod ListRoutingBacklogPolicy;
+#[cfg(feature = "ListRoutingFlowControlPolicy")]
+pub mod ListRoutingFlowControlPolicy;
 #[cfg(feature = "ListRoutingRules")]
 pub mod ListRoutingRules;
 #[cfg(feature = "ListRuleActions")]
@@ -132,6 +144,10 @@ pub mod ShowOtaPackage;
 pub mod ShowProduct;
 #[cfg(feature = "ShowQueue")]
 pub mod ShowQueue;
+#[cfg(feature = "ShowRoutingBacklogPolicy")]
+pub mod ShowRoutingBacklogPolicy;
+#[cfg(feature = "ShowRoutingFlowControlPolicy")]
+pub mod ShowRoutingFlowControlPolicy;
 #[cfg(feature = "ShowRoutingRule")]
 pub mod ShowRoutingRule;
 #[cfg(feature = "ShowRule")]
@@ -158,6 +174,10 @@ pub mod UpdateDeviceShadowDesiredData;
 pub mod UpdateProduct;
 #[cfg(feature = "UpdateProperties")]
 pub mod UpdateProperties;
+#[cfg(feature = "UpdateRoutingBacklogPolicy")]
+pub mod UpdateRoutingBacklogPolicy;
+#[cfg(feature = "UpdateRoutingFlowControlPolicy")]
+pub mod UpdateRoutingFlowControlPolicy;
 #[cfg(feature = "UpdateRoutingRule")]
 pub mod UpdateRoutingRule;
 #[cfg(feature = "UpdateRule")]

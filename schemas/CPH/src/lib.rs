@@ -6,6 +6,8 @@ pub mod BatchDeleteTags;
 pub mod BatchExportCloudPhoneData;
 #[cfg(feature = "BatchImportCloudPhoneData")]
 pub mod BatchImportCloudPhoneData;
+#[cfg(feature = "ChangeCloudPhoneServer")]
+pub mod ChangeCloudPhoneServer;
 #[cfg(feature = "ChangeCloudPhoneServerModel")]
 pub mod ChangeCloudPhoneServerModel;
 #[cfg(feature = "CreateNet2CloudPhoneServer")]
