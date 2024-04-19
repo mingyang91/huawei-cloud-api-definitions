@@ -4,6 +4,8 @@ pub mod AsyncInvokeInstance;
 pub mod BatchResetInstance;
 #[cfg(feature = "BatchShowInstance")]
 pub mod BatchShowInstance;
+#[cfg(feature = "ExecuteInstanceAuthToken")]
+pub mod ExecuteInstanceAuthToken;
 #[cfg(feature = "ExecuteJob")]
 pub mod ExecuteJob;
 #[cfg(feature = "SetVideo")]

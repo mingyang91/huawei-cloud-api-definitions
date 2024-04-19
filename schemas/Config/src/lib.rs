@@ -158,6 +158,10 @@ pub mod ShowTrackedResourceDetail;
 pub mod ShowTrackerConfig;
 #[cfg(feature = "UpdateConfigurationAggregator")]
 pub mod UpdateConfigurationAggregator;
+#[cfg(feature = "UpdateConformancePack")]
+pub mod UpdateConformancePack;
+#[cfg(feature = "UpdateOrganizationConformancePack")]
+pub mod UpdateOrganizationConformancePack;
 #[cfg(feature = "UpdateOrganizationPolicyAssignment")]
 pub mod UpdateOrganizationPolicyAssignment;
 #[cfg(feature = "UpdatePolicyAssignment")]

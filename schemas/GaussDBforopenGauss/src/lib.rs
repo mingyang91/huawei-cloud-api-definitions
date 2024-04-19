@@ -30,6 +30,8 @@ pub mod DeleteConfiguration;
 pub mod DeleteDatabase;
 #[cfg(feature = "DeleteInstance")]
 pub mod DeleteInstance;
+#[cfg(feature = "DeleteInstanceTag")]
+pub mod DeleteInstanceTag;
 #[cfg(feature = "DeleteJob")]
 pub mod DeleteJob;
 #[cfg(feature = "DeleteManualBackup")]
@@ -74,6 +76,8 @@ pub mod ListFlavors;
 pub mod ListGaussDbDatastores;
 #[cfg(feature = "ListHistoryOperations")]
 pub mod ListHistoryOperations;
+#[cfg(feature = "ListInstanceErrorLogs")]
+pub mod ListInstanceErrorLogs;
 #[cfg(feature = "ListInstances")]
 pub mod ListInstances;
 #[cfg(feature = "ListInstancesDetails")]
@@ -96,6 +100,8 @@ pub mod ListRestoreTimes;
 pub mod ListStorageTypes;
 #[cfg(feature = "ListTasks")]
 pub mod ListTasks;
+#[cfg(feature = "ListTopIoTraffics")]
+pub mod ListTopIoTraffics;
 #[cfg(feature = "ModifyEpsQuota")]
 pub mod ModifyEpsQuota;
 #[cfg(feature = "ResetConfiguration")]
@@ -124,6 +130,8 @@ pub mod ShowBalanceStatus;
 pub mod ShowConfigurationDetail;
 #[cfg(feature = "ShowDeploymentForm")]
 pub mod ShowDeploymentForm;
+#[cfg(feature = "ShowErrorLogSwitchStatus")]
+pub mod ShowErrorLogSwitchStatus;
 #[cfg(feature = "ShowInstanceConfiguration")]
 pub mod ShowInstanceConfiguration;
 #[cfg(feature = "ShowInstanceDisk")]
@@ -132,8 +140,6 @@ pub mod ShowInstanceDisk;
 pub mod ShowInstanceParamGroup;
 #[cfg(feature = "ShowInstanceSnapshot")]
 pub mod ShowInstanceSnapshot;
-#[cfg(feature = "ShowInstancesStatistics")]
-pub mod ShowInstancesStatistics;
 #[cfg(feature = "ShowJobDetail")]
 pub mod ShowJobDetail;
 #[cfg(feature = "ShowProjectQuotas")]
