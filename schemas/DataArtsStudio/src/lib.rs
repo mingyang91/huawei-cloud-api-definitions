@@ -34,6 +34,8 @@ pub mod BatchOffline;
 pub mod BatchPublish;
 #[cfg(feature = "BatchSyncMetadata")]
 pub mod BatchSyncMetadata;
+#[cfg(feature = "BatchUpdateSecurityDlfDataWareHouses")]
+pub mod BatchUpdateSecurityDlfDataWareHouses;
 #[cfg(feature = "CancelFactoryPackages")]
 pub mod CancelFactoryPackages;
 #[cfg(feature = "ChangeCatalog")]
@@ -118,6 +120,8 @@ pub mod CreateWorkspace;
 pub mod DebugApi;
 #[cfg(feature = "DebugDataconnection")]
 pub mod DebugDataconnection;
+#[cfg(feature = "DebugSecurityDlfDataWareHouses")]
+pub mod DebugSecurityDlfDataWareHouses;
 #[cfg(feature = "DeleteApi")]
 pub mod DeleteApi;
 #[cfg(feature = "DeleteApp")]
@@ -194,7 +198,3 @@ pub mod ImportResult;
 pub mod InitializeStandardTemplate;
 #[cfg(feature = "ListAggregationLogicTables")]
 pub mod ListAggregationLogicTables;
-#[cfg(feature = "ListAllCatalogList")]
-pub mod ListAllCatalogList;
-#[cfg(feature = "ListAllStandards")]
-pub mod ListAllStandards;

@@ -4,6 +4,8 @@ pub mod RecognizeAcceptanceBill;
 pub mod RecognizeAutoClassification;
 #[cfg(feature = "RecognizeBankcard")]
 pub mod RecognizeBankcard;
+#[cfg(feature = "RecognizeBankReceipt")]
+pub mod RecognizeBankReceipt;
 #[cfg(feature = "RecognizeBusinessCard")]
 pub mod RecognizeBusinessCard;
 #[cfg(feature = "RecognizeBusinessLicense")]
@@ -26,6 +28,8 @@ pub mod RecognizeGeneralText;
 pub mod RecognizeHandwriting;
 #[cfg(feature = "RecognizeHealthCode")]
 pub mod RecognizeHealthCode;
+#[cfg(feature = "RecognizeHouseholdRegister")]
+pub mod RecognizeHouseholdRegister;
 #[cfg(feature = "RecognizeIdCard")]
 pub mod RecognizeIdCard;
 #[cfg(feature = "RecognizeInsurancePolicy")]

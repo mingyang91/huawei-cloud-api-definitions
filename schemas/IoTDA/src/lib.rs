@@ -28,6 +28,8 @@ pub mod CreateAsyncCommand;
 pub mod CreateBatchTask;
 #[cfg(feature = "CreateCommand")]
 pub mod CreateCommand;
+#[cfg(feature = "CreateDeviceProxy")]
+pub mod CreateDeviceProxy;
 #[cfg(feature = "CreateMessage")]
 pub mod CreateMessage;
 #[cfg(feature = "CreateOrDeleteDeviceInGroup")]
@@ -58,6 +60,8 @@ pub mod DeleteCertificate;
 pub mod DeleteDevice;
 #[cfg(feature = "DeleteDeviceGroup")]
 pub mod DeleteDeviceGroup;
+#[cfg(feature = "DeleteDeviceProxy")]
+pub mod DeleteDeviceProxy;
 #[cfg(feature = "DeleteDeviceTunnel")]
 pub mod DeleteDeviceTunnel;
 #[cfg(feature = "DeleteOtaPackage")]
@@ -88,6 +92,8 @@ pub mod ListCertificates;
 pub mod ListDeviceGroups;
 #[cfg(feature = "ListDeviceMessages")]
 pub mod ListDeviceMessages;
+#[cfg(feature = "ListDeviceProxies")]
+pub mod ListDeviceProxies;
 #[cfg(feature = "ListDevices")]
 pub mod ListDevices;
 #[cfg(feature = "ListDeviceTunnels")]
@@ -132,6 +138,8 @@ pub mod ShowDevice;
 pub mod ShowDeviceGroup;
 #[cfg(feature = "ShowDeviceMessage")]
 pub mod ShowDeviceMessage;
+#[cfg(feature = "ShowDeviceProxy")]
+pub mod ShowDeviceProxy;
 #[cfg(feature = "ShowDeviceShadow")]
 pub mod ShowDeviceShadow;
 #[cfg(feature = "ShowDevicesInGroup")]
@@ -168,6 +176,8 @@ pub mod UpdateApplication;
 pub mod UpdateDevice;
 #[cfg(feature = "UpdateDeviceGroup")]
 pub mod UpdateDeviceGroup;
+#[cfg(feature = "UpdateDeviceProxy")]
+pub mod UpdateDeviceProxy;
 #[cfg(feature = "UpdateDeviceShadowDesiredData")]
 pub mod UpdateDeviceShadowDesiredData;
 #[cfg(feature = "UpdateProduct")]
