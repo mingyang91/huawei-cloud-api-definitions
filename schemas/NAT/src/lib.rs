@@ -92,8 +92,6 @@ pub mod ShowPrivateSnat;
 pub mod ShowTransitIp;
 #[cfg(feature = "ShowTransitIpTags")]
 pub mod ShowTransitIpTags;
-#[cfg(feature = "UpdateNatGateway")]
-pub mod UpdateNatGateway;
 #[cfg(feature = "UpdateNatGatewayDnatRule")]
 pub mod UpdateNatGatewayDnatRule;
 #[cfg(feature = "UpdateNatGatewaySnatRule")]
