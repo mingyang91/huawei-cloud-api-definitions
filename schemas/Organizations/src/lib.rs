@@ -4,6 +4,10 @@ pub mod AcceptHandshake;
 pub mod AttachPolicy;
 #[cfg(feature = "CancelHandshake")]
 pub mod CancelHandshake;
+#[cfg(feature = "CloseAccount")]
+pub mod CloseAccount;
+#[cfg(feature = "CreateAccount")]
+pub mod CreateAccount;
 #[cfg(feature = "CreateOrganization")]
 pub mod CreateOrganization;
 #[cfg(feature = "CreateOrganizationalUnit")]
