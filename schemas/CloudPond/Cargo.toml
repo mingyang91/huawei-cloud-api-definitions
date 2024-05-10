@@ -24,11 +24,12 @@ ListQuotas = []
 ListRacks = []
 ListStoragePools = []
 ListSupportedRegions = []
+ListSupportedZones = []
 ShowEdgeSite = []
 ShowRack = []
 ShowStoragePool = []
 UpdateEdgeSite = []
-full = ["CreateEdgeSite", "DeleteEdgeSite", "ListEdgeSiteMetrics", "ListEdgeSites", "ListQuotas", "ListRacks", "ListStoragePools", "ListSupportedRegions", "ShowEdgeSite", "ShowRack", "ShowStoragePool", "UpdateEdgeSite"]
+full = ["CreateEdgeSite", "DeleteEdgeSite", "ListEdgeSiteMetrics", "ListEdgeSites", "ListQuotas", "ListRacks", "ListStoragePools", "ListSupportedRegions", "ListSupportedZones", "ShowEdgeSite", "ShowRack", "ShowStoragePool", "UpdateEdgeSite"]
 
 [lib]
 name = "huawei_cloud_api_definitions_CloudPond"

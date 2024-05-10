@@ -1,3 +1,5 @@
+#[cfg(feature = "AddDrugDatabaseFile")]
+pub mod AddDrugDatabaseFile;
 #[cfg(feature = "BatchCancelJob")]
 pub mod BatchCancelJob;
 #[cfg(feature = "BatchDeleteData")]
@@ -56,6 +58,8 @@ pub mod CreateCode;
 pub mod CreateComputingResource;
 #[cfg(feature = "CreateCpiTask")]
 pub mod CreateCpiTask;
+#[cfg(feature = "CreateCssCluster")]
+pub mod CreateCssCluster;
 #[cfg(feature = "CreateCustomPropsTask")]
 pub mod CreateCustomPropsTask;
 #[cfg(feature = "CreateData")]
@@ -66,6 +70,8 @@ pub mod CreateDatabaseData;
 pub mod CreateDatabaseResource;
 #[cfg(feature = "CreateDockingJob")]
 pub mod CreateDockingJob;
+#[cfg(feature = "CreateDrugDatabase")]
+pub mod CreateDrugDatabase;
 #[cfg(feature = "CreateDrugLigandInteraction2dSvg")]
 pub mod CreateDrugLigandInteraction2dSvg;
 #[cfg(feature = "CreateDrugLigandPreviewTask")]
@@ -90,6 +96,8 @@ pub mod CreateInstance;
 pub mod CreateLabel;
 #[cfg(feature = "CreateLabelPage")]
 pub mod CreateLabelPage;
+#[cfg(feature = "CreateMolBatchDownloadTask")]
+pub mod CreateMolBatchDownloadTask;
 #[cfg(feature = "CreateNextflowJob")]
 pub mod CreateNextflowJob;
 #[cfg(feature = "CreateNextflowWorkflow")]
@@ -110,6 +118,8 @@ pub mod CreatePocketMolDesignJob;
 pub mod CreateProject;
 #[cfg(feature = "CreateScaleOutPolicy")]
 pub mod CreateScaleOutPolicy;
+#[cfg(feature = "CreateSearchJob")]
+pub mod CreateSearchJob;
 #[cfg(feature = "CreateSearchTask")]
 pub mod CreateSearchTask;
 #[cfg(feature = "CreateStudy")]
@@ -136,12 +146,16 @@ pub mod DeleteAutoJob;
 pub mod DeleteBackup;
 #[cfg(feature = "DeleteComputingResource")]
 pub mod DeleteComputingResource;
+#[cfg(feature = "DeleteCssCluster")]
+pub mod DeleteCssCluster;
 #[cfg(feature = "DeleteDatabaseData")]
 pub mod DeleteDatabaseData;
 #[cfg(feature = "DeleteDatabaseResource")]
 pub mod DeleteDatabaseResource;
 #[cfg(feature = "DeleteDataJob")]
 pub mod DeleteDataJob;
+#[cfg(feature = "DeleteDrugDatabase")]
+pub mod DeleteDrugDatabase;
 #[cfg(feature = "DeleteDrugJob")]
 pub mod DeleteDrugJob;
 #[cfg(feature = "DeleteDrugLigandPreviewTask")]
@@ -184,17 +198,3 @@ pub mod DeleteStudy;
 pub mod DeleteTag;
 #[cfg(feature = "DeleteTemplate")]
 pub mod DeleteTemplate;
-#[cfg(feature = "DeleteUser")]
-pub mod DeleteUser;
-#[cfg(feature = "DeleteWorkflow")]
-pub mod DeleteWorkflow;
-#[cfg(feature = "DownloadData")]
-pub mod DownloadData;
-#[cfg(feature = "DownloadDataJobLog")]
-pub mod DownloadDataJobLog;
-#[cfg(feature = "DownloadDataTrace")]
-pub mod DownloadDataTrace;
-#[cfg(feature = "ExecuteAssetAction")]
-pub mod ExecuteAssetAction;
-#[cfg(feature = "ExecuteJob")]
-pub mod ExecuteJob;

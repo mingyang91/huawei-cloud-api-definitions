@@ -30,6 +30,8 @@ pub mod ChangeServerChargeMode;
 pub mod ChangeServerOsWithCloudInit;
 #[cfg(feature = "ChangeServerOsWithoutCloudInit")]
 pub mod ChangeServerOsWithoutCloudInit;
+#[cfg(feature = "ChangeVpc")]
+pub mod ChangeVpc;
 #[cfg(feature = "CreatePostPaidServers")]
 pub mod CreatePostPaidServers;
 #[cfg(feature = "CreateServerGroup")]
@@ -196,5 +198,3 @@ pub mod UpdateServer;
 pub mod UpdateServerAutoTerminateTime;
 #[cfg(feature = "UpdateServerBlockDevice")]
 pub mod UpdateServerBlockDevice;
-#[cfg(feature = "UpdateServerMetadata")]
-pub mod UpdateServerMetadata;

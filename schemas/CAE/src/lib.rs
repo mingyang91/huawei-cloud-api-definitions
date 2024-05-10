@@ -18,6 +18,8 @@ pub mod CreateMonitorSystem;
 pub mod CreateTimerRule;
 #[cfg(feature = "CreateVolume")]
 pub mod CreateVolume;
+#[cfg(feature = "CreateVpcEgress")]
+pub mod CreateVpcEgress;
 #[cfg(feature = "DeleteApplication")]
 pub mod DeleteApplication;
 #[cfg(feature = "DeleteCertificate")]
@@ -34,6 +36,8 @@ pub mod DeleteEnvironment;
 pub mod DeleteTimerRule;
 #[cfg(feature = "DeleteVolume")]
 pub mod DeleteVolume;
+#[cfg(feature = "DeleteVpcEgress")]
+pub mod DeleteVpcEgress;
 #[cfg(feature = "ExecuteAction")]
 pub mod ExecuteAction;
 #[cfg(feature = "ListAgencies")]
@@ -62,6 +66,8 @@ pub mod ListEnvironments;
 pub mod ListTimerRules;
 #[cfg(feature = "ListVolumes")]
 pub mod ListVolumes;
+#[cfg(feature = "ListVpcEgress")]
+pub mod ListVpcEgress;
 #[cfg(feature = "RetryJob")]
 pub mod RetryJob;
 #[cfg(feature = "ShowApplication")]

@@ -14,6 +14,8 @@ pub mod ListRacks;
 pub mod ListStoragePools;
 #[cfg(feature = "ListSupportedRegions")]
 pub mod ListSupportedRegions;
+#[cfg(feature = "ListSupportedZones")]
+pub mod ListSupportedZones;
 #[cfg(feature = "ShowEdgeSite")]
 pub mod ShowEdgeSite;
 #[cfg(feature = "ShowRack")]
