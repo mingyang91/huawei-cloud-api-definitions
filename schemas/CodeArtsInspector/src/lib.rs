@@ -1,5 +1,11 @@
+#[cfg(feature = "AddGroup")]
+pub mod AddGroup;
 #[cfg(feature = "AuthorizeDomains")]
 pub mod AuthorizeDomains;
+#[cfg(feature = "BatchCreateHosts")]
+pub mod BatchCreateHosts;
+#[cfg(feature = "BatchStartHostTasks")]
+pub mod BatchStartHostTasks;
 #[cfg(feature = "CancelTasks")]
 pub mod CancelTasks;
 #[cfg(feature = "CreateDomains")]
@@ -8,6 +14,10 @@ pub mod CreateDomains;
 pub mod CreateTasks;
 #[cfg(feature = "DeleteDomains")]
 pub mod DeleteDomains;
+#[cfg(feature = "DeleteGroup")]
+pub mod DeleteGroup;
+#[cfg(feature = "DeleteHost")]
+pub mod DeleteHost;
 #[cfg(feature = "DownloadTaskReport")]
 pub mod DownloadTaskReport;
 #[cfg(feature = "ExecuteGenerateReport")]
@@ -16,6 +26,12 @@ pub mod ExecuteGenerateReport;
 pub mod ListBusinessRisks;
 #[cfg(feature = "ListDomains")]
 pub mod ListDomains;
+#[cfg(feature = "ListGroups")]
+pub mod ListGroups;
+#[cfg(feature = "ListHostResults")]
+pub mod ListHostResults;
+#[cfg(feature = "ListHosts")]
+pub mod ListHosts;
 #[cfg(feature = "ListPortResults")]
 pub mod ListPortResults;
 #[cfg(feature = "ListTaskHistories")]

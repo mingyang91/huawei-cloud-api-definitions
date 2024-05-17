@@ -136,6 +136,8 @@ pub mod ListNaAuthorizedNodes;
 pub mod ListNas;
 #[cfg(feature = "ListRoutes")]
 pub mod ListRoutes;
+#[cfg(feature = "SetDeviceControlDefaultValues")]
+pub mod SetDeviceControlDefaultValues;
 #[cfg(feature = "ShowApp")]
 pub mod ShowApp;
 #[cfg(feature = "ShowAppConfigsTemplate")]
@@ -196,5 +198,3 @@ pub mod UpdateModuleShadow;
 pub mod UpdateModuleState;
 #[cfg(feature = "UpdateNa")]
 pub mod UpdateNa;
-#[cfg(feature = "UpdateRoutes")]
-pub mod UpdateRoutes;

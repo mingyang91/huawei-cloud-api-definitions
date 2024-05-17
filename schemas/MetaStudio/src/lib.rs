@@ -32,6 +32,8 @@ pub mod CreateFacialAnimations;
 pub mod CreateFile;
 #[cfg(feature = "CreateInteractionRuleGroup")]
 pub mod CreateInteractionRuleGroup;
+#[cfg(feature = "CreateLargeFile")]
+pub mod CreateLargeFile;
 #[cfg(feature = "CreateOnceCode")]
 pub mod CreateOnceCode;
 #[cfg(feature = "CreatePhotoDetection")]
@@ -196,5 +198,3 @@ pub mod UpdateActiveCode;
 pub mod UpdateDigitalAsset;
 #[cfg(feature = "UpdateDigitalHumanBusinessCard")]
 pub mod UpdateDigitalHumanBusinessCard;
-#[cfg(feature = "UpdateInteractionRuleGroup")]
-pub mod UpdateInteractionRuleGroup;

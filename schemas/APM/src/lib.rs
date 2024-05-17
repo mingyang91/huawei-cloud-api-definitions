@@ -2,6 +2,8 @@
 pub mod ChangeAgentStatus;
 #[cfg(feature = "CreateAkSk")]
 pub mod CreateAkSk;
+#[cfg(feature = "CreateBusiness")]
+pub mod CreateBusiness;
 #[cfg(feature = "DeleteAgent")]
 pub mod DeleteAgent;
 #[cfg(feature = "DeleteAkSk")]
@@ -46,6 +48,8 @@ pub mod SearchEnvTopology;
 pub mod SearchTransaction;
 #[cfg(feature = "SearchTransactionConfig")]
 pub mod SearchTransactionConfig;
+#[cfg(feature = "ShowAccessPoint")]
+pub mod ShowAccessPoint;
 #[cfg(feature = "ShowAkSks")]
 pub mod ShowAkSks;
 #[cfg(feature = "ShowBusinessDetail")]
@@ -56,8 +60,12 @@ pub mod ShowClobDetail;
 pub mod ShowEnvMonitorItems;
 #[cfg(feature = "ShowEventDetail")]
 pub mod ShowEventDetail;
+#[cfg(feature = "ShowFlameLineTree")]
+pub mod ShowFlameLineTree;
 #[cfg(feature = "ShowMasterAddress")]
 pub mod ShowMasterAddress;
+#[cfg(feature = "ShowMonitorItemDetail")]
+pub mod ShowMonitorItemDetail;
 #[cfg(feature = "ShowMonitorItemViewConfig")]
 pub mod ShowMonitorItemViewConfig;
 #[cfg(feature = "ShowRawTable")]
@@ -68,6 +76,8 @@ pub mod ShowSpanSearch;
 pub mod ShowSubBusinessDetail;
 #[cfg(feature = "ShowSumTable")]
 pub mod ShowSumTable;
+#[cfg(feature = "ShowToken")]
+pub mod ShowToken;
 #[cfg(feature = "ShowTopology")]
 pub mod ShowTopology;
 #[cfg(feature = "ShowTopologyTree")]

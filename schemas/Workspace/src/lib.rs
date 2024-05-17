@@ -168,6 +168,8 @@ pub mod ShowDesktopDetail;
 pub mod ShowDesktopNetwork;
 #[cfg(feature = "ShowDesktopRemoteAssistanceInfo")]
 pub mod ShowDesktopRemoteAssistanceInfo;
+#[cfg(feature = "ShowJob")]
+pub mod ShowJob;
 #[cfg(feature = "ShowQuotas")]
 pub mod ShowQuotas;
 #[cfg(feature = "ShowScheduledTasks")]
@@ -196,5 +198,3 @@ pub mod UpdateTerminalsBindingDesktopsConfig;
 pub mod UpdateUserGroup;
 #[cfg(feature = "UpdateUserInfo")]
 pub mod UpdateUserInfo;
-#[cfg(feature = "UpdateWorkspace")]
-pub mod UpdateWorkspace;

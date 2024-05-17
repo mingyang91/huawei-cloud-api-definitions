@@ -20,6 +20,8 @@ pub mod DeleteProcess;
 pub mod DeleteSqlLimitRules;
 #[cfg(feature = "ExportSlowQueryLogs")]
 pub mod ExportSlowQueryLogs;
+#[cfg(feature = "ExportSlowSqlStatistics")]
+pub mod ExportSlowSqlStatistics;
 #[cfg(feature = "ExportSlowSqlTemplatesDetails")]
 pub mod ExportSlowSqlTemplatesDetails;
 #[cfg(feature = "ExportSqlStatements")]
@@ -64,3 +66,5 @@ pub mod ShowSqlSwitchStatus;
 pub mod ShowTuning;
 #[cfg(feature = "UpdateDbUser")]
 pub mod UpdateDbUser;
+#[cfg(feature = "UpdateSqlLimitRules")]
+pub mod UpdateSqlLimitRules;

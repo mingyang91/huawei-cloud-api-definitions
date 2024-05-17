@@ -112,6 +112,8 @@ pub mod ResetPwd;
 pub mod ResizeInstanceFlavor;
 #[cfg(feature = "RestartInstance")]
 pub mod RestartInstance;
+#[cfg(feature = "RestoreInstance")]
+pub mod RestoreInstance;
 #[cfg(feature = "RunInstanceAction")]
 pub mod RunInstanceAction;
 #[cfg(feature = "SearchAutoEnlargePolicy")]

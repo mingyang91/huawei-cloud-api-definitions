@@ -88,6 +88,8 @@ pub mod CreateManagerWorkSpace;
 pub mod CreateOrUpdateAsset;
 #[cfg(feature = "CreateOrUpdateEntities")]
 pub mod CreateOrUpdateEntities;
+#[cfg(feature = "CreateSecurityAssignedQueue")]
+pub mod CreateSecurityAssignedQueue;
 #[cfg(feature = "CreateSecurityDataClassificationRule")]
 pub mod CreateSecurityDataClassificationRule;
 #[cfg(feature = "CreateSecurityPermissionSet")]
@@ -148,6 +150,8 @@ pub mod DeleteDesignAtomicIndex;
 pub mod DeleteDesignLatestApproval;
 #[cfg(feature = "DeleteDirectory")]
 pub mod DeleteDirectory;
+#[cfg(feature = "DeleteSecurityAssignedQueue")]
+pub mod DeleteSecurityAssignedQueue;
 #[cfg(feature = "DeleteSecurityDataClassificationRule")]
 pub mod DeleteSecurityDataClassificationRule;
 #[cfg(feature = "DeleteSecurityLevelFromEntity")]
@@ -194,7 +198,3 @@ pub mod ExportDesignModelTableDdl;
 pub mod ExportDesignResult;
 #[cfg(feature = "ImportCatalogs")]
 pub mod ImportCatalogs;
-#[cfg(feature = "ImportDataServiceExcel")]
-pub mod ImportDataServiceExcel;
-#[cfg(feature = "ImportLineage")]
-pub mod ImportLineage;
