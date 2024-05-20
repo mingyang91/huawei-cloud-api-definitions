@@ -84,8 +84,6 @@ pub mod ListBandwidths;
 pub mod ListBandwidthTypes;
 #[cfg(feature = "ListCloudImages")]
 pub mod ListCloudImages;
-#[cfg(feature = "ListDeployments")]
-pub mod ListDeployments;
 #[cfg(feature = "ListEdgeCloud")]
 pub mod ListEdgeCloud;
 #[cfg(feature = "ListFirewalls")]
