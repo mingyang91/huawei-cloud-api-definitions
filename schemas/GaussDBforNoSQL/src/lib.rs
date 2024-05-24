@@ -172,12 +172,16 @@ pub mod ShowInstanceRole;
 pub mod ShowIpNumRequirement;
 #[cfg(feature = "ShowModifyHistory")]
 pub mod ShowModifyHistory;
+#[cfg(feature = "ShowPasswordlessConfig")]
+pub mod ShowPasswordlessConfig;
 #[cfg(feature = "ShowPauseResumeStutus")]
 pub mod ShowPauseResumeStutus;
 #[cfg(feature = "ShowQuotas")]
 pub mod ShowQuotas;
 #[cfg(feature = "ShowRecyclePolicy")]
 pub mod ShowRecyclePolicy;
+#[cfg(feature = "ShowRedisBigKeys")]
+pub mod ShowRedisBigKeys;
 #[cfg(feature = "ShowRestorableList")]
 pub mod ShowRestorableList;
 #[cfg(feature = "ShowSlowLogDesensitization")]
@@ -194,7 +198,3 @@ pub mod SwitchSsl;
 pub mod SwitchToMaster;
 #[cfg(feature = "SwitchToSlave")]
 pub mod SwitchToSlave;
-#[cfg(feature = "UpdateClientNetwork")]
-pub mod UpdateClientNetwork;
-#[cfg(feature = "UpdateConfiguration")]
-pub mod UpdateConfiguration;

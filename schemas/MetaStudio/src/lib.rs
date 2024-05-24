@@ -2,8 +2,6 @@
 pub mod Cancel2DDigitalHumanVideo;
 #[cfg(feature = "CancelPhotoDigitalHumanVideo")]
 pub mod CancelPhotoDigitalHumanVideo;
-#[cfg(feature = "CheckTextLanguage")]
-pub mod CheckTextLanguage;
 #[cfg(feature = "CommitVoiceTrainingJob")]
 pub mod CommitVoiceTrainingJob;
 #[cfg(feature = "ConfirmFileUpload")]
@@ -198,3 +196,5 @@ pub mod UpdateActiveCode;
 pub mod UpdateDigitalAsset;
 #[cfg(feature = "UpdateDigitalHumanBusinessCard")]
 pub mod UpdateDigitalHumanBusinessCard;
+#[cfg(feature = "UpdateInteractionRuleGroup")]
+pub mod UpdateInteractionRuleGroup;

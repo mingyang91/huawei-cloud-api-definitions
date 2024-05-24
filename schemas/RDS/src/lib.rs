@@ -100,6 +100,8 @@ pub mod DeleteSqlserverDatabase;
 pub mod DeleteSqlserverDatabaseEx;
 #[cfg(feature = "DeleteSqlserverDbUser")]
 pub mod DeleteSqlserverDbUser;
+#[cfg(feature = "DownloadErrorlog")]
+pub mod DownloadErrorlog;
 #[cfg(feature = "DownloadSlowlog")]
 pub mod DownloadSlowlog;
 #[cfg(feature = "EnableConfiguration")]
@@ -196,5 +198,3 @@ pub mod ListPredefinedTag;
 pub mod ListProjectTags;
 #[cfg(feature = "ListRdSforMySqlProxy")]
 pub mod ListRdSforMySqlProxy;
-#[cfg(feature = "ListRdSforMysqlProxyFlavors")]
-pub mod ListRdSforMysqlProxyFlavors;

@@ -4,6 +4,8 @@ pub mod AddSpurPoint;
 pub mod CreateCommonWorkspace;
 #[cfg(feature = "CreateMarkerInfo")]
 pub mod CreateMarkerInfo;
+#[cfg(feature = "CreateReal3DSubTask")]
+pub mod CreateReal3DSubTask;
 #[cfg(feature = "CreateReal3DTask")]
 pub mod CreateReal3DTask;
 #[cfg(feature = "CreateTask")]
@@ -12,6 +14,10 @@ pub mod CreateTask;
 pub mod DeleteCommonWorkspace;
 #[cfg(feature = "DeleteReal3DProduct")]
 pub mod DeleteReal3DProduct;
+#[cfg(feature = "DeleteReal3DRefineProduct")]
+pub mod DeleteReal3DRefineProduct;
+#[cfg(feature = "DeleteReal3DSubTask")]
+pub mod DeleteReal3DSubTask;
 #[cfg(feature = "DeleteReal3DTask")]
 pub mod DeleteReal3DTask;
 #[cfg(feature = "DeleteSpurPoint")]
@@ -26,6 +32,10 @@ pub mod ListFolder;
 pub mod ListImageBaseInfo;
 #[cfg(feature = "ListReal3DProducts")]
 pub mod ListReal3DProducts;
+#[cfg(feature = "ListReal3DRefineProducts")]
+pub mod ListReal3DRefineProducts;
+#[cfg(feature = "ListReal3DSubTasks")]
+pub mod ListReal3DSubTasks;
 #[cfg(feature = "ListSpurPoints")]
 pub mod ListSpurPoints;
 #[cfg(feature = "ListTaskInfo")]
@@ -44,12 +54,16 @@ pub mod ShowTaskOverview;
 pub mod ShowTaskOverviewInWorkspace;
 #[cfg(feature = "StartNavi")]
 pub mod StartNavi;
+#[cfg(feature = "StartReal3DSubTask")]
+pub mod StartReal3DSubTask;
 #[cfg(feature = "StartReal3DTask")]
 pub mod StartReal3DTask;
 #[cfg(feature = "StartTask")]
 pub mod StartTask;
 #[cfg(feature = "StartVps")]
 pub mod StartVps;
+#[cfg(feature = "StopReal3DSubTask")]
+pub mod StopReal3DSubTask;
 #[cfg(feature = "StopReal3DTask")]
 pub mod StopReal3DTask;
 #[cfg(feature = "StopTask")]

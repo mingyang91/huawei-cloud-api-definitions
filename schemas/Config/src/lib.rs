@@ -6,6 +6,8 @@ pub mod CollectConformancePackComplianceSummary;
 pub mod CollectTrackedResourcesSummary;
 #[cfg(feature = "CountAllResources")]
 pub mod CountAllResources;
+#[cfg(feature = "CountResourcesByTag")]
+pub mod CountResourcesByTag;
 #[cfg(feature = "CountTrackedResources")]
 pub mod CountTrackedResources;
 #[cfg(feature = "CreateAggregationAuthorization")]
@@ -92,10 +94,16 @@ pub mod ListProviders;
 pub mod ListRegions;
 #[cfg(feature = "ListResources")]
 pub mod ListResources;
+#[cfg(feature = "ListResourcesByTag")]
+pub mod ListResourcesByTag;
 #[cfg(feature = "ListSchemas")]
 pub mod ListSchemas;
 #[cfg(feature = "ListStoredQueries")]
 pub mod ListStoredQueries;
+#[cfg(feature = "ListTagsForResource")]
+pub mod ListTagsForResource;
+#[cfg(feature = "ListTagsForResourceType")]
+pub mod ListTagsForResourceType;
 #[cfg(feature = "ListTrackedResources")]
 pub mod ListTrackedResources;
 #[cfg(feature = "ListTrackedResourceTags")]
@@ -156,6 +164,10 @@ pub mod ShowStoredQuery;
 pub mod ShowTrackedResourceDetail;
 #[cfg(feature = "ShowTrackerConfig")]
 pub mod ShowTrackerConfig;
+#[cfg(feature = "TagResource")]
+pub mod TagResource;
+#[cfg(feature = "UnTagResource")]
+pub mod UnTagResource;
 #[cfg(feature = "UpdateConfigurationAggregator")]
 pub mod UpdateConfigurationAggregator;
 #[cfg(feature = "UpdateConformancePack")]

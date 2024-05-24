@@ -4,6 +4,8 @@ pub mod BatchCreateInstanceTag;
 pub mod ChangeInstanceNetwork;
 #[cfg(feature = "ChangeInstanceOrder")]
 pub mod ChangeInstanceOrder;
+#[cfg(feature = "ChangeInstanceType")]
+pub mod ChangeInstanceType;
 #[cfg(feature = "CountInstancesByTag")]
 pub mod CountInstancesByTag;
 #[cfg(feature = "CreateCbh")]
@@ -36,6 +38,8 @@ pub mod ListTags;
 pub mod LoginCbh;
 #[cfg(feature = "LoginInstance")]
 pub mod LoginInstance;
+#[cfg(feature = "LoginInstanceAdmin")]
+pub mod LoginInstanceAdmin;
 #[cfg(feature = "RebootInstance")]
 pub mod RebootInstance;
 #[cfg(feature = "RegisterAuthorization")]
@@ -80,6 +84,8 @@ pub mod StartInstance;
 pub mod StopCbhInstance;
 #[cfg(feature = "StopInstance")]
 pub mod StopInstance;
+#[cfg(feature = "SwitchInstanceVpc")]
+pub mod SwitchInstanceVpc;
 #[cfg(feature = "UninstallCbhEip")]
 pub mod UninstallCbhEip;
 #[cfg(feature = "UninstallInstanceEip")]
