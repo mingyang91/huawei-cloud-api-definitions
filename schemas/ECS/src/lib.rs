@@ -26,6 +26,8 @@ pub mod BatchStopServers;
 pub mod BatchUpdateServersName;
 #[cfg(feature = "ChangeServerChargeMode")]
 pub mod ChangeServerChargeMode;
+#[cfg(feature = "ChangeServerNetworkInterface")]
+pub mod ChangeServerNetworkInterface;
 #[cfg(feature = "ChangeServerOsWithCloudInit")]
 pub mod ChangeServerOsWithCloudInit;
 #[cfg(feature = "ChangeServerOsWithoutCloudInit")]
@@ -196,5 +198,3 @@ pub mod ShowServerTags;
 pub mod UpdateServer;
 #[cfg(feature = "UpdateServerAutoTerminateTime")]
 pub mod UpdateServerAutoTerminateTime;
-#[cfg(feature = "UpdateServerBlockDevice")]
-pub mod UpdateServerBlockDevice;

@@ -18,9 +18,9 @@ version = "0"
 [features]
 DisableControl = []
 EnableControl = []
-ListControlsForOrganizationUnit = []
+ListControlsForOrganizationalUnit = []
 ShowControlOperate = []
-full = ["DisableControl", "EnableControl", "ListControlsForOrganizationUnit", "ShowControlOperate"]
+full = ["DisableControl", "EnableControl", "ListControlsForOrganizationalUnit", "ShowControlOperate"]
 
 [lib]
 name = "huawei_cloud_api_definitions_RGC"

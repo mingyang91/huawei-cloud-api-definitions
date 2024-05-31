@@ -2,7 +2,7 @@
 pub mod DisableControl;
 #[cfg(feature = "EnableControl")]
 pub mod EnableControl;
-#[cfg(feature = "ListControlsForOrganizationUnit")]
-pub mod ListControlsForOrganizationUnit;
+#[cfg(feature = "ListControlsForOrganizationalUnit")]
+pub mod ListControlsForOrganizationalUnit;
 #[cfg(feature = "ShowControlOperate")]
 pub mod ShowControlOperate;

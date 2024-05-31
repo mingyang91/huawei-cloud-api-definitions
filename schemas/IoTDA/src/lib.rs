@@ -1,5 +1,7 @@
 #[cfg(feature = "AddApplication")]
 pub mod AddApplication;
+#[cfg(feature = "AddBridge")]
+pub mod AddBridge;
 #[cfg(feature = "AddCertificate")]
 pub mod AddCertificate;
 #[cfg(feature = "AddDevice")]
@@ -54,6 +56,8 @@ pub mod DeleteApplication;
 pub mod DeleteBatchTask;
 #[cfg(feature = "DeleteBatchTaskFile")]
 pub mod DeleteBatchTaskFile;
+#[cfg(feature = "DeleteBridge")]
+pub mod DeleteBridge;
 #[cfg(feature = "DeleteCertificate")]
 pub mod DeleteCertificate;
 #[cfg(feature = "DeleteDevice")]
@@ -86,10 +90,14 @@ pub mod FreezeDevice;
 pub mod ListBatchTaskFiles;
 #[cfg(feature = "ListBatchTasks")]
 pub mod ListBatchTasks;
+#[cfg(feature = "ListBridges")]
+pub mod ListBridges;
 #[cfg(feature = "ListCertificates")]
 pub mod ListCertificates;
 #[cfg(feature = "ListDeviceGroups")]
 pub mod ListDeviceGroups;
+#[cfg(feature = "ListDeviceGroupsByDevice")]
+pub mod ListDeviceGroupsByDevice;
 #[cfg(feature = "ListDeviceMessages")]
 pub mod ListDeviceMessages;
 #[cfg(feature = "ListDeviceProxies")]
@@ -116,6 +124,8 @@ pub mod ListRoutingRules;
 pub mod ListRuleActions;
 #[cfg(feature = "ListRules")]
 pub mod ListRules;
+#[cfg(feature = "ResetBridgeSecret")]
+pub mod ResetBridgeSecret;
 #[cfg(feature = "ResetDeviceSecret")]
 pub mod ResetDeviceSecret;
 #[cfg(feature = "ResetFingerprint")]
@@ -172,6 +182,8 @@ pub mod UnfreezeDevice;
 pub mod UntagDevice;
 #[cfg(feature = "UpdateApplication")]
 pub mod UpdateApplication;
+#[cfg(feature = "UpdateCertificate")]
+pub mod UpdateCertificate;
 #[cfg(feature = "UpdateDevice")]
 pub mod UpdateDevice;
 #[cfg(feature = "UpdateDeviceGroup")]
@@ -186,13 +198,3 @@ pub mod UpdateProduct;
 pub mod UpdateProperties;
 #[cfg(feature = "UpdateRoutingBacklogPolicy")]
 pub mod UpdateRoutingBacklogPolicy;
-#[cfg(feature = "UpdateRoutingFlowControlPolicy")]
-pub mod UpdateRoutingFlowControlPolicy;
-#[cfg(feature = "UpdateRoutingRule")]
-pub mod UpdateRoutingRule;
-#[cfg(feature = "UpdateRule")]
-pub mod UpdateRule;
-#[cfg(feature = "UpdateRuleAction")]
-pub mod UpdateRuleAction;
-#[cfg(feature = "UploadBatchTaskFile")]
-pub mod UploadBatchTaskFile;

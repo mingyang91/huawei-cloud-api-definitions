@@ -1,3 +1,5 @@
+#[cfg(feature = "AddImageMember")]
+pub mod AddImageMember;
 #[cfg(feature = "BatchCreateTags")]
 pub mod BatchCreateTags;
 #[cfg(feature = "BatchDeleteTags")]
@@ -6,12 +8,18 @@ pub mod BatchDeleteTags;
 pub mod BatchExportCloudPhoneData;
 #[cfg(feature = "BatchImportCloudPhoneData")]
 pub mod BatchImportCloudPhoneData;
+#[cfg(feature = "BatchShowPhoneConnectInfos")]
+pub mod BatchShowPhoneConnectInfos;
 #[cfg(feature = "ChangeCloudPhoneServer")]
 pub mod ChangeCloudPhoneServer;
 #[cfg(feature = "ChangeCloudPhoneServerModel")]
 pub mod ChangeCloudPhoneServerModel;
 #[cfg(feature = "CreateNet2CloudPhoneServer")]
 pub mod CreateNet2CloudPhoneServer;
+#[cfg(feature = "DeleteImage")]
+pub mod DeleteImage;
+#[cfg(feature = "DeleteImageMember")]
+pub mod DeleteImageMember;
 #[cfg(feature = "DeleteShareApps")]
 pub mod DeleteShareApps;
 #[cfg(feature = "DeleteShareFiles")]
@@ -32,6 +40,10 @@ pub mod ListCloudPhoneServerModels;
 pub mod ListCloudPhoneServers;
 #[cfg(feature = "ListEncodeServers")]
 pub mod ListEncodeServers;
+#[cfg(feature = "ListImageMembers")]
+pub mod ListImageMembers;
+#[cfg(feature = "ListImages")]
+pub mod ListImages;
 #[cfg(feature = "ListJobs")]
 pub mod ListJobs;
 #[cfg(feature = "ListProjectTags")]

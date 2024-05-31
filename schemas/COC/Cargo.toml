@@ -1,0 +1,100 @@
+[dependencies.chrono]
+features = ["serde"]
+version = "0"
+
+[dependencies.regress]
+version = "0"
+
+[dependencies.serde]
+features = ["derive"]
+version = "1"
+
+[dependencies.serde_json]
+version = "1"
+
+[dependencies.typify]
+version = "0"
+
+[features]
+AddPrrImprovementTask = []
+ContinuePrrReview = []
+CreateAttackTask = []
+CreateComponentRelation = []
+CreateContingencyPlan = []
+CreateDiagnosis = []
+CreateDrillPlan = []
+CreateDrillRecord = []
+CreateDrillReport = []
+CreateDrillTask = []
+CreateFaultMode = []
+CreateImprovementTask = []
+CreatePrrReview = []
+CreatePrrTemplate = []
+CreateResourceTopo = []
+DelComponentRelation = []
+DeleteContingencyPlan = []
+DeleteDrillTask = []
+DeleteFaultMode = []
+DeletePrrTemplate = []
+DownloadOneAttachment = []
+GetComponentRelation = []
+ListAttackTargetCceNamespaces = []
+ListAttackTargetCcePods = []
+ListAttackTargetCceWorkloads = []
+ListContingencyPlans = []
+ListDrillTask = []
+ListFaultModes = []
+ListMonitorMetricRecord = []
+OperateAttackTargetRecord = []
+OperateDrillRecord = []
+PrrReviewResult = []
+QueryAttackTargetRecord = []
+QueryAttackTaskById = []
+QueryDiagnosisReport = []
+QueryDrillPlanDelayCount = []
+QueryDrillPlanStatusCount = []
+QueryDrillRecordById = []
+QueryDrillReportById = []
+QueryImprovementTaskDetail = []
+QueryMonitorMetric = []
+QueryPrrCheckItemList = []
+QueryPrrReviewList = []
+QueryPrrTemplateDetail = []
+QueryResourceTopo = []
+RecordPrrReviewSummary = []
+SelectAttackRecord = []
+SelectAttackTask = []
+SelectDrillPlan = []
+SelectDrillPlanDelay = []
+SelectDrillRecord = []
+SelectImprovementTask = []
+SelectPrrTemplate = []
+ShowContingencyPlanDetail = []
+ShowDrillPlanDetail = []
+ShowDrillRecordProgress = []
+ShowDrillTaskDetail = []
+ShowFaultModeDetail = []
+ShowPrrReviewDetail = []
+UpdateContingencyPlan = []
+UpdateDrillPlan = []
+UpdateDrillReport = []
+UpdateDrillTask = []
+UpdateFaultMode = []
+UpdateImprovementTask = []
+UpdatePrrTemplate = []
+UploadOneAttachment = []
+cancelPrrReview = []
+full = ["AddPrrImprovementTask", "cancelPrrReview", "ContinuePrrReview", "CreateAttackTask", "CreateComponentRelation", "CreateContingencyPlan", "CreateDiagnosis", "CreateDrillPlan", "CreateDrillRecord", "CreateDrillReport", "CreateDrillTask", "CreateFaultMode", "CreateImprovementTask", "CreatePrrReview", "CreatePrrTemplate", "CreateResourceTopo", "DelComponentRelation", "DeleteContingencyPlan", "DeleteDrillTask", "DeleteFaultMode", "DeletePrrTemplate", "DownloadOneAttachment", "GetComponentRelation", "ListAttackTargetCceNamespaces", "ListAttackTargetCcePods", "ListAttackTargetCceWorkloads", "ListContingencyPlans", "ListDrillTask", "ListFaultModes", "ListMonitorMetricRecord", "OperateAttackTargetRecord", "OperateDrillRecord", "PrrReviewResult", "QueryAttackTargetRecord", "QueryAttackTaskById", "QueryDiagnosisReport", "QueryDrillPlanDelayCount", "QueryDrillPlanStatusCount", "QueryDrillRecordById", "QueryDrillReportById", "QueryImprovementTaskDetail", "QueryMonitorMetric", "QueryPrrCheckItemList", "QueryPrrReviewList", "QueryPrrTemplateDetail", "QueryResourceTopo", "RecordPrrReviewSummary", "SelectAttackRecord", "SelectAttackTask", "SelectDrillPlan", "SelectDrillPlanDelay", "SelectDrillRecord", "SelectImprovementTask", "SelectPrrTemplate", "ShowContingencyPlanDetail", "ShowDrillPlanDetail", "ShowDrillRecordProgress", "ShowDrillTaskDetail", "ShowFaultModeDetail", "ShowPrrReviewDetail", "UpdateContingencyPlan", "UpdateDrillPlan", "UpdateDrillReport", "UpdateDrillTask", "UpdateFaultMode", "UpdateImprovementTask", "UpdatePrrTemplate", "UploadOneAttachment"]
+
+[lib]
+name = "huawei_cloud_api_definitions_COC"
+path = "src/lib.rs"
+
+[package]
+authors = ["mingyang91 <mingyang91@qq.com>"]
+description = "Huawei Cloud API definitions, generated from OpenAPI spec"
+edition = "2021"
+license = "MIT"
+name = "huawei-cloud-api-definitions-COC"
+repository = "https://github.com/mingyang91/huawei-cloud-api-definitions"
+version = "CHANGE_ME"
