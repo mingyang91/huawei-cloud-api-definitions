@@ -10,8 +10,8 @@ pub mod CreateArchiveRule;
 pub mod DeleteAnalyzer;
 #[cfg(feature = "DeleteArchiveRule")]
 pub mod DeleteArchiveRule;
-#[cfg(feature = "GetAccessPreview")]
-pub mod GetAccessPreview;
+#[cfg(feature = "ListAccessPreviewFindings")]
+pub mod ListAccessPreviewFindings;
 #[cfg(feature = "ListAccessPreviews")]
 pub mod ListAccessPreviews;
 #[cfg(feature = "ListAnalyzers")]
@@ -20,8 +20,8 @@ pub mod ListAnalyzers;
 pub mod ListArchiveRules;
 #[cfg(feature = "ListFindings")]
 pub mod ListFindings;
-#[cfg(feature = "ListPreviewFindings")]
-pub mod ListPreviewFindings;
+#[cfg(feature = "ShowAccessPreview")]
+pub mod ShowAccessPreview;
 #[cfg(feature = "ShowAnalyzer")]
 pub mod ShowAnalyzer;
 #[cfg(feature = "ShowArchiveRule")]

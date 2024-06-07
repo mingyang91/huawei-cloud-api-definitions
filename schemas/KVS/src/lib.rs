@@ -8,6 +8,8 @@ pub mod DeleteKv;
 pub mod DescribeTable;
 #[cfg(feature = "GetKv")]
 pub mod GetKv;
+#[cfg(feature = "ListStore")]
+pub mod ListStore;
 #[cfg(feature = "ListTable")]
 pub mod ListTable;
 #[cfg(feature = "PutKv")]

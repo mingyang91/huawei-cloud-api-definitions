@@ -142,6 +142,8 @@ pub mod SwitchStrategy;
 pub mod UpdateBasicPlugin;
 #[cfg(feature = "UpdatePipelineGroup")]
 pub mod UpdatePipelineGroup;
+#[cfg(feature = "UpdatePipelineInfo")]
+pub mod UpdatePipelineInfo;
 #[cfg(feature = "UpdatePipelineTemplate")]
 pub mod UpdatePipelineTemplate;
 #[cfg(feature = "UpdatePluginBaseInfo")]

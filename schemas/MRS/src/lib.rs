@@ -48,6 +48,8 @@ pub mod ListClusterTags;
 pub mod ListDataConnector;
 #[cfg(feature = "ListHosts")]
 pub mod ListHosts;
+#[cfg(feature = "ListNodes")]
+pub mod ListNodes;
 #[cfg(feature = "RunJobFlow")]
 pub mod RunJobFlow;
 #[cfg(feature = "ShowAgencyMapping")]
