@@ -82,6 +82,8 @@ pub mod CreateSqlJob;
 pub mod CreateSqlJobDefendRule;
 #[cfg(feature = "CreateSqlJobTemplate")]
 pub mod CreateSqlJobTemplate;
+#[cfg(feature = "CreateStreamJob")]
+pub mod CreateStreamJob;
 #[cfg(feature = "CreateTable")]
 pub mod CreateTable;
 #[cfg(feature = "DeleteAuthInfo")]
@@ -196,5 +198,3 @@ pub mod ListSqlJobSystemDefendRules;
 pub mod ListSqlJobTemplates;
 #[cfg(feature = "ListSqlSampleTemplates")]
 pub mod ListSqlSampleTemplates;
-#[cfg(feature = "ListTablePrivileges")]
-pub mod ListTablePrivileges;

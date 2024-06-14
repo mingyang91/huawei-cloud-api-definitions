@@ -8,6 +8,8 @@ pub mod CreateCertificate;
 pub mod CreateComponent;
 #[cfg(feature = "CreateComponentConfiguration")]
 pub mod CreateComponentConfiguration;
+#[cfg(feature = "CreateComponentWithConfiguration")]
+pub mod CreateComponentWithConfiguration;
 #[cfg(feature = "CreateDomain")]
 pub mod CreateDomain;
 #[cfg(feature = "CreateEnvironment")]

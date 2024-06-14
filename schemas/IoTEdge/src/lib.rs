@@ -156,6 +156,8 @@ pub mod ShowEdgeApp;
 pub mod ShowEdgeApplicationVersion;
 #[cfg(feature = "ShowEdgeNode")]
 pub mod ShowEdgeNode;
+#[cfg(feature = "ShowEdgeNodeHostsInfo")]
+pub mod ShowEdgeNodeHostsInfo;
 #[cfg(feature = "ShowIaConfig")]
 pub mod ShowIaConfig;
 #[cfg(feature = "ShowModule")]
@@ -186,6 +188,8 @@ pub mod UpdateDevice;
 pub mod UpdateEdgeApplicationVersion;
 #[cfg(feature = "UpdateEdgeApplicationVersionState")]
 pub mod UpdateEdgeApplicationVersionState;
+#[cfg(feature = "UpdateEdgeNode")]
+pub mod UpdateEdgeNode;
 #[cfg(feature = "UpdateExternalEntity")]
 pub mod UpdateExternalEntity;
 #[cfg(feature = "UpdateIaConfig")]
@@ -194,7 +198,3 @@ pub mod UpdateIaConfig;
 pub mod UpdateModule;
 #[cfg(feature = "UpdateModuleShadow")]
 pub mod UpdateModuleShadow;
-#[cfg(feature = "UpdateModuleState")]
-pub mod UpdateModuleState;
-#[cfg(feature = "UpdateNa")]
-pub mod UpdateNa;

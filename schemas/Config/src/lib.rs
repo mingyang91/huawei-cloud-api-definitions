@@ -1,3 +1,7 @@
+#[cfg(feature = "BatchCreateRemediationExceptions")]
+pub mod BatchCreateRemediationExceptions;
+#[cfg(feature = "BatchDeleteRemediationExceptions")]
+pub mod BatchDeleteRemediationExceptions;
 #[cfg(feature = "CollectAllResourcesSummary")]
 pub mod CollectAllResourcesSummary;
 #[cfg(feature = "CollectConformancePackComplianceSummary")]
@@ -20,6 +24,8 @@ pub mod CreateConformancePack;
 pub mod CreateOrganizationConformancePack;
 #[cfg(feature = "CreateOrganizationPolicyAssignment")]
 pub mod CreateOrganizationPolicyAssignment;
+#[cfg(feature = "CreateOrUpdateRemediationConfiguration")]
+pub mod CreateOrUpdateRemediationConfiguration;
 #[cfg(feature = "CreatePolicyAssignments")]
 pub mod CreatePolicyAssignments;
 #[cfg(feature = "CreateStoredQuery")]
@@ -40,6 +46,8 @@ pub mod DeleteOrganizationPolicyAssignment;
 pub mod DeletePendingAggregationRequest;
 #[cfg(feature = "DeletePolicyAssignment")]
 pub mod DeletePolicyAssignment;
+#[cfg(feature = "DeleteRemediationConfiguration")]
+pub mod DeleteRemediationConfiguration;
 #[cfg(feature = "DeleteStoredQuery")]
 pub mod DeleteStoredQuery;
 #[cfg(feature = "DeleteTrackerConfig")]
@@ -92,6 +100,10 @@ pub mod ListPolicyStatesByResourceId;
 pub mod ListProviders;
 #[cfg(feature = "ListRegions")]
 pub mod ListRegions;
+#[cfg(feature = "ListRemediationExceptions")]
+pub mod ListRemediationExceptions;
+#[cfg(feature = "ListRemediationExecutionStatuses")]
+pub mod ListRemediationExecutionStatuses;
 #[cfg(feature = "ListResources")]
 pub mod ListResources;
 #[cfg(feature = "ListResourcesByTag")]
@@ -114,6 +126,8 @@ pub mod RunAggregateResourceQuery;
 pub mod RunEvaluationByPolicyAssignmentId;
 #[cfg(feature = "RunQuery")]
 pub mod RunQuery;
+#[cfg(feature = "RunRemediationExecution")]
+pub mod RunRemediationExecution;
 #[cfg(feature = "ShowAggregateComplianceDetailsByPolicyAssignment")]
 pub mod ShowAggregateComplianceDetailsByPolicyAssignment;
 #[cfg(feature = "ShowAggregateDiscoveredResourceCounts")]
@@ -148,6 +162,8 @@ pub mod ShowOrganizationPolicyAssignmentDetailedStatus;
 pub mod ShowOrganizationPolicyAssignmentStatuses;
 #[cfg(feature = "ShowPolicyAssignment")]
 pub mod ShowPolicyAssignment;
+#[cfg(feature = "ShowRemediationConfiguration")]
+pub mod ShowRemediationConfiguration;
 #[cfg(feature = "ShowResourceById")]
 pub mod ShowResourceById;
 #[cfg(feature = "ShowResourceDetail")]

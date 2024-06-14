@@ -1,3 +1,5 @@
+#[cfg(feature = "BatchExecuteAssetAction")]
+pub mod BatchExecuteAssetAction;
 #[cfg(feature = "Cancel2DDigitalHumanVideo")]
 pub mod Cancel2DDigitalHumanVideo;
 #[cfg(feature = "CancelPhotoDigitalHumanVideo")]
@@ -16,8 +18,8 @@ pub mod Create2DDigitalHumanVideo;
 pub mod Create2dModelTrainingJob;
 #[cfg(feature = "CreateActiveCode")]
 pub mod CreateActiveCode;
-#[cfg(feature = "CreateAssetbyReplicationInfo")]
-pub mod CreateAssetbyReplicationInfo;
+#[cfg(feature = "CreateAssetByReplicationInfo")]
+pub mod CreateAssetByReplicationInfo;
 #[cfg(feature = "CreateDialogUrl")]
 pub mod CreateDialogUrl;
 #[cfg(feature = "CreateDigitalAsset")]
@@ -74,6 +76,8 @@ pub mod DeleteDigitalHumanBusinessCard;
 pub mod DeleteFile;
 #[cfg(feature = "DeleteInteractionRuleGroup")]
 pub mod DeleteInteractionRuleGroup;
+#[cfg(feature = "DeleteProduct")]
+pub mod DeleteProduct;
 #[cfg(feature = "DeleteRobot")]
 pub mod DeleteRobot;
 #[cfg(feature = "DeleteSmartChatRoom")]
@@ -108,6 +112,8 @@ pub mod ListFacialAnimationsData;
 pub mod ListInteractionRuleGroups;
 #[cfg(feature = "ListPictureModelingJobs")]
 pub mod ListPictureModelingJobs;
+#[cfg(feature = "ListProducts")]
+pub mod ListProducts;
 #[cfg(feature = "ListRobot")]
 pub mod ListRobot;
 #[cfg(feature = "ListSmartChatRooms")]
@@ -136,6 +142,8 @@ pub mod LiveEventReport;
 pub mod ResetActiveCode;
 #[cfg(feature = "RestoreAsset")]
 pub mod RestoreAsset;
+#[cfg(feature = "SetProductAsset")]
+pub mod SetProductAsset;
 #[cfg(feature = "Show2DDigitalHumanVideo")]
 pub mod Show2DDigitalHumanVideo;
 #[cfg(feature = "Show2dModelTrainingJob")]
@@ -158,6 +166,8 @@ pub mod ShowPhotoDetection;
 pub mod ShowPhotoDigitalHumanVideo;
 #[cfg(feature = "ShowPictureModelingJob")]
 pub mod ShowPictureModelingJob;
+#[cfg(feature = "ShowProduct")]
+pub mod ShowProduct;
 #[cfg(feature = "ShowRobot")]
 pub mod ShowRobot;
 #[cfg(feature = "ShowSmartChatJob")]
@@ -188,13 +198,3 @@ pub mod StopSmartChatJob;
 pub mod StopSmartLive;
 #[cfg(feature = "StopVideoMotionCaptureJob")]
 pub mod StopVideoMotionCaptureJob;
-#[cfg(feature = "Update2dModelTrainingJob")]
-pub mod Update2dModelTrainingJob;
-#[cfg(feature = "UpdateActiveCode")]
-pub mod UpdateActiveCode;
-#[cfg(feature = "UpdateDigitalAsset")]
-pub mod UpdateDigitalAsset;
-#[cfg(feature = "UpdateDigitalHumanBusinessCard")]
-pub mod UpdateDigitalHumanBusinessCard;
-#[cfg(feature = "UpdateInteractionRuleGroup")]
-pub mod UpdateInteractionRuleGroup;

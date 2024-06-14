@@ -2,6 +2,8 @@
 pub mod AddPrrImprovementTask;
 #[cfg(feature = "cancelPrrReview")]
 pub mod cancelPrrReview;
+#[cfg(feature = "ChangeMonitorMetricType")]
+pub mod ChangeMonitorMetricType;
 #[cfg(feature = "ContinuePrrReview")]
 pub mod ContinuePrrReview;
 #[cfg(feature = "CreateAttackTask")]
