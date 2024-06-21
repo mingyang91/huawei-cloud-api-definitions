@@ -44,6 +44,8 @@ pub mod ListProcesses;
 pub mod ListSpaceAnalysis;
 #[cfg(feature = "ListSqlLimitRules")]
 pub mod ListSqlLimitRules;
+#[cfg(feature = "ParseSqlLimitRules")]
+pub mod ParseSqlLimitRules;
 #[cfg(feature = "RegisterDbUser")]
 pub mod RegisterDbUser;
 #[cfg(feature = "ShowApiVersion")]

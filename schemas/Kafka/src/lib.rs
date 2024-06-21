@@ -148,3 +148,5 @@ pub mod UpdateKafkaUserClientQuotaTask;
 pub mod UpdateTopicAccessPolicy;
 #[cfg(feature = "UpdateTopicReplica")]
 pub mod UpdateTopicReplica;
+#[cfg(feature = "UpgradeInstance")]
+pub mod UpgradeInstance;

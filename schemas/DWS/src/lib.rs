@@ -20,6 +20,8 @@ pub mod BatchDeleteClusterCn;
 pub mod BatchDeleteResourceTag;
 #[cfg(feature = "CancelReadonlyCluster")]
 pub mod CancelReadonlyCluster;
+#[cfg(feature = "ChangeSecurityGroup")]
+pub mod ChangeSecurityGroup;
 #[cfg(feature = "CheckCluster")]
 pub mod CheckCluster;
 #[cfg(feature = "CheckDisasterName")]
@@ -196,5 +198,3 @@ pub mod ListSnapshotCrossRegion;
 pub mod ListSnapshotCrossRegionPolicy;
 #[cfg(feature = "ListSnapshotDetails")]
 pub mod ListSnapshotDetails;
-#[cfg(feature = "ListSnapshotPolicy")]
-pub mod ListSnapshotPolicy;
