@@ -8,6 +8,8 @@ pub mod AddEvent2alarmRule;
 pub mod AddMetricData;
 #[cfg(feature = "AddMuteRules")]
 pub mod AddMuteRules;
+#[cfg(feature = "AddOrUpdateMetricOrEventAlarmRule")]
+pub mod AddOrUpdateMetricOrEventAlarmRule;
 #[cfg(feature = "AddOrUpdateServiceDiscoveryRules")]
 pub mod AddOrUpdateServiceDiscoveryRules;
 #[cfg(feature = "CountEvents")]
@@ -42,6 +44,8 @@ pub mod DeleteComponent;
 pub mod DeleteEnv;
 #[cfg(feature = "DeleteEvent2alarmRule")]
 pub mod DeleteEvent2alarmRule;
+#[cfg(feature = "DeleteMetricOrEventAlarmRule")]
+pub mod DeleteMetricOrEventAlarmRule;
 #[cfg(feature = "DeleteMuteRules")]
 pub mod DeleteMuteRules;
 #[cfg(feature = "DeletePromInstance")]
@@ -86,6 +90,8 @@ pub mod ListLogItems;
 pub mod ListMetadataAomPromGet;
 #[cfg(feature = "ListMetricItems")]
 pub mod ListMetricItems;
+#[cfg(feature = "ListMetricOrEventAlarmRule")]
+pub mod ListMetricOrEventAlarmRule;
 #[cfg(feature = "ListMuteRule")]
 pub mod ListMuteRule;
 #[cfg(feature = "ListNotifiedHistories")]

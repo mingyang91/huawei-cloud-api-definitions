@@ -126,6 +126,8 @@ pub mod InviteUser;
 pub mod InviteWithPwd;
 #[cfg(feature = "ListHistoryWebinars")]
 pub mod ListHistoryWebinars;
+#[cfg(feature = "ListNetworkQuality")]
+pub mod ListNetworkQuality;
 #[cfg(feature = "ListOngoingWebinars")]
 pub mod ListOngoingWebinars;
 #[cfg(feature = "ListUpComingWebinars")]
@@ -196,5 +198,3 @@ pub mod SearchMemberVmr;
 pub mod SearchOnlineMeetings;
 #[cfg(feature = "SearchPrograms")]
 pub mod SearchPrograms;
-#[cfg(feature = "SearchPublications")]
-pub mod SearchPublications;

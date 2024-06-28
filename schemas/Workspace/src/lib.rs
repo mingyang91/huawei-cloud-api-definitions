@@ -122,6 +122,10 @@ pub mod ListLoginRecordsNew;
 pub mod ListMetricNotifyRecord;
 #[cfg(feature = "ListMetricNotifyRule")]
 pub mod ListMetricNotifyRule;
+#[cfg(feature = "ListMetrics")]
+pub mod ListMetrics;
+#[cfg(feature = "ListMetricsTrend")]
+pub mod ListMetricsTrend;
 #[cfg(feature = "ListOtpDevicesByUserId")]
 pub mod ListOtpDevicesByUserId;
 #[cfg(feature = "ListProducts")]
@@ -194,7 +198,3 @@ pub mod UpdateScheduledTasks;
 pub mod UpdateTerminalsBindingDesktops;
 #[cfg(feature = "UpdateTerminalsBindingDesktopsConfig")]
 pub mod UpdateTerminalsBindingDesktopsConfig;
-#[cfg(feature = "UpdateUserGroup")]
-pub mod UpdateUserGroup;
-#[cfg(feature = "UpdateUserInfo")]
-pub mod UpdateUserInfo;

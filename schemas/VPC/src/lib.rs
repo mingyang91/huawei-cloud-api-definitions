@@ -14,6 +14,8 @@ pub mod AssociateRouteTable;
 pub mod AssociateSubnetFirewall;
 #[cfg(feature = "BatchCreateFirewallTags")]
 pub mod BatchCreateFirewallTags;
+#[cfg(feature = "BatchCreatePortTags")]
+pub mod BatchCreatePortTags;
 #[cfg(feature = "BatchCreateSecurityGroupRules")]
 pub mod BatchCreateSecurityGroupRules;
 #[cfg(feature = "BatchCreateSecurityGroupTags")]
@@ -26,6 +28,8 @@ pub mod BatchCreateSubNetworkInterface;
 pub mod BatchCreateVpcTags;
 #[cfg(feature = "BatchDeleteFirewallTags")]
 pub mod BatchDeleteFirewallTags;
+#[cfg(feature = "BatchDeletePortTags")]
+pub mod BatchDeletePortTags;
 #[cfg(feature = "BatchDeleteSecurityGroupTags")]
 pub mod BatchDeleteSecurityGroupTags;
 #[cfg(feature = "BatchDeleteSubnetTags")]
@@ -34,6 +38,8 @@ pub mod BatchDeleteSubnetTags;
 pub mod BatchDeleteVpcTags;
 #[cfg(feature = "CountFirewallsByTags")]
 pub mod CountFirewallsByTags;
+#[cfg(feature = "CountPortsByTags")]
+pub mod CountPortsByTags;
 #[cfg(feature = "CreateAddressGroup")]
 pub mod CreateAddressGroup;
 #[cfg(feature = "CreateFirewall")]
@@ -44,6 +50,8 @@ pub mod CreateFirewallTag;
 pub mod CreateFlowLog;
 #[cfg(feature = "CreatePort")]
 pub mod CreatePort;
+#[cfg(feature = "CreatePortTag")]
+pub mod CreatePortTag;
 #[cfg(feature = "CreatePrivateip")]
 pub mod CreatePrivateip;
 #[cfg(feature = "CreateRouteTable")]
@@ -86,6 +94,8 @@ pub mod DeleteFlowLog;
 pub mod DeleteIpAddressGroupForce;
 #[cfg(feature = "DeletePort")]
 pub mod DeletePort;
+#[cfg(feature = "DeletePortTag")]
+pub mod DeletePortTag;
 #[cfg(feature = "DeletePrivateip")]
 pub mod DeletePrivateip;
 #[cfg(feature = "DeleteRouteTable")]
@@ -134,6 +144,10 @@ pub mod ListFirewallTags;
 pub mod ListFlowLogs;
 #[cfg(feature = "ListPorts")]
 pub mod ListPorts;
+#[cfg(feature = "ListPortsByTags")]
+pub mod ListPortsByTags;
+#[cfg(feature = "ListPortTags")]
+pub mod ListPortTags;
 #[cfg(feature = "ListPrivateips")]
 pub mod ListPrivateips;
 #[cfg(feature = "ListRouteTables")]
@@ -184,17 +198,3 @@ pub mod NeutronCreateFirewallRule;
 pub mod NeutronCreateNetwork;
 #[cfg(feature = "NeutronCreatePort")]
 pub mod NeutronCreatePort;
-#[cfg(feature = "NeutronCreateRouter")]
-pub mod NeutronCreateRouter;
-#[cfg(feature = "NeutronCreateSecurityGroup")]
-pub mod NeutronCreateSecurityGroup;
-#[cfg(feature = "NeutronCreateSecurityGroupRule")]
-pub mod NeutronCreateSecurityGroupRule;
-#[cfg(feature = "NeutronCreateSubnet")]
-pub mod NeutronCreateSubnet;
-#[cfg(feature = "NeutronDeleteFirewallGroup")]
-pub mod NeutronDeleteFirewallGroup;
-#[cfg(feature = "NeutronDeleteFirewallPolicy")]
-pub mod NeutronDeleteFirewallPolicy;
-#[cfg(feature = "NeutronDeleteFirewallRule")]
-pub mod NeutronDeleteFirewallRule;

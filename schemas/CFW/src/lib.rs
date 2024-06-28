@@ -24,6 +24,8 @@ pub mod BatchDeleteAddressItems;
 pub mod BatchDeleteServiceItems;
 #[cfg(feature = "BatchUpdateAclRuleActions")]
 pub mod BatchUpdateAclRuleActions;
+#[cfg(feature = "CancelCaptureTask")]
+pub mod CancelCaptureTask;
 #[cfg(feature = "ChangeEastWestFirewallStatus")]
 pub mod ChangeEastWestFirewallStatus;
 #[cfg(feature = "ChangeEipStatus")]
@@ -32,10 +34,14 @@ pub mod ChangeEipStatus;
 pub mod ChangeIpsProtectMode;
 #[cfg(feature = "ChangeIpsSwitchStatus")]
 pub mod ChangeIpsSwitchStatus;
+#[cfg(feature = "CreateCaptureTask")]
+pub mod CreateCaptureTask;
 #[cfg(feature = "CreateEastWestFirewall")]
 pub mod CreateEastWestFirewall;
 #[cfg(feature = "CreateFirewall")]
 pub mod CreateFirewall;
+#[cfg(feature = "CreateTag")]
+pub mod CreateTag;
 #[cfg(feature = "DeleteAclRule")]
 pub mod DeleteAclRule;
 #[cfg(feature = "DeleteAclRuleHitCount")]
@@ -46,6 +52,8 @@ pub mod DeleteAddressItem;
 pub mod DeleteAddressSet;
 #[cfg(feature = "DeleteBlackWhiteList")]
 pub mod DeleteBlackWhiteList;
+#[cfg(feature = "DeleteCaptureTask")]
+pub mod DeleteCaptureTask;
 #[cfg(feature = "DeleteDomains")]
 pub mod DeleteDomains;
 #[cfg(feature = "DeleteDomainSet")]
@@ -56,6 +64,8 @@ pub mod DeleteFirewall;
 pub mod DeleteServiceItem;
 #[cfg(feature = "DeleteServiceSet")]
 pub mod DeleteServiceSet;
+#[cfg(feature = "DeleteTag")]
+pub mod DeleteTag;
 #[cfg(feature = "ListAccessControlLogs")]
 pub mod ListAccessControlLogs;
 #[cfg(feature = "ListAclRuleHitCount")]
@@ -72,6 +82,10 @@ pub mod ListAddressSets;
 pub mod ListAttackLogs;
 #[cfg(feature = "ListBlackWhiteLists")]
 pub mod ListBlackWhiteLists;
+#[cfg(feature = "ListCaptureResult")]
+pub mod ListCaptureResult;
+#[cfg(feature = "ListCaptureTask")]
+pub mod ListCaptureTask;
 #[cfg(feature = "ListDnsServers")]
 pub mod ListDnsServers;
 #[cfg(feature = "ListDomainParseDetail")]

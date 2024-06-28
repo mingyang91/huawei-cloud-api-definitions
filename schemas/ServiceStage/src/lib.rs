@@ -68,6 +68,8 @@ pub mod ListAuthorizations;
 pub mod ListBranches;
 #[cfg(feature = "ListCommits")]
 pub mod ListCommits;
+#[cfg(feature = "ListComponentOverviews")]
+pub mod ListComponentOverviews;
 #[cfg(feature = "ListComponents")]
 pub mod ListComponents;
 #[cfg(feature = "ListEnvironments")]

@@ -132,6 +132,8 @@ pub mod ListDataCompareOverview;
 pub mod ListDataLevelTableCompareJobs;
 #[cfg(feature = "ListDbObjects")]
 pub mod ListDbObjects;
+#[cfg(feature = "ListFeatures")]
+pub mod ListFeatures;
 #[cfg(feature = "ListInstanceByTags")]
 pub mod ListInstanceByTags;
 #[cfg(feature = "ListInstanceTags")]
@@ -196,5 +198,3 @@ pub mod ShowInstanceTags;
 pub mod ShowJobDetail;
 #[cfg(feature = "ShowJobList")]
 pub mod ShowJobList;
-#[cfg(feature = "ShowMetering")]
-pub mod ShowMetering;

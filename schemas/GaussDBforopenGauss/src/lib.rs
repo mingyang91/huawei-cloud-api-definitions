@@ -4,6 +4,8 @@ pub mod AddInstanceTags;
 pub mod AllowDbPrivileges;
 #[cfg(feature = "AttachEip")]
 pub mod AttachEip;
+#[cfg(feature = "ConfirmRestoredData")]
+pub mod ConfirmRestoredData;
 #[cfg(feature = "CopyConfiguration")]
 pub mod CopyConfiguration;
 #[cfg(feature = "CreateConfigurationTemplate")]
@@ -76,6 +78,8 @@ pub mod ListFlavors;
 pub mod ListGaussDbDatastores;
 #[cfg(feature = "ListHistoryOperations")]
 pub mod ListHistoryOperations;
+#[cfg(feature = "ListInstanceDetails")]
+pub mod ListInstanceDetails;
 #[cfg(feature = "ListInstanceErrorLogs")]
 pub mod ListInstanceErrorLogs;
 #[cfg(feature = "ListInstances")]
@@ -122,12 +126,16 @@ pub mod SearchAutoEnlargePolicy;
 pub mod SetBackupPolicy;
 #[cfg(feature = "SetDbUserPwd")]
 pub mod SetDbUserPwd;
+#[cfg(feature = "SetNewBackupPolicy")]
+pub mod SetNewBackupPolicy;
 #[cfg(feature = "SetRecyclePolicy")]
 pub mod SetRecyclePolicy;
 #[cfg(feature = "ShowBackupPolicy")]
 pub mod ShowBackupPolicy;
 #[cfg(feature = "ShowBalanceStatus")]
 pub mod ShowBalanceStatus;
+#[cfg(feature = "ShowBatchUpgradeCandidateVersions")]
+pub mod ShowBatchUpgradeCandidateVersions;
 #[cfg(feature = "ShowConfigurationDetail")]
 pub mod ShowConfigurationDetail;
 #[cfg(feature = "ShowDeploymentForm")]
@@ -166,6 +174,8 @@ pub mod SwitchShard;
 pub mod UpdateInstanceConfiguration;
 #[cfg(feature = "UpdateInstanceName")]
 pub mod UpdateInstanceName;
+#[cfg(feature = "UpgradeInstancesVersion")]
+pub mod UpgradeInstancesVersion;
 #[cfg(feature = "UpgradeInstanceVersion")]
 pub mod UpgradeInstanceVersion;
 #[cfg(feature = "ValidateParaGroupName")]

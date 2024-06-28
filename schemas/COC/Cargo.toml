@@ -16,9 +16,21 @@ version = "1"
 version = "0"
 
 [features]
+CreateScripts = []
+DeleteScript = []
+ExecuteScript = []
 ListInstanceCompliant = []
+ListScript = []
+ListScriptOrders = []
+ListScriptOrdersBatches = []
 ShowInstancePatchItems = []
-full = ["ListInstanceCompliant", "ShowInstancePatchItems"]
+ShowScriptDetail = []
+ShowScriptOrderBasicInfo = []
+ShowScriptOrderStatistics = []
+ShowScriptOrdersBatchDetail = []
+UpdateScript = []
+UpdateScriptOrder = []
+full = ["CreateScripts", "DeleteScript", "ExecuteScript", "ListInstanceCompliant", "ListScript", "ListScriptOrders", "ListScriptOrdersBatches", "ShowInstancePatchItems", "ShowScriptDetail", "ShowScriptOrderBasicInfo", "ShowScriptOrdersBatchDetail", "ShowScriptOrderStatistics", "UpdateScript", "UpdateScriptOrder"]
 
 [lib]
 name = "huawei_cloud_api_definitions_COC"
