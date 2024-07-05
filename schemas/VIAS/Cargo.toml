@@ -1,0 +1,61 @@
+[dependencies.chrono]
+features = ["serde"]
+version = "0"
+
+[dependencies.regress]
+version = "0"
+
+[dependencies.serde]
+features = ["derive"]
+version = "1"
+
+[dependencies.serde_json]
+version = "1"
+
+[dependencies.typify]
+version = "0"
+
+[features]
+BatchStartStopTask = []
+CreateBatchTask = []
+CreateEdgePool = []
+CreateTask = []
+CreateVideoGroup = []
+CreateVideoSource = []
+DeleteBatchTask = []
+DeleteEdgePool = []
+DeleteTask = []
+DeleteVideoGroup = []
+DeleteVideoSource = []
+DeployAlgorithm = []
+ListBatchTasks = []
+ListEdgePools = []
+ListTasks = []
+ListUserServices = []
+ListVideoGroups = []
+ListVideoSources = []
+ShowEdgePoolInfo = []
+ShowServiceDetail = []
+ShowTaskInfo = []
+ShowVideoGroupDetail = []
+ShowVideoSourceDetail = []
+StartStopTask = []
+StopDeployAlgorithm = []
+UpdateBatchTask = []
+UpdateTask = []
+UpdateVideoGroup = []
+UpdateVideoSource = []
+full = ["BatchStartStopTask", "CreateBatchTask", "CreateEdgePool", "CreateTask", "CreateVideoGroup", "CreateVideoSource", "DeleteBatchTask", "DeleteEdgePool", "DeleteTask", "DeleteVideoGroup", "DeleteVideoSource", "DeployAlgorithm", "ListBatchTasks", "ListEdgePools", "ListTasks", "ListUserServices", "ListVideoGroups", "ListVideoSources", "ShowEdgePoolInfo", "ShowServiceDetail", "ShowTaskInfo", "ShowVideoGroupDetail", "ShowVideoSourceDetail", "StartStopTask", "StopDeployAlgorithm", "UpdateBatchTask", "UpdateTask", "UpdateVideoGroup", "UpdateVideoSource"]
+
+[lib]
+name = "huawei_cloud_api_definitions_VIAS"
+path = "src/lib.rs"
+
+[package]
+authors = ["mingyang91 <mingyang91@qq.com>"]
+description = "Huawei Cloud API definitions, generated from OpenAPI spec"
+edition = "2021"
+license = "MIT"
+name = "huawei-cloud-api-definitions-VIAS"
+repository = "https://github.com/mingyang91/huawei-cloud-api-definitions"
+version = "CHANGE_ME"

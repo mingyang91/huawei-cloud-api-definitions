@@ -46,6 +46,8 @@ pub mod CreateDbUser;
 pub mod CreateDnsName;
 #[cfg(feature = "CreateInstance")]
 pub mod CreateInstance;
+#[cfg(feature = "CreateInstanceIam5")]
+pub mod CreateInstanceIam5;
 #[cfg(feature = "CreateManualBackup")]
 pub mod CreateManualBackup;
 #[cfg(feature = "CreatePostgresqlDatabase")]
@@ -74,6 +76,8 @@ pub mod DeleteConfiguration;
 pub mod DeleteDatabase;
 #[cfg(feature = "DeleteDbUser")]
 pub mod DeleteDbUser;
+#[cfg(feature = "DeleteDisasterRecovery")]
+pub mod DeleteDisasterRecovery;
 #[cfg(feature = "DeleteInstance")]
 pub mod DeleteInstance;
 #[cfg(feature = "DeleteJob")]
@@ -148,6 +152,8 @@ pub mod ListErrorLogs;
 pub mod ListErrorLogsNew;
 #[cfg(feature = "ListFlavors")]
 pub mod ListFlavors;
+#[cfg(feature = "ListFlavorsResize")]
+pub mod ListFlavorsResize;
 #[cfg(feature = "ListHistoryDatabase")]
 pub mod ListHistoryDatabase;
 #[cfg(feature = "ListInspectionHistories")]
@@ -192,9 +198,3 @@ pub mod ListPostgresqlHbaInfo;
 pub mod ListPostgresqlHbaInfoHistory;
 #[cfg(feature = "ListPostgresqlListHistoryTables")]
 pub mod ListPostgresqlListHistoryTables;
-#[cfg(feature = "ListPredefinedTag")]
-pub mod ListPredefinedTag;
-#[cfg(feature = "ListProjectTags")]
-pub mod ListProjectTags;
-#[cfg(feature = "ListRdSforMySqlProxy")]
-pub mod ListRdSforMySqlProxy;

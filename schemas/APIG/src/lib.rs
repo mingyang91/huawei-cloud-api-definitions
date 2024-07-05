@@ -1,5 +1,7 @@
 #[cfg(feature = "AcceptOrRejectEndpointConnections")]
 pub mod AcceptOrRejectEndpointConnections;
+#[cfg(feature = "AddCustomIngressPort")]
+pub mod AddCustomIngressPort;
 #[cfg(feature = "AddEipV2")]
 pub mod AddEipV2;
 #[cfg(feature = "AddEndpointPermissions")]
@@ -170,6 +172,8 @@ pub mod DeleteBackendInstanceV2;
 pub mod DeleteCertificateV2;
 #[cfg(feature = "DeleteCustomAuthorizerV2")]
 pub mod DeleteCustomAuthorizerV2;
+#[cfg(feature = "DeleteCustomIngressPort")]
+pub mod DeleteCustomIngressPort;
 #[cfg(feature = "DeleteEndpointPermissions")]
 pub mod DeleteEndpointPermissions;
 #[cfg(feature = "DeleteEnvironment")]
@@ -194,7 +198,3 @@ pub mod DeletePlugin;
 pub mod DeleteRequestThrottlingPolicy;
 #[cfg(feature = "DeleteRequestThrottlingPolicyV2")]
 pub mod DeleteRequestThrottlingPolicyV2;
-#[cfg(feature = "DeleteSignatureKey")]
-pub mod DeleteSignatureKey;
-#[cfg(feature = "DeleteSignatureKeyV2")]
-pub mod DeleteSignatureKeyV2;

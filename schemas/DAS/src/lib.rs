@@ -24,6 +24,8 @@ pub mod ExportSlowQueryLogs;
 pub mod ExportSlowSqlStatistics;
 #[cfg(feature = "ExportSlowSqlTemplatesDetails")]
 pub mod ExportSlowSqlTemplatesDetails;
+#[cfg(feature = "ExportSlowSqlTrendDetails")]
+pub mod ExportSlowSqlTrendDetails;
 #[cfg(feature = "ExportSqlStatements")]
 pub mod ExportSqlStatements;
 #[cfg(feature = "ExportTopSqlTemplatesDetails")]

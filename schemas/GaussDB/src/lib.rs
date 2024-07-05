@@ -18,6 +18,8 @@ pub mod CheckClickHouseTableConfig;
 pub mod CheckDataBaseConfig;
 #[cfg(feature = "CheckResource")]
 pub mod CheckResource;
+#[cfg(feature = "CheckStarrocksParams")]
+pub mod CheckStarrocksParams;
 #[cfg(feature = "CheckStarRocksResource")]
 pub mod CheckStarRocksResource;
 #[cfg(feature = "CheckTableConfig")]
@@ -196,5 +198,3 @@ pub mod ModifyNodePriority;
 pub mod PauseStarRocksDataReplication;
 #[cfg(feature = "RebootClickHouseInstance")]
 pub mod RebootClickHouseInstance;
-#[cfg(feature = "RenameInstanceNode")]
-pub mod RenameInstanceNode;

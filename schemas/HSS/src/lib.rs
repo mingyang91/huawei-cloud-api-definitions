@@ -46,6 +46,8 @@ pub mod ListAutoLaunchStatistics;
 pub mod ListBlockedIp;
 #[cfg(feature = "ListContainerNodes")]
 pub mod ListContainerNodes;
+#[cfg(feature = "ListContainers")]
+pub mod ListContainers;
 #[cfg(feature = "ListHostGroups")]
 pub mod ListHostGroups;
 #[cfg(feature = "ListHostProtectHistoryInfo")]
@@ -56,6 +58,8 @@ pub mod ListHostRaspProtectHistoryInfo;
 pub mod ListHostStatus;
 #[cfg(feature = "ListHostVuls")]
 pub mod ListHostVuls;
+#[cfg(feature = "ListImageLocal")]
+pub mod ListImageLocal;
 #[cfg(feature = "ListImageRiskConfigRules")]
 pub mod ListImageRiskConfigRules;
 #[cfg(feature = "ListImageRiskConfigs")]

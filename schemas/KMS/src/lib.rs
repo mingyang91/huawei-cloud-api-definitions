@@ -68,6 +68,10 @@ pub mod ListKmsByTags;
 pub mod ListKmsTags;
 #[cfg(feature = "ListRetirableGrants")]
 pub mod ListRetirableGrants;
+#[cfg(feature = "ListSupportRegions")]
+pub mod ListSupportRegions;
+#[cfg(feature = "ReplicateKey")]
+pub mod ReplicateKey;
 #[cfg(feature = "ShowKeyRotationStatus")]
 pub mod ShowKeyRotationStatus;
 #[cfg(feature = "ShowKeyStore")]
@@ -92,6 +96,8 @@ pub mod UpdateKeyAlias;
 pub mod UpdateKeyDescription;
 #[cfg(feature = "UpdateKeyRotationInterval")]
 pub mod UpdateKeyRotationInterval;
+#[cfg(feature = "UpdatePrimaryRegion")]
+pub mod UpdatePrimaryRegion;
 #[cfg(feature = "ValidateSignature")]
 pub mod ValidateSignature;
 #[cfg(feature = "VerifyMac")]
