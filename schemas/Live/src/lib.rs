@@ -36,6 +36,8 @@ pub mod DeletePublishTemplate;
 pub mod DeleteRecordCallbackConfig;
 #[cfg(feature = "DeleteRecordRule")]
 pub mod DeleteRecordRule;
+#[cfg(feature = "DeleteRefererChain")]
+pub mod DeleteRefererChain;
 #[cfg(feature = "DeleteSnapshotConfig")]
 pub mod DeleteSnapshotConfig;
 #[cfg(feature = "DeleteStreamForbidden")]
@@ -58,6 +60,8 @@ pub mod ListDomainTrafficSummary;
 pub mod ListGeoBlockingConfig;
 #[cfg(feature = "ListHistoryStreams")]
 pub mod ListHistoryStreams;
+#[cfg(feature = "ListHlsConfig")]
+pub mod ListHlsConfig;
 #[cfg(feature = "ListIpAuthList")]
 pub mod ListIpAuthList;
 #[cfg(feature = "ListLiveSampleLogs")]
@@ -108,6 +112,8 @@ pub mod ModifyOttChannelInfoRecordSettings;
 pub mod ModifyOttChannelInfoStats;
 #[cfg(feature = "RunRecord")]
 pub mod RunRecord;
+#[cfg(feature = "SetRefererChain")]
+pub mod SetRefererChain;
 #[cfg(feature = "ShowDomain")]
 pub mod ShowDomain;
 #[cfg(feature = "ShowDomainHttpsCert")]
@@ -120,6 +126,8 @@ pub mod ShowPullSourcesConfig;
 pub mod ShowRecordCallbackConfig;
 #[cfg(feature = "ShowRecordRule")]
 pub mod ShowRecordRule;
+#[cfg(feature = "ShowRefererChain")]
+pub mod ShowRefererChain;
 #[cfg(feature = "ShowStreamCount")]
 pub mod ShowStreamCount;
 #[cfg(feature = "ShowStreamPortrait")]
@@ -140,6 +148,8 @@ pub mod UpdateDomainIp6Switch;
 pub mod UpdateDomainKeyChain;
 #[cfg(feature = "UpdateGeoBlockingConfig")]
 pub mod UpdateGeoBlockingConfig;
+#[cfg(feature = "UpdateHlsConfig")]
+pub mod UpdateHlsConfig;
 #[cfg(feature = "UpdateIpAuthList")]
 pub mod UpdateIpAuthList;
 #[cfg(feature = "UpdateObsBucketAuthorityPublic")]

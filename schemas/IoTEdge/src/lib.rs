@@ -104,6 +104,8 @@ pub mod ImportPoints;
 pub mod InvokeDeleteProxy;
 #[cfg(feature = "InvokeGetProxy")]
 pub mod InvokeGetProxy;
+#[cfg(feature = "InvokeModuleMsg")]
+pub mod InvokeModuleMsg;
 #[cfg(feature = "InvokePatchProxy")]
 pub mod InvokePatchProxy;
 #[cfg(feature = "InvokePostProxy")]
@@ -196,5 +198,3 @@ pub mod UpdateExternalEntity;
 pub mod UpdateIaConfig;
 #[cfg(feature = "UpdateModule")]
 pub mod UpdateModule;
-#[cfg(feature = "UpdateModuleShadow")]
-pub mod UpdateModuleShadow;

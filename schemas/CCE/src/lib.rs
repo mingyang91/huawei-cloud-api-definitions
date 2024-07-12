@@ -92,6 +92,8 @@ pub mod ResizeCluster;
 pub mod RetryUpgradeClusterTask;
 #[cfg(feature = "RollbackAddonInstance")]
 pub mod RollbackAddonInstance;
+#[cfg(feature = "ScaleNodePool")]
+pub mod ScaleNodePool;
 #[cfg(feature = "ShowAddonInstance")]
 pub mod ShowAddonInstance;
 #[cfg(feature = "ShowChart")]

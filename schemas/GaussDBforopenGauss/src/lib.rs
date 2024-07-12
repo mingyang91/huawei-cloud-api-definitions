@@ -40,6 +40,8 @@ pub mod DeleteJob;
 pub mod DeleteManualBackup;
 #[cfg(feature = "DownloadBackup")]
 pub mod DownloadBackup;
+#[cfg(feature = "InstallKernelPlugin")]
+pub mod InstallKernelPlugin;
 #[cfg(feature = "ListApplicableInstances")]
 pub mod ListApplicableInstances;
 #[cfg(feature = "ListAppliedHistories")]
@@ -88,8 +90,12 @@ pub mod ListInstances;
 pub mod ListInstancesDetails;
 #[cfg(feature = "ListInstanceTags")]
 pub mod ListInstanceTags;
+#[cfg(feature = "ListKernelPlugins")]
+pub mod ListKernelPlugins;
 #[cfg(feature = "ListParamGroupTemplates")]
 pub mod ListParamGroupTemplates;
+#[cfg(feature = "ListPluginExtensions")]
+pub mod ListPluginExtensions;
 #[cfg(feature = "ListPredefinedTags")]
 pub mod ListPredefinedTags;
 #[cfg(feature = "ListProjectTags")]
@@ -102,6 +108,8 @@ pub mod ListRestorableInstances;
 pub mod ListRestoreTimes;
 #[cfg(feature = "ListStorageTypes")]
 pub mod ListStorageTypes;
+#[cfg(feature = "ListSupportKernelPlugins")]
+pub mod ListSupportKernelPlugins;
 #[cfg(feature = "ListTasks")]
 pub mod ListTasks;
 #[cfg(feature = "ListTopIoTraffics")]
@@ -118,6 +126,8 @@ pub mod ResizeInstanceFlavor;
 pub mod RestartInstance;
 #[cfg(feature = "RestoreInstance")]
 pub mod RestoreInstance;
+#[cfg(feature = "ResumePluginExtensions")]
+pub mod ResumePluginExtensions;
 #[cfg(feature = "RunInstanceAction")]
 pub mod RunInstanceAction;
 #[cfg(feature = "SearchAutoEnlargePolicy")]
@@ -126,6 +136,8 @@ pub mod SearchAutoEnlargePolicy;
 pub mod SetBackupPolicy;
 #[cfg(feature = "SetDbUserPwd")]
 pub mod SetDbUserPwd;
+#[cfg(feature = "SetKernelPluginLicense")]
+pub mod SetKernelPluginLicense;
 #[cfg(feature = "SetNewBackupPolicy")]
 pub mod SetNewBackupPolicy;
 #[cfg(feature = "SetRecyclePolicy")]

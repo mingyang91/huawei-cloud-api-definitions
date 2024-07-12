@@ -4,6 +4,8 @@ pub mod CancelShareConnections;
 pub mod ChangeSqlLimitSwitchStatus;
 #[cfg(feature = "ChangeSqlSwitch")]
 pub mod ChangeSqlSwitch;
+#[cfg(feature = "ChangeTransactionSwitchStatus")]
+pub mod ChangeTransactionSwitchStatus;
 #[cfg(feature = "CreateShareConnections")]
 pub mod CreateShareConnections;
 #[cfg(feature = "CreateSpaceAnalysisTask")]
@@ -46,6 +48,8 @@ pub mod ListProcesses;
 pub mod ListSpaceAnalysis;
 #[cfg(feature = "ListSqlLimitRules")]
 pub mod ListSqlLimitRules;
+#[cfg(feature = "ListTransactions")]
+pub mod ListTransactions;
 #[cfg(feature = "ParseSqlLimitRules")]
 pub mod ParseSqlLimitRules;
 #[cfg(feature = "RegisterDbUser")]
@@ -66,6 +70,8 @@ pub mod ShowSqlLimitJobInfo;
 pub mod ShowSqlLimitSwitchStatus;
 #[cfg(feature = "ShowSqlSwitchStatus")]
 pub mod ShowSqlSwitchStatus;
+#[cfg(feature = "ShowTransactionSwitchStatus")]
+pub mod ShowTransactionSwitchStatus;
 #[cfg(feature = "ShowTuning")]
 pub mod ShowTuning;
 #[cfg(feature = "UpdateDbUser")]

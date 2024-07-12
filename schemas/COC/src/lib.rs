@@ -16,8 +16,8 @@ pub mod GetScriptJobStatistics;
 pub mod ListApplications;
 #[cfg(feature = "ListInstanceCompliant")]
 pub mod ListInstanceCompliant;
-#[cfg(feature = "ListResources")]
-pub mod ListResources;
+#[cfg(feature = "ListResource")]
+pub mod ListResource;
 #[cfg(feature = "ListScriptJobBatches")]
 pub mod ListScriptJobBatches;
 #[cfg(feature = "ListScriptJobs")]

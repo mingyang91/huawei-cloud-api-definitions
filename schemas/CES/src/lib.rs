@@ -60,10 +60,6 @@ pub mod DeleteDashboards;
 pub mod DeleteOneWidget;
 #[cfg(feature = "DeleteResourceGroup")]
 pub mod DeleteResourceGroup;
-#[cfg(feature = "GetVersion")]
-pub mod GetVersion;
-#[cfg(feature = "GetVersionByNum")]
-pub mod GetVersionByNum;
 #[cfg(feature = "ListAgentDimensionInfo")]
 pub mod ListAgentDimensionInfo;
 #[cfg(feature = "ListAgentInvocations")]
