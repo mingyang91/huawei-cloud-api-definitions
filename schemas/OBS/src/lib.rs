@@ -108,6 +108,8 @@ pub mod ListParts;
 pub mod ListVersions;
 #[cfg(feature = "PutObject")]
 pub mod PutObject;
+#[cfg(feature = "RenameObject")]
+pub mod RenameObject;
 #[cfg(feature = "RestoreObject")]
 pub mod RestoreObject;
 #[cfg(feature = "SetBucketAcl")]
