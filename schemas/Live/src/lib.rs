@@ -70,6 +70,8 @@ pub mod ListLiveSampleLogs;
 pub mod ListLiveStreamsOnline;
 #[cfg(feature = "ListOttChannelInfo")]
 pub mod ListOttChannelInfo;
+#[cfg(feature = "ListPlayDomainStreamInfo")]
+pub mod ListPlayDomainStreamInfo;
 #[cfg(feature = "ListPublishTemplate")]
 pub mod ListPublishTemplate;
 #[cfg(feature = "ListQueryHttpCode")]

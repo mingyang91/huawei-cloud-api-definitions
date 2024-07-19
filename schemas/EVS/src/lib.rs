@@ -2,6 +2,8 @@
 pub mod BatchCreateVolumeTags;
 #[cfg(feature = "BatchDeleteVolumeTags")]
 pub mod BatchDeleteVolumeTags;
+#[cfg(feature = "ChangeVolumeChargeMode")]
+pub mod ChangeVolumeChargeMode;
 #[cfg(feature = "CinderAcceptVolumeTransfer")]
 pub mod CinderAcceptVolumeTransfer;
 #[cfg(feature = "CinderCreateVolumeTransfer")]
@@ -52,6 +54,8 @@ pub mod ShowVersion;
 pub mod ShowVolume;
 #[cfg(feature = "ShowVolumeTags")]
 pub mod ShowVolumeTags;
+#[cfg(feature = "UnsubscribePostpaidVolume")]
+pub mod UnsubscribePostpaidVolume;
 #[cfg(feature = "UpdateSnapshot")]
 pub mod UpdateSnapshot;
 #[cfg(feature = "UpdateVolume")]

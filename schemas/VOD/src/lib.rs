@@ -38,6 +38,8 @@ pub mod DeleteAssets;
 pub mod DeleteTemplateGroup;
 #[cfg(feature = "DeleteTemplateGroupCollection")]
 pub mod DeleteTemplateGroupCollection;
+#[cfg(feature = "DeleteTranscodeProduct")]
+pub mod DeleteTranscodeProduct;
 #[cfg(feature = "DeleteTranscodeTemplate")]
 pub mod DeleteTranscodeTemplate;
 #[cfg(feature = "DeleteWatermarkTemplate")]

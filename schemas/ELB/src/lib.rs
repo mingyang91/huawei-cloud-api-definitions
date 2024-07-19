@@ -26,6 +26,8 @@ pub mod ChangeLoadbalancerChargeMode;
 pub mod CountPreoccupyIpNum;
 #[cfg(feature = "CreateCertificate")]
 pub mod CreateCertificate;
+#[cfg(feature = "CreateCertificatePrivateKeyEcho")]
+pub mod CreateCertificatePrivateKeyEcho;
 #[cfg(feature = "CreateHealthmonitor")]
 pub mod CreateHealthmonitor;
 #[cfg(feature = "CreateIpGroup")]
@@ -136,6 +138,8 @@ pub mod ListSystemSecurityPolicies;
 pub mod ListWhitelists;
 #[cfg(feature = "ShowCertificate")]
 pub mod ShowCertificate;
+#[cfg(feature = "ShowCertificatePrivateKeyEcho")]
+pub mod ShowCertificatePrivateKeyEcho;
 #[cfg(feature = "ShowFlavor")]
 pub mod ShowFlavor;
 #[cfg(feature = "ShowHealthMonitor")]
@@ -194,7 +198,3 @@ pub mod UpdateListener;
 pub mod UpdateLoadBalancer;
 #[cfg(feature = "UpdateLogtank")]
 pub mod UpdateLogtank;
-#[cfg(feature = "UpdateMember")]
-pub mod UpdateMember;
-#[cfg(feature = "UpdatePool")]
-pub mod UpdatePool;
