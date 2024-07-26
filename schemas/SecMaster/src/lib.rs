@@ -1,3 +1,5 @@
+#[cfg(feature = "BatchSearchMetricHits")]
+pub mod BatchSearchMetricHits;
 #[cfg(feature = "ChangeAlert")]
 pub mod ChangeAlert;
 #[cfg(feature = "ChangeIncident")]
@@ -36,6 +38,10 @@ pub mod CreatePlaybookApprove;
 pub mod CreatePlaybookRule;
 #[cfg(feature = "CreatePlaybookVersion")]
 pub mod CreatePlaybookVersion;
+#[cfg(feature = "CreatePostPaidOrder")]
+pub mod CreatePostPaidOrder;
+#[cfg(feature = "CreateWorkspace")]
+pub mod CreateWorkspace;
 #[cfg(feature = "DeleteAlert")]
 pub mod DeleteAlert;
 #[cfg(feature = "DeleteAlertRule")]
@@ -92,6 +98,10 @@ pub mod ListPlaybooks;
 pub mod ListPlaybookVersions;
 #[cfg(feature = "ListWorkflows")]
 pub mod ListWorkflows;
+#[cfg(feature = "ListWorkspaces")]
+pub mod ListWorkspaces;
+#[cfg(feature = "SearchBaseline")]
+pub mod SearchBaseline;
 #[cfg(feature = "ShowAlert")]
 pub mod ShowAlert;
 #[cfg(feature = "ShowAlertRule")]

@@ -6,6 +6,8 @@ pub mod AwakeCluster;
 pub mod BatchCreateAutopilotClusterTags;
 #[cfg(feature = "BatchCreateClusterTags")]
 pub mod BatchCreateClusterTags;
+#[cfg(feature = "BatchCreateDeleteResourceTags")]
+pub mod BatchCreateDeleteResourceTags;
 #[cfg(feature = "BatchDeleteAutopilotClusterTags")]
 pub mod BatchDeleteAutopilotClusterTags;
 #[cfg(feature = "BatchDeleteClusterTags")]
@@ -192,9 +194,7 @@ pub mod ShowClusterConfig;
 pub mod ShowClusterConfigurationDetails;
 #[cfg(feature = "ShowClusterEndpoints")]
 pub mod ShowClusterEndpoints;
+#[cfg(feature = "ShowClusterSupportConfiguration")]
+pub mod ShowClusterSupportConfiguration;
 #[cfg(feature = "ShowClusterUpgradeInfo")]
 pub mod ShowClusterUpgradeInfo;
-#[cfg(feature = "ShowJob")]
-pub mod ShowJob;
-#[cfg(feature = "ShowNode")]
-pub mod ShowNode;

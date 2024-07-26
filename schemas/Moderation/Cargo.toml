@@ -16,6 +16,7 @@ version = "1"
 version = "0"
 
 [features]
+BatchCheckImageSync = []
 CheckImageModeration = []
 RunCheckResult = []
 RunCheckTaskJobs = []
@@ -34,7 +35,7 @@ RunQueryDocumentModerationJob = []
 RunQueryVideoModerationJob = []
 RunTaskSumbit = []
 RunTextModeration = []
-full = ["CheckImageModeration", "RunCheckResult", "RunCheckTaskJobs", "RunCloseAudioStreamModerationJob", "RunCloseVideoStreamModerationJob", "RunCreateAudioModerationJob", "RunCreateAudioStreamModerationJob", "RunCreateDocumentModerationJob", "RunCreateVideoModerationJob", "RunCreateVideoStreamModerationJob", "RunImageBatchModeration", "RunImageModeration", "RunModerationAudio", "RunQueryAudioModerationJob", "RunQueryDocumentModerationJob", "RunQueryVideoModerationJob", "RunTaskSumbit", "RunTextModeration"]
+full = ["BatchCheckImageSync", "CheckImageModeration", "RunCheckResult", "RunCheckTaskJobs", "RunCloseAudioStreamModerationJob", "RunCloseVideoStreamModerationJob", "RunCreateAudioModerationJob", "RunCreateAudioStreamModerationJob", "RunCreateDocumentModerationJob", "RunCreateVideoModerationJob", "RunCreateVideoStreamModerationJob", "RunImageBatchModeration", "RunImageModeration", "RunModerationAudio", "RunQueryAudioModerationJob", "RunQueryDocumentModerationJob", "RunQueryVideoModerationJob", "RunTaskSumbit", "RunTextModeration"]
 
 [lib]
 name = "huawei_cloud_api_definitions_Moderation"

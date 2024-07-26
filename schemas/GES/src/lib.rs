@@ -2,6 +2,8 @@
 pub mod AttachEip;
 #[cfg(feature = "AttachEip2")]
 pub mod AttachEip2;
+#[cfg(feature = "ChangeSecurityGroup")]
+pub mod ChangeSecurityGroup;
 #[cfg(feature = "ClearGraph")]
 pub mod ClearGraph;
 #[cfg(feature = "ClearGraph2")]
@@ -90,6 +92,8 @@ pub mod ResizeGraph2;
 pub mod RestartGraph;
 #[cfg(feature = "RestartGraph2")]
 pub mod RestartGraph2;
+#[cfg(feature = "ShowBackupDownloadLink")]
+pub mod ShowBackupDownloadLink;
 #[cfg(feature = "ShowGraph")]
 pub mod ShowGraph;
 #[cfg(feature = "ShowGraph2")]

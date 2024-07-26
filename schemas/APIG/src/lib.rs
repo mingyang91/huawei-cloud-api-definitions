@@ -116,6 +116,8 @@ pub mod CreateGatewayResponseV2;
 pub mod CreateInstanceV2;
 #[cfg(feature = "CreateMemberGroup")]
 pub mod CreateMemberGroup;
+#[cfg(feature = "CreateOrchestration")]
+pub mod CreateOrchestration;
 #[cfg(feature = "CreateOrDeletePublishRecordForApiV2")]
 pub mod CreateOrDeletePublishRecordForApiV2;
 #[cfg(feature = "CreateOrder")]
@@ -192,9 +194,7 @@ pub mod DeleteGatewayResponseV2;
 pub mod DeleteInstancesV2;
 #[cfg(feature = "DeleteMemberGroup")]
 pub mod DeleteMemberGroup;
+#[cfg(feature = "DeleteOrchestration")]
+pub mod DeleteOrchestration;
 #[cfg(feature = "DeletePlugin")]
 pub mod DeletePlugin;
-#[cfg(feature = "DeleteRequestThrottlingPolicy")]
-pub mod DeleteRequestThrottlingPolicy;
-#[cfg(feature = "DeleteRequestThrottlingPolicyV2")]
-pub mod DeleteRequestThrottlingPolicyV2;

@@ -1,3 +1,5 @@
+#[cfg(feature = "BatchCheckImageSync")]
+pub mod BatchCheckImageSync;
 #[cfg(feature = "CheckImageModeration")]
 pub mod CheckImageModeration;
 #[cfg(feature = "RunCheckResult")]
