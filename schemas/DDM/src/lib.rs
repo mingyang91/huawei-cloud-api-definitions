@@ -1,5 +1,7 @@
 #[cfg(feature = "CreateDatabase")]
 pub mod CreateDatabase;
+#[cfg(feature = "CreateGroup")]
+pub mod CreateGroup;
 #[cfg(feature = "CreateInstance")]
 pub mod CreateInstance;
 #[cfg(feature = "CreateUsers")]
@@ -10,6 +12,10 @@ pub mod DeleteDatabase;
 pub mod DeleteInstance;
 #[cfg(feature = "DeleteUser")]
 pub mod DeleteUser;
+#[cfg(feature = "ExecuteKillLogicalProcesses")]
+pub mod ExecuteKillLogicalProcesses;
+#[cfg(feature = "ExecuteKillPhysicalProcesses")]
+pub mod ExecuteKillPhysicalProcesses;
 #[cfg(feature = "ExpandInstanceNodes")]
 pub mod ExpandInstanceNodes;
 #[cfg(feature = "ListAvailableRdsList")]
@@ -20,6 +26,8 @@ pub mod ListDatabases;
 pub mod ListEngines;
 #[cfg(feature = "ListFlavors")]
 pub mod ListFlavors;
+#[cfg(feature = "ListGroup")]
+pub mod ListGroup;
 #[cfg(feature = "ListInstances")]
 pub mod ListInstances;
 #[cfg(feature = "ListNodes")]
@@ -46,8 +54,14 @@ pub mod ShowDatabase;
 pub mod ShowInstance;
 #[cfg(feature = "ShowInstanceParam")]
 pub mod ShowInstanceParam;
+#[cfg(feature = "ShowLogicalProcesses")]
+pub mod ShowLogicalProcesses;
 #[cfg(feature = "ShowNode")]
 pub mod ShowNode;
+#[cfg(feature = "ShowPhysicalProcesses")]
+pub mod ShowPhysicalProcesses;
+#[cfg(feature = "ShowProcessesAuditLog")]
+pub mod ShowProcessesAuditLog;
 #[cfg(feature = "ShrinkInstanceNodes")]
 pub mod ShrinkInstanceNodes;
 #[cfg(feature = "UpdateDatabaseInfo")]

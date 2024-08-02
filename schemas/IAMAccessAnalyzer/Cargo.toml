@@ -17,6 +17,7 @@ version = "0"
 
 [features]
 ApplyArchiveRule = []
+CheckNoNewAccess = []
 CreateAccessPreview = []
 CreateAnalyzer = []
 CreateArchiveRule = []
@@ -37,7 +38,7 @@ UntagResource = []
 UpdateArchiveRule = []
 UpdateFindings = []
 ValidatePolicy = []
-full = ["ApplyArchiveRule", "CreateAccessPreview", "CreateAnalyzer", "CreateArchiveRule", "DeleteAnalyzer", "DeleteArchiveRule", "ListAccessPreviewFindings", "ListAccessPreviews", "ListAnalyzers", "ListArchiveRules", "ListFindings", "ShowAccessPreview", "ShowAnalyzer", "ShowArchiveRule", "ShowFinding", "StartResourceScan", "TagResource", "UntagResource", "UpdateArchiveRule", "UpdateFindings", "ValidatePolicy"]
+full = ["ApplyArchiveRule", "CheckNoNewAccess", "CreateAccessPreview", "CreateAnalyzer", "CreateArchiveRule", "DeleteAnalyzer", "DeleteArchiveRule", "ListAccessPreviewFindings", "ListAccessPreviews", "ListAnalyzers", "ListArchiveRules", "ListFindings", "ShowAccessPreview", "ShowAnalyzer", "ShowArchiveRule", "ShowFinding", "StartResourceScan", "TagResource", "UntagResource", "UpdateArchiveRule", "UpdateFindings", "ValidatePolicy"]
 
 [lib]
 name = "huawei_cloud_api_definitions_IAMAccessAnalyzer"

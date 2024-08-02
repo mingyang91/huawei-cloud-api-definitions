@@ -30,6 +30,8 @@ pub mod ExportSlowSqlTemplatesDetails;
 pub mod ExportSlowSqlTrendDetails;
 #[cfg(feature = "ExportSqlStatements")]
 pub mod ExportSqlStatements;
+#[cfg(feature = "ExportTopRiskInstances")]
+pub mod ExportTopRiskInstances;
 #[cfg(feature = "ExportTopSqlTemplatesDetails")]
 pub mod ExportTopSqlTemplatesDetails;
 #[cfg(feature = "ExportTopSqlTrendDetails")]

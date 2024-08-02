@@ -1,7 +1,7 @@
 #[cfg(feature = "AttachManagedPolicyToPermissionSet")]
 pub mod AttachManagedPolicyToPermissionSet;
-#[cfg(feature = "AttachRoleToPermissionSet")]
-pub mod AttachRoleToPermissionSet;
+#[cfg(feature = "AttachManagedRoleToPermissionSet")]
+pub mod AttachManagedRoleToPermissionSet;
 #[cfg(feature = "CreateAccountAssignment")]
 pub mod CreateAccountAssignment;
 #[cfg(feature = "CreateInstanceAccessControlAttributeConfiguration")]

@@ -1,5 +1,7 @@
 #[cfg(feature = "ApplyArchiveRule")]
 pub mod ApplyArchiveRule;
+#[cfg(feature = "CheckNoNewAccess")]
+pub mod CheckNoNewAccess;
 #[cfg(feature = "CreateAccessPreview")]
 pub mod CreateAccessPreview;
 #[cfg(feature = "CreateAnalyzer")]
