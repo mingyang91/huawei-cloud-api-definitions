@@ -6,6 +6,10 @@ pub mod ContinueDeployStack;
 pub mod ContinueRollbackStack;
 #[cfg(feature = "CreateExecutionPlan")]
 pub mod CreateExecutionPlan;
+#[cfg(feature = "CreatePrivateHook")]
+pub mod CreatePrivateHook;
+#[cfg(feature = "CreatePrivateHookVersion")]
+pub mod CreatePrivateHookVersion;
 #[cfg(feature = "CreatePrivateProvider")]
 pub mod CreatePrivateProvider;
 #[cfg(feature = "CreatePrivateProviderVersion")]
@@ -20,6 +24,10 @@ pub mod CreateStackSet;
 pub mod CreateTemplate;
 #[cfg(feature = "DeleteExecutionPlan")]
 pub mod DeleteExecutionPlan;
+#[cfg(feature = "DeletePrivateHook")]
+pub mod DeletePrivateHook;
+#[cfg(feature = "DeletePrivateHookVersion")]
+pub mod DeletePrivateHookVersion;
 #[cfg(feature = "DeleteStack")]
 pub mod DeleteStack;
 #[cfg(feature = "DeleteStackEnhanced")]
@@ -86,6 +94,10 @@ pub mod ListTemplates;
 pub mod ListTemplateVersions;
 #[cfg(feature = "ParseTemplateVariables")]
 pub mod ParseTemplateVariables;
+#[cfg(feature = "ShowPrivateHookMetadata")]
+pub mod ShowPrivateHookMetadata;
+#[cfg(feature = "ShowPrivateHookVersionMetadata")]
+pub mod ShowPrivateHookVersionMetadata;
 #[cfg(feature = "ShowStackAction")]
 pub mod ShowStackAction;
 #[cfg(feature = "ShowStackDetail")]
@@ -108,6 +120,8 @@ pub mod ShowTemplateMetadata;
 pub mod ShowTemplateVersionContent;
 #[cfg(feature = "ShowTemplateVersionMetadata")]
 pub mod ShowTemplateVersionMetadata;
+#[cfg(feature = "UpdatePrivateHookMetadata")]
+pub mod UpdatePrivateHookMetadata;
 #[cfg(feature = "UpdateStack")]
 pub mod UpdateStack;
 #[cfg(feature = "UpdateStackActions")]

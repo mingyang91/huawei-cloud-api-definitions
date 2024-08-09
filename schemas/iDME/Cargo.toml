@@ -16,22 +16,14 @@ version = "1"
 version = "0"
 
 [features]
-BatchCancelWos = []
-BatchCreateWoInstantiations = []
-BatchCreateWos = []
-BatchDeleteWos = []
-BatchGenerateWoSchemes = []
 CreateXdmApplication = []
 DeleteXdmApplication = []
 DeployApplication = []
 ListApps = []
 ListEnvs = []
 ModifyApplication = []
-SearchWoInfo = []
-SearchWoPartInfo = []
-SearchWosForPage = []
 Uninstall = []
-full = ["BatchCancelWos", "BatchCreateWoInstantiations", "BatchCreateWos", "BatchDeleteWos", "BatchGenerateWoSchemes", "CreateXdmApplication", "DeleteXdmApplication", "DeployApplication", "ListApps", "ListEnvs", "ModifyApplication", "SearchWoInfo", "SearchWoPartInfo", "SearchWosForPage", "Uninstall"]
+full = ["CreateXdmApplication", "DeleteXdmApplication", "DeployApplication", "ListApps", "ListEnvs", "ModifyApplication", "Uninstall"]
 
 [lib]
 name = "huawei_cloud_api_definitions_iDME"

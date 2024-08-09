@@ -56,6 +56,8 @@ pub mod CreateClusterJob;
 pub mod CreateCode;
 #[cfg(feature = "CreateComputingResource")]
 pub mod CreateComputingResource;
+#[cfg(feature = "CreateCpiJob")]
+pub mod CreateCpiJob;
 #[cfg(feature = "CreateCpiTask")]
 pub mod CreateCpiTask;
 #[cfg(feature = "CreateCssCluster")]
@@ -88,6 +90,8 @@ pub mod CreateDrugModel;
 pub mod CreateFepJob;
 #[cfg(feature = "CreateGenerationTask")]
 pub mod CreateGenerationTask;
+#[cfg(feature = "CreateGenJob")]
+pub mod CreateGenJob;
 #[cfg(feature = "CreateImage")]
 pub mod CreateImage;
 #[cfg(feature = "CreateInstance")]
@@ -130,6 +134,8 @@ pub mod CreateStudyJob;
 pub mod CreateSynthesisJob;
 #[cfg(feature = "CreateSynthesisTask")]
 pub mod CreateSynthesisTask;
+#[cfg(feature = "CreateTargetOptJob")]
+pub mod CreateTargetOptJob;
 #[cfg(feature = "CreateTemplate")]
 pub mod CreateTemplate;
 #[cfg(feature = "CreateUser")]
@@ -192,9 +198,3 @@ pub mod DeleteProject;
 pub mod DeleteScaleOutPolicy;
 #[cfg(feature = "DeleteStar")]
 pub mod DeleteStar;
-#[cfg(feature = "DeleteStudy")]
-pub mod DeleteStudy;
-#[cfg(feature = "DeleteTag")]
-pub mod DeleteTag;
-#[cfg(feature = "DeleteTemplate")]
-pub mod DeleteTemplate;
