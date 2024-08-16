@@ -1,3 +1,5 @@
+#[cfg(feature = "ApigAppExists")]
+pub mod ApigAppExists;
 #[cfg(feature = "AttachObs")]
 pub mod AttachObs;
 #[cfg(feature = "AuthorizeApiToApigApps")]
@@ -8,6 +10,8 @@ pub mod BatchCreateServiceTags;
 pub mod BatchDeletePoolNodes;
 #[cfg(feature = "BatchDeleteServiceTags")]
 pub mod BatchDeleteServiceTags;
+#[cfg(feature = "BatchRebootPoolNodes")]
+pub mod BatchRebootPoolNodes;
 #[cfg(feature = "CancelObs")]
 pub mod CancelObs;
 #[cfg(feature = "ChangeAlgorithm")]
@@ -22,6 +26,8 @@ pub mod CreateAndAuthAppAuthApi;
 pub mod CreateApigApp;
 #[cfg(feature = "CreateApigAppCode")]
 pub mod CreateApigAppCode;
+#[cfg(feature = "CreateAppAuthApi")]
+pub mod CreateAppAuthApi;
 #[cfg(feature = "CreateAuthorization")]
 pub mod CreateAuthorization;
 #[cfg(feature = "CreateDevServer")]
@@ -108,8 +114,14 @@ pub mod DeleteWorkflowScheduleId;
 pub mod DeleteWorkflowSubscription;
 #[cfg(feature = "DeleteWorkspace")]
 pub mod DeleteWorkspace;
+#[cfg(feature = "GetAppAuthApiInfo")]
+pub mod GetAppAuthApiInfo;
+#[cfg(feature = "GetAppAuthApisInfo")]
+pub mod GetAppAuthApisInfo;
 #[cfg(feature = "GetAuthorizations")]
 pub mod GetAuthorizations;
+#[cfg(feature = "GetServiceAppAuthApiAuthInfo")]
+pub mod GetServiceAppAuthApiAuthInfo;
 #[cfg(feature = "ListAlgorithms")]
 pub mod ListAlgorithms;
 #[cfg(feature = "ListAllNotebooks")]
@@ -186,15 +198,3 @@ pub mod ShowAttachableObs;
 pub mod ShowAutoSearchParamAnalysisResultPath;
 #[cfg(feature = "ShowAutoSearchParamsAnalysis")]
 pub mod ShowAutoSearchParamsAnalysis;
-#[cfg(feature = "ShowAutoSearchPerTrial")]
-pub mod ShowAutoSearchPerTrial;
-#[cfg(feature = "ShowAutoSearchTrialEarlyStop")]
-pub mod ShowAutoSearchTrialEarlyStop;
-#[cfg(feature = "ShowAutoSearchTrials")]
-pub mod ShowAutoSearchTrials;
-#[cfg(feature = "ShowAutoSearchYamlTemplateContent")]
-pub mod ShowAutoSearchYamlTemplateContent;
-#[cfg(feature = "ShowAutoSearchYamlTemplatesInfo")]
-pub mod ShowAutoSearchYamlTemplatesInfo;
-#[cfg(feature = "ShowDevServer")]
-pub mod ShowDevServer;

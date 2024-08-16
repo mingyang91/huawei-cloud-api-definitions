@@ -1,5 +1,3 @@
-#[cfg(feature = "BatchCreateOrDeleteKafkaTag")]
-pub mod BatchCreateOrDeleteKafkaTag;
 #[cfg(feature = "BatchDeleteGroup")]
 pub mod BatchDeleteGroup;
 #[cfg(feature = "BatchDeleteInstanceTopic")]

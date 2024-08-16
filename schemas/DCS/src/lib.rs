@@ -2,6 +2,8 @@
 pub mod BatchCreateOrDeleteTags;
 #[cfg(feature = "BatchDeleteInstances")]
 pub mod BatchDeleteInstances;
+#[cfg(feature = "BatchRestartOnlineMigrationTasks")]
+pub mod BatchRestartOnlineMigrationTasks;
 #[cfg(feature = "BatchShowNodesInformation")]
 pub mod BatchShowNodesInformation;
 #[cfg(feature = "BatchStopMigrationTasks")]
@@ -196,5 +198,3 @@ pub mod StartInstanceResizeCheckJob;
 pub mod StopMigrationTask;
 #[cfg(feature = "StopMigrationTaskSync")]
 pub mod StopMigrationTaskSync;
-#[cfg(feature = "UpdateAclAccount")]
-pub mod UpdateAclAccount;

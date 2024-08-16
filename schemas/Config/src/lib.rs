@@ -6,6 +6,8 @@ pub mod BatchDeleteRemediationExceptions;
 pub mod CollectAllResourcesSummary;
 #[cfg(feature = "CollectConformancePackComplianceSummary")]
 pub mod CollectConformancePackComplianceSummary;
+#[cfg(feature = "CollectRemediationExecutionStatusesSummary")]
+pub mod CollectRemediationExecutionStatusesSummary;
 #[cfg(feature = "CollectTrackedResourcesSummary")]
 pub mod CollectTrackedResourcesSummary;
 #[cfg(feature = "CountAllResources")]
@@ -196,5 +198,3 @@ pub mod UpdateOrganizationPolicyAssignment;
 pub mod UpdatePolicyAssignment;
 #[cfg(feature = "UpdatePolicyState")]
 pub mod UpdatePolicyState;
-#[cfg(feature = "UpdateStoredQuery")]
-pub mod UpdateStoredQuery;

@@ -112,6 +112,8 @@ pub mod UpdateCgw;
 pub mod UpdateClientCa;
 #[cfg(feature = "UpdateP2cVgw")]
 pub mod UpdateP2cVgw;
+#[cfg(feature = "UpdatePostpaidVgwSpecification")]
+pub mod UpdatePostpaidVgwSpecification;
 #[cfg(feature = "UpdateVgw")]
 pub mod UpdateVgw;
 #[cfg(feature = "UpdateVgwCertificate")]
