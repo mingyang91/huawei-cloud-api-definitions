@@ -102,6 +102,8 @@ pub mod ListDesktopByTags;
 pub mod ListDesktopNamePolicy;
 #[cfg(feature = "ListDesktops")]
 pub mod ListDesktops;
+#[cfg(feature = "ListDesktopsConnectStatus")]
+pub mod ListDesktopsConnectStatus;
 #[cfg(feature = "ListDesktopsDetail")]
 pub mod ListDesktopsDetail;
 #[cfg(feature = "ListDesktopsEips")]
@@ -196,5 +198,3 @@ pub mod UpdateMetricNotifyRule;
 pub mod UpdateScheduledTasks;
 #[cfg(feature = "UpdateTerminalsBindingDesktops")]
 pub mod UpdateTerminalsBindingDesktops;
-#[cfg(feature = "UpdateTerminalsBindingDesktopsConfig")]
-pub mod UpdateTerminalsBindingDesktopsConfig;

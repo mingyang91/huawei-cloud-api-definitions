@@ -12,6 +12,8 @@ pub mod BatchCreateDeleteResourceTags;
 pub mod BatchDeleteAutopilotClusterTags;
 #[cfg(feature = "BatchDeleteClusterTags")]
 pub mod BatchDeleteClusterTags;
+#[cfg(feature = "BatchSyncNodes")]
+pub mod BatchSyncNodes;
 #[cfg(feature = "ContinueUpgradeClusterTask")]
 pub mod ContinueUpgradeClusterTask;
 #[cfg(feature = "CreateAddonInstance")]
@@ -196,5 +198,3 @@ pub mod ShowClusterConfigurationDetails;
 pub mod ShowClusterEndpoints;
 #[cfg(feature = "ShowClusterSupportConfiguration")]
 pub mod ShowClusterSupportConfiguration;
-#[cfg(feature = "ShowClusterUpgradeInfo")]
-pub mod ShowClusterUpgradeInfo;

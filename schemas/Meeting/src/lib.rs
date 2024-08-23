@@ -1,3 +1,5 @@
+#[cfg(feature = "AddAppId")]
+pub mod AddAppId;
 #[cfg(feature = "AddCorp")]
 pub mod AddCorp;
 #[cfg(feature = "AddCorpAdmin")]
@@ -40,6 +42,8 @@ pub mod BatchDeletePublications;
 pub mod BatchDeleteUsers;
 #[cfg(feature = "BatchHand")]
 pub mod BatchHand;
+#[cfg(feature = "BatchSearchAppId")]
+pub mod BatchSearchAppId;
 #[cfg(feature = "BatchShowUserDetails")]
 pub mod BatchShowUserDetails;
 #[cfg(feature = "BatchUpdateDevicesStatus")]
@@ -86,6 +90,8 @@ pub mod CreateVisionActiveCode;
 pub mod CreateWebinar;
 #[cfg(feature = "CreateWebSocketToken")]
 pub mod CreateWebSocketToken;
+#[cfg(feature = "DeleteAppId")]
+pub mod DeleteAppId;
 #[cfg(feature = "DeleteAttendees")]
 pub mod DeleteAttendees;
 #[cfg(feature = "DeleteCorp")]
@@ -152,6 +158,8 @@ pub mod Record;
 pub mod RenameParticipant;
 #[cfg(feature = "ResetActivecode")]
 pub mod ResetActivecode;
+#[cfg(feature = "ResetAppKey")]
+pub mod ResetAppKey;
 #[cfg(feature = "ResetPwd")]
 pub mod ResetPwd;
 #[cfg(feature = "ResetPwdByAdmin")]
@@ -190,11 +198,3 @@ pub mod SearchHisMeetings;
 pub mod SearchMaterials;
 #[cfg(feature = "SearchMeetingFileList")]
 pub mod SearchMeetingFileList;
-#[cfg(feature = "SearchMeetings")]
-pub mod SearchMeetings;
-#[cfg(feature = "SearchMemberVmr")]
-pub mod SearchMemberVmr;
-#[cfg(feature = "SearchOnlineMeetings")]
-pub mod SearchOnlineMeetings;
-#[cfg(feature = "SearchPrograms")]
-pub mod SearchPrograms;

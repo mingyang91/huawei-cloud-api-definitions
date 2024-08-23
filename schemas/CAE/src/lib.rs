@@ -54,8 +54,6 @@ pub mod ListApplications;
 pub mod ListCertificates;
 #[cfg(feature = "ListComponentConfigurations")]
 pub mod ListComponentConfigurations;
-#[cfg(feature = "ListComponentEvents")]
-pub mod ListComponentEvents;
 #[cfg(feature = "ListComponentInstances")]
 pub mod ListComponentInstances;
 #[cfg(feature = "ListComponents")]
