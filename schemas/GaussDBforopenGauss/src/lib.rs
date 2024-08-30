@@ -18,6 +18,8 @@ pub mod CreateDatabaseSchemas;
 pub mod CreateDbInstance;
 #[cfg(feature = "CreateDbUser")]
 pub mod CreateDbUser;
+#[cfg(feature = "CreateGaussDbInstance")]
+pub mod CreateGaussDbInstance;
 #[cfg(feature = "CreateInstance")]
 pub mod CreateInstance;
 #[cfg(feature = "CreateManualBackup")]

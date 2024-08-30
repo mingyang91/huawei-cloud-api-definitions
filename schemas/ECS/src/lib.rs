@@ -54,6 +54,8 @@ pub mod DeleteServers;
 pub mod DetachServerVolume;
 #[cfg(feature = "DisassociateServerVirtualIp")]
 pub mod DisassociateServerVirtualIp;
+#[cfg(feature = "ListCloudServers")]
+pub mod ListCloudServers;
 #[cfg(feature = "ListFlavors")]
 pub mod ListFlavors;
 #[cfg(feature = "ListFlavorSellPolicies")]
@@ -196,5 +198,3 @@ pub mod ShowServerRemoteConsole;
 pub mod ShowServerTags;
 #[cfg(feature = "UpdateServer")]
 pub mod UpdateServer;
-#[cfg(feature = "UpdateServerAutoTerminateTime")]
-pub mod UpdateServerAutoTerminateTime;

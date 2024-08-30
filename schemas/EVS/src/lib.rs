@@ -42,6 +42,8 @@ pub mod ListVolumeTags;
 pub mod ModifyVolumeQoS;
 #[cfg(feature = "ResizeVolume")]
 pub mod ResizeVolume;
+#[cfg(feature = "RetypeVolume")]
+pub mod RetypeVolume;
 #[cfg(feature = "RollbackSnapshot")]
 pub mod RollbackSnapshot;
 #[cfg(feature = "ShowJob")]

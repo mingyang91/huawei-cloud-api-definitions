@@ -1,3 +1,5 @@
+#[cfg(feature = "AddNetworkSwitchPolicy")]
+pub mod AddNetworkSwitchPolicy;
 #[cfg(feature = "BatchSetAttributes")]
 pub mod BatchSetAttributes;
 #[cfg(feature = "BatchSetTags")]
@@ -24,10 +26,14 @@ pub mod ListBackPoolMembers;
 pub mod ListBackPools;
 #[cfg(feature = "ListFlowBySimCards")]
 pub mod ListFlowBySimCards;
+#[cfg(feature = "ListNetworkSwitchPolicies")]
+pub mod ListNetworkSwitchPolicies;
 #[cfg(feature = "ListProPricePlans")]
 pub mod ListProPricePlans;
 #[cfg(feature = "ListSimCards")]
 pub mod ListSimCards;
+#[cfg(feature = "ListSimDeviceMultiply")]
+pub mod ListSimDeviceMultiply;
 #[cfg(feature = "ListSimPoolMembers")]
 pub mod ListSimPoolMembers;
 #[cfg(feature = "ListSimPools")]
@@ -50,6 +56,8 @@ pub mod ResetSimCard;
 pub mod SendSms;
 #[cfg(feature = "SetExceedCutNet")]
 pub mod SetExceedCutNet;
+#[cfg(feature = "SetNetworkSwitchPolicy")]
+pub mod SetNetworkSwitchPolicy;
 #[cfg(feature = "SetSpeedValue")]
 pub mod SetSpeedValue;
 #[cfg(feature = "ShowMonthUsages")]
@@ -62,5 +70,7 @@ pub mod ShowSimCard;
 pub mod StartStopNet;
 #[cfg(feature = "StopSimCard")]
 pub mod StopSimCard;
+#[cfg(feature = "SwitchNetwork")]
+pub mod SwitchNetwork;
 #[cfg(feature = "UpdateAttribute")]
 pub mod UpdateAttribute;

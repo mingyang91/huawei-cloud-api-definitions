@@ -110,6 +110,8 @@ pub mod ListDigitalHumanVideo;
 pub mod ListFacialAnimationsData;
 #[cfg(feature = "ListInteractionRuleGroups")]
 pub mod ListInteractionRuleGroups;
+#[cfg(feature = "ListJobOperationLog")]
+pub mod ListJobOperationLog;
 #[cfg(feature = "ListPictureModelingJobs")]
 pub mod ListPictureModelingJobs;
 #[cfg(feature = "ListProducts")]
@@ -196,5 +198,3 @@ pub mod StartSmartLive;
 pub mod StopSmartChatJob;
 #[cfg(feature = "StopSmartLive")]
 pub mod StopSmartLive;
-#[cfg(feature = "StopVideoMotionCaptureJob")]
-pub mod StopVideoMotionCaptureJob;

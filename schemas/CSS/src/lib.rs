@@ -132,6 +132,8 @@ pub mod StartLogs;
 pub mod StartPipeline;
 #[cfg(feature = "StartPublicWhitelist")]
 pub mod StartPublicWhitelist;
+#[cfg(feature = "StartTargetClusterConnectivityTest")]
+pub mod StartTargetClusterConnectivityTest;
 #[cfg(feature = "StartVpecp")]
 pub mod StartVpecp;
 #[cfg(feature = "StopAutoCreateSnapshots")]
@@ -196,5 +198,3 @@ pub mod UpdateSnapshotSetting;
 pub mod UpdateUnbindPublic;
 #[cfg(feature = "UpdateVpcepConnection")]
 pub mod UpdateVpcepConnection;
-#[cfg(feature = "UpdateVpcepWhitelist")]
-pub mod UpdateVpcepWhitelist;

@@ -190,8 +190,8 @@ pub mod UpdateIpList;
 pub mod UpdateL7policies;
 #[cfg(feature = "UpdateL7Policy")]
 pub mod UpdateL7Policy;
-#[cfg(feature = "UpdateL7rule")]
-pub mod UpdateL7rule;
+#[cfg(feature = "UpdateL7Rule")]
+pub mod UpdateL7Rule;
 #[cfg(feature = "UpdateListener")]
 pub mod UpdateListener;
 #[cfg(feature = "UpdateLoadBalancer")]
