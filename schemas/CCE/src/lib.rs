@@ -148,6 +148,8 @@ pub mod ResizeCluster;
 pub mod RetryAutopilotUpgradeClusterTask;
 #[cfg(feature = "RetryUpgradeClusterTask")]
 pub mod RetryUpgradeClusterTask;
+#[cfg(feature = "RevokeKubernetesClusterCert")]
+pub mod RevokeKubernetesClusterCert;
 #[cfg(feature = "RollbackAddonInstance")]
 pub mod RollbackAddonInstance;
 #[cfg(feature = "RollbackAutopilotAddonInstance")]
@@ -196,5 +198,3 @@ pub mod ShowClusterConfig;
 pub mod ShowClusterConfigurationDetails;
 #[cfg(feature = "ShowClusterEndpoints")]
 pub mod ShowClusterEndpoints;
-#[cfg(feature = "ShowClusterSupportConfiguration")]
-pub mod ShowClusterSupportConfiguration;

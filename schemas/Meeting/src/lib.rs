@@ -72,6 +72,8 @@ pub mod CheckVerifyCode;
 pub mod CreateAnonymousAuthRandom;
 #[cfg(feature = "CreateAppIdToken")]
 pub mod CreateAppIdToken;
+#[cfg(feature = "CreateAuthRandom")]
+pub mod CreateAuthRandom;
 #[cfg(feature = "CreateConfToken")]
 pub mod CreateConfToken;
 #[cfg(feature = "CreateMeeting")]
@@ -196,5 +198,3 @@ pub mod SearchDevices;
 pub mod SearchHisMeetings;
 #[cfg(feature = "SearchMaterials")]
 pub mod SearchMaterials;
-#[cfg(feature = "SearchMeetingFileList")]
-pub mod SearchMeetingFileList;

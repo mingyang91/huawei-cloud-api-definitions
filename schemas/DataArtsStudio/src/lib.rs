@@ -54,6 +54,8 @@ pub mod ChangeSubjects;
 pub mod CheckDimensionStatus;
 #[cfg(feature = "CheckFactLogicTableStatus")]
 pub mod CheckFactLogicTableStatus;
+#[cfg(feature = "CheckSecurityDataClassificationCombineRule")]
+pub mod CheckSecurityDataClassificationCombineRule;
 #[cfg(feature = "ConfirmApprovals")]
 pub mod ConfirmApprovals;
 #[cfg(feature = "ConfirmMessage")]
@@ -96,8 +98,12 @@ pub mod CreateOrUpdateAsset;
 pub mod CreateOrUpdateEntities;
 #[cfg(feature = "CreateSecurityAssignedQueue")]
 pub mod CreateSecurityAssignedQueue;
+#[cfg(feature = "CreateSecurityDataClassificationCombineRule")]
+pub mod CreateSecurityDataClassificationCombineRule;
 #[cfg(feature = "CreateSecurityDataClassificationRule")]
 pub mod CreateSecurityDataClassificationRule;
+#[cfg(feature = "CreateSecurityDataClassificationRuleGroup")]
+pub mod CreateSecurityDataClassificationRuleGroup;
 #[cfg(feature = "CreateSecurityDynamicMaskingPolicy")]
 pub mod CreateSecurityDynamicMaskingPolicy;
 #[cfg(feature = "CreateSecurityPermissionSet")]
@@ -166,6 +172,8 @@ pub mod DeleteDirectory;
 pub mod DeleteSecurityAssignedQueue;
 #[cfg(feature = "DeleteSecurityDataClassificationRule")]
 pub mod DeleteSecurityDataClassificationRule;
+#[cfg(feature = "DeleteSecurityDataClassificationRuleGroup")]
+pub mod DeleteSecurityDataClassificationRuleGroup;
 #[cfg(feature = "DeleteSecurityLevelFromEntity")]
 pub mod DeleteSecurityLevelFromEntity;
 #[cfg(feature = "DeleteSecurityPermissionSet")]
@@ -190,11 +198,3 @@ pub mod DeleteTaskInfo;
 pub mod DeleteWorkspaces;
 #[cfg(feature = "DeleteWorkspaceusers")]
 pub mod DeleteWorkspaceusers;
-#[cfg(feature = "DeployFactoryPackages")]
-pub mod DeployFactoryPackages;
-#[cfg(feature = "ExecuteApiToInstance")]
-pub mod ExecuteApiToInstance;
-#[cfg(feature = "ExecuteSecurityDiagnose")]
-pub mod ExecuteSecurityDiagnose;
-#[cfg(feature = "ExecuteTaskAction")]
-pub mod ExecuteTaskAction;
