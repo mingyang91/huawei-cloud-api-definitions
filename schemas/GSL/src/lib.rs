@@ -30,6 +30,8 @@ pub mod ListFlowBySimCards;
 pub mod ListNetworkSwitchPolicies;
 #[cfg(feature = "ListProPricePlans")]
 pub mod ListProPricePlans;
+#[cfg(feature = "ListSimCardFlowPerDay")]
+pub mod ListSimCardFlowPerDay;
 #[cfg(feature = "ListSimCards")]
 pub mod ListSimCards;
 #[cfg(feature = "ListSimDeviceMultiply")]

@@ -72,6 +72,8 @@ pub mod DeleteCluster;
 pub mod DeleteDcDs;
 #[cfg(feature = "DeleteDcPoint")]
 pub mod DeleteDcPoint;
+#[cfg(feature = "DeleteDcPoints")]
+pub mod DeleteDcPoints;
 #[cfg(feature = "DeleteDevice")]
 pub mod DeleteDevice;
 #[cfg(feature = "DeleteEdgeApp")]
@@ -196,5 +198,3 @@ pub mod UpdateEdgeNode;
 pub mod UpdateExternalEntity;
 #[cfg(feature = "UpdateIaConfig")]
 pub mod UpdateIaConfig;
-#[cfg(feature = "UpdateModule")]
-pub mod UpdateModule;

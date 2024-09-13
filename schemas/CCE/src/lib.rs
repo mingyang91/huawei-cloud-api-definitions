@@ -1,13 +1,13 @@
 #[cfg(feature = "AddNode")]
 pub mod AddNode;
+#[cfg(feature = "AddNodesToNodePool")]
+pub mod AddNodesToNodePool;
 #[cfg(feature = "AwakeCluster")]
 pub mod AwakeCluster;
 #[cfg(feature = "BatchCreateAutopilotClusterTags")]
 pub mod BatchCreateAutopilotClusterTags;
 #[cfg(feature = "BatchCreateClusterTags")]
 pub mod BatchCreateClusterTags;
-#[cfg(feature = "BatchCreateDeleteResourceTags")]
-pub mod BatchCreateDeleteResourceTags;
 #[cfg(feature = "BatchDeleteAutopilotClusterTags")]
 pub mod BatchDeleteAutopilotClusterTags;
 #[cfg(feature = "BatchDeleteClusterTags")]
