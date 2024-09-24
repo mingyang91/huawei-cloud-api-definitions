@@ -76,6 +76,8 @@ pub mod ListBackups;
 pub mod ListConfigurations;
 #[cfg(feature = "ListDatabaseRoles")]
 pub mod ListDatabaseRoles;
+#[cfg(feature = "ListDatabases")]
+pub mod ListDatabases;
 #[cfg(feature = "ListDatabaseUsers")]
 pub mod ListDatabaseUsers;
 #[cfg(feature = "ListDatastoreVersions")]
@@ -196,5 +198,3 @@ pub mod SwitchConfiguration;
 pub mod SwitchInstancePrimary;
 #[cfg(feature = "SwitchoverReplicaSet")]
 pub mod SwitchoverReplicaSet;
-#[cfg(feature = "SwitchSecondLevelMonitoring")]
-pub mod SwitchSecondLevelMonitoring;

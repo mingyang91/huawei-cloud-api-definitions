@@ -108,6 +108,8 @@ pub mod ShowResourceInstancesCount;
 pub mod TagResource;
 #[cfg(feature = "UntagResource")]
 pub mod UntagResource;
+#[cfg(feature = "UpdateAccount")]
+pub mod UpdateAccount;
 #[cfg(feature = "UpdateOrganizationalUnit")]
 pub mod UpdateOrganizationalUnit;
 #[cfg(feature = "UpdatePolicy")]
