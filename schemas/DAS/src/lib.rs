@@ -38,6 +38,8 @@ pub mod ExportTopSqlTemplatesDetails;
 pub mod ExportTopSqlTrendDetails;
 #[cfg(feature = "ListApiVersions")]
 pub mod ListApiVersions;
+#[cfg(feature = "ListCloudDbaInstances")]
+pub mod ListCloudDbaInstances;
 #[cfg(feature = "ListDbUsers")]
 pub mod ListDbUsers;
 #[cfg(feature = "ListInnodbLocks")]

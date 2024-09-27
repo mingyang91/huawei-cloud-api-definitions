@@ -16,11 +16,16 @@ version = "1"
 version = "0"
 
 [features]
+CreateAccount = []
 DisableControl = []
 EnableControl = []
 ListControlsForOrganizationalUnit = []
+ListEnabledControls = []
+RegisterOrganizationalUnit = []
 ShowControlOperate = []
-full = ["DisableControl", "EnableControl", "ListControlsForOrganizationalUnit", "ShowControlOperate"]
+ShowManagedAccount = []
+ShowOperation = []
+full = ["CreateAccount", "DisableControl", "EnableControl", "ListControlsForOrganizationalUnit", "ListEnabledControls", "RegisterOrganizationalUnit", "ShowControlOperate", "ShowManagedAccount", "ShowOperation"]
 
 [lib]
 name = "huawei_cloud_api_definitions_RGC"

@@ -4,6 +4,8 @@ pub mod BatchShowIpBelongs;
 pub mod CreateDomain;
 #[cfg(feature = "CreateDomainMapping")]
 pub mod CreateDomainMapping;
+#[cfg(feature = "CreateHarvestTask")]
+pub mod CreateHarvestTask;
 #[cfg(feature = "CreateOttChannelInfo")]
 pub mod CreateOttChannelInfo;
 #[cfg(feature = "CreateRecordCallbackConfig")]
@@ -28,6 +30,8 @@ pub mod DeleteDomainHttpsCert;
 pub mod DeleteDomainKeyChain;
 #[cfg(feature = "DeleteDomainMapping")]
 pub mod DeleteDomainMapping;
+#[cfg(feature = "DeleteHarvestTask")]
+pub mod DeleteHarvestTask;
 #[cfg(feature = "DeleteOttChannelInfo")]
 pub mod DeleteOttChannelInfo;
 #[cfg(feature = "DeletePublishTemplate")]
@@ -58,6 +62,8 @@ pub mod ListDomainTrafficDetail;
 pub mod ListDomainTrafficSummary;
 #[cfg(feature = "ListGeoBlockingConfig")]
 pub mod ListGeoBlockingConfig;
+#[cfg(feature = "ListHarvestTask")]
+pub mod ListHarvestTask;
 #[cfg(feature = "ListHistoryStreams")]
 pub mod ListHistoryStreams;
 #[cfg(feature = "ListHlsConfig")]
@@ -100,6 +106,8 @@ pub mod ListTranscodeData;
 pub mod ListUpStreamDetail;
 #[cfg(feature = "ListUsersOfStream")]
 pub mod ListUsersOfStream;
+#[cfg(feature = "ModifyHarvestTask")]
+pub mod ModifyHarvestTask;
 #[cfg(feature = "ModifyOttChannelInfoEncoderSettings")]
 pub mod ModifyOttChannelInfoEncoderSettings;
 #[cfg(feature = "ModifyOttChannelInfoEndPoints")]

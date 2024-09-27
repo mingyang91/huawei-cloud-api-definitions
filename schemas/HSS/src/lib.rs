@@ -2,8 +2,6 @@
 pub mod AddHostsGroup;
 #[cfg(feature = "AssociatePolicyGroup")]
 pub mod AssociatePolicyGroup;
-#[cfg(feature = "BatchAddAccounts")]
-pub mod BatchAddAccounts;
 #[cfg(feature = "BatchCreateTags")]
 pub mod BatchCreateTags;
 #[cfg(feature = "BatchScanSwrImage")]
@@ -26,16 +24,12 @@ pub mod ChangeVulStatus;
 pub mod CreateQuotasOrder;
 #[cfg(feature = "CreateVulnerabilityScanTask")]
 pub mod CreateVulnerabilityScanTask;
-#[cfg(feature = "DeleteAccount")]
-pub mod DeleteAccount;
 #[cfg(feature = "DeleteHostsGroup")]
 pub mod DeleteHostsGroup;
 #[cfg(feature = "DeleteResourceInstanceTag")]
 pub mod DeleteResourceInstanceTag;
 #[cfg(feature = "ExportVuls")]
 pub mod ExportVuls;
-#[cfg(feature = "ListAccounts")]
-pub mod ListAccounts;
 #[cfg(feature = "ListAlarmWhiteList")]
 pub mod ListAlarmWhiteList;
 #[cfg(feature = "ListAppChangeHistories")]
@@ -82,8 +76,6 @@ pub mod ListIsolatedFile;
 pub mod ListJarPackageHostInfo;
 #[cfg(feature = "ListJarPackageStatistics")]
 pub mod ListJarPackageStatistics;
-#[cfg(feature = "ListOrganizationTree")]
-pub mod ListOrganizationTree;
 #[cfg(feature = "ListPasswordComplexity")]
 pub mod ListPasswordComplexity;
 #[cfg(feature = "ListPolicyGroup")]
