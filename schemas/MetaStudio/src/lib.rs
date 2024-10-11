@@ -60,6 +60,8 @@ pub mod CreatePhotoDigitalHumanVideo;
 pub mod CreatePictureModelingByUrlJob;
 #[cfg(feature = "CreatePictureModelingJob")]
 pub mod CreatePictureModelingJob;
+#[cfg(feature = "CreateProduct")]
+pub mod CreateProduct;
 #[cfg(feature = "CreateRobot")]
 pub mod CreateRobot;
 #[cfg(feature = "CreateSmartChatRoom")]
@@ -196,5 +198,3 @@ pub mod SetProductAsset;
 pub mod Show2DDigitalHumanVideo;
 #[cfg(feature = "Show2dModelTrainingJob")]
 pub mod Show2dModelTrainingJob;
-#[cfg(feature = "ShowActiveCode")]
-pub mod ShowActiveCode;

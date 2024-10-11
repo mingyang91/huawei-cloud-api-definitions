@@ -96,6 +96,8 @@ pub mod CreateDataLevelTableCompareJob;
 pub mod CreateJob;
 #[cfg(feature = "CreateObjectLevelCompareJob")]
 pub mod CreateObjectLevelCompareJob;
+#[cfg(feature = "CreateReplicationJob")]
+pub mod CreateReplicationJob;
 #[cfg(feature = "DeleteCompareJob")]
 pub mod DeleteCompareJob;
 #[cfg(feature = "DeleteConnection")]
@@ -104,6 +106,8 @@ pub mod DeleteConnection;
 pub mod DeleteJdbcDriver;
 #[cfg(feature = "DeleteJob")]
 pub mod DeleteJob;
+#[cfg(feature = "DeleteReplicationJob")]
+pub mod DeleteReplicationJob;
 #[cfg(feature = "DeleteUserJdbcDriver")]
 pub mod DeleteUserJdbcDriver;
 #[cfg(feature = "DownloadBatchCreateTemplate")]
@@ -168,6 +172,8 @@ pub mod ListObejectLevelCompareDetail;
 pub mod ListObejectLevelCompareOverview;
 #[cfg(feature = "ListProjectTags")]
 pub mod ListProjectTags;
+#[cfg(feature = "ListReplicationJobs")]
+pub mod ListReplicationJobs;
 #[cfg(feature = "ListsAgencyPermissions")]
 pub mod ListsAgencyPermissions;
 #[cfg(feature = "ListTags")]
@@ -192,9 +198,3 @@ pub mod ShowDataProcessingRulesResult;
 pub mod ShowDataProgress;
 #[cfg(feature = "ShowDbObjectCollectionStatus")]
 pub mod ShowDbObjectCollectionStatus;
-#[cfg(feature = "ShowDbObjectsList")]
-pub mod ShowDbObjectsList;
-#[cfg(feature = "ShowDbObjectTemplateProgress")]
-pub mod ShowDbObjectTemplateProgress;
-#[cfg(feature = "ShowDbObjectTemplateResult")]
-pub mod ShowDbObjectTemplateResult;

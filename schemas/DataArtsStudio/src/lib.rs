@@ -90,6 +90,8 @@ pub mod CreateDesignAtomicIndex;
 pub mod CreateDirectory;
 #[cfg(feature = "CreateFactorySupplementDataInstance")]
 pub mod CreateFactorySupplementDataInstance;
+#[cfg(feature = "CreateLineageInfo")]
+pub mod CreateLineageInfo;
 #[cfg(feature = "CreateManagerWorkSpace")]
 pub mod CreateManagerWorkSpace;
 #[cfg(feature = "CreateOrUpdateAsset")]
@@ -196,5 +198,3 @@ pub mod DeleteTableModel;
 pub mod DeleteTaskInfo;
 #[cfg(feature = "DeleteWorkspaces")]
 pub mod DeleteWorkspaces;
-#[cfg(feature = "DeleteWorkspaceusers")]
-pub mod DeleteWorkspaceusers;
