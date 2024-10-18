@@ -2,10 +2,6 @@
 pub mod BatchCreateDedicatedHostTags;
 #[cfg(feature = "BatchDeleteDedicatedHostTags")]
 pub mod BatchDeleteDedicatedHostTags;
-#[cfg(feature = "CreateDedicatedHost")]
-pub mod CreateDedicatedHost;
-#[cfg(feature = "DeleteDedicatedHost")]
-pub mod DeleteDedicatedHost;
 #[cfg(feature = "ListDedicatedHosts")]
 pub mod ListDedicatedHosts;
 #[cfg(feature = "ListDedicatedHostsByTags")]

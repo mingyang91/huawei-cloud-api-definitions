@@ -18,8 +18,6 @@ version = "0"
 [features]
 BatchCreateDedicatedHostTags = []
 BatchDeleteDedicatedHostTags = []
-CreateDedicatedHost = []
-DeleteDedicatedHost = []
 ListDedicatedHostTypes = []
 ListDedicatedHosts = []
 ListDedicatedHostsByTags = []
@@ -30,7 +28,7 @@ ShowDedicatedHostTags = []
 ShowDehVersion = []
 ShowQuotaSets = []
 UpdateDedicatedHost = []
-full = ["BatchCreateDedicatedHostTags", "BatchDeleteDedicatedHostTags", "CreateDedicatedHost", "DeleteDedicatedHost", "ListDedicatedHosts", "ListDedicatedHostsByTags", "ListDedicatedHostTypes", "ListDehVersions", "ListServersDedicatedHost", "ShowDedicatedHost", "ShowDedicatedHostTags", "ShowDehVersion", "ShowQuotaSets", "UpdateDedicatedHost"]
+full = ["BatchCreateDedicatedHostTags", "BatchDeleteDedicatedHostTags", "ListDedicatedHosts", "ListDedicatedHostsByTags", "ListDedicatedHostTypes", "ListDehVersions", "ListServersDedicatedHost", "ShowDedicatedHost", "ShowDedicatedHostTags", "ShowDehVersion", "ShowQuotaSets", "UpdateDedicatedHost"]
 
 [lib]
 name = "huawei_cloud_api_definitions_DeH"
