@@ -1,5 +1,7 @@
 #[cfg(feature = "CreateXdmApplication")]
 pub mod CreateXdmApplication;
+#[cfg(feature = "DeleteCloudService")]
+pub mod DeleteCloudService;
 #[cfg(feature = "DeleteXdmApplication")]
 pub mod DeleteXdmApplication;
 #[cfg(feature = "DeployApplication")]

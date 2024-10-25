@@ -17,13 +17,14 @@ version = "0"
 
 [features]
 CreateXdmApplication = []
+DeleteCloudService = []
 DeleteXdmApplication = []
 DeployApplication = []
 ListApps = []
 ListEnvs = []
 ModifyApplication = []
 Uninstall = []
-full = ["CreateXdmApplication", "DeleteXdmApplication", "DeployApplication", "ListApps", "ListEnvs", "ModifyApplication", "Uninstall"]
+full = ["CreateXdmApplication", "DeleteCloudService", "DeleteXdmApplication", "DeployApplication", "ListApps", "ListEnvs", "ModifyApplication", "Uninstall"]
 
 [lib]
 name = "huawei_cloud_api_definitions_iDME"

@@ -12,6 +12,10 @@ pub mod AddMuteRules;
 pub mod AddOrUpdateMetricOrEventAlarmRule;
 #[cfg(feature = "AddOrUpdateServiceDiscoveryRules")]
 pub mod AddOrUpdateServiceDiscoveryRules;
+#[cfg(feature = "BatchImportAgent")]
+pub mod BatchImportAgent;
+#[cfg(feature = "BatchUpdateAgent")]
+pub mod BatchUpdateAgent;
 #[cfg(feature = "CountEvents")]
 pub mod CountEvents;
 #[cfg(feature = "CreateApp")]
@@ -126,6 +130,8 @@ pub mod SearchTemplateById;
 pub mod SearchWorkflowExecutionDetail;
 #[cfg(feature = "ShowActionRule")]
 pub mod ShowActionRule;
+#[cfg(feature = "ShowAgentInfos")]
+pub mod ShowAgentInfos;
 #[cfg(feature = "ShowAlarmRule")]
 pub mod ShowAlarmRule;
 #[cfg(feature = "ShowApp")]

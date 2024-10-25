@@ -12,6 +12,8 @@ pub mod ConfirmFileUpload;
 pub mod ConfirmTrainingSegment;
 #[cfg(feature = "CopyVideoScripts")]
 pub mod CopyVideoScripts;
+#[cfg(feature = "CountTenantResources")]
+pub mod CountTenantResources;
 #[cfg(feature = "Create2DDigitalHumanVideo")]
 pub mod Create2DDigitalHumanVideo;
 #[cfg(feature = "Create2dModelTrainingJob")]
@@ -174,6 +176,8 @@ pub mod ListSmartLiveJobs;
 pub mod ListSmartLiveRooms;
 #[cfg(feature = "ListStyles")]
 pub mod ListStyles;
+#[cfg(feature = "ListTenantResources")]
+pub mod ListTenantResources;
 #[cfg(feature = "ListTtsaData")]
 pub mod ListTtsaData;
 #[cfg(feature = "ListTtsaJobs")]
@@ -194,7 +198,3 @@ pub mod ResetActiveCode;
 pub mod RestoreAsset;
 #[cfg(feature = "SetProductAsset")]
 pub mod SetProductAsset;
-#[cfg(feature = "Show2DDigitalHumanVideo")]
-pub mod Show2DDigitalHumanVideo;
-#[cfg(feature = "Show2dModelTrainingJob")]
-pub mod Show2dModelTrainingJob;
