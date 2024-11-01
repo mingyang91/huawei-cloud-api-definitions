@@ -44,6 +44,8 @@ pub mod CancelRemoteAssistance;
 pub mod CancelWorkspace;
 #[cfg(feature = "ChangeDesktopNetwork")]
 pub mod ChangeDesktopNetwork;
+#[cfg(feature = "ChangeUserPrivilegeGroup")]
+pub mod ChangeUserPrivilegeGroup;
 #[cfg(feature = "ChangeUserStatus")]
 pub mod ChangeUserStatus;
 #[cfg(feature = "CreateAccessPolicy")]
@@ -196,5 +198,3 @@ pub mod UpdateDesktopNamePolicy;
 pub mod UpdateMetricNotifyRule;
 #[cfg(feature = "UpdateScheduledTasks")]
 pub mod UpdateScheduledTasks;
-#[cfg(feature = "UpdateTerminalsBindingDesktops")]
-pub mod UpdateTerminalsBindingDesktops;

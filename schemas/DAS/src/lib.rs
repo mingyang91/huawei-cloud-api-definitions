@@ -6,6 +6,8 @@ pub mod ChangeSqlLimitSwitchStatus;
 pub mod ChangeSqlSwitch;
 #[cfg(feature = "ChangeTransactionSwitchStatus")]
 pub mod ChangeTransactionSwitchStatus;
+#[cfg(feature = "CreateHealthReportTask")]
+pub mod CreateHealthReportTask;
 #[cfg(feature = "CreateShareConnections")]
 pub mod CreateShareConnections;
 #[cfg(feature = "CreateSpaceAnalysisTask")]
@@ -42,6 +44,8 @@ pub mod ListApiVersions;
 pub mod ListCloudDbaInstances;
 #[cfg(feature = "ListDbUsers")]
 pub mod ListDbUsers;
+#[cfg(feature = "ListHealthReportTask")]
+pub mod ListHealthReportTask;
 #[cfg(feature = "ListInnodbLocks")]
 pub mod ListInnodbLocks;
 #[cfg(feature = "ListMetadataLocks")]
@@ -62,6 +66,8 @@ pub mod RegisterDbUser;
 pub mod ShowApiVersion;
 #[cfg(feature = "ShowDbUser")]
 pub mod ShowDbUser;
+#[cfg(feature = "ShowInstanceHealthReport")]
+pub mod ShowInstanceHealthReport;
 #[cfg(feature = "ShowQuotas")]
 pub mod ShowQuotas;
 #[cfg(feature = "ShowSqlExecutionPlan")]

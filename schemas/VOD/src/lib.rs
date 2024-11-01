@@ -80,6 +80,8 @@ pub mod ShowAssetTempAuthority;
 pub mod ShowCdnStatistics;
 #[cfg(feature = "ShowPreheatingAsset")]
 pub mod ShowPreheatingAsset;
+#[cfg(feature = "ShowStorageModeType")]
+pub mod ShowStorageModeType;
 #[cfg(feature = "ShowTakeOverAssetDetails")]
 pub mod ShowTakeOverAssetDetails;
 #[cfg(feature = "ShowTakeOverTaskDetails")]
@@ -102,6 +104,8 @@ pub mod UpdateBucketAuthorized;
 pub mod UpdateCoverByThumbnail;
 #[cfg(feature = "UpdateStorageMode")]
 pub mod UpdateStorageMode;
+#[cfg(feature = "UpdateStorageModeType")]
+pub mod UpdateStorageModeType;
 #[cfg(feature = "UpdateTemplateGroup")]
 pub mod UpdateTemplateGroup;
 #[cfg(feature = "UpdateTemplateGroupCollection")]

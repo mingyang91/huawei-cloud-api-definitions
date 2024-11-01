@@ -16,13 +16,23 @@ version = "1"
 version = "0"
 
 [features]
+CreateCollectionRecord = []
+CreateJob = []
 CreateSimSmMaps = []
 CreateSimSmScenarios = []
 CreateSimSmScenariosFiles = []
+DeleteCollectionById = []
+DeleteJob = []
+DeletePackageById = []
+ListCollectionRecords = []
+ListJobs = []
+ListPackages = []
 ListSimSmScenarios = []
+UpdateJob = []
+UpdatePackageById = []
 UpdateSimSmMapsFiles = []
 UpdateSimSmScenariosFiles = []
-full = ["CreateSimSmMaps", "CreateSimSmScenarios", "CreateSimSmScenariosFiles", "ListSimSmScenarios", "UpdateSimSmMapsFiles", "UpdateSimSmScenariosFiles"]
+full = ["CreateCollectionRecord", "CreateJob", "CreateSimSmMaps", "CreateSimSmScenarios", "CreateSimSmScenariosFiles", "DeleteCollectionById", "DeleteJob", "DeletePackageById", "ListCollectionRecords", "ListJobs", "ListPackages", "ListSimSmScenarios", "UpdateJob", "UpdatePackageById", "UpdateSimSmMapsFiles", "UpdateSimSmScenariosFiles"]
 
 [lib]
 name = "huawei_cloud_api_definitions_Octopus"

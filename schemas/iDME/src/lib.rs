@@ -12,5 +12,7 @@ pub mod ListApps;
 pub mod ListEnvs;
 #[cfg(feature = "ModifyApplication")]
 pub mod ModifyApplication;
+#[cfg(feature = "SubscribeCloudService")]
+pub mod SubscribeCloudService;
 #[cfg(feature = "Uninstall")]
 pub mod Uninstall;

@@ -10,6 +10,8 @@ pub mod BatchStartHostTasks;
 pub mod CancelTasks;
 #[cfg(feature = "CreateDomains")]
 pub mod CreateDomains;
+#[cfg(feature = "CreatePurchaseOrder")]
+pub mod CreatePurchaseOrder;
 #[cfg(feature = "CreateTasks")]
 pub mod CreateTasks;
 #[cfg(feature = "DeleteDomains")]
@@ -42,9 +44,13 @@ pub mod ShowDomainSettings;
 pub mod ShowReportStatus;
 #[cfg(feature = "ShowResults")]
 pub mod ShowResults;
+#[cfg(feature = "ShowSubscription")]
+pub mod ShowSubscription;
 #[cfg(feature = "ShowTasks")]
 pub mod ShowTasks;
 #[cfg(feature = "UpdateDomainSettings")]
 pub mod UpdateDomainSettings;
 #[cfg(feature = "UpdateFalsePositive")]
 pub mod UpdateFalsePositive;
+#[cfg(feature = "UpdatePurchaseOrder")]
+pub mod UpdatePurchaseOrder;
