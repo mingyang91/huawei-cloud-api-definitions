@@ -1,3 +1,5 @@
+#[cfg(feature = "AsyncInvokeInstance")]
+pub mod AsyncInvokeInstance;
 #[cfg(feature = "BatchResetInstance")]
 pub mod BatchResetInstance;
 #[cfg(feature = "BatchShowInstance")]
