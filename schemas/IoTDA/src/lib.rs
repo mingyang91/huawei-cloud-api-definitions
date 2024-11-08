@@ -8,6 +8,8 @@ pub mod AddCertificate;
 pub mod AddDevice;
 #[cfg(feature = "AddDeviceGroup")]
 pub mod AddDeviceGroup;
+#[cfg(feature = "AddFunctions")]
+pub mod AddFunctions;
 #[cfg(feature = "AddQueue")]
 pub mod AddQueue;
 #[cfg(feature = "AddTunnel")]
@@ -24,6 +26,8 @@ pub mod ChangeRuleStatus;
 pub mod CheckCertificate;
 #[cfg(feature = "CloseDeviceTunnel")]
 pub mod CloseDeviceTunnel;
+#[cfg(feature = "CountAsyncHistoryCommands")]
+pub mod CountAsyncHistoryCommands;
 #[cfg(feature = "CreateAccessCode")]
 pub mod CreateAccessCode;
 #[cfg(feature = "CreateAsyncCommand")]
@@ -80,6 +84,8 @@ pub mod DeleteDevicePolicy;
 pub mod DeleteDeviceProxy;
 #[cfg(feature = "DeleteDeviceTunnel")]
 pub mod DeleteDeviceTunnel;
+#[cfg(feature = "DeleteFunctions")]
+pub mod DeleteFunctions;
 #[cfg(feature = "DeleteOtaPackage")]
 pub mod DeleteOtaPackage;
 #[cfg(feature = "DeleteProduct")]
@@ -100,6 +106,10 @@ pub mod DeleteRule;
 pub mod DeleteRuleAction;
 #[cfg(feature = "FreezeDevice")]
 pub mod FreezeDevice;
+#[cfg(feature = "ListAsyncCommands")]
+pub mod ListAsyncCommands;
+#[cfg(feature = "ListAsyncHistoryCommands")]
+pub mod ListAsyncHistoryCommands;
 #[cfg(feature = "ListBatchTaskFiles")]
 pub mod ListBatchTaskFiles;
 #[cfg(feature = "ListBatchTasks")]
@@ -124,6 +134,8 @@ pub mod ListDeviceProxies;
 pub mod ListDevices;
 #[cfg(feature = "ListDeviceTunnels")]
 pub mod ListDeviceTunnels;
+#[cfg(feature = "ListFunctions")]
+pub mod ListFunctions;
 #[cfg(feature = "ListOtaPackageInfo")]
 pub mod ListOtaPackageInfo;
 #[cfg(feature = "ListProducts")]
@@ -186,15 +198,3 @@ pub mod ShowOtaPackage;
 pub mod ShowProduct;
 #[cfg(feature = "ShowProvisioningTemplate")]
 pub mod ShowProvisioningTemplate;
-#[cfg(feature = "ShowQueue")]
-pub mod ShowQueue;
-#[cfg(feature = "ShowRoutingBacklogPolicy")]
-pub mod ShowRoutingBacklogPolicy;
-#[cfg(feature = "ShowRoutingFlowControlPolicy")]
-pub mod ShowRoutingFlowControlPolicy;
-#[cfg(feature = "ShowRoutingRule")]
-pub mod ShowRoutingRule;
-#[cfg(feature = "ShowRule")]
-pub mod ShowRule;
-#[cfg(feature = "ShowRuleAction")]
-pub mod ShowRuleAction;

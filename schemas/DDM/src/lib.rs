@@ -1,3 +1,5 @@
+#[cfg(feature = "ChangeDatabaseVersion")]
+pub mod ChangeDatabaseVersion;
 #[cfg(feature = "CreateDatabase")]
 pub mod CreateDatabase;
 #[cfg(feature = "CreateGroup")]
@@ -26,6 +28,8 @@ pub mod ExpandInstanceNodes;
 pub mod ListApiVersion;
 #[cfg(feature = "ListAvailableRdsList")]
 pub mod ListAvailableRdsList;
+#[cfg(feature = "ListDatabaseAvailableVersions")]
+pub mod ListDatabaseAvailableVersions;
 #[cfg(feature = "ListDatabases")]
 pub mod ListDatabases;
 #[cfg(feature = "ListDdmEngines")]
@@ -58,6 +62,8 @@ pub mod ResetUserPassword;
 pub mod ResizeFlavor;
 #[cfg(feature = "RestartInstance")]
 pub mod RestartInstance;
+#[cfg(feature = "RollBackDatabaseVersion")]
+pub mod RollBackDatabaseVersion;
 #[cfg(feature = "ShowDatabase")]
 pub mod ShowDatabase;
 #[cfg(feature = "ShowInstance")]

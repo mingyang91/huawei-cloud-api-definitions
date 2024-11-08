@@ -2,6 +2,8 @@
 pub mod ApplyConfiguration;
 #[cfg(feature = "BatchTagAction")]
 pub mod BatchTagAction;
+#[cfg(feature = "BatchUpgradeDatabaseVersion")]
+pub mod BatchUpgradeDatabaseVersion;
 #[cfg(feature = "CheckDisasterRecoveryOperation")]
 pub mod CheckDisasterRecoveryOperation;
 #[cfg(feature = "CheckWeekPassword")]
@@ -196,5 +198,3 @@ pub mod SwitchSlowlogDesensitization;
 pub mod SwitchSsl;
 #[cfg(feature = "SwitchToMaster")]
 pub mod SwitchToMaster;
-#[cfg(feature = "SwitchToSlave")]
-pub mod SwitchToSlave;

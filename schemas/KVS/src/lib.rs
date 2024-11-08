@@ -1,5 +1,7 @@
 #[cfg(feature = "BatchWriteKv")]
 pub mod BatchWriteKv;
+#[cfg(feature = "CheckHealth")]
+pub mod CheckHealth;
 #[cfg(feature = "CreateTable")]
 pub mod CreateTable;
 #[cfg(feature = "DeleteKv")]

@@ -16,6 +16,8 @@ pub mod CreateHealthCheck;
 pub mod CreateIpGroup;
 #[cfg(feature = "CreateListener")]
 pub mod CreateListener;
+#[cfg(feature = "CreateLogtank")]
+pub mod CreateLogtank;
 #[cfg(feature = "CreateTags")]
 pub mod CreateTags;
 #[cfg(feature = "DeleteAccelerator")]
@@ -30,6 +32,8 @@ pub mod DeleteHealthCheck;
 pub mod DeleteIpGroup;
 #[cfg(feature = "DeleteListener")]
 pub mod DeleteListener;
+#[cfg(feature = "DeleteLogtank")]
+pub mod DeleteLogtank;
 #[cfg(feature = "DeleteTags")]
 pub mod DeleteTags;
 #[cfg(feature = "DisassociateListener")]
@@ -46,6 +50,8 @@ pub mod ListHealthChecks;
 pub mod ListIpGroups;
 #[cfg(feature = "ListListeners")]
 pub mod ListListeners;
+#[cfg(feature = "ListLogtanks")]
+pub mod ListLogtanks;
 #[cfg(feature = "ListRegions")]
 pub mod ListRegions;
 #[cfg(feature = "ListResourcesByTag")]
@@ -66,6 +72,8 @@ pub mod ShowHealthCheck;
 pub mod ShowIpGroup;
 #[cfg(feature = "ShowListener")]
 pub mod ShowListener;
+#[cfg(feature = "ShowLogtank")]
+pub mod ShowLogtank;
 #[cfg(feature = "ShowResourceTags")]
 pub mod ShowResourceTags;
 #[cfg(feature = "UpdateAccelerator")]
@@ -80,3 +88,5 @@ pub mod UpdateHealthCheck;
 pub mod UpdateIpGroup;
 #[cfg(feature = "UpdateListener")]
 pub mod UpdateListener;
+#[cfg(feature = "UpdateLogtank")]
+pub mod UpdateLogtank;
