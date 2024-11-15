@@ -26,6 +26,8 @@ pub mod CreateAgencyWithRoleType;
 pub mod CreateAssetByReplicationInfo;
 #[cfg(feature = "CreateBatchKnowledgeQuestion")]
 pub mod CreateBatchKnowledgeQuestion;
+#[cfg(feature = "CreateBeautyPreviewJob")]
+pub mod CreateBeautyPreviewJob;
 #[cfg(feature = "CreateDialogUrl")]
 pub mod CreateDialogUrl;
 #[cfg(feature = "CreateDigitalAsset")]
@@ -196,5 +198,3 @@ pub mod LiveEventReport;
 pub mod ResetActiveCode;
 #[cfg(feature = "RestoreAsset")]
 pub mod RestoreAsset;
-#[cfg(feature = "SetProductAsset")]
-pub mod SetProductAsset;

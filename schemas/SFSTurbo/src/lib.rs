@@ -30,6 +30,8 @@ pub mod DeleteFsDir;
 pub mod DeleteFsDirQuota;
 #[cfg(feature = "DeleteFsTask")]
 pub mod DeleteFsTask;
+#[cfg(feature = "DeleteHpcCacheTask")]
+pub mod DeleteHpcCacheTask;
 #[cfg(feature = "DeleteLdapConfig")]
 pub mod DeleteLdapConfig;
 #[cfg(feature = "DeletePermRule")]
@@ -82,5 +84,9 @@ pub mod UpdateFsDirQuota;
 pub mod UpdateHpcShare;
 #[cfg(feature = "UpdateLdapConfig")]
 pub mod UpdateLdapConfig;
+#[cfg(feature = "UpdateObsTargetAttributes")]
+pub mod UpdateObsTargetAttributes;
+#[cfg(feature = "UpdateObsTargetPolicy")]
+pub mod UpdateObsTargetPolicy;
 #[cfg(feature = "UpdatePermRule")]
 pub mod UpdatePermRule;

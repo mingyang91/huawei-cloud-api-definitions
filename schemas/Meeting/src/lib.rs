@@ -60,6 +60,8 @@ pub mod CancelMeeting;
 pub mod CancelRecurringMeeting;
 #[cfg(feature = "CancelRecurringSubMeeting")]
 pub mod CancelRecurringSubMeeting;
+#[cfg(feature = "CheckCallNumberInConf")]
+pub mod CheckCallNumberInConf;
 #[cfg(feature = "CheckSlideVerifyCode")]
 pub mod CheckSlideVerifyCode;
 #[cfg(feature = "CheckToken")]
@@ -196,5 +198,3 @@ pub mod SearchDepartmentByName;
 pub mod SearchDevices;
 #[cfg(feature = "SearchHisMeetings")]
 pub mod SearchHisMeetings;
-#[cfg(feature = "SearchMaterials")]
-pub mod SearchMaterials;
