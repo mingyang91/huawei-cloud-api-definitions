@@ -40,6 +40,8 @@ pub mod BatchOffline;
 pub mod BatchPublish;
 #[cfg(feature = "BatchSyncMetadata")]
 pub mod BatchSyncMetadata;
+#[cfg(feature = "BatchTag")]
+pub mod BatchTag;
 #[cfg(feature = "BatchUpdateSecurityDlfDataWareHouses")]
 pub mod BatchUpdateSecurityDlfDataWareHouses;
 #[cfg(feature = "CancelFactoryPackages")]
@@ -196,5 +198,3 @@ pub mod DeleteSubjectNew;
 pub mod DeleteTableModel;
 #[cfg(feature = "DeleteTaskInfo")]
 pub mod DeleteTaskInfo;
-#[cfg(feature = "DeleteWorkspaces")]
-pub mod DeleteWorkspaces;

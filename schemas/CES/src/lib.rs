@@ -138,3 +138,5 @@ pub mod UpdateNotificationMask;
 pub mod UpdateOneClickAlarmNotifications;
 #[cfg(feature = "UpdateResourceGroup")]
 pub mod UpdateResourceGroup;
+#[cfg(feature = "UpdateResourceGroupAssociationAlarmTemplate")]
+pub mod UpdateResourceGroupAssociationAlarmTemplate;

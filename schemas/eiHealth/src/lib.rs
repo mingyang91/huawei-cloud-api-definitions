@@ -50,6 +50,8 @@ pub mod CreateApp;
 pub mod CreateAutoJob;
 #[cfg(feature = "CreateBackup")]
 pub mod CreateBackup;
+#[cfg(feature = "CreateClusteringJob")]
+pub mod CreateClusteringJob;
 #[cfg(feature = "CreateClusterJob")]
 pub mod CreateClusterJob;
 #[cfg(feature = "CreateCode")]
@@ -86,6 +88,8 @@ pub mod CreateDrugLigandSimilarityGraphTask;
 pub mod CreateDrugLigandSvg;
 #[cfg(feature = "CreateDrugModel")]
 pub mod CreateDrugModel;
+#[cfg(feature = "CreateFavorite")]
+pub mod CreateFavorite;
 #[cfg(feature = "CreateFepJob")]
 pub mod CreateFepJob;
 #[cfg(feature = "CreateGenerationTask")]
@@ -102,6 +106,8 @@ pub mod CreateLabel;
 pub mod CreateLabelPage;
 #[cfg(feature = "CreateMolBatchDownloadTask")]
 pub mod CreateMolBatchDownloadTask;
+#[cfg(feature = "CreateMolDockingJob")]
+pub mod CreateMolDockingJob;
 #[cfg(feature = "CreateNextflowJob")]
 pub mod CreateNextflowJob;
 #[cfg(feature = "CreateNextflowWorkflow")]
@@ -170,6 +176,8 @@ pub mod DeleteDrugLigandPreviewTask;
 pub mod DeleteDrugLigandSimilarityGraphTask;
 #[cfg(feature = "DeleteDrugModel")]
 pub mod DeleteDrugModel;
+#[cfg(feature = "DeleteFavorite")]
+pub mod DeleteFavorite;
 #[cfg(feature = "DeleteImage")]
 pub mod DeleteImage;
 #[cfg(feature = "DeleteInstance")]
@@ -190,11 +198,3 @@ pub mod DeleteNextflowJob;
 pub mod DeleteNextflowWorkflow;
 #[cfg(feature = "DeleteNotebook")]
 pub mod DeleteNotebook;
-#[cfg(feature = "DeletePerformanceResource")]
-pub mod DeletePerformanceResource;
-#[cfg(feature = "DeleteProject")]
-pub mod DeleteProject;
-#[cfg(feature = "DeleteScaleOutPolicy")]
-pub mod DeleteScaleOutPolicy;
-#[cfg(feature = "DeleteStar")]
-pub mod DeleteStar;

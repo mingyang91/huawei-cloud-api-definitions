@@ -24,6 +24,8 @@ pub mod CreateActiveCode;
 pub mod CreateAgencyWithRoleType;
 #[cfg(feature = "CreateAssetByReplicationInfo")]
 pub mod CreateAssetByReplicationInfo;
+#[cfg(feature = "CreateAsyncTtsJob")]
+pub mod CreateAsyncTtsJob;
 #[cfg(feature = "CreateBatchKnowledgeQuestion")]
 pub mod CreateBatchKnowledgeQuestion;
 #[cfg(feature = "CreateBeautyPreviewJob")]
@@ -56,6 +58,8 @@ pub mod CreateKnowledgeSkill;
 pub mod CreateLargeFile;
 #[cfg(feature = "CreateOnceCode")]
 pub mod CreateOnceCode;
+#[cfg(feature = "CreatePacifyWords")]
+pub mod CreatePacifyWords;
 #[cfg(feature = "CreatePhotoDetection")]
 pub mod CreatePhotoDetection;
 #[cfg(feature = "CreatePhotoDigitalHumanVideo")]
@@ -72,6 +76,8 @@ pub mod CreateRobot;
 pub mod CreateSmartChatRoom;
 #[cfg(feature = "CreateSmartLiveRoom")]
 pub mod CreateSmartLiveRoom;
+#[cfg(feature = "CreateSubtitleFile")]
+pub mod CreateSubtitleFile;
 #[cfg(feature = "CreateTrainingAdvanceJob")]
 pub mod CreateTrainingAdvanceJob;
 #[cfg(feature = "CreateTrainingBasicJob")]
@@ -112,6 +118,8 @@ pub mod DeleteKnowledgeIntent;
 pub mod DeleteKnowledgeQuestion;
 #[cfg(feature = "DeleteKnowledgeSkill")]
 pub mod DeleteKnowledgeSkill;
+#[cfg(feature = "DeletePacifyWords")]
+pub mod DeletePacifyWords;
 #[cfg(feature = "DeleteProduct")]
 pub mod DeleteProduct;
 #[cfg(feature = "DeleteRobot")]
@@ -162,6 +170,8 @@ pub mod ListKnowledgeIntent;
 pub mod ListKnowledgeQuestion;
 #[cfg(feature = "ListKnowledgeSkill")]
 pub mod ListKnowledgeSkill;
+#[cfg(feature = "ListPacifyWords")]
+pub mod ListPacifyWords;
 #[cfg(feature = "ListPictureModelingJobs")]
 pub mod ListPictureModelingJobs;
 #[cfg(feature = "ListProducts")]
@@ -188,13 +198,3 @@ pub mod ListTtsaJobs;
 pub mod ListVideoMotionCaptureJobs;
 #[cfg(feature = "ListVideoScripts")]
 pub mod ListVideoScripts;
-#[cfg(feature = "ListVoiceTrainingJob")]
-pub mod ListVoiceTrainingJob;
-#[cfg(feature = "ListWelcomeSpeech")]
-pub mod ListWelcomeSpeech;
-#[cfg(feature = "LiveEventReport")]
-pub mod LiveEventReport;
-#[cfg(feature = "ResetActiveCode")]
-pub mod ResetActiveCode;
-#[cfg(feature = "RestoreAsset")]
-pub mod RestoreAsset;

@@ -64,6 +64,8 @@ pub mod ListBriefStack;
 pub mod ListBriefTemplates;
 #[cfg(feature = "ListExecutionPlans")]
 pub mod ListExecutionPlans;
+#[cfg(feature = "ListPrivateHooks")]
+pub mod ListPrivateHooks;
 #[cfg(feature = "ListStack")]
 pub mod ListStack;
 #[cfg(feature = "ListStackActions")]
@@ -98,6 +100,8 @@ pub mod ParseTemplateVariables;
 pub mod ShowPrivateHookMetadata;
 #[cfg(feature = "ShowPrivateHookVersionMetadata")]
 pub mod ShowPrivateHookVersionMetadata;
+#[cfg(feature = "ShowPrivateHookVersionPolicy")]
+pub mod ShowPrivateHookVersionPolicy;
 #[cfg(feature = "ShowStackAction")]
 pub mod ShowStackAction;
 #[cfg(feature = "ShowStackDetail")]

@@ -18,6 +18,8 @@ pub mod CopyBackup;
 pub mod CopyCheckpoint;
 #[cfg(feature = "CreateCheckpoint")]
 pub mod CreateCheckpoint;
+#[cfg(feature = "CreateOrganizationPolicy")]
+pub mod CreateOrganizationPolicy;
 #[cfg(feature = "CreatePolicy")]
 pub mod CreatePolicy;
 #[cfg(feature = "CreatePostPaidVault")]
@@ -30,6 +32,8 @@ pub mod CreateVaultTags;
 pub mod DeleteBackup;
 #[cfg(feature = "DeleteMember")]
 pub mod DeleteMember;
+#[cfg(feature = "DeleteOrganizationPolicy")]
+pub mod DeleteOrganizationPolicy;
 #[cfg(feature = "DeletePolicy")]
 pub mod DeletePolicy;
 #[cfg(feature = "DeleteVault")]
@@ -52,6 +56,10 @@ pub mod ListDomainProjects;
 pub mod ListExternalVault;
 #[cfg(feature = "ListOpLogs")]
 pub mod ListOpLogs;
+#[cfg(feature = "ListOrganizationPolicies")]
+pub mod ListOrganizationPolicies;
+#[cfg(feature = "ListOrganizationPolicyDetail")]
+pub mod ListOrganizationPolicyDetail;
 #[cfg(feature = "ListPolicies")]
 pub mod ListPolicies;
 #[cfg(feature = "ListProjects")]
@@ -92,6 +100,8 @@ pub mod ShowMetadata;
 pub mod ShowMigrateStatus;
 #[cfg(feature = "ShowOpLog")]
 pub mod ShowOpLog;
+#[cfg(feature = "ShowOrganizationPolicy")]
+pub mod ShowOrganizationPolicy;
 #[cfg(feature = "ShowPolicy")]
 pub mod ShowPolicy;
 #[cfg(feature = "ShowProtectable")]
@@ -120,6 +130,8 @@ pub mod UpdateBackup;
 pub mod UpdateMemberStatus;
 #[cfg(feature = "UpdateOrder")]
 pub mod UpdateOrder;
+#[cfg(feature = "UpdateOrganizationPolicy")]
+pub mod UpdateOrganizationPolicy;
 #[cfg(feature = "UpdatePolicy")]
 pub mod UpdatePolicy;
 #[cfg(feature = "UpdateVault")]
