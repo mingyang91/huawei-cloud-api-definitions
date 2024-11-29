@@ -104,6 +104,8 @@ pub mod DeleteStarrocksInstance;
 pub mod DeleteTaskRecord;
 #[cfg(feature = "DescribeBackupEncryptStatus")]
 pub mod DescribeBackupEncryptStatus;
+#[cfg(feature = "DownloadSlowLogFile")]
+pub mod DownloadSlowLogFile;
 #[cfg(feature = "ExpandGaussMySqlInstanceVolume")]
 pub mod ExpandGaussMySqlInstanceVolume;
 #[cfg(feature = "ExpandGaussMySqlProxy")]
@@ -196,5 +198,3 @@ pub mod ModifyGaussMySqlProxyRouteMode;
 pub mod ModifyNodePriority;
 #[cfg(feature = "PauseStarRocksDataReplication")]
 pub mod PauseStarRocksDataReplication;
-#[cfg(feature = "RebootClickHouseInstance")]
-pub mod RebootClickHouseInstance;

@@ -18,6 +18,8 @@ version = "0"
 [features]
 AssociateKeypair = []
 BatchAssociateKeypair = []
+BatchExportPrivateKey = []
+BatchImportKeypair = []
 ClearPrivateKey = []
 CreateKeypair = []
 DeleteAllFailedTask = []
@@ -32,7 +34,7 @@ ListKeypairTask = []
 ListKeypairs = []
 ListRunningTask = []
 UpdateKeypairDescription = []
-full = ["AssociateKeypair", "BatchAssociateKeypair", "ClearPrivateKey", "CreateKeypair", "DeleteAllFailedTask", "DeleteFailedTask", "DeleteKeypair", "DisassociateKeypair", "ExportPrivateKey", "ImportPrivateKey", "ListFailedTask", "ListKeypairDetail", "ListKeypairs", "ListKeypairTask", "ListRunningTask", "UpdateKeypairDescription"]
+full = ["AssociateKeypair", "BatchAssociateKeypair", "BatchExportPrivateKey", "BatchImportKeypair", "ClearPrivateKey", "CreateKeypair", "DeleteAllFailedTask", "DeleteFailedTask", "DeleteKeypair", "DisassociateKeypair", "ExportPrivateKey", "ImportPrivateKey", "ListFailedTask", "ListKeypairDetail", "ListKeypairs", "ListKeypairTask", "ListRunningTask", "UpdateKeypairDescription"]
 
 [lib]
 name = "huawei_cloud_api_definitions_KPS"

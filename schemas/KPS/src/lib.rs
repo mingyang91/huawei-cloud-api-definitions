@@ -2,6 +2,10 @@
 pub mod AssociateKeypair;
 #[cfg(feature = "BatchAssociateKeypair")]
 pub mod BatchAssociateKeypair;
+#[cfg(feature = "BatchExportPrivateKey")]
+pub mod BatchExportPrivateKey;
+#[cfg(feature = "BatchImportKeypair")]
+pub mod BatchImportKeypair;
 #[cfg(feature = "ClearPrivateKey")]
 pub mod ClearPrivateKey;
 #[cfg(feature = "CreateKeypair")]

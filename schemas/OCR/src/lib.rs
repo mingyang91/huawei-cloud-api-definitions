@@ -26,8 +26,6 @@ pub mod RecognizeGeneralTable;
 pub mod RecognizeGeneralText;
 #[cfg(feature = "RecognizeHandwriting")]
 pub mod RecognizeHandwriting;
-#[cfg(feature = "RecognizeHealthCode")]
-pub mod RecognizeHealthCode;
 #[cfg(feature = "RecognizeHouseholdRegister")]
 pub mod RecognizeHouseholdRegister;
 #[cfg(feature = "RecognizeIdCard")]
@@ -42,8 +40,6 @@ pub mod RecognizeLicensePlate;
 pub mod RecognizeMvsInvoice;
 #[cfg(feature = "RecognizePassport")]
 pub mod RecognizePassport;
-#[cfg(feature = "RecognizePcrTestRecord")]
-pub mod RecognizePcrTestRecord;
 #[cfg(feature = "RecognizeQualificationCertificate")]
 pub mod RecognizeQualificationCertificate;
 #[cfg(feature = "RecognizeQuotaInvoice")]

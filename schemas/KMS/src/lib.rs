@@ -1,3 +1,5 @@
+#[cfg(feature = "AssociateAlias")]
+pub mod AssociateAlias;
 #[cfg(feature = "BatchCreateKmsTags")]
 pub mod BatchCreateKmsTags;
 #[cfg(feature = "CancelGrant")]
@@ -6,6 +8,8 @@ pub mod CancelGrant;
 pub mod CancelKeyDeletion;
 #[cfg(feature = "CancelSelfGrant")]
 pub mod CancelSelfGrant;
+#[cfg(feature = "CreateAlias")]
+pub mod CreateAlias;
 #[cfg(feature = "CreateDatakey")]
 pub mod CreateDatakey;
 #[cfg(feature = "CreateDatakeyWithoutPlaintext")]
@@ -26,6 +30,8 @@ pub mod CreateRandom;
 pub mod DecryptData;
 #[cfg(feature = "DecryptDatakey")]
 pub mod DecryptDatakey;
+#[cfg(feature = "DeleteAlias")]
+pub mod DeleteAlias;
 #[cfg(feature = "DeleteImportedKeyMaterial")]
 pub mod DeleteImportedKeyMaterial;
 #[cfg(feature = "DeleteKey")]
@@ -54,6 +60,8 @@ pub mod EncryptDatakey;
 pub mod GenerateMac;
 #[cfg(feature = "ImportKeyMaterial")]
 pub mod ImportKeyMaterial;
+#[cfg(feature = "ListAliases")]
+pub mod ListAliases;
 #[cfg(feature = "ListGrants")]
 pub mod ListGrants;
 #[cfg(feature = "ListKeyDetail")]

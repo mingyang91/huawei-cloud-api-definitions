@@ -28,8 +28,6 @@ pub mod CreateAssetByReplicationInfo;
 pub mod CreateAsyncTtsJob;
 #[cfg(feature = "CreateBatchKnowledgeQuestion")]
 pub mod CreateBatchKnowledgeQuestion;
-#[cfg(feature = "CreateBeautyPreviewJob")]
-pub mod CreateBeautyPreviewJob;
 #[cfg(feature = "CreateDialogUrl")]
 pub mod CreateDialogUrl;
 #[cfg(feature = "CreateDigitalAsset")]
@@ -56,6 +54,8 @@ pub mod CreateKnowledgeQuestion;
 pub mod CreateKnowledgeSkill;
 #[cfg(feature = "CreateLargeFile")]
 pub mod CreateLargeFile;
+#[cfg(feature = "CreateLivePlatform")]
+pub mod CreateLivePlatform;
 #[cfg(feature = "CreateOnceCode")]
 pub mod CreateOnceCode;
 #[cfg(feature = "CreatePacifyWords")]
@@ -118,6 +118,8 @@ pub mod DeleteKnowledgeIntent;
 pub mod DeleteKnowledgeQuestion;
 #[cfg(feature = "DeleteKnowledgeSkill")]
 pub mod DeleteKnowledgeSkill;
+#[cfg(feature = "DeleteLivePlatform")]
+pub mod DeleteLivePlatform;
 #[cfg(feature = "DeletePacifyWords")]
 pub mod DeletePacifyWords;
 #[cfg(feature = "DeleteProduct")]
@@ -170,6 +172,10 @@ pub mod ListKnowledgeIntent;
 pub mod ListKnowledgeQuestion;
 #[cfg(feature = "ListKnowledgeSkill")]
 pub mod ListKnowledgeSkill;
+#[cfg(feature = "ListLivePlatformProducts")]
+pub mod ListLivePlatformProducts;
+#[cfg(feature = "ListLivePlatforms")]
+pub mod ListLivePlatforms;
 #[cfg(feature = "ListPacifyWords")]
 pub mod ListPacifyWords;
 #[cfg(feature = "ListPictureModelingJobs")]
@@ -192,9 +198,3 @@ pub mod ListStyles;
 pub mod ListTenantResources;
 #[cfg(feature = "ListTtsaData")]
 pub mod ListTtsaData;
-#[cfg(feature = "ListTtsaJobs")]
-pub mod ListTtsaJobs;
-#[cfg(feature = "ListVideoMotionCaptureJobs")]
-pub mod ListVideoMotionCaptureJobs;
-#[cfg(feature = "ListVideoScripts")]
-pub mod ListVideoScripts;

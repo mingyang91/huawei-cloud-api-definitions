@@ -114,6 +114,8 @@ pub mod ListNosqlTaskList;
 pub mod ListProjectTags;
 #[cfg(feature = "ListRecycleInstances")]
 pub mod ListRecycleInstances;
+#[cfg(feature = "ListRedisPitrRestoreTime")]
+pub mod ListRedisPitrRestoreTime;
 #[cfg(feature = "ListRedisSlowLogs")]
 pub mod ListRedisSlowLogs;
 #[cfg(feature = "ListRestoreDatabases")]
@@ -156,6 +158,8 @@ pub mod ResizeInstanceVolume;
 pub mod RestartInstance;
 #[cfg(feature = "RestoreExistingInstance")]
 pub mod RestoreExistingInstance;
+#[cfg(feature = "RestoreRedisPitr")]
+pub mod RestoreRedisPitr;
 #[cfg(feature = "SaveLtsConfigs")]
 pub mod SaveLtsConfigs;
 #[cfg(feature = "SetAutoEnlargePolicy")]
@@ -166,6 +170,8 @@ pub mod SetBackupPolicy;
 pub mod SetInstanceDataDump;
 #[cfg(feature = "SetRecyclePolicy")]
 pub mod SetRecyclePolicy;
+#[cfg(feature = "SetRedisPitrPolicy")]
+pub mod SetRedisPitrPolicy;
 #[cfg(feature = "ShowAllInstancesBackups")]
 pub mod ShowAllInstancesBackups;
 #[cfg(feature = "ShowAllInstancesBackupsNew")]
@@ -192,9 +198,3 @@ pub mod ShowErrorLog;
 pub mod ShowHighRiskCommands;
 #[cfg(feature = "ShowInstanceBiactiveRegions")]
 pub mod ShowInstanceBiactiveRegions;
-#[cfg(feature = "ShowInstanceConfiguration")]
-pub mod ShowInstanceConfiguration;
-#[cfg(feature = "ShowInstanceRole")]
-pub mod ShowInstanceRole;
-#[cfg(feature = "ShowIpNumRequirement")]
-pub mod ShowIpNumRequirement;

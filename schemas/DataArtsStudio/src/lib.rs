@@ -16,6 +16,8 @@ pub mod AuthorizeActionApiToInstance;
 pub mod AuthorizeApiToInstance;
 #[cfg(feature = "BatchApproveApply")]
 pub mod BatchApproveApply;
+#[cfg(feature = "BatchApproveSecurityApplications")]
+pub mod BatchApproveSecurityApplications;
 #[cfg(feature = "BatchAssociateClassificationToEntities")]
 pub mod BatchAssociateClassificationToEntities;
 #[cfg(feature = "BatchAssociateSecurityLevelToEntities")]
@@ -38,6 +40,8 @@ pub mod BatchDeleteTemplates;
 pub mod BatchOffline;
 #[cfg(feature = "BatchPublish")]
 pub mod BatchPublish;
+#[cfg(feature = "BatchRejectSecurityApplications")]
+pub mod BatchRejectSecurityApplications;
 #[cfg(feature = "BatchSyncMetadata")]
 pub mod BatchSyncMetadata;
 #[cfg(feature = "BatchTag")]
@@ -194,7 +198,3 @@ pub mod DeleteStandardTemplate;
 pub mod DeleteSubject;
 #[cfg(feature = "DeleteSubjectNew")]
 pub mod DeleteSubjectNew;
-#[cfg(feature = "DeleteTableModel")]
-pub mod DeleteTableModel;
-#[cfg(feature = "DeleteTaskInfo")]
-pub mod DeleteTaskInfo;

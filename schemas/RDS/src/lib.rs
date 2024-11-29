@@ -36,6 +36,8 @@ pub mod ChangeProxyScale;
 pub mod ChangeTheDelayThreshold;
 #[cfg(feature = "CopyConfiguration")]
 pub mod CopyConfiguration;
+#[cfg(feature = "CopyDatabase")]
+pub mod CopyDatabase;
 #[cfg(feature = "CreateConfiguration")]
 pub mod CreateConfiguration;
 #[cfg(feature = "CreateDatabase")]
@@ -86,6 +88,8 @@ pub mod DeleteJob;
 pub mod DeleteLogLtsConfigs;
 #[cfg(feature = "DeleteManualBackup")]
 pub mod DeleteManualBackup;
+#[cfg(feature = "DeleteMsdtcLocalHost")]
+pub mod DeleteMsdtcLocalHost;
 #[cfg(feature = "DeletePostgresqlDatabase")]
 pub mod DeletePostgresqlDatabase;
 #[cfg(feature = "DeletePostgresqlDbUser")]
@@ -194,7 +198,3 @@ pub mod ListPostgresqlDbUserPaginated;
 pub mod ListPostgresqlExtension;
 #[cfg(feature = "ListPostgresqlHbaInfo")]
 pub mod ListPostgresqlHbaInfo;
-#[cfg(feature = "ListPostgresqlHbaInfoHistory")]
-pub mod ListPostgresqlHbaInfoHistory;
-#[cfg(feature = "ListPostgresqlListHistoryTables")]
-pub mod ListPostgresqlListHistoryTables;

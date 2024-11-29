@@ -10,6 +10,8 @@ pub mod AssociateVaultPolicy;
 pub mod BatchCreateAndDeleteVaultTags;
 #[cfg(feature = "BatchUpdateVault")]
 pub mod BatchUpdateVault;
+#[cfg(feature = "ChangeOrder")]
+pub mod ChangeOrder;
 #[cfg(feature = "CheckAgent")]
 pub mod CheckAgent;
 #[cfg(feature = "CopyBackup")]
