@@ -54,6 +54,8 @@ pub mod ListPermRules;
 pub mod ListSharedTags;
 #[cfg(feature = "ListShares")]
 pub mod ListShares;
+#[cfg(feature = "ListSharesByTag")]
+pub mod ListSharesByTag;
 #[cfg(feature = "SetHpcCacheBackend")]
 pub mod SetHpcCacheBackend;
 #[cfg(feature = "ShowBackendTargetInfo")]

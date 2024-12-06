@@ -114,6 +114,8 @@ pub mod KeystoneListDomainPermissionsForGroup;
 pub mod KeystoneListEndpoints;
 #[cfg(feature = "KeystoneListFederationDomains")]
 pub mod KeystoneListFederationDomains;
+#[cfg(feature = "KeystoneListFederationProjects")]
+pub mod KeystoneListFederationProjects;
 #[cfg(feature = "KeystoneListGroups")]
 pub mod KeystoneListGroups;
 #[cfg(feature = "KeystoneListGroupsForUser")]
@@ -196,5 +198,3 @@ pub mod KeystoneValidateToken;
 pub mod ListAgencies;
 #[cfg(feature = "ListAllProjectsPermissionsForAgency")]
 pub mod ListAllProjectsPermissionsForAgency;
-#[cfg(feature = "ListCustomPolicies")]
-pub mod ListCustomPolicies;

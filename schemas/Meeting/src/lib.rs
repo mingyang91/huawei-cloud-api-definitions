@@ -140,6 +140,8 @@ pub mod ListHistoryWebinars;
 pub mod ListNetworkQuality;
 #[cfg(feature = "ListOngoingWebinars")]
 pub mod ListOngoingWebinars;
+#[cfg(feature = "ListOnlineConfAttendee")]
+pub mod ListOnlineConfAttendee;
 #[cfg(feature = "ListUpComingWebinars")]
 pub mod ListUpComingWebinars;
 #[cfg(feature = "Live")]
@@ -196,5 +198,3 @@ pub mod SearchCtlRecordsOfHisMeeting;
 pub mod SearchDepartmentByName;
 #[cfg(feature = "SearchDevices")]
 pub mod SearchDevices;
-#[cfg(feature = "SearchHisMeetings")]
-pub mod SearchHisMeetings;

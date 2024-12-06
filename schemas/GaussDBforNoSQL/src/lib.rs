@@ -2,6 +2,8 @@
 pub mod ApplyConfiguration;
 #[cfg(feature = "ApplyConfigurationToInstances")]
 pub mod ApplyConfigurationToInstances;
+#[cfg(feature = "BatchDeleteManualBackup")]
+pub mod BatchDeleteManualBackup;
 #[cfg(feature = "BatchTagAction")]
 pub mod BatchTagAction;
 #[cfg(feature = "BatchUpgradeDatabaseVersion")]
@@ -12,6 +14,8 @@ pub mod CancelInstanceScheduleWindow;
 pub mod CheckDisasterRecoveryOperation;
 #[cfg(feature = "CheckWeekPassword")]
 pub mod CheckWeekPassword;
+#[cfg(feature = "ClearInstanceSessions")]
+pub mod ClearInstanceSessions;
 #[cfg(feature = "CompareConfiguration")]
 pub mod CompareConfiguration;
 #[cfg(feature = "CopyConfiguration")]
@@ -52,6 +56,8 @@ pub mod DeleteInstance;
 pub mod DeleteInstancesSession;
 #[cfg(feature = "DeleteLtsConfigs")]
 pub mod DeleteLtsConfigs;
+#[cfg(feature = "DeleteRedisDisabledCommands")]
+pub mod DeleteRedisDisabledCommands;
 #[cfg(feature = "ExpandInstanceNode")]
 pub mod ExpandInstanceNode;
 #[cfg(feature = "ListApiVersion")]
@@ -94,6 +100,8 @@ pub mod ListInstances;
 pub mod ListInstancesByResourceTags;
 #[cfg(feature = "ListInstancesByTags")]
 pub mod ListInstancesByTags;
+#[cfg(feature = "ListInstanceSessions")]
+pub mod ListInstanceSessions;
 #[cfg(feature = "ListInstancesSession")]
 pub mod ListInstancesSession;
 #[cfg(feature = "ListInstancesSessionStatistics")]
@@ -162,10 +170,14 @@ pub mod RestoreExistingInstance;
 pub mod RestoreRedisPitr;
 #[cfg(feature = "SaveLtsConfigs")]
 pub mod SaveLtsConfigs;
+#[cfg(feature = "SaveRedisDisabledCommands")]
+pub mod SaveRedisDisabledCommands;
 #[cfg(feature = "SetAutoEnlargePolicy")]
 pub mod SetAutoEnlargePolicy;
 #[cfg(feature = "SetBackupPolicy")]
 pub mod SetBackupPolicy;
+#[cfg(feature = "SetDisasterRecoverySettings")]
+pub mod SetDisasterRecoverySettings;
 #[cfg(feature = "SetInstanceDataDump")]
 pub mod SetInstanceDataDump;
 #[cfg(feature = "SetRecyclePolicy")]
@@ -186,15 +198,3 @@ pub mod ShowApplyHistory;
 pub mod ShowAutoEnlargePolicy;
 #[cfg(feature = "ShowBackupPolicies")]
 pub mod ShowBackupPolicies;
-#[cfg(feature = "ShowBackupPolicy")]
-pub mod ShowBackupPolicy;
-#[cfg(feature = "ShowConfigurationDetail")]
-pub mod ShowConfigurationDetail;
-#[cfg(feature = "ShowElbIpGroup")]
-pub mod ShowElbIpGroup;
-#[cfg(feature = "ShowErrorLog")]
-pub mod ShowErrorLog;
-#[cfg(feature = "ShowHighRiskCommands")]
-pub mod ShowHighRiskCommands;
-#[cfg(feature = "ShowInstanceBiactiveRegions")]
-pub mod ShowInstanceBiactiveRegions;
