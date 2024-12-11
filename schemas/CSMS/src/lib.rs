@@ -2,6 +2,8 @@
 pub mod BatchCreateOrDeleteTags;
 #[cfg(feature = "CreateAgency")]
 pub mod CreateAgency;
+#[cfg(feature = "CreateGrants")]
+pub mod CreateGrants;
 #[cfg(feature = "CreateSecret")]
 pub mod CreateSecret;
 #[cfg(feature = "CreateSecretEvent")]
@@ -10,6 +12,8 @@ pub mod CreateSecretEvent;
 pub mod CreateSecretTag;
 #[cfg(feature = "CreateSecretVersion")]
 pub mod CreateSecretVersion;
+#[cfg(feature = "DeleteGrant")]
+pub mod DeleteGrant;
 #[cfg(feature = "DeleteSecret")]
 pub mod DeleteSecret;
 #[cfg(feature = "DeleteSecretEvent")]
@@ -22,6 +26,10 @@ pub mod DeleteSecretStage;
 pub mod DeleteSecretTag;
 #[cfg(feature = "DownloadSecretBlob")]
 pub mod DownloadSecretBlob;
+#[cfg(feature = "GenerateRandomPassword")]
+pub mod GenerateRandomPassword;
+#[cfg(feature = "ListGrants")]
+pub mod ListGrants;
 #[cfg(feature = "ListNotificationRecords")]
 pub mod ListNotificationRecords;
 #[cfg(feature = "ListProjectSecretsTags")]
@@ -38,6 +46,8 @@ pub mod ListSecretTags;
 pub mod ListSecretTask;
 #[cfg(feature = "ListSecretVersions")]
 pub mod ListSecretVersions;
+#[cfg(feature = "ListUsers")]
+pub mod ListUsers;
 #[cfg(feature = "RestoreSecret")]
 pub mod RestoreSecret;
 #[cfg(feature = "RotateSecret")]
@@ -54,6 +64,8 @@ pub mod ShowSecretFunctionTemplates;
 pub mod ShowSecretStage;
 #[cfg(feature = "ShowSecretVersion")]
 pub mod ShowSecretVersion;
+#[cfg(feature = "UpdateGrant")]
+pub mod UpdateGrant;
 #[cfg(feature = "UpdateSecret")]
 pub mod UpdateSecret;
 #[cfg(feature = "UpdateSecretEvent")]

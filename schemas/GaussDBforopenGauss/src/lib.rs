@@ -80,6 +80,8 @@ pub mod ListDbFlavors;
 pub mod ListDbUsers;
 #[cfg(feature = "ListEpsQuotas")]
 pub mod ListEpsQuotas;
+#[cfg(feature = "ListFeatures")]
+pub mod ListFeatures;
 #[cfg(feature = "ListFlavors")]
 pub mod ListFlavors;
 #[cfg(feature = "ListGaussDbDatastores")]
@@ -196,5 +198,3 @@ pub mod StopBackup;
 pub mod StopInstance;
 #[cfg(feature = "SwitchConfiguration")]
 pub mod SwitchConfiguration;
-#[cfg(feature = "SwitchShard")]
-pub mod SwitchShard;

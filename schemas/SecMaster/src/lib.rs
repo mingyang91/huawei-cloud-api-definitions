@@ -6,8 +6,6 @@ pub mod ChangeAlert;
 pub mod ChangeIncident;
 #[cfg(feature = "ChangePlaybookInstance")]
 pub mod ChangePlaybookInstance;
-#[cfg(feature = "CheckProductHealthy")]
-pub mod CheckProductHealthy;
 #[cfg(feature = "CopyPlaybookVersion")]
 pub mod CopyPlaybookVersion;
 #[cfg(feature = "CreateAlert")]
@@ -64,8 +62,6 @@ pub mod DeletePlaybookVersion;
 pub mod DisableAlertRule;
 #[cfg(feature = "EnableAlertRule")]
 pub mod EnableAlertRule;
-#[cfg(feature = "ImportEvents")]
-pub mod ImportEvents;
 #[cfg(feature = "ListAlertRuleMetrics")]
 pub mod ListAlertRuleMetrics;
 #[cfg(feature = "ListAlertRules")]

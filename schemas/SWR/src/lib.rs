@@ -10,6 +10,8 @@ pub mod CreateNamespaceAuth;
 pub mod CreateRepo;
 #[cfg(feature = "CreateRepoDomains")]
 pub mod CreateRepoDomains;
+#[cfg(feature = "CreateRepoTag")]
+pub mod CreateRepoTag;
 #[cfg(feature = "CreateRetention")]
 pub mod CreateRetention;
 #[cfg(feature = "CreateSecret")]
@@ -62,6 +64,10 @@ pub mod ListTriggersDetails;
 pub mod ShowAccessDomain;
 #[cfg(feature = "ShowApiVersion")]
 pub mod ShowApiVersion;
+#[cfg(feature = "ShowDomainOverview")]
+pub mod ShowDomainOverview;
+#[cfg(feature = "ShowDomainResourceReports")]
+pub mod ShowDomainResourceReports;
 #[cfg(feature = "ShowNamespace")]
 pub mod ShowNamespace;
 #[cfg(feature = "ShowNamespaceAuth")]
@@ -70,6 +76,8 @@ pub mod ShowNamespaceAuth;
 pub mod ShowRepository;
 #[cfg(feature = "ShowRetention")]
 pub mod ShowRetention;
+#[cfg(feature = "ShowShareFeatureGates")]
+pub mod ShowShareFeatureGates;
 #[cfg(feature = "ShowSyncJob")]
 pub mod ShowSyncJob;
 #[cfg(feature = "ShowTrigger")]
