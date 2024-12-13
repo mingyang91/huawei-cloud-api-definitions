@@ -10,6 +10,10 @@ pub mod CreateExecutionPlan;
 pub mod CreatePrivateHook;
 #[cfg(feature = "CreatePrivateHookVersion")]
 pub mod CreatePrivateHookVersion;
+#[cfg(feature = "CreatePrivateModule")]
+pub mod CreatePrivateModule;
+#[cfg(feature = "CreatePrivateModuleVersion")]
+pub mod CreatePrivateModuleVersion;
 #[cfg(feature = "CreatePrivateProvider")]
 pub mod CreatePrivateProvider;
 #[cfg(feature = "CreatePrivateProviderVersion")]
@@ -28,6 +32,10 @@ pub mod DeleteExecutionPlan;
 pub mod DeletePrivateHook;
 #[cfg(feature = "DeletePrivateHookVersion")]
 pub mod DeletePrivateHookVersion;
+#[cfg(feature = "DeletePrivateModule")]
+pub mod DeletePrivateModule;
+#[cfg(feature = "DeletePrivateModuleVersion")]
+pub mod DeletePrivateModuleVersion;
 #[cfg(feature = "DeleteStack")]
 pub mod DeleteStack;
 #[cfg(feature = "DeleteStackEnhanced")]
@@ -66,6 +74,10 @@ pub mod ListBriefTemplates;
 pub mod ListExecutionPlans;
 #[cfg(feature = "ListPrivateHooks")]
 pub mod ListPrivateHooks;
+#[cfg(feature = "ListPrivateModules")]
+pub mod ListPrivateModules;
+#[cfg(feature = "ListPrivateModuleVersions")]
+pub mod ListPrivateModuleVersions;
 #[cfg(feature = "ListStack")]
 pub mod ListStack;
 #[cfg(feature = "ListStackActions")]
@@ -102,6 +114,12 @@ pub mod ShowPrivateHookMetadata;
 pub mod ShowPrivateHookVersionMetadata;
 #[cfg(feature = "ShowPrivateHookVersionPolicy")]
 pub mod ShowPrivateHookVersionPolicy;
+#[cfg(feature = "ShowPrivateModuleMetadata")]
+pub mod ShowPrivateModuleMetadata;
+#[cfg(feature = "ShowPrivateModuleVersionContent")]
+pub mod ShowPrivateModuleVersionContent;
+#[cfg(feature = "ShowPrivateModuleVersionMetadata")]
+pub mod ShowPrivateModuleVersionMetadata;
 #[cfg(feature = "ShowStackAction")]
 pub mod ShowStackAction;
 #[cfg(feature = "ShowStackDetail")]
@@ -126,6 +144,8 @@ pub mod ShowTemplateVersionContent;
 pub mod ShowTemplateVersionMetadata;
 #[cfg(feature = "UpdatePrivateHookMetadata")]
 pub mod UpdatePrivateHookMetadata;
+#[cfg(feature = "UpdatePrivateModuleMetadata")]
+pub mod UpdatePrivateModuleMetadata;
 #[cfg(feature = "UpdateStack")]
 pub mod UpdateStack;
 #[cfg(feature = "UpdateStackActions")]

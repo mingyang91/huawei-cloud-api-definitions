@@ -96,6 +96,8 @@ pub mod ListHost;
 pub mod ListHostGroup;
 #[cfg(feature = "ListKeywordsAlarmRules")]
 pub mod ListKeywordsAlarmRules;
+#[cfg(feature = "ListLogContext")]
+pub mod ListLogContext;
 #[cfg(feature = "ListLogGroups")]
 pub mod ListLogGroups;
 #[cfg(feature = "ListLogHistogram")]
