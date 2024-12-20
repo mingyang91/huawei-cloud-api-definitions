@@ -38,12 +38,14 @@ pub mod DeleteVirtualGateway;
 pub mod DeleteVirtualInterface;
 #[cfg(feature = "ListConnectGateways")]
 pub mod ListConnectGateways;
+#[cfg(feature = "ListDirectConnectLocations")]
+pub mod ListDirectConnectLocations;
 #[cfg(feature = "ListDirectConnects")]
 pub mod ListDirectConnects;
 #[cfg(feature = "ListGdgwRouteTables")]
 pub mod ListGdgwRouteTables;
-#[cfg(feature = "ListGlobalDcGateway")]
-pub mod ListGlobalDcGateway;
+#[cfg(feature = "ListGlobalDcGateways")]
+pub mod ListGlobalDcGateways;
 #[cfg(feature = "ListGlobalEips")]
 pub mod ListGlobalEips;
 #[cfg(feature = "ListHostedDirectConnects")]
@@ -52,8 +54,6 @@ pub mod ListHostedDirectConnects;
 pub mod ListPeerLinks;
 #[cfg(feature = "ListProjectTags")]
 pub mod ListProjectTags;
-#[cfg(feature = "ListRmsGlobalDcGateway")]
-pub mod ListRmsGlobalDcGateway;
 #[cfg(feature = "ListSwitchoverTestRecords")]
 pub mod ListSwitchoverTestRecords;
 #[cfg(feature = "ListTagResourceInstances")]
@@ -66,6 +66,8 @@ pub mod ListVirtualInterfaces;
 pub mod ShowConnectGateway;
 #[cfg(feature = "ShowDirectConnect")]
 pub mod ShowDirectConnect;
+#[cfg(feature = "ShowDirectConnectLocation")]
+pub mod ShowDirectConnectLocation;
 #[cfg(feature = "ShowGlobalDcGateway")]
 pub mod ShowGlobalDcGateway;
 #[cfg(feature = "ShowHostedDirectConnect")]
@@ -76,8 +78,6 @@ pub mod ShowPeerLink;
 pub mod ShowQuotas;
 #[cfg(feature = "ShowResourceTag")]
 pub mod ShowResourceTag;
-#[cfg(feature = "ShowRmsGlobalDcGateway")]
-pub mod ShowRmsGlobalDcGateway;
 #[cfg(feature = "ShowVirtualGateway")]
 pub mod ShowVirtualGateway;
 #[cfg(feature = "ShowVirtualInterface")]

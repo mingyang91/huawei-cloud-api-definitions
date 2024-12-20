@@ -54,6 +54,8 @@ pub mod ShowVersion;
 pub mod ShowVolume;
 #[cfg(feature = "ShowVolumeTags")]
 pub mod ShowVolumeTags;
+#[cfg(feature = "UnsubscribePostpaidVolume")]
+pub mod UnsubscribePostpaidVolume;
 #[cfg(feature = "UpdateSnapshot")]
 pub mod UpdateSnapshot;
 #[cfg(feature = "UpdateVolume")]

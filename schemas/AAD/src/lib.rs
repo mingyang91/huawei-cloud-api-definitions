@@ -2,6 +2,8 @@
 pub mod AddBlackWhiteIpList;
 #[cfg(feature = "AddPolicyBlackAndWhiteIpList")]
 pub mod AddPolicyBlackAndWhiteIpList;
+#[cfg(feature = "AddWafWhiteIpRule")]
+pub mod AddWafWhiteIpRule;
 #[cfg(feature = "AssociateIpToPolicy")]
 pub mod AssociateIpToPolicy;
 #[cfg(feature = "AssociateIpToPolicyAndPackage")]
@@ -26,6 +28,8 @@ pub mod DeleteDomain;
 pub mod DeletePolicy;
 #[cfg(feature = "DeletePolicyBlackAndWhiteIpList")]
 pub mod DeletePolicyBlackAndWhiteIpList;
+#[cfg(feature = "DeleteWafWhiteIpRule")]
+pub mod DeleteWafWhiteIpRule;
 #[cfg(feature = "DisassociateIpFromPolicy")]
 pub mod DisassociateIpFromPolicy;
 #[cfg(feature = "DisassociateIpFromPolicyAndPackage")]

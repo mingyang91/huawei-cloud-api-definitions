@@ -138,6 +138,8 @@ pub mod ListIaConfigs;
 pub mod ListNaAuthorizedNodes;
 #[cfg(feature = "ListNas")]
 pub mod ListNas;
+#[cfg(feature = "ListPropertyActiveControls")]
+pub mod ListPropertyActiveControls;
 #[cfg(feature = "ListRoutes")]
 pub mod ListRoutes;
 #[cfg(feature = "SetDeviceControlDefaultValues")]
@@ -196,5 +198,3 @@ pub mod UpdateEdgeApplicationVersionState;
 pub mod UpdateEdgeNode;
 #[cfg(feature = "UpdateExternalEntity")]
 pub mod UpdateExternalEntity;
-#[cfg(feature = "UpdateIaConfig")]
-pub mod UpdateIaConfig;

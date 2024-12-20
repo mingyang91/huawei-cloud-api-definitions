@@ -14,6 +14,8 @@ pub mod DeleteCollectionById;
 pub mod DeleteJob;
 #[cfg(feature = "DeletePackageById")]
 pub mod DeletePackageById;
+#[cfg(feature = "GetPackageById")]
+pub mod GetPackageById;
 #[cfg(feature = "ListCollectionRecords")]
 pub mod ListCollectionRecords;
 #[cfg(feature = "ListJobs")]

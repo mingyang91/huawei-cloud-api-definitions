@@ -1,0 +1,70 @@
+[dependencies.chrono]
+features = ["serde"]
+version = "0"
+
+[dependencies.regress]
+version = "0"
+
+[dependencies.serde]
+features = ["derive"]
+version = "1"
+
+[dependencies.serde_json]
+version = "1"
+
+[dependencies.typify]
+version = "0"
+
+[features]
+BatchCreateFabricWorkspaceTags = []
+BatchDeleteFabricWorkspaceTags = []
+CleanupModel = []
+CountTagFabricWorkspaces = []
+CreateAgency = []
+CreateAgreement = []
+CreateEndpoint = []
+CreateMessageNotificationPolicy = []
+CreateModelDefinition = []
+CreateWorkspace = []
+DeleteAgency = []
+DeleteAgreement = []
+DeleteEndpoint = []
+DeleteMessageNotificationPolicy = []
+DeleteModelVersion = []
+DeleteWorkspace = []
+ListAgency = []
+ListBaseModels = []
+ListEndpoints = []
+ListFabricProjectTags = []
+ListFabricWorkspaceTags = []
+ListFeatures = []
+ListFrameworks = []
+ListMessageNotificationPolicy = []
+ListModelVersions = []
+ListModels = []
+ListSpecs = []
+ListTagFabricWorkspaces = []
+ListWorkspaces = []
+ShowAdminHealthCheck = []
+ShowAgreement = []
+ShowAgreementRule = []
+ShowEndpoint = []
+SubscribeEndpoint = []
+UpdateEndpoint = []
+UpdateMetricsConfig = []
+UpdateModelDefinition = []
+UpdateWorkspace = []
+full = ["BatchCreateFabricWorkspaceTags", "BatchDeleteFabricWorkspaceTags", "CleanupModel", "CountTagFabricWorkspaces", "CreateAgency", "CreateAgreement", "CreateEndpoint", "CreateMessageNotificationPolicy", "CreateModelDefinition", "CreateWorkspace", "DeleteAgency", "DeleteAgreement", "DeleteEndpoint", "DeleteMessageNotificationPolicy", "DeleteModelVersion", "DeleteWorkspace", "ListAgency", "ListBaseModels", "ListEndpoints", "ListFabricProjectTags", "ListFabricWorkspaceTags", "ListFeatures", "ListFrameworks", "ListMessageNotificationPolicy", "ListModels", "ListModelVersions", "ListSpecs", "ListTagFabricWorkspaces", "ListWorkspaces", "ShowAdminHealthCheck", "ShowAgreement", "ShowAgreementRule", "ShowEndpoint", "SubscribeEndpoint", "UpdateEndpoint", "UpdateMetricsConfig", "UpdateModelDefinition", "UpdateWorkspace"]
+
+[lib]
+name = "huawei_cloud_api_definitions_DataArtsFabric"
+path = "src/lib.rs"
+
+[package]
+authors = ["mingyang91 <mingyang91@qq.com>"]
+description = "Huawei Cloud API definitions, generated from OpenAPI spec"
+edition = "2021"
+license = "MIT"
+name = "huawei-cloud-api-definitions-DataArtsFabric"
+repository = "https://github.com/mingyang91/huawei-cloud-api-definitions"
+version = "CHANGE_ME"
