@@ -144,6 +144,8 @@ pub mod ListDatabaseUserRole;
 pub mod ListDatastores;
 #[cfg(feature = "ListDbUsers")]
 pub mod ListDbUsers;
+#[cfg(feature = "ListDrInfos")]
+pub mod ListDrInfos;
 #[cfg(feature = "ListDrRelations")]
 pub mod ListDrRelations;
 #[cfg(feature = "ListEngineFlavors")]
@@ -196,5 +198,3 @@ pub mod ListPostgresqlDatabaseSchemas;
 pub mod ListPostgresqlDbUserPaginated;
 #[cfg(feature = "ListPostgresqlExtension")]
 pub mod ListPostgresqlExtension;
-#[cfg(feature = "ListPostgresqlHbaInfo")]
-pub mod ListPostgresqlHbaInfo;

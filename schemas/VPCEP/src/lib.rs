@@ -58,3 +58,5 @@ pub mod UpdateEndpointServiceName;
 pub mod UpdateEndpointServicePermissionDesc;
 #[cfg(feature = "UpdateEndpointWhite")]
 pub mod UpdateEndpointWhite;
+#[cfg(feature = "UpgradeEndpointService")]
+pub mod UpgradeEndpointService;

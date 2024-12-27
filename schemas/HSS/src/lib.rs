@@ -40,6 +40,8 @@ pub mod DeleteResourceInstanceTag;
 pub mod ExportVuls;
 #[cfg(feature = "ListAccounts")]
 pub mod ListAccounts;
+#[cfg(feature = "ListAgentInstallScript")]
+pub mod ListAgentInstallScript;
 #[cfg(feature = "ListAlarmWhiteList")]
 pub mod ListAlarmWhiteList;
 #[cfg(feature = "ListAppChangeHistories")]

@@ -14,6 +14,8 @@ pub mod AssociateSecurityLevelToEntitie;
 pub mod AuthorizeActionApiToInstance;
 #[cfg(feature = "AuthorizeApiToInstance")]
 pub mod AuthorizeApiToInstance;
+#[cfg(feature = "AuthorizeDataConnection")]
+pub mod AuthorizeDataConnection;
 #[cfg(feature = "BatchApproveApply")]
 pub mod BatchApproveApply;
 #[cfg(feature = "BatchApproveSecurityApplications")]
@@ -196,5 +198,3 @@ pub mod DeleteDesignDimension;
 pub mod DeleteDesignDimensionLogicTable;
 #[cfg(feature = "DeleteDesignFactLogicTable")]
 pub mod DeleteDesignFactLogicTable;
-#[cfg(feature = "DeleteDesignLatestApproval")]
-pub mod DeleteDesignLatestApproval;

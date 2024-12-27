@@ -46,7 +46,8 @@ UpdateEndpointService = []
 UpdateEndpointServiceName = []
 UpdateEndpointServicePermissionDesc = []
 UpdateEndpointWhite = []
-full = ["AcceptOrRejectEndpoint", "AddOrRemoveServicePermissions", "BatchAddEndpointServicePermissions", "BatchAddOrRemoveResourceInstance", "BatchRemoveEndpointServicePermissions", "CreateEndpoint", "CreateEndpointService", "DeleteEndpoint", "DeleteEndpointPolicy", "DeleteEndpointService", "ListEndpointInfoDetails", "ListEndpoints", "ListEndpointService", "ListQueryProjectResourceTags", "ListQuotaDetails", "ListResourceInstances", "ListServiceConnections", "ListServiceDescribeDetails", "ListServiceDetails", "ListServicePermissionsDetails", "ListServicePublicDetails", "ListSpecifiedVersionDetails", "ListVersionDetails", "UpdateEndpointConnectionsDesc", "UpdateEndpointPolicy", "UpdateEndpointRoutetable", "UpdateEndpointService", "UpdateEndpointServiceName", "UpdateEndpointServicePermissionDesc", "UpdateEndpointWhite"]
+UpgradeEndpointService = []
+full = ["AcceptOrRejectEndpoint", "AddOrRemoveServicePermissions", "BatchAddEndpointServicePermissions", "BatchAddOrRemoveResourceInstance", "BatchRemoveEndpointServicePermissions", "CreateEndpoint", "CreateEndpointService", "DeleteEndpoint", "DeleteEndpointPolicy", "DeleteEndpointService", "ListEndpointInfoDetails", "ListEndpoints", "ListEndpointService", "ListQueryProjectResourceTags", "ListQuotaDetails", "ListResourceInstances", "ListServiceConnections", "ListServiceDescribeDetails", "ListServiceDetails", "ListServicePermissionsDetails", "ListServicePublicDetails", "ListSpecifiedVersionDetails", "ListVersionDetails", "UpdateEndpointConnectionsDesc", "UpdateEndpointPolicy", "UpdateEndpointRoutetable", "UpdateEndpointService", "UpdateEndpointServiceName", "UpdateEndpointServicePermissionDesc", "UpdateEndpointWhite", "UpgradeEndpointService"]
 
 [lib]
 name = "huawei_cloud_api_definitions_VPCEP"
