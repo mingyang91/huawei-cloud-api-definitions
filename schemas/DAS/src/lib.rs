@@ -84,6 +84,8 @@ pub mod ShowSqlSwitchStatus;
 pub mod ShowTransactionSwitchStatus;
 #[cfg(feature = "ShowTuning")]
 pub mod ShowTuning;
+#[cfg(feature = "SynchronizeInstances")]
+pub mod SynchronizeInstances;
 #[cfg(feature = "UpdateDbUser")]
 pub mod UpdateDbUser;
 #[cfg(feature = "UpdateSqlLimitRules")]
