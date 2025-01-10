@@ -2,6 +2,8 @@
 pub mod ChangeDatabaseVersion;
 #[cfg(feature = "CreateDatabase")]
 pub mod CreateDatabase;
+#[cfg(feature = "CreateDdmDatabase")]
+pub mod CreateDdmDatabase;
 #[cfg(feature = "CreateGroup")]
 pub mod CreateGroup;
 #[cfg(feature = "CreateInstance")]
@@ -12,6 +14,8 @@ pub mod CreateUsers;
 pub mod DeleteDatabase;
 #[cfg(feature = "DeleteDdmDatabase")]
 pub mod DeleteDdmDatabase;
+#[cfg(feature = "DeleteDdmInstance")]
+pub mod DeleteDdmInstance;
 #[cfg(feature = "DeleteInstance")]
 pub mod DeleteInstance;
 #[cfg(feature = "DeleteUser")]
@@ -32,6 +36,8 @@ pub mod ListAvailableRdsList;
 pub mod ListDatabaseAvailableVersions;
 #[cfg(feature = "ListDatabases")]
 pub mod ListDatabases;
+#[cfg(feature = "ListDdmConfigurations")]
+pub mod ListDdmConfigurations;
 #[cfg(feature = "ListDdmEngines")]
 pub mod ListDdmEngines;
 #[cfg(feature = "ListDdmFlavors")]
@@ -50,6 +56,8 @@ pub mod ListNodes;
 pub mod ListReadWriteRatio;
 #[cfg(feature = "ListSlowLog")]
 pub mod ListSlowLog;
+#[cfg(feature = "ListSlowLogs")]
+pub mod ListSlowLogs;
 #[cfg(feature = "ListUsers")]
 pub mod ListUsers;
 #[cfg(feature = "RebuildConfig")]
@@ -64,8 +72,12 @@ pub mod ResizeFlavor;
 pub mod RestartInstance;
 #[cfg(feature = "RollBackDatabaseVersion")]
 pub mod RollBackDatabaseVersion;
+#[cfg(feature = "ShowConfiguration")]
+pub mod ShowConfiguration;
 #[cfg(feature = "ShowDatabase")]
 pub mod ShowDatabase;
+#[cfg(feature = "ShowDdmJobResult")]
+pub mod ShowDdmJobResult;
 #[cfg(feature = "ShowInstance")]
 pub mod ShowInstance;
 #[cfg(feature = "ShowInstanceParam")]
@@ -78,8 +90,12 @@ pub mod ShowNode;
 pub mod ShowPhysicalProcesses;
 #[cfg(feature = "ShowProcessesAuditLog")]
 pub mod ShowProcessesAuditLog;
+#[cfg(feature = "ShowRiskInfo")]
+pub mod ShowRiskInfo;
 #[cfg(feature = "ShrinkInstanceNodes")]
 pub mod ShrinkInstanceNodes;
+#[cfg(feature = "SwitchSsl")]
+pub mod SwitchSsl;
 #[cfg(feature = "UpdateDatabaseInfo")]
 pub mod UpdateDatabaseInfo;
 #[cfg(feature = "UpdateInstanceName")]

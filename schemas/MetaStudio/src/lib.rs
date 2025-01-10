@@ -1,3 +1,5 @@
+#[cfg(feature = "BatchDeletePacifyWords")]
+pub mod BatchDeletePacifyWords;
 #[cfg(feature = "BatchExecuteAssetAction")]
 pub mod BatchExecuteAssetAction;
 #[cfg(feature = "Cancel2DDigitalHumanVideo")]
@@ -196,5 +198,3 @@ pub mod ListSmartLive;
 pub mod ListSmartLiveJobs;
 #[cfg(feature = "ListSmartLiveRooms")]
 pub mod ListSmartLiveRooms;
-#[cfg(feature = "ListStyles")]
-pub mod ListStyles;

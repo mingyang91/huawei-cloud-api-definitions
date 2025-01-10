@@ -184,8 +184,6 @@ pub mod SearchAttendanceRecordsOfHisMeeting;
 pub mod SearchCorp;
 #[cfg(feature = "SearchCorpAdmins")]
 pub mod SearchCorpAdmins;
-#[cfg(feature = "SearchCorpDigitalInfoList")]
-pub mod SearchCorpDigitalInfoList;
 #[cfg(feature = "SearchCorpDir")]
 pub mod SearchCorpDir;
 #[cfg(feature = "SearchCorpExternalDir")]
@@ -198,3 +196,5 @@ pub mod SearchCorpVmr;
 pub mod SearchCtlRecordsOfHisMeeting;
 #[cfg(feature = "SearchDepartmentByName")]
 pub mod SearchDepartmentByName;
+#[cfg(feature = "SearchDevices")]
+pub mod SearchDevices;

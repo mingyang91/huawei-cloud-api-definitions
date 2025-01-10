@@ -186,6 +186,8 @@ pub mod ListUsers;
 pub mod ModifyConnection;
 #[cfg(feature = "ShowActions")]
 pub mod ShowActions;
+#[cfg(feature = "ShowAgencyInfo")]
+pub mod ShowAgencyInfo;
 #[cfg(feature = "ShowColumnInfoResult")]
 pub mod ShowColumnInfoResult;
 #[cfg(feature = "ShowComparePolicy")]
@@ -196,5 +198,3 @@ pub mod ShowDataFilteringResult;
 pub mod ShowDataProcessingRulesResult;
 #[cfg(feature = "ShowDataProgress")]
 pub mod ShowDataProgress;
-#[cfg(feature = "ShowDbObjectCollectionStatus")]
-pub mod ShowDbObjectCollectionStatus;
