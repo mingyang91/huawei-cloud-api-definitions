@@ -62,6 +62,8 @@ pub mod ListFlavors;
 pub mod ListFlavorSellPolicies;
 #[cfg(feature = "ListResizeFlavors")]
 pub mod ListResizeFlavors;
+#[cfg(feature = "ListServerAzInfo")]
+pub mod ListServerAzInfo;
 #[cfg(feature = "ListServerBlockDevices")]
 pub mod ListServerBlockDevices;
 #[cfg(feature = "ListServerGroups")]
@@ -196,5 +198,3 @@ pub mod ShowServerPassword;
 pub mod ShowServerRemoteConsole;
 #[cfg(feature = "ShowServerTags")]
 pub mod ShowServerTags;
-#[cfg(feature = "UpdateServer")]
-pub mod UpdateServer;

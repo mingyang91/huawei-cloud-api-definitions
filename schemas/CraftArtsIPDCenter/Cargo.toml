@@ -21,10 +21,11 @@ BatchCreateWoInstantiations = []
 BatchCreateWos = []
 BatchDeleteWos = []
 BatchGenerateWoSchemes = []
+SearchStationsByConditionsForTest = []
 SearchWoInfo = []
 SearchWoPartInfo = []
 SearchWosForPage = []
-full = ["BatchCancelWos", "BatchCreateWoInstantiations", "BatchCreateWos", "BatchDeleteWos", "BatchGenerateWoSchemes", "SearchWoInfo", "SearchWoPartInfo", "SearchWosForPage"]
+full = ["BatchCancelWos", "BatchCreateWoInstantiations", "BatchCreateWos", "BatchDeleteWos", "BatchGenerateWoSchemes", "SearchStationsByConditionsForTest", "SearchWoInfo", "SearchWoPartInfo", "SearchWosForPage"]
 
 [lib]
 name = "huawei_cloud_api_definitions_CraftArtsIPDCenter"

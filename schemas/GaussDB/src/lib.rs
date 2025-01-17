@@ -182,6 +182,8 @@ pub mod ListScheduleJobs;
 pub mod ListStarRocksDataBases;
 #[cfg(feature = "ListStarRocksDataReplicationConfig")]
 pub mod ListStarRocksDataReplicationConfig;
+#[cfg(feature = "ListStarRocksDataReplicationConfigByDataBase")]
+pub mod ListStarRocksDataReplicationConfigByDataBase;
 #[cfg(feature = "ListStarRocksDataReplications")]
 pub mod ListStarRocksDataReplications;
 #[cfg(feature = "ListStarRocksDbParameters")]
@@ -190,11 +192,9 @@ pub mod ListStarRocksDbParameters;
 pub mod ListStarrocksInstanceInfo;
 #[cfg(feature = "ModifyBackupEncryptStatus")]
 pub mod ModifyBackupEncryptStatus;
+#[cfg(feature = "ModifyDataSync")]
+pub mod ModifyDataSync;
 #[cfg(feature = "ModifyGaussMysqlDns")]
 pub mod ModifyGaussMysqlDns;
 #[cfg(feature = "ModifyGaussMySqlProxyRouteMode")]
 pub mod ModifyGaussMySqlProxyRouteMode;
-#[cfg(feature = "ModifyNodePriority")]
-pub mod ModifyNodePriority;
-#[cfg(feature = "PauseStarRocksDataReplication")]
-pub mod PauseStarRocksDataReplication;

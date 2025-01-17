@@ -20,6 +20,8 @@ pub mod CreateApplicationEndpoint;
 pub mod CreateLogtank;
 #[cfg(feature = "CreateMessageTemplate")]
 pub mod CreateMessageTemplate;
+#[cfg(feature = "CreateNotifyPolicy")]
+pub mod CreateNotifyPolicy;
 #[cfg(feature = "CreateResourceTag")]
 pub mod CreateResourceTag;
 #[cfg(feature = "CreateTopic")]
@@ -32,6 +34,8 @@ pub mod DeleteApplicationEndpoint;
 pub mod DeleteLogtank;
 #[cfg(feature = "DeleteMessageTemplate")]
 pub mod DeleteMessageTemplate;
+#[cfg(feature = "DeleteNotifyPolicy")]
+pub mod DeleteNotifyPolicy;
 #[cfg(feature = "DeleteResourceTag")]
 pub mod DeleteResourceTag;
 #[cfg(feature = "DeleteTopic")]
@@ -82,6 +86,8 @@ pub mod PublishHttpDetect;
 pub mod PublishMessage;
 #[cfg(feature = "ShowHttpDetectResult")]
 pub mod ShowHttpDetectResult;
+#[cfg(feature = "ShowNotifyPolicy")]
+pub mod ShowNotifyPolicy;
 #[cfg(feature = "UpdateApplication")]
 pub mod UpdateApplication;
 #[cfg(feature = "UpdateApplicationEndpoint")]
@@ -90,6 +96,8 @@ pub mod UpdateApplicationEndpoint;
 pub mod UpdateLogtank;
 #[cfg(feature = "UpdateMessageTemplate")]
 pub mod UpdateMessageTemplate;
+#[cfg(feature = "UpdateNotifyPolicy")]
+pub mod UpdateNotifyPolicy;
 #[cfg(feature = "UpdateSubscription")]
 pub mod UpdateSubscription;
 #[cfg(feature = "UpdateTopic")]

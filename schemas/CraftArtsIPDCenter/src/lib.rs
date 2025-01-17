@@ -8,6 +8,8 @@ pub mod BatchCreateWos;
 pub mod BatchDeleteWos;
 #[cfg(feature = "BatchGenerateWoSchemes")]
 pub mod BatchGenerateWoSchemes;
+#[cfg(feature = "SearchStationsByConditionsForTest")]
+pub mod SearchStationsByConditionsForTest;
 #[cfg(feature = "SearchWoInfo")]
 pub mod SearchWoInfo;
 #[cfg(feature = "SearchWoPartInfo")]

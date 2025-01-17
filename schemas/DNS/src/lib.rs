@@ -2,8 +2,16 @@
 pub mod AssociateRouter;
 #[cfg(feature = "BatchCreateTag")]
 pub mod BatchCreateTag;
+#[cfg(feature = "BatchDeleteRecordSets")]
+pub mod BatchDeleteRecordSets;
 #[cfg(feature = "BatchDeleteRecordSetWithLine")]
 pub mod BatchDeleteRecordSetWithLine;
+#[cfg(feature = "BatchDeleteZones")]
+pub mod BatchDeleteZones;
+#[cfg(feature = "BatchSetRecordSetsStatus")]
+pub mod BatchSetRecordSetsStatus;
+#[cfg(feature = "BatchSetZonesStatus")]
+pub mod BatchSetZonesStatus;
 #[cfg(feature = "BatchUpdateRecordSetWithLine")]
 pub mod BatchUpdateRecordSetWithLine;
 #[cfg(feature = "CreateCustomLine")]
