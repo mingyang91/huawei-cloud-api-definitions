@@ -36,8 +36,6 @@ pub mod ListAuthorizableTicketsExternal;
 pub mod ListCocTicketOperationHistories;
 #[cfg(feature = "ListInstanceCompliant")]
 pub mod ListInstanceCompliant;
-#[cfg(feature = "ListPrrTemplate")]
-pub mod ListPrrTemplate;
 #[cfg(feature = "ListPublicScripts")]
 pub mod ListPublicScripts;
 #[cfg(feature = "ListResource")]
