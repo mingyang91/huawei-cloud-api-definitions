@@ -30,6 +30,8 @@ pub mod DeleteInstance;
 pub mod DeleteQueueInfo;
 #[cfg(feature = "DeleteUser")]
 pub mod DeleteUser;
+#[cfg(feature = "EnableDns")]
+pub mod EnableDns;
 #[cfg(feature = "ListAvailableZones")]
 pub mod ListAvailableZones;
 #[cfg(feature = "ListBackgroundTasks")]
