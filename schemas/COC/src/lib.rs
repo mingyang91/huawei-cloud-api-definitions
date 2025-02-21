@@ -1,3 +1,7 @@
+#[cfg(feature = "BatchCreateApplicationView")]
+pub mod BatchCreateApplicationView;
+#[cfg(feature = "CountMultiResources")]
+pub mod CountMultiResources;
 #[cfg(feature = "CreateCocIncident")]
 pub mod CreateCocIncident;
 #[cfg(feature = "CreateCocIssues")]
@@ -28,6 +32,8 @@ pub mod GetScriptJobInfo;
 pub mod GetScriptJobStatistics;
 #[cfg(feature = "HandleCocIncident")]
 pub mod HandleCocIncident;
+#[cfg(feature = "ListApplicationModel")]
+pub mod ListApplicationModel;
 #[cfg(feature = "ListApplications")]
 pub mod ListApplications;
 #[cfg(feature = "ListAuthorizableTicketsExternal")]
@@ -36,6 +42,8 @@ pub mod ListAuthorizableTicketsExternal;
 pub mod ListCocTicketOperationHistories;
 #[cfg(feature = "ListInstanceCompliant")]
 pub mod ListInstanceCompliant;
+#[cfg(feature = "ListMultiCloudResources")]
+pub mod ListMultiCloudResources;
 #[cfg(feature = "ListPublicScripts")]
 pub mod ListPublicScripts;
 #[cfg(feature = "ListResource")]

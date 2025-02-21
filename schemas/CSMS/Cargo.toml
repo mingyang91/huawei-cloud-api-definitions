@@ -17,6 +17,7 @@ version = "0"
 
 [features]
 BatchCreateOrDeleteTags = []
+BatchImportSecrets = []
 CreateAgency = []
 CreateGrants = []
 CreateSecret = []
@@ -49,13 +50,14 @@ ShowSecretEvent = []
 ShowSecretFunctionTemplates = []
 ShowSecretStage = []
 ShowSecretVersion = []
+ShowUserDetail = []
 UpdateGrant = []
 UpdateSecret = []
 UpdateSecretEvent = []
 UpdateSecretStage = []
 UpdateVersion = []
 UploadSecretBlob = []
-full = ["BatchCreateOrDeleteTags", "CreateAgency", "CreateGrants", "CreateSecret", "CreateSecretEvent", "CreateSecretTag", "CreateSecretVersion", "DeleteGrant", "DeleteSecret", "DeleteSecretEvent", "DeleteSecretForSchedule", "DeleteSecretStage", "DeleteSecretTag", "DownloadSecretBlob", "GenerateRandomPassword", "ListGrants", "ListNotificationRecords", "ListProjectSecretsTags", "ListResourceInstances", "ListSecretEvents", "ListSecrets", "ListSecretTags", "ListSecretTask", "ListSecretVersions", "ListUsers", "RestoreSecret", "RotateSecret", "ShowAgency", "ShowSecret", "ShowSecretEvent", "ShowSecretFunctionTemplates", "ShowSecretStage", "ShowSecretVersion", "UpdateGrant", "UpdateSecret", "UpdateSecretEvent", "UpdateSecretStage", "UpdateVersion", "UploadSecretBlob"]
+full = ["BatchCreateOrDeleteTags", "BatchImportSecrets", "CreateAgency", "CreateGrants", "CreateSecret", "CreateSecretEvent", "CreateSecretTag", "CreateSecretVersion", "DeleteGrant", "DeleteSecret", "DeleteSecretEvent", "DeleteSecretForSchedule", "DeleteSecretStage", "DeleteSecretTag", "DownloadSecretBlob", "GenerateRandomPassword", "ListGrants", "ListNotificationRecords", "ListProjectSecretsTags", "ListResourceInstances", "ListSecretEvents", "ListSecrets", "ListSecretTags", "ListSecretTask", "ListSecretVersions", "ListUsers", "RestoreSecret", "RotateSecret", "ShowAgency", "ShowSecret", "ShowSecretEvent", "ShowSecretFunctionTemplates", "ShowSecretStage", "ShowSecretVersion", "ShowUserDetail", "UpdateGrant", "UpdateSecret", "UpdateSecretEvent", "UpdateSecretStage", "UpdateVersion", "UploadSecretBlob"]
 
 [lib]
 name = "huawei_cloud_api_definitions_CSMS"

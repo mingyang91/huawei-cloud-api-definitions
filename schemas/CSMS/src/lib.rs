@@ -1,5 +1,7 @@
 #[cfg(feature = "BatchCreateOrDeleteTags")]
 pub mod BatchCreateOrDeleteTags;
+#[cfg(feature = "BatchImportSecrets")]
+pub mod BatchImportSecrets;
 #[cfg(feature = "CreateAgency")]
 pub mod CreateAgency;
 #[cfg(feature = "CreateGrants")]
@@ -64,6 +66,8 @@ pub mod ShowSecretFunctionTemplates;
 pub mod ShowSecretStage;
 #[cfg(feature = "ShowSecretVersion")]
 pub mod ShowSecretVersion;
+#[cfg(feature = "ShowUserDetail")]
+pub mod ShowUserDetail;
 #[cfg(feature = "UpdateGrant")]
 pub mod UpdateGrant;
 #[cfg(feature = "UpdateSecret")]

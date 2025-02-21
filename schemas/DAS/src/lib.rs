@@ -22,6 +22,8 @@ pub mod DeleteDbUser;
 pub mod DeleteProcess;
 #[cfg(feature = "DeleteSqlLimitRules")]
 pub mod DeleteSqlLimitRules;
+#[cfg(feature = "ExportFullSqlDetails")]
+pub mod ExportFullSqlDetails;
 #[cfg(feature = "ExportSlowQueryLogs")]
 pub mod ExportSlowQueryLogs;
 #[cfg(feature = "ExportSlowSqlStatistics")]
@@ -44,6 +46,8 @@ pub mod ListApiVersions;
 pub mod ListCloudDbaInstances;
 #[cfg(feature = "ListDbUsers")]
 pub mod ListDbUsers;
+#[cfg(feature = "ListFullSqlTasks")]
+pub mod ListFullSqlTasks;
 #[cfg(feature = "ListHealthReportTask")]
 pub mod ListHealthReportTask;
 #[cfg(feature = "ListInnodbLocks")]

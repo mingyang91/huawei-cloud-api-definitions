@@ -1,3 +1,5 @@
+#[cfg(feature = "AddFeature")]
+pub mod AddFeature;
 #[cfg(feature = "AddTestCaseComment")]
 pub mod AddTestCaseComment;
 #[cfg(feature = "BatchAddRelationsByOneCase")]
@@ -196,5 +198,3 @@ pub mod ShowConcurrencyPackageUsing;
 pub mod ShowDefaultTemplateByPage;
 #[cfg(feature = "ShowDisclaimerRecord")]
 pub mod ShowDisclaimerRecord;
-#[cfg(feature = "ShowDomainInfo")]
-pub mod ShowDomainInfo;
