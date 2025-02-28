@@ -8,6 +8,8 @@ pub mod ChangeSqlSwitch;
 pub mod ChangeTransactionSwitchStatus;
 #[cfg(feature = "CreateHealthReportTask")]
 pub mod CreateHealthReportTask;
+#[cfg(feature = "CreateInstanceConnection")]
+pub mod CreateInstanceConnection;
 #[cfg(feature = "CreateShareConnections")]
 pub mod CreateShareConnections;
 #[cfg(feature = "CreateSpaceAnalysisTask")]
@@ -44,6 +46,8 @@ pub mod ExportTopSqlTrendDetails;
 pub mod ListApiVersions;
 #[cfg(feature = "ListCloudDbaInstances")]
 pub mod ListCloudDbaInstances;
+#[cfg(feature = "ListConnections")]
+pub mod ListConnections;
 #[cfg(feature = "ListDbUsers")]
 pub mod ListDbUsers;
 #[cfg(feature = "ListFullSqlTasks")]

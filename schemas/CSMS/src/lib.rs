@@ -76,6 +76,8 @@ pub mod UpdateSecret;
 pub mod UpdateSecretEvent;
 #[cfg(feature = "UpdateSecretStage")]
 pub mod UpdateSecretStage;
+#[cfg(feature = "UpdateUserPassword")]
+pub mod UpdateUserPassword;
 #[cfg(feature = "UpdateVersion")]
 pub mod UpdateVersion;
 #[cfg(feature = "UploadSecretBlob")]

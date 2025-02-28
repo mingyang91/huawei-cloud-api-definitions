@@ -20,6 +20,8 @@ pub mod BatchShowQueue;
 pub mod BindDevicePolicy;
 #[cfg(feature = "BroadcastMessage")]
 pub mod BroadcastMessage;
+#[cfg(feature = "ChangeGateway")]
+pub mod ChangeGateway;
 #[cfg(feature = "ChangeRuleStatus")]
 pub mod ChangeRuleStatus;
 #[cfg(feature = "CheckCertificate")]
@@ -196,5 +198,3 @@ pub mod ShowDeviceTunnel;
 pub mod ShowOtaPackage;
 #[cfg(feature = "ShowProduct")]
 pub mod ShowProduct;
-#[cfg(feature = "ShowProvisioningTemplate")]
-pub mod ShowProvisioningTemplate;
