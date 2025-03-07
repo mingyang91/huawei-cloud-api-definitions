@@ -68,6 +68,8 @@ pub mod DeleteClusterNodes;
 pub mod DeleteDataSource;
 #[cfg(feature = "DeleteDisasterRecovery")]
 pub mod DeleteDisasterRecovery;
+#[cfg(feature = "DeleteDwsCluster")]
+pub mod DeleteDwsCluster;
 #[cfg(feature = "DeleteEventSub")]
 pub mod DeleteEventSub;
 #[cfg(feature = "DeleteLogicalCluster")]
@@ -196,5 +198,3 @@ pub mod ListSchemas;
 pub mod ListSnapshotCrossRegion;
 #[cfg(feature = "ListSnapshotCrossRegionPolicy")]
 pub mod ListSnapshotCrossRegionPolicy;
-#[cfg(feature = "ListSnapshotDetails")]
-pub mod ListSnapshotDetails;

@@ -14,6 +14,8 @@ pub mod BatchShowPhoneConnectInfos;
 pub mod ChangeCloudPhoneServer;
 #[cfg(feature = "ChangeCloudPhoneServerModel")]
 pub mod ChangeCloudPhoneServerModel;
+#[cfg(feature = "CreateCloudPhoneSingleServer")]
+pub mod CreateCloudPhoneSingleServer;
 #[cfg(feature = "CreateNet2CloudPhoneServer")]
 pub mod CreateNet2CloudPhoneServer;
 #[cfg(feature = "DeleteImage")]
@@ -24,6 +26,8 @@ pub mod DeleteImageMember;
 pub mod DeleteShareApps;
 #[cfg(feature = "DeleteShareFiles")]
 pub mod DeleteShareFiles;
+#[cfg(feature = "ExpandPhoneDataVolumeSize")]
+pub mod ExpandPhoneDataVolumeSize;
 #[cfg(feature = "ImportTraffic")]
 pub mod ImportTraffic;
 #[cfg(feature = "InstallApk")]
@@ -88,6 +92,8 @@ pub mod UninstallApk;
 pub mod UpdateBandwidth;
 #[cfg(feature = "UpdateCloudPhoneProperty")]
 pub mod UpdateCloudPhoneProperty;
+#[cfg(feature = "UpdateImageMember")]
+pub mod UpdateImageMember;
 #[cfg(feature = "UpdateKeypair")]
 pub mod UpdateKeypair;
 #[cfg(feature = "UpdatePhoneName")]

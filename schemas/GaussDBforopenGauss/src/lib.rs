@@ -8,6 +8,8 @@ pub mod AllowDbRolePrivileges;
 pub mod AttachEip;
 #[cfg(feature = "BatchShowUpgradeCandidateVersions")]
 pub mod BatchShowUpgradeCandidateVersions;
+#[cfg(feature = "CancelScheduleTask")]
+pub mod CancelScheduleTask;
 #[cfg(feature = "ConfirmRestoredData")]
 pub mod ConfirmRestoredData;
 #[cfg(feature = "CopyConfiguration")]
@@ -36,6 +38,8 @@ pub mod CreateLimitTask;
 pub mod CreateManualBackup;
 #[cfg(feature = "CreateRestoreInstance")]
 pub mod CreateRestoreInstance;
+#[cfg(feature = "CreateScheduleTask")]
+pub mod CreateScheduleTask;
 #[cfg(feature = "CreateSlowLogDownload")]
 pub mod CreateSlowLogDownload;
 #[cfg(feature = "DeleteConfiguration")]
@@ -54,6 +58,8 @@ pub mod DeleteJob;
 pub mod DeleteLimitTask;
 #[cfg(feature = "DeleteManualBackup")]
 pub mod DeleteManualBackup;
+#[cfg(feature = "DeleteScheduleTask")]
+pub mod DeleteScheduleTask;
 #[cfg(feature = "DownloadBackup")]
 pub mod DownloadBackup;
 #[cfg(feature = "InstallKernelPlugin")]
@@ -110,6 +116,8 @@ pub mod ListGaussDbDatastores;
 pub mod ListHistoryOperations;
 #[cfg(feature = "ListInstanceDetails")]
 pub mod ListInstanceDetails;
+#[cfg(feature = "ListInstanceEngineDetail")]
+pub mod ListInstanceEngineDetail;
 #[cfg(feature = "ListInstanceErrorLogs")]
 pub mod ListInstanceErrorLogs;
 #[cfg(feature = "ListInstances")]
@@ -144,6 +152,8 @@ pub mod ListRestorableInstances;
 pub mod ListRestorableInstancesDetails;
 #[cfg(feature = "ListRestoreTimes")]
 pub mod ListRestoreTimes;
+#[cfg(feature = "ListScheduleTask")]
+pub mod ListScheduleTask;
 #[cfg(feature = "ListStorageTypes")]
 pub mod ListStorageTypes;
 #[cfg(feature = "ListSupportKernelPlugins")]
@@ -188,13 +198,3 @@ pub mod ShowBalanceStatus;
 pub mod ShowBatchUpgradeCandidateVersions;
 #[cfg(feature = "ShowConfigurationDetail")]
 pub mod ShowConfigurationDetail;
-#[cfg(feature = "ShowDeploymentForm")]
-pub mod ShowDeploymentForm;
-#[cfg(feature = "ShowErrorLogSwitchStatus")]
-pub mod ShowErrorLogSwitchStatus;
-#[cfg(feature = "ShowInstanceConfiguration")]
-pub mod ShowInstanceConfiguration;
-#[cfg(feature = "ShowInstanceDisk")]
-pub mod ShowInstanceDisk;
-#[cfg(feature = "ShowInstanceParamGroup")]
-pub mod ShowInstanceParamGroup;
