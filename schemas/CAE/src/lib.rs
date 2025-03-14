@@ -18,6 +18,8 @@ pub mod CreateEnvironment;
 pub mod CreateMonitorSystem;
 #[cfg(feature = "CreateNoticeRule")]
 pub mod CreateNoticeRule;
+#[cfg(feature = "CreateSecret")]
+pub mod CreateSecret;
 #[cfg(feature = "CreateTimerRule")]
 pub mod CreateTimerRule;
 #[cfg(feature = "CreateVolume")]
@@ -38,6 +40,8 @@ pub mod DeleteDomain;
 pub mod DeleteEnvironment;
 #[cfg(feature = "DeleteNoticeRule")]
 pub mod DeleteNoticeRule;
+#[cfg(feature = "DeleteSecret")]
+pub mod DeleteSecret;
 #[cfg(feature = "DeleteTimerRule")]
 pub mod DeleteTimerRule;
 #[cfg(feature = "DeleteVolume")]
@@ -62,12 +66,16 @@ pub mod ListComponents;
 pub mod ListComponentSnapshots;
 #[cfg(feature = "ListDomains")]
 pub mod ListDomains;
+#[cfg(feature = "ListEffectiveComponents")]
+pub mod ListEffectiveComponents;
 #[cfg(feature = "ListEips")]
 pub mod ListEips;
 #[cfg(feature = "ListEnvironments")]
 pub mod ListEnvironments;
 #[cfg(feature = "ListNoticeRules")]
 pub mod ListNoticeRules;
+#[cfg(feature = "ListSecrets")]
+pub mod ListSecrets;
 #[cfg(feature = "ListTimerRules")]
 pub mod ListTimerRules;
 #[cfg(feature = "ListVolumes")]
@@ -98,5 +106,7 @@ pub mod UpdateEip;
 pub mod UpdateMonitorSystem;
 #[cfg(feature = "UpdateNoticeRule")]
 pub mod UpdateNoticeRule;
+#[cfg(feature = "UpdateSecret")]
+pub mod UpdateSecret;
 #[cfg(feature = "UpdateTimerRule")]
 pub mod UpdateTimerRule;

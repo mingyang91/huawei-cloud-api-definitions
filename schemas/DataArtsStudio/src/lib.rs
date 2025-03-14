@@ -6,6 +6,8 @@ pub mod AddDesignEntityTags;
 pub mod AddTagToAsset;
 #[cfg(feature = "AddWorkSpaceUsers")]
 pub mod AddWorkSpaceUsers;
+#[cfg(feature = "ApplySecurityTableAuthority")]
+pub mod ApplySecurityTableAuthority;
 #[cfg(feature = "AssociateClassificationToEntity")]
 pub mod AssociateClassificationToEntity;
 #[cfg(feature = "AssociateSecurityLevelToEntitie")]
@@ -196,5 +198,3 @@ pub mod DeleteDesignDerivativeIndex;
 pub mod DeleteDesignDimension;
 #[cfg(feature = "DeleteDesignDimensionLogicTable")]
 pub mod DeleteDesignDimensionLogicTable;
-#[cfg(feature = "DeleteDesignFactLogicTable")]
-pub mod DeleteDesignFactLogicTable;

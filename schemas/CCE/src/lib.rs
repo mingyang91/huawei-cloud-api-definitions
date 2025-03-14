@@ -26,6 +26,8 @@ pub mod CreateAutopilotCluster;
 pub mod CreateAutopilotClusterMasterSnapshot;
 #[cfg(feature = "CreateAutopilotKubernetesClusterCert")]
 pub mod CreateAutopilotKubernetesClusterCert;
+#[cfg(feature = "CreateAutopilotMaintenanceWindow")]
+pub mod CreateAutopilotMaintenanceWindow;
 #[cfg(feature = "CreateAutopilotPostCheck")]
 pub mod CreateAutopilotPostCheck;
 #[cfg(feature = "CreateAutopilotPreCheck")]
@@ -64,6 +66,8 @@ pub mod DeleteAutopilotAddonInstance;
 pub mod DeleteAutopilotChart;
 #[cfg(feature = "DeleteAutopilotCluster")]
 pub mod DeleteAutopilotCluster;
+#[cfg(feature = "DeleteAutopilotMaintenanceWindow")]
+pub mod DeleteAutopilotMaintenanceWindow;
 #[cfg(feature = "DeleteAutopilotRelease")]
 pub mod DeleteAutopilotRelease;
 #[cfg(feature = "DeleteChart")]
@@ -108,6 +112,8 @@ pub mod ListAutopilotPreCheckTasks;
 pub mod ListAutopilotReleases;
 #[cfg(feature = "ListAutopilotUpgradeClusterTasks")]
 pub mod ListAutopilotUpgradeClusterTasks;
+#[cfg(feature = "ListAutopilotUpgradePlans")]
+pub mod ListAutopilotUpgradePlans;
 #[cfg(feature = "ListAutopilotUpgradeWorkFlows")]
 pub mod ListAutopilotUpgradeWorkFlows;
 #[cfg(feature = "ListCharts")]
@@ -172,6 +178,8 @@ pub mod ShowAutopilotClusterEndpoints;
 pub mod ShowAutopilotClusterUpgradeInfo;
 #[cfg(feature = "ShowAutopilotJob")]
 pub mod ShowAutopilotJob;
+#[cfg(feature = "ShowAutopilotMaintenanceWindow")]
+pub mod ShowAutopilotMaintenanceWindow;
 #[cfg(feature = "ShowAutopilotPreCheck")]
 pub mod ShowAutopilotPreCheck;
 #[cfg(feature = "ShowAutopilotQuotas")]
@@ -190,11 +198,3 @@ pub mod ShowAutopilotUserChartsQuotas;
 pub mod ShowChart;
 #[cfg(feature = "ShowChartValues")]
 pub mod ShowChartValues;
-#[cfg(feature = "ShowCluster")]
-pub mod ShowCluster;
-#[cfg(feature = "ShowClusterConfig")]
-pub mod ShowClusterConfig;
-#[cfg(feature = "ShowClusterConfigurationDetails")]
-pub mod ShowClusterConfigurationDetails;
-#[cfg(feature = "ShowClusterEndpoints")]
-pub mod ShowClusterEndpoints;

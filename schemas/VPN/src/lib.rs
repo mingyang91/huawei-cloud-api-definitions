@@ -2,8 +2,12 @@
 pub mod AddVpnUsersToGroup;
 #[cfg(feature = "BatchCreateResourceTags")]
 pub mod BatchCreateResourceTags;
+#[cfg(feature = "BatchCreateVpnUsers")]
+pub mod BatchCreateVpnUsers;
 #[cfg(feature = "BatchDeleteResourceTags")]
 pub mod BatchDeleteResourceTags;
+#[cfg(feature = "BatchDeleteVpnUsers")]
+pub mod BatchDeleteVpnUsers;
 #[cfg(feature = "CheckClientCaCertificate")]
 pub mod CheckClientCaCertificate;
 #[cfg(feature = "CountResourcesByTags")]
@@ -52,6 +56,8 @@ pub mod ListAvailabilityZones;
 pub mod ListCgws;
 #[cfg(feature = "ListConnectionMonitors")]
 pub mod ListConnectionMonitors;
+#[cfg(feature = "ListExtendedAvailabilityZones")]
+pub mod ListExtendedAvailabilityZones;
 #[cfg(feature = "ListP2cVgwAvailabilityZones")]
 pub mod ListP2cVgwAvailabilityZones;
 #[cfg(feature = "ListP2cVgwConnections")]
