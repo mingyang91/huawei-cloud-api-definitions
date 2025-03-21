@@ -6,6 +6,8 @@ pub mod CheckHealth;
 pub mod CreateTable;
 #[cfg(feature = "DeleteKv")]
 pub mod DeleteKv;
+#[cfg(feature = "DeleteTable")]
+pub mod DeleteTable;
 #[cfg(feature = "DescribeTable")]
 pub mod DescribeTable;
 #[cfg(feature = "GetKv")]

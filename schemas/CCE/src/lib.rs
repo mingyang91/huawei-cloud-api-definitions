@@ -42,6 +42,8 @@ pub mod CreateCloudPersistentVolumeClaims;
 pub mod CreateCluster;
 #[cfg(feature = "CreateClusterMasterSnapshot")]
 pub mod CreateClusterMasterSnapshot;
+#[cfg(feature = "CreateImageCache")]
+pub mod CreateImageCache;
 #[cfg(feature = "CreateKubernetesClusterCert")]
 pub mod CreateKubernetesClusterCert;
 #[cfg(feature = "CreateNode")]
@@ -76,6 +78,8 @@ pub mod DeleteChart;
 pub mod DeleteCloudPersistentVolumeClaims;
 #[cfg(feature = "DeleteCluster")]
 pub mod DeleteCluster;
+#[cfg(feature = "DeleteImageCache")]
+pub mod DeleteImageCache;
 #[cfg(feature = "DeleteNode")]
 pub mod DeleteNode;
 #[cfg(feature = "DeleteNodePool")]
@@ -126,6 +130,8 @@ pub mod ListClusters;
 pub mod ListClusterUpgradeFeatureGates;
 #[cfg(feature = "ListClusterUpgradePaths")]
 pub mod ListClusterUpgradePaths;
+#[cfg(feature = "ListImageCaches")]
+pub mod ListImageCaches;
 #[cfg(feature = "ListNodePools")]
 pub mod ListNodePools;
 #[cfg(feature = "ListNodes")]
@@ -192,9 +198,3 @@ pub mod ShowAutopilotReleaseHistory;
 pub mod ShowAutopilotUpgradeClusterTask;
 #[cfg(feature = "ShowAutopilotUpgradeWorkFlow")]
 pub mod ShowAutopilotUpgradeWorkFlow;
-#[cfg(feature = "ShowAutopilotUserChartsQuotas")]
-pub mod ShowAutopilotUserChartsQuotas;
-#[cfg(feature = "ShowChart")]
-pub mod ShowChart;
-#[cfg(feature = "ShowChartValues")]
-pub mod ShowChartValues;
