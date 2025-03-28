@@ -14,6 +14,8 @@ pub mod CreateAlias;
 pub mod CreateDatakey;
 #[cfg(feature = "CreateDatakeyWithoutPlaintext")]
 pub mod CreateDatakeyWithoutPlaintext;
+#[cfg(feature = "CreateEcDatakeyPair")]
+pub mod CreateEcDatakeyPair;
 #[cfg(feature = "CreateGrant")]
 pub mod CreateGrant;
 #[cfg(feature = "CreateKey")]
@@ -26,6 +28,8 @@ pub mod CreateKmsTag;
 pub mod CreateParametersForImport;
 #[cfg(feature = "CreateRandom")]
 pub mod CreateRandom;
+#[cfg(feature = "CreateRsaDatakeyPair")]
+pub mod CreateRsaDatakeyPair;
 #[cfg(feature = "DecryptData")]
 pub mod DecryptData;
 #[cfg(feature = "DecryptDatakey")]

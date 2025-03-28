@@ -4,8 +4,6 @@ pub mod connectCoreV1GetNamespacedPodExec;
 pub mod connectCoreV1PostNamespacedPodExec;
 #[cfg(feature = "createAppsV1NamespacedDeployment")]
 pub mod createAppsV1NamespacedDeployment;
-#[cfg(feature = "createAppsV1NamespacedStatefulSet")]
-pub mod createAppsV1NamespacedStatefulSet;
 #[cfg(feature = "createBatchV1NamespacedJob")]
 pub mod createBatchV1NamespacedJob;
 #[cfg(feature = "createBatchVolcanoShV1alpha1NamespacedJob")]

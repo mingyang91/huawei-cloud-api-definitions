@@ -154,6 +154,8 @@ pub mod ShowGetUsingPost;
 pub mod ShowLogicalDeleteByConditionUsingPost;
 #[cfg(feature = "ShowLogicalDeleteUsingPost")]
 pub mod ShowLogicalDeleteUsingPost;
+#[cfg(feature = "ShowStaticsPage")]
+pub mod ShowStaticsPage;
 #[cfg(feature = "ShowStaticsUsingPost")]
 pub mod ShowStaticsUsingPost;
 #[cfg(feature = "ShowTag")]

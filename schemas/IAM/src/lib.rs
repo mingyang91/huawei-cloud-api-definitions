@@ -58,6 +58,8 @@ pub mod DeleteDomainGroupInheritedRole;
 pub mod DeleteMfaDevice;
 #[cfg(feature = "DeletePermanentAccessKey")]
 pub mod DeletePermanentAccessKey;
+#[cfg(feature = "GetAccountSummaryV5")]
+pub mod GetAccountSummaryV5;
 #[cfg(feature = "KeystoneAddUserToGroup")]
 pub mod KeystoneAddUserToGroup;
 #[cfg(feature = "KeystoneAssociateGroupWithDomainPermission")]
@@ -196,5 +198,3 @@ pub mod KeystoneUpdateUserPassword;
 pub mod KeystoneValidateToken;
 #[cfg(feature = "ListAgencies")]
 pub mod ListAgencies;
-#[cfg(feature = "ListAllProjectsPermissionsForAgency")]
-pub mod ListAllProjectsPermissionsForAgency;

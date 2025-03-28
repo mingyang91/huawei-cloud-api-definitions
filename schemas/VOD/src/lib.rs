@@ -64,6 +64,8 @@ pub mod ListTopStatistics;
 pub mod ListTranscodeTemplate;
 #[cfg(feature = "ListWatermarkTemplate")]
 pub mod ListWatermarkTemplate;
+#[cfg(feature = "ModifySubtitle")]
+pub mod ModifySubtitle;
 #[cfg(feature = "PublishAssetFromObs")]
 pub mod PublishAssetFromObs;
 #[cfg(feature = "PublishAssets")]

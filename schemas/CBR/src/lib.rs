@@ -12,6 +12,8 @@ pub mod BatchCreateAndDeleteVaultTags;
 pub mod BatchUpdateVault;
 #[cfg(feature = "ChangeOrder")]
 pub mod ChangeOrder;
+#[cfg(feature = "ChangeVaultChargeMode")]
+pub mod ChangeVaultChargeMode;
 #[cfg(feature = "CheckAgent")]
 pub mod CheckAgent;
 #[cfg(feature = "CopyBackup")]

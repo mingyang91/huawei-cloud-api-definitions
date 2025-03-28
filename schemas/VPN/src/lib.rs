@@ -36,12 +36,16 @@ pub mod DeleteCgw;
 pub mod DeleteClientCa;
 #[cfg(feature = "DeleteConnectionMonitor")]
 pub mod DeleteConnectionMonitor;
+#[cfg(feature = "DeleteP2cVgwConnection")]
+pub mod DeleteP2cVgwConnection;
 #[cfg(feature = "DeleteVgw")]
 pub mod DeleteVgw;
 #[cfg(feature = "DeleteVpnAccessPolicy")]
 pub mod DeleteVpnAccessPolicy;
 #[cfg(feature = "DeleteVpnConnection")]
 pub mod DeleteVpnConnection;
+#[cfg(feature = "DeleteVpnConnectionsLogConfig")]
+pub mod DeleteVpnConnectionsLogConfig;
 #[cfg(feature = "DeleteVpnUser")]
 pub mod DeleteVpnUser;
 #[cfg(feature = "DeleteVpnUserGroup")]
@@ -106,6 +110,10 @@ pub mod ShowVgw;
 pub mod ShowVpnAccessPolicy;
 #[cfg(feature = "ShowVpnConnection")]
 pub mod ShowVpnConnection;
+#[cfg(feature = "ShowVpnConnectionLog")]
+pub mod ShowVpnConnectionLog;
+#[cfg(feature = "ShowVpnConnectionsLogConfig")]
+pub mod ShowVpnConnectionsLogConfig;
 #[cfg(feature = "ShowVpnGatewayCertificate")]
 pub mod ShowVpnGatewayCertificate;
 #[cfg(feature = "ShowVpnUser")]
@@ -128,6 +136,8 @@ pub mod UpdateVgwCertificate;
 pub mod UpdateVpnAccessPolicy;
 #[cfg(feature = "UpdateVpnConnection")]
 pub mod UpdateVpnConnection;
+#[cfg(feature = "UpdateVpnConnectionsLogConfig")]
+pub mod UpdateVpnConnectionsLogConfig;
 #[cfg(feature = "UpdateVpnServer")]
 pub mod UpdateVpnServer;
 #[cfg(feature = "UpdateVpnUser")]
