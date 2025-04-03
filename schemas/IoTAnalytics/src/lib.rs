@@ -54,6 +54,8 @@ pub mod ListAssetsNew;
 pub mod ListBatchJobs;
 #[cfg(feature = "ListComputingResources")]
 pub mod ListComputingResources;
+#[cfg(feature = "ListDataStores")]
+pub mod ListDataStores;
 #[cfg(feature = "ListGroups")]
 pub mod ListGroups;
 #[cfg(feature = "ListHistory")]
