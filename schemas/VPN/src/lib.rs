@@ -116,6 +116,8 @@ pub mod ShowVpnConnectionLog;
 pub mod ShowVpnConnectionsLogConfig;
 #[cfg(feature = "ShowVpnGatewayCertificate")]
 pub mod ShowVpnGatewayCertificate;
+#[cfg(feature = "ShowVpnGatewayRoutingTable")]
+pub mod ShowVpnGatewayRoutingTable;
 #[cfg(feature = "ShowVpnUser")]
 pub mod ShowVpnUser;
 #[cfg(feature = "ShowVpnUserGroup")]

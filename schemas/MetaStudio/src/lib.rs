@@ -58,6 +58,8 @@ pub mod CreateKnowledgeSkill;
 pub mod CreateLargeFile;
 #[cfg(feature = "CreateLivePlatform")]
 pub mod CreateLivePlatform;
+#[cfg(feature = "CreateMetaStudioOrders")]
+pub mod CreateMetaStudioOrders;
 #[cfg(feature = "CreateOnceCode")]
 pub mod CreateOnceCode;
 #[cfg(feature = "CreatePacifyWords")]
@@ -196,5 +198,3 @@ pub mod ListSmartChatRooms;
 pub mod ListSmartLive;
 #[cfg(feature = "ListSmartLiveJobs")]
 pub mod ListSmartLiveJobs;
-#[cfg(feature = "ListSmartLiveRooms")]
-pub mod ListSmartLiveRooms;

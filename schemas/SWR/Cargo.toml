@@ -16,6 +16,7 @@ version = "1"
 version = "0"
 
 [features]
+CreateAuthorizationToken = []
 CreateImageSyncRepo = []
 CreateManualImageSyncRepo = []
 CreateNamespace = []
@@ -65,7 +66,7 @@ UpdateRepoDomains = []
 UpdateRetention = []
 UpdateTrigger = []
 UpdateUserRepositoryAuth = []
-full = ["CreateImageSyncRepo", "CreateManualImageSyncRepo", "CreateNamespace", "CreateNamespaceAuth", "CreateRepo", "CreateRepoDomains", "CreateRepoTag", "CreateRetention", "CreateSecret", "CreateTrigger", "CreateUserRepositoryAuth", "DeleteImageSyncRepo", "DeleteNamespaceAuth", "DeleteNamespaces", "DeleteRepo", "DeleteRepoDomains", "DeleteRepoTag", "DeleteRetention", "DeleteTrigger", "DeleteUserRepositoryAuth", "ListApiVersions", "ListImageAutoSyncReposDetails", "ListNamespaces", "ListQuotas", "ListRepoDomains", "ListReposDetails", "ListRepositoryTags", "ListRetentionHistories", "ListRetentions", "ListSharedReposDetails", "ListTriggersDetails", "ShowAccessDomain", "ShowApiVersion", "ShowDomainOverview", "ShowDomainResourceReports", "ShowNamespace", "ShowNamespaceAuth", "ShowRepository", "ShowRetention", "ShowShareFeatureGates", "ShowSyncJob", "ShowTrigger", "ShowUserRepositoryAuth", "UpdateNamespaceAuth", "UpdateRepo", "UpdateRepoDomains", "UpdateRetention", "UpdateTrigger", "UpdateUserRepositoryAuth"]
+full = ["CreateAuthorizationToken", "CreateImageSyncRepo", "CreateManualImageSyncRepo", "CreateNamespace", "CreateNamespaceAuth", "CreateRepo", "CreateRepoDomains", "CreateRepoTag", "CreateRetention", "CreateSecret", "CreateTrigger", "CreateUserRepositoryAuth", "DeleteImageSyncRepo", "DeleteNamespaceAuth", "DeleteNamespaces", "DeleteRepo", "DeleteRepoDomains", "DeleteRepoTag", "DeleteRetention", "DeleteTrigger", "DeleteUserRepositoryAuth", "ListApiVersions", "ListImageAutoSyncReposDetails", "ListNamespaces", "ListQuotas", "ListRepoDomains", "ListReposDetails", "ListRepositoryTags", "ListRetentionHistories", "ListRetentions", "ListSharedReposDetails", "ListTriggersDetails", "ShowAccessDomain", "ShowApiVersion", "ShowDomainOverview", "ShowDomainResourceReports", "ShowNamespace", "ShowNamespaceAuth", "ShowRepository", "ShowRetention", "ShowShareFeatureGates", "ShowSyncJob", "ShowTrigger", "ShowUserRepositoryAuth", "UpdateNamespaceAuth", "UpdateRepo", "UpdateRepoDomains", "UpdateRetention", "UpdateTrigger", "UpdateUserRepositoryAuth"]
 
 [lib]
 name = "huawei_cloud_api_definitions_SWR"

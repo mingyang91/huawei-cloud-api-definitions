@@ -1,3 +1,5 @@
+#[cfg(feature = "CreateAuthorizationToken")]
+pub mod CreateAuthorizationToken;
 #[cfg(feature = "CreateImageSyncRepo")]
 pub mod CreateImageSyncRepo;
 #[cfg(feature = "CreateManualImageSyncRepo")]
