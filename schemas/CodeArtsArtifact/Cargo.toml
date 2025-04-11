@@ -42,8 +42,9 @@ ShowReleaseProjectFiles = []
 ShowRepository = []
 ShowRepositoryInfo = []
 ShowStorage = []
+ShowUserPrivileges = []
 UpdateArtifactory = []
-full = ["BatchDeleteTrashes", "BatchRestoreRepo", "CreateArtifactory", "CreateAttention", "CreateDockerRepositories", "CreateMavenRepo", "CreateProjectRelatedRepository", "DeleteArtifactFile", "DeleteRepository", "ListAllRepositories", "ListArtifactoryComponent", "ListArtifactoryStorageStatistic", "ListAttentions", "ModifyRepository", "ResetUserPassword", "SearchArtifacts", "SearchByChecksum", "ShowAudit", "ShowFileTree", "ShowMavenInfo", "ShowProjectList", "ShowProjectReleaseFiles", "ShowReleaseProjectFiles", "ShowRepository", "ShowRepositoryInfo", "ShowStorage", "UpdateArtifactory"]
+full = ["BatchDeleteTrashes", "BatchRestoreRepo", "CreateArtifactory", "CreateAttention", "CreateDockerRepositories", "CreateMavenRepo", "CreateProjectRelatedRepository", "DeleteArtifactFile", "DeleteRepository", "ListAllRepositories", "ListArtifactoryComponent", "ListArtifactoryStorageStatistic", "ListAttentions", "ModifyRepository", "ResetUserPassword", "SearchArtifacts", "SearchByChecksum", "ShowAudit", "ShowFileTree", "ShowMavenInfo", "ShowProjectList", "ShowProjectReleaseFiles", "ShowReleaseProjectFiles", "ShowRepository", "ShowRepositoryInfo", "ShowStorage", "ShowUserPrivileges", "UpdateArtifactory"]
 
 [lib]
 name = "huawei_cloud_api_definitions_CodeArtsArtifact"

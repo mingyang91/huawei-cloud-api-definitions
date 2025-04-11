@@ -50,5 +50,7 @@ pub mod ShowRepository;
 pub mod ShowRepositoryInfo;
 #[cfg(feature = "ShowStorage")]
 pub mod ShowStorage;
+#[cfg(feature = "ShowUserPrivileges")]
+pub mod ShowUserPrivileges;
 #[cfg(feature = "UpdateArtifactory")]
 pub mod UpdateArtifactory;

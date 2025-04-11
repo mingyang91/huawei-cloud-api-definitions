@@ -96,8 +96,8 @@ pub mod ListPlaybookVersions;
 pub mod ListWorkflows;
 #[cfg(feature = "ListWorkspaces")]
 pub mod ListWorkspaces;
-#[cfg(feature = "RunAopWorkflowInstanceAction")]
-pub mod RunAopWorkflowInstanceAction;
+#[cfg(feature = "OperateWorkflowInstance")]
+pub mod OperateWorkflowInstance;
 #[cfg(feature = "SearchBaseline")]
 pub mod SearchBaseline;
 #[cfg(feature = "ShowAlert")]
