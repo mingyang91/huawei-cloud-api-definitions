@@ -2,6 +2,8 @@
 pub mod CreateDefaultConfig;
 #[cfg(feature = "DeleteDefaultConfig")]
 pub mod DeleteDefaultConfig;
+#[cfg(feature = "EnableDefensePolicy")]
+pub mod EnableDefensePolicy;
 #[cfg(feature = "ListDailyLog")]
 pub mod ListDailyLog;
 #[cfg(feature = "ListDailyReport")]
@@ -10,6 +12,8 @@ pub mod ListDailyReport;
 pub mod ListDDosStatus;
 #[cfg(feature = "ListNewConfigs")]
 pub mod ListNewConfigs;
+#[cfg(feature = "ListQuota")]
+pub mod ListQuota;
 #[cfg(feature = "ListWeeklyReports")]
 pub mod ListWeeklyReports;
 #[cfg(feature = "ShowAlertConfig")]
@@ -20,9 +24,13 @@ pub mod ShowDDos;
 pub mod ShowDDosStatus;
 #[cfg(feature = "ShowDefaultConfig")]
 pub mod ShowDefaultConfig;
+#[cfg(feature = "ShowLogConfig")]
+pub mod ShowLogConfig;
 #[cfg(feature = "ShowNewTaskStatus")]
 pub mod ShowNewTaskStatus;
 #[cfg(feature = "UpdateAlertConfig")]
 pub mod UpdateAlertConfig;
 #[cfg(feature = "UpdateDDos")]
 pub mod UpdateDDos;
+#[cfg(feature = "UpdateLogConfig")]
+pub mod UpdateLogConfig;

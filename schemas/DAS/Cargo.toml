@@ -16,7 +16,9 @@ version = "1"
 version = "0"
 
 [features]
+AddFullSqlTask = []
 CancelShareConnections = []
+ChangeChargeMode = []
 ChangeSqlLimitSwitchStatus = []
 ChangeSqlSwitch = []
 ChangeTransactionSwitchStatus = []
@@ -75,7 +77,7 @@ ShowTuning = []
 SynchronizeInstances = []
 UpdateDbUser = []
 UpdateSqlLimitRules = []
-full = ["CancelShareConnections", "ChangeSqlLimitSwitchStatus", "ChangeSqlSwitch", "ChangeTransactionSwitchStatus", "CreateHealthReportTask", "CreateInstanceConnection", "CreateShareConnections", "CreateSpaceAnalysisTask", "CreateSqlLimitRules", "CreateTuning", "DeleteDbUser", "DeleteProcess", "DeleteSqlLimitRules", "ExportFullSqlDetails", "ExportSlowQueryLogs", "ExportSlowSqlStatistics", "ExportSlowSqlTemplatesDetails", "ExportSlowSqlTrendDetails", "ExportSqlStatements", "ExportTopRiskInstances", "ExportTopSqlTemplatesDetails", "ExportTopSqlTrendDetails", "ListApiVersions", "ListCloudDbaInstances", "ListConnections", "ListDbUsers", "ListFullSqlTasks", "ListHealthReportTask", "ListInnodbLocks", "ListInstanceDistribution", "ListInstanceMultiNodesSingleMetric", "ListInstanceNodesInfo", "ListInstanceTopSlowLog", "ListMetadataLocks", "ListProcesses", "ListRiskItems", "ListRiskTrend", "ListSpaceAnalysis", "ListSqlLimitRules", "ListTopSlowLog", "ListTransactions", "ParseSqlLimitRules", "RegisterDbUser", "SetThresholdForMetric", "ShowApiVersion", "ShowDbUser", "ShowInstanceHealthReport", "ShowMetricNamesSupport", "ShowQuotas", "ShowSqlExecutionPlan", "ShowSqlExplain", "ShowSqlLimitJobInfo", "ShowSqlLimitSwitchStatus", "ShowSqlSwitchStatus", "ShowTransactionSwitchStatus", "ShowTuning", "SynchronizeInstances", "UpdateDbUser", "UpdateSqlLimitRules"]
+full = ["AddFullSqlTask", "CancelShareConnections", "ChangeChargeMode", "ChangeSqlLimitSwitchStatus", "ChangeSqlSwitch", "ChangeTransactionSwitchStatus", "CreateHealthReportTask", "CreateInstanceConnection", "CreateShareConnections", "CreateSpaceAnalysisTask", "CreateSqlLimitRules", "CreateTuning", "DeleteDbUser", "DeleteProcess", "DeleteSqlLimitRules", "ExportFullSqlDetails", "ExportSlowQueryLogs", "ExportSlowSqlStatistics", "ExportSlowSqlTemplatesDetails", "ExportSlowSqlTrendDetails", "ExportSqlStatements", "ExportTopRiskInstances", "ExportTopSqlTemplatesDetails", "ExportTopSqlTrendDetails", "ListApiVersions", "ListCloudDbaInstances", "ListConnections", "ListDbUsers", "ListFullSqlTasks", "ListHealthReportTask", "ListInnodbLocks", "ListInstanceDistribution", "ListInstanceMultiNodesSingleMetric", "ListInstanceNodesInfo", "ListInstanceTopSlowLog", "ListMetadataLocks", "ListProcesses", "ListRiskItems", "ListRiskTrend", "ListSpaceAnalysis", "ListSqlLimitRules", "ListTopSlowLog", "ListTransactions", "ParseSqlLimitRules", "RegisterDbUser", "SetThresholdForMetric", "ShowApiVersion", "ShowDbUser", "ShowInstanceHealthReport", "ShowMetricNamesSupport", "ShowQuotas", "ShowSqlExecutionPlan", "ShowSqlExplain", "ShowSqlLimitJobInfo", "ShowSqlLimitSwitchStatus", "ShowSqlSwitchStatus", "ShowTransactionSwitchStatus", "ShowTuning", "SynchronizeInstances", "UpdateDbUser", "UpdateSqlLimitRules"]
 
 [lib]
 name = "huawei_cloud_api_definitions_DAS"

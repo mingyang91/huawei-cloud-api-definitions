@@ -70,6 +70,8 @@ pub mod ModifySubtitle;
 pub mod PublishAssetFromObs;
 #[cfg(feature = "PublishAssets")]
 pub mod PublishAssets;
+#[cfg(feature = "RefreshAsset")]
+pub mod RefreshAsset;
 #[cfg(feature = "ShowAssetCipher")]
 pub mod ShowAssetCipher;
 #[cfg(feature = "ShowAssetDetail")]
@@ -82,6 +84,8 @@ pub mod ShowAssetTempAuthority;
 pub mod ShowCdnStatistics;
 #[cfg(feature = "ShowPreheatingAsset")]
 pub mod ShowPreheatingAsset;
+#[cfg(feature = "ShowRefreshResult")]
+pub mod ShowRefreshResult;
 #[cfg(feature = "ShowStorageModeType")]
 pub mod ShowStorageModeType;
 #[cfg(feature = "ShowTakeOverAssetDetails")]

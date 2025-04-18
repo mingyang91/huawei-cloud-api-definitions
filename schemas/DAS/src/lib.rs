@@ -1,5 +1,9 @@
+#[cfg(feature = "AddFullSqlTask")]
+pub mod AddFullSqlTask;
 #[cfg(feature = "CancelShareConnections")]
 pub mod CancelShareConnections;
+#[cfg(feature = "ChangeChargeMode")]
+pub mod ChangeChargeMode;
 #[cfg(feature = "ChangeSqlLimitSwitchStatus")]
 pub mod ChangeSqlLimitSwitchStatus;
 #[cfg(feature = "ChangeSqlSwitch")]

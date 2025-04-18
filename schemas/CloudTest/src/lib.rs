@@ -146,6 +146,8 @@ pub mod ListTaskTestCases;
 pub mod ListTestCaseComments;
 #[cfg(feature = "ListTestCaseHistories")]
 pub mod ListTestCaseHistories;
+#[cfg(feature = "ListTestcasePlans")]
+pub mod ListTestcasePlans;
 #[cfg(feature = "ListTestCases")]
 pub mod ListTestCases;
 #[cfg(feature = "ListTestCasesByIssue")]
@@ -196,5 +198,3 @@ pub mod ShowCaseResult;
 pub mod ShowConcurrencyPackageUsing;
 #[cfg(feature = "ShowDefaultTemplateByPage")]
 pub mod ShowDefaultTemplateByPage;
-#[cfg(feature = "ShowDisclaimerRecord")]
-pub mod ShowDisclaimerRecord;
