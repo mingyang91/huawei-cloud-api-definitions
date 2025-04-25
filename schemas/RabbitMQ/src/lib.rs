@@ -68,6 +68,8 @@ pub mod ShowInstance;
 pub mod ShowMaintainWindows;
 #[cfg(feature = "ShowQueueDetails")]
 pub mod ShowQueueDetails;
+#[cfg(feature = "ShowRabbitMqProductCores")]
+pub mod ShowRabbitMqProductCores;
 #[cfg(feature = "ShowRabbitMqProjectTags")]
 pub mod ShowRabbitMqProjectTags;
 #[cfg(feature = "ShowRabbitMqTags")]

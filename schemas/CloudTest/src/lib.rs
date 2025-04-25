@@ -1,7 +1,11 @@
+#[cfg(feature = "AddCaseResultFour")]
+pub mod AddCaseResultFour;
 #[cfg(feature = "AddFeature")]
 pub mod AddFeature;
 #[cfg(feature = "AddTestCaseComment")]
 pub mod AddTestCaseComment;
+#[cfg(feature = "AddTestCaseResultLog")]
+pub mod AddTestCaseResultLog;
 #[cfg(feature = "BatchAddRelationsByOneCase")]
 pub mod BatchAddRelationsByOneCase;
 #[cfg(feature = "BatchAddResourcesForIterator")]
@@ -194,7 +198,3 @@ pub mod ShowBackgroundInfo;
 pub mod ShowBranch;
 #[cfg(feature = "ShowCaseResult")]
 pub mod ShowCaseResult;
-#[cfg(feature = "ShowConcurrencyPackageUsing")]
-pub mod ShowConcurrencyPackageUsing;
-#[cfg(feature = "ShowDefaultTemplateByPage")]
-pub mod ShowDefaultTemplateByPage;

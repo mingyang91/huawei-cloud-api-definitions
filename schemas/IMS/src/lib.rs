@@ -6,6 +6,8 @@ pub mod BatchAddMembers;
 pub mod BatchAddOrDeleteTags;
 #[cfg(feature = "BatchDeleteMembers")]
 pub mod BatchDeleteMembers;
+#[cfg(feature = "BatchDeleteTags")]
+pub mod BatchDeleteTags;
 #[cfg(feature = "BatchUpdateMembers")]
 pub mod BatchUpdateMembers;
 #[cfg(feature = "CopyImageCrossRegion")]
@@ -60,6 +62,8 @@ pub mod GlanceUpdateImageMember;
 pub mod ImportImageQuick;
 #[cfg(feature = "ListImageByTags")]
 pub mod ListImageByTags;
+#[cfg(feature = "ListImageMembers")]
+pub mod ListImageMembers;
 #[cfg(feature = "ListImages")]
 pub mod ListImages;
 #[cfg(feature = "ListImagesTags")]
@@ -74,6 +78,8 @@ pub mod ListTags;
 pub mod ListVersions;
 #[cfg(feature = "RegisterImage")]
 pub mod RegisterImage;
+#[cfg(feature = "ShowImageMember")]
+pub mod ShowImageMember;
 #[cfg(feature = "ShowImageQuota")]
 pub mod ShowImageQuota;
 #[cfg(feature = "ShowJob")]

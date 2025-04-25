@@ -102,6 +102,8 @@ pub mod DeleteStarRocksDataReplication;
 pub mod DeleteStarrocksInstance;
 #[cfg(feature = "DeleteTaskRecord")]
 pub mod DeleteTaskRecord;
+#[cfg(feature = "DeleteTaurusDbNodeProcesses")]
+pub mod DeleteTaurusDbNodeProcesses;
 #[cfg(feature = "DescribeBackupEncryptStatus")]
 pub mod DescribeBackupEncryptStatus;
 #[cfg(feature = "DownloadSlowLogFile")]
@@ -190,11 +192,9 @@ pub mod ListStarRocksDataReplications;
 pub mod ListStarRocksDbParameters;
 #[cfg(feature = "ListStarrocksInstanceInfo")]
 pub mod ListStarrocksInstanceInfo;
+#[cfg(feature = "ListTaurusDbNodeProcesses")]
+pub mod ListTaurusDbNodeProcesses;
 #[cfg(feature = "ModifyBackupEncryptStatus")]
 pub mod ModifyBackupEncryptStatus;
 #[cfg(feature = "ModifyDataSync")]
 pub mod ModifyDataSync;
-#[cfg(feature = "ModifyGaussMysqlDns")]
-pub mod ModifyGaussMysqlDns;
-#[cfg(feature = "ModifyGaussMySqlProxyRouteMode")]
-pub mod ModifyGaussMySqlProxyRouteMode;

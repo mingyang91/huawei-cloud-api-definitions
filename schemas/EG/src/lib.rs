@@ -40,6 +40,8 @@ pub mod DeleteSubscription;
 pub mod DeleteSubscriptionTarget;
 #[cfg(feature = "DiscoverEventSchemaFromData")]
 pub mod DiscoverEventSchemaFromData;
+#[cfg(feature = "ExecuteSubscriptionOperation")]
+pub mod ExecuteSubscriptionOperation;
 #[cfg(feature = "ListAgencies")]
 pub mod ListAgencies;
 #[cfg(feature = "ListApiVersions")]
@@ -76,8 +78,6 @@ pub mod ListTracedEvents;
 pub mod ListTriggers;
 #[cfg(feature = "ListWorkflowTriggers")]
 pub mod ListWorkflowTriggers;
-#[cfg(feature = "OperateSubscription")]
-pub mod OperateSubscription;
 #[cfg(feature = "PutEvents")]
 pub mod PutEvents;
 #[cfg(feature = "PutOfficialEvents")]
