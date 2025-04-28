@@ -194,7 +194,7 @@ pub mod ListStarRocksDbParameters;
 pub mod ListStarrocksInstanceInfo;
 #[cfg(feature = "ListTaurusDbNodeProcesses")]
 pub mod ListTaurusDbNodeProcesses;
+#[cfg(feature = "ModifyAutoExpandPolicy")]
+pub mod ModifyAutoExpandPolicy;
 #[cfg(feature = "ModifyBackupEncryptStatus")]
 pub mod ModifyBackupEncryptStatus;
-#[cfg(feature = "ModifyDataSync")]
-pub mod ModifyDataSync;
