@@ -30,6 +30,8 @@ pub mod ListBaremetalFlavorDetailExtends;
 pub mod ListBareMetalServerDetails;
 #[cfg(feature = "ListBareMetalServers")]
 pub mod ListBareMetalServers;
+#[cfg(feature = "ListBareMetalServersDetail")]
+pub mod ListBareMetalServersDetail;
 #[cfg(feature = "ReinstallBaremetalServerOs")]
 pub mod ReinstallBaremetalServerOs;
 #[cfg(feature = "ResetPwdOneClick")]

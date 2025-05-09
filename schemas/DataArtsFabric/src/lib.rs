@@ -60,6 +60,8 @@ pub mod ListWorkspaces;
 pub mod ShowAdminHealthCheck;
 #[cfg(feature = "ShowAgreement")]
 pub mod ShowAgreement;
+#[cfg(feature = "ShowAgreementRule")]
+pub mod ShowAgreementRule;
 #[cfg(feature = "ShowEndpoint")]
 pub mod ShowEndpoint;
 #[cfg(feature = "SubscribeEndpoint")]

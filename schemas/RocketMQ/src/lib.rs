@@ -24,6 +24,8 @@ pub mod DeleteRocketMqMigrationTask;
 pub mod DeleteTopic;
 #[cfg(feature = "DeleteUser")]
 pub mod DeleteUser;
+#[cfg(feature = "EnableDns")]
+pub mod EnableDns;
 #[cfg(feature = "ExportDlqMessage")]
 pub mod ExportDlqMessage;
 #[cfg(feature = "ListAvailableZones")]
@@ -34,6 +36,8 @@ pub mod ListBrokers;
 pub mod ListConsumeGroupAccessPolicy;
 #[cfg(feature = "ListConsumerGroupOfTopic")]
 pub mod ListConsumerGroupOfTopic;
+#[cfg(feature = "ListEngineProducts")]
+pub mod ListEngineProducts;
 #[cfg(feature = "ListInstanceConsumerGroups")]
 pub mod ListInstanceConsumerGroups;
 #[cfg(feature = "ListInstances")]
@@ -54,6 +58,8 @@ pub mod ListUser;
 pub mod ResetConsumeOffset;
 #[cfg(feature = "ResizeInstance")]
 pub mod ResizeInstance;
+#[cfg(feature = "RestartInstance")]
+pub mod RestartInstance;
 #[cfg(feature = "SendDlqMessage")]
 pub mod SendDlqMessage;
 #[cfg(feature = "ShowConsumerConnections")]
@@ -66,10 +72,14 @@ pub mod ShowEngineInstanceExtendProductInfo;
 pub mod ShowGroup;
 #[cfg(feature = "ShowInstance")]
 pub mod ShowInstance;
+#[cfg(feature = "ShowInstanceNodes")]
+pub mod ShowInstanceNodes;
 #[cfg(feature = "ShowOneTopic")]
 pub mod ShowOneTopic;
 #[cfg(feature = "ShowRocketMqConfigs")]
 pub mod ShowRocketMqConfigs;
+#[cfg(feature = "ShowRocketMQProductCores")]
+pub mod ShowRocketMQProductCores;
 #[cfg(feature = "ShowRocketmqProjectTags")]
 pub mod ShowRocketmqProjectTags;
 #[cfg(feature = "ShowRocketmqTags")]

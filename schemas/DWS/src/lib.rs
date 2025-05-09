@@ -50,6 +50,8 @@ pub mod CreateDisasterRecovery;
 pub mod CreateEventSub;
 #[cfg(feature = "CreateLogicalCluster")]
 pub mod CreateLogicalCluster;
+#[cfg(feature = "CreateLogicalClusterPlan")]
+pub mod CreateLogicalClusterPlan;
 #[cfg(feature = "CreateSnapshot")]
 pub mod CreateSnapshot;
 #[cfg(feature = "CreateSnapshotPolicy")]
@@ -74,6 +76,8 @@ pub mod DeleteDwsCluster;
 pub mod DeleteEventSub;
 #[cfg(feature = "DeleteLogicalCluster")]
 pub mod DeleteLogicalCluster;
+#[cfg(feature = "DeleteLogicalClusterPlan")]
+pub mod DeleteLogicalClusterPlan;
 #[cfg(feature = "DeleteQueueUserList")]
 pub mod DeleteQueueUserList;
 #[cfg(feature = "DeleteSnapshot")]
@@ -88,6 +92,8 @@ pub mod DeleteWorkloadPlan;
 pub mod DeleteWorkloadPlanStage;
 #[cfg(feature = "DeleteWorkloadQueue")]
 pub mod DeleteWorkloadQueue;
+#[cfg(feature = "DisableLogicalClusterPlan")]
+pub mod DisableLogicalClusterPlan;
 #[cfg(feature = "DisableLtsLogs")]
 pub mod DisableLtsLogs;
 #[cfg(feature = "DisassociateEip")]
@@ -96,6 +102,8 @@ pub mod DisassociateEip;
 pub mod DisassociateElb;
 #[cfg(feature = "EnableLogicalCluster")]
 pub mod EnableLogicalCluster;
+#[cfg(feature = "EnableLogicalClusterPlan")]
+pub mod EnableLogicalClusterPlan;
 #[cfg(feature = "EnableLtsLogs")]
 pub mod EnableLtsLogs;
 #[cfg(feature = "ExecuteClusterUpgradeAction")]
@@ -166,6 +174,8 @@ pub mod ListHostNet;
 pub mod ListHostOverview;
 #[cfg(feature = "ListJobDetails")]
 pub mod ListJobDetails;
+#[cfg(feature = "ListLogicalClusterPlans")]
+pub mod ListLogicalClusterPlans;
 #[cfg(feature = "ListLogicalClusterRings")]
 pub mod ListLogicalClusterRings;
 #[cfg(feature = "ListLogicalClusters")]
@@ -188,13 +198,3 @@ pub mod ListMonitorIndicators;
 pub mod ListNodeTypes;
 #[cfg(feature = "ListPlanExecLogs")]
 pub mod ListPlanExecLogs;
-#[cfg(feature = "ListQueries")]
-pub mod ListQueries;
-#[cfg(feature = "ListQuotas")]
-pub mod ListQuotas;
-#[cfg(feature = "ListSchemas")]
-pub mod ListSchemas;
-#[cfg(feature = "ListSnapshotCrossRegion")]
-pub mod ListSnapshotCrossRegion;
-#[cfg(feature = "ListSnapshotCrossRegionPolicy")]
-pub mod ListSnapshotCrossRegionPolicy;
