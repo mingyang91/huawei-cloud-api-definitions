@@ -180,8 +180,6 @@ pub mod ListStorageTypes;
 pub mod ListSupportKernelPlugins;
 #[cfg(feature = "ListTasks")]
 pub mod ListTasks;
-#[cfg(feature = "ListTopIoTraffics")]
-pub mod ListTopIoTraffics;
 #[cfg(feature = "ModifyEpsQuota")]
 pub mod ModifyEpsQuota;
 #[cfg(feature = "ResetConfiguration")]
@@ -198,3 +196,5 @@ pub mod RestartInstance;
 pub mod RestoreInstance;
 #[cfg(feature = "ResumePluginExtensions")]
 pub mod ResumePluginExtensions;
+#[cfg(feature = "RunInstanceAction")]
+pub mod RunInstanceAction;

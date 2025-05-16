@@ -70,6 +70,10 @@ pub mod DisassociateBandwidthPackage;
 pub mod DisassociateGlobalConnectionBandwidthInstance;
 #[cfg(feature = "DisassociateSiteNetworkBandwidth")]
 pub mod DisassociateSiteNetworkBandwidth;
+#[cfg(feature = "ListAreaBandwidthPackageSpecifications")]
+pub mod ListAreaBandwidthPackageSpecifications;
+#[cfg(feature = "ListAreas")]
+pub mod ListAreas;
 #[cfg(feature = "ListAuthorisations")]
 pub mod ListAuthorisations;
 #[cfg(feature = "ListBandwidthPackageLevels")]
@@ -106,6 +110,8 @@ pub mod ListCentralNetworks;
 pub mod ListCentralNetworksByTags;
 #[cfg(feature = "ListCentralNetworkTags")]
 pub mod ListCentralNetworkTags;
+#[cfg(feature = "ListCloudConnectionCapabilities")]
+pub mod ListCloudConnectionCapabilities;
 #[cfg(feature = "ListCloudConnectionQuotas")]
 pub mod ListCloudConnectionQuotas;
 #[cfg(feature = "ListCloudConnectionRoutes")]
@@ -140,6 +146,10 @@ pub mod ListInterRegionBandwidths;
 pub mod ListNetworkInstances;
 #[cfg(feature = "ListPermissions")]
 pub mod ListPermissions;
+#[cfg(feature = "ListRegionBandwidthPackageSpecifications")]
+pub mod ListRegionBandwidthPackageSpecifications;
+#[cfg(feature = "ListRegions")]
+pub mod ListRegions;
 #[cfg(feature = "ListResourceByFilterTag")]
 pub mod ListResourceByFilterTag;
 #[cfg(feature = "ListSiteNetworkCapabilities")]
@@ -188,13 +198,3 @@ pub mod UntagCloudConnection;
 pub mod UpdateAuthorisation;
 #[cfg(feature = "UpdateBandwidthPackage")]
 pub mod UpdateBandwidthPackage;
-#[cfg(feature = "UpdateCentralNetwork")]
-pub mod UpdateCentralNetwork;
-#[cfg(feature = "UpdateCentralNetworkConnection")]
-pub mod UpdateCentralNetworkConnection;
-#[cfg(feature = "UpdateCentralNetworkErRouteTableAttachment")]
-pub mod UpdateCentralNetworkErRouteTableAttachment;
-#[cfg(feature = "UpdateCentralNetworkGdgwAttachment")]
-pub mod UpdateCentralNetworkGdgwAttachment;
-#[cfg(feature = "UpdateCloudConnection")]
-pub mod UpdateCloudConnection;
