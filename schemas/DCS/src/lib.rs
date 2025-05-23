@@ -32,6 +32,8 @@ pub mod CreateHotkeyScanTask;
 pub mod CreateInstance;
 #[cfg(feature = "CreateMigrationTask")]
 pub mod CreateMigrationTask;
+#[cfg(feature = "CreateOfflineKeyAnalysis")]
+pub mod CreateOfflineKeyAnalysis;
 #[cfg(feature = "CreateOnlineMigrationTask")]
 pub mod CreateOnlineMigrationTask;
 #[cfg(feature = "CreateRedislog")]
@@ -62,10 +64,14 @@ pub mod DeleteInstanceBandwidthAutoScalingPolicy;
 pub mod DeleteIpFromDomainName;
 #[cfg(feature = "DeleteMigrationTask")]
 pub mod DeleteMigrationTask;
+#[cfg(feature = "DeleteOfflineKeyAnalysisTask")]
+pub mod DeleteOfflineKeyAnalysisTask;
 #[cfg(feature = "DeletePublicIp")]
 pub mod DeletePublicIp;
 #[cfg(feature = "DeleteSingleInstance")]
 pub mod DeleteSingleInstance;
+#[cfg(feature = "DownloadHotKey")]
+pub mod DownloadHotKey;
 #[cfg(feature = "DownloadSslCert")]
 pub mod DownloadSslCert;
 #[cfg(feature = "ExchangeInstanceIp")]
@@ -128,6 +134,8 @@ pub mod ListMonitoredObjects;
 pub mod ListMonitoredObjectsOfInstance;
 #[cfg(feature = "ListNumberOfInstancesInDifferentStatus")]
 pub mod ListNumberOfInstancesInDifferentStatus;
+#[cfg(feature = "ListOfflineKeyAnalysisTask")]
+pub mod ListOfflineKeyAnalysisTask;
 #[cfg(feature = "ListRedislog")]
 pub mod ListRedislog;
 #[cfg(feature = "ListRestoreRecords")]
@@ -142,6 +150,8 @@ pub mod ListTagsOfTenant;
 pub mod LoginWebCli;
 #[cfg(feature = "LogoffWebCli")]
 pub mod LogoffWebCli;
+#[cfg(feature = "MigrateAz")]
+pub mod MigrateAz;
 #[cfg(feature = "ResetAclAccountPassWord")]
 pub mod ResetAclAccountPassWord;
 #[cfg(feature = "ResetPassword")]
@@ -152,6 +162,8 @@ pub mod ResizeInstance;
 pub mod RestartOrFlushInstances;
 #[cfg(feature = "RestoreInstance")]
 pub mod RestoreInstance;
+#[cfg(feature = "RollbackExchangeInstanceIp")]
+pub mod RollbackExchangeInstanceIp;
 #[cfg(feature = "ScanClients")]
 pub mod ScanClients;
 #[cfg(feature = "ScanExpireKey")]
@@ -186,15 +198,3 @@ pub mod ShowInstance;
 pub mod ShowInstanceBandwidthAutoScalingPolicy;
 #[cfg(feature = "ShowInstanceSslDetail")]
 pub mod ShowInstanceSslDetail;
-#[cfg(feature = "ShowInstanceVersion")]
-pub mod ShowInstanceVersion;
-#[cfg(feature = "ShowIpWhitelist")]
-pub mod ShowIpWhitelist;
-#[cfg(feature = "ShowJobInfo")]
-pub mod ShowJobInfo;
-#[cfg(feature = "ShowMigrationTask")]
-pub mod ShowMigrationTask;
-#[cfg(feature = "ShowMigrationTaskStats")]
-pub mod ShowMigrationTaskStats;
-#[cfg(feature = "ShowNodesInformation")]
-pub mod ShowNodesInformation;

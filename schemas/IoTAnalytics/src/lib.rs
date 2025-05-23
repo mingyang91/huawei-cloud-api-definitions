@@ -108,6 +108,8 @@ pub mod ShowTableSchema;
 pub mod StartJob;
 #[cfg(feature = "StartPipelineJob")]
 pub mod StartPipelineJob;
+#[cfg(feature = "StopJob")]
+pub mod StopJob;
 #[cfg(feature = "StopPipelineJob")]
 pub mod StopPipelineJob;
 #[cfg(feature = "UpdateAssetModel")]

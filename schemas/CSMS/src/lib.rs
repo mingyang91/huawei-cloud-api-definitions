@@ -2,6 +2,8 @@
 pub mod BatchCreateOrDeleteTags;
 #[cfg(feature = "BatchImportSecrets")]
 pub mod BatchImportSecrets;
+#[cfg(feature = "CheckSecrets")]
+pub mod CheckSecrets;
 #[cfg(feature = "CreateAgency")]
 pub mod CreateAgency;
 #[cfg(feature = "CreateGrants")]
@@ -62,6 +64,8 @@ pub mod ShowSecret;
 pub mod ShowSecretEvent;
 #[cfg(feature = "ShowSecretFunctionTemplates")]
 pub mod ShowSecretFunctionTemplates;
+#[cfg(feature = "ShowSecretsConfig")]
+pub mod ShowSecretsConfig;
 #[cfg(feature = "ShowSecretStage")]
 pub mod ShowSecretStage;
 #[cfg(feature = "ShowSecretVersion")]
@@ -74,6 +78,8 @@ pub mod UpdateGrant;
 pub mod UpdateSecret;
 #[cfg(feature = "UpdateSecretEvent")]
 pub mod UpdateSecretEvent;
+#[cfg(feature = "UpdateSecretsConfig")]
+pub mod UpdateSecretsConfig;
 #[cfg(feature = "UpdateSecretStage")]
 pub mod UpdateSecretStage;
 #[cfg(feature = "UpdateUserPassword")]

@@ -112,6 +112,8 @@ pub mod CreateDesignDerivativeIndex;
 pub mod CreateDesignDimension;
 #[cfg(feature = "CreateDirectory")]
 pub mod CreateDirectory;
+#[cfg(feature = "CreateFactoryPendingItemsPackage")]
+pub mod CreateFactoryPendingItemsPackage;
 #[cfg(feature = "CreateFactorySupplementDataInstance")]
 pub mod CreateFactorySupplementDataInstance;
 #[cfg(feature = "CreateLineageInfo")]
@@ -196,5 +198,3 @@ pub mod DeleteDesignCompoundMetric;
 pub mod DeleteDesignDerivativeIndex;
 #[cfg(feature = "DeleteDesignDimension")]
 pub mod DeleteDesignDimension;
-#[cfg(feature = "DeleteDesignDimensionLogicTable")]
-pub mod DeleteDesignDimensionLogicTable;

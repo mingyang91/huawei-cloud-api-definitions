@@ -24,6 +24,8 @@ pub mod EnableDomain;
 pub mod ListCdnDomainTopRefers;
 #[cfg(feature = "ListDomains")]
 pub mod ListDomains;
+#[cfg(feature = "ModifyAccountInfo")]
+pub mod ModifyAccountInfo;
 #[cfg(feature = "SetChargeModes")]
 pub mod SetChargeModes;
 #[cfg(feature = "ShowBandwidthCalc")]

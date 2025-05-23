@@ -146,6 +146,8 @@ pub mod ListReleases;
 pub mod ListUpgradeClusterTasks;
 #[cfg(feature = "ListUpgradeWorkFlows")]
 pub mod ListUpgradeWorkFlows;
+#[cfg(feature = "LockNodepoolNodeScaleDown")]
+pub mod LockNodepoolNodeScaleDown;
 #[cfg(feature = "MigrateNode")]
 pub mod MigrateNode;
 #[cfg(feature = "PauseUpgradeClusterTask")]
@@ -196,5 +198,3 @@ pub mod ShowAutopilotRelease;
 pub mod ShowAutopilotReleaseHistory;
 #[cfg(feature = "ShowAutopilotUpgradeClusterTask")]
 pub mod ShowAutopilotUpgradeClusterTask;
-#[cfg(feature = "ShowAutopilotUpgradeWorkFlow")]
-pub mod ShowAutopilotUpgradeWorkFlow;

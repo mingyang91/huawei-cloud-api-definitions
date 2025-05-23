@@ -50,6 +50,8 @@ pub mod ListRtcUserList;
 pub mod RemoveRoom;
 #[cfg(feature = "RemoveUsers")]
 pub mod RemoveUsers;
+#[cfg(feature = "ShowApp")]
+pub mod ShowApp;
 #[cfg(feature = "ShowAutoRecord")]
 pub mod ShowAutoRecord;
 #[cfg(feature = "ShowIndividualStreamJob")]

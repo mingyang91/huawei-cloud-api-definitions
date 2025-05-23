@@ -116,6 +116,8 @@ pub mod ModifyOttChannelInfoStats;
 pub mod RunRecord;
 #[cfg(feature = "SetRefererChain")]
 pub mod SetRefererChain;
+#[cfg(feature = "ShowChannelStatistic")]
+pub mod ShowChannelStatistic;
 #[cfg(feature = "ShowDomain")]
 pub mod ShowDomain;
 #[cfg(feature = "ShowDomainHttpsCert")]

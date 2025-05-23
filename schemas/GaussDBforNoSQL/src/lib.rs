@@ -34,6 +34,8 @@ pub mod CreateDbCacheRule;
 pub mod CreateDbUser;
 #[cfg(feature = "CreateDisasterRecovery")]
 pub mod CreateDisasterRecovery;
+#[cfg(feature = "CreateGeminiDbDualActive")]
+pub mod CreateGeminiDbDualActive;
 #[cfg(feature = "CreateInstance")]
 pub mod CreateInstance;
 #[cfg(feature = "DeleteBackup")]
@@ -50,6 +52,8 @@ pub mod DeleteDbUser;
 pub mod DeleteDisasterRecovery;
 #[cfg(feature = "DeleteEnlargeFailNode")]
 pub mod DeleteEnlargeFailNode;
+#[cfg(feature = "DeleteGeminiDbDualActive")]
+pub mod DeleteGeminiDbDualActive;
 #[cfg(feature = "DeleteInstance")]
 pub mod DeleteInstance;
 #[cfg(feature = "DeleteInstancesSession")]
@@ -194,7 +198,3 @@ pub mod ShowApiVersion;
 pub mod ShowApplicableInstances;
 #[cfg(feature = "ShowApplyHistory")]
 pub mod ShowApplyHistory;
-#[cfg(feature = "ShowAutoEnlargePolicy")]
-pub mod ShowAutoEnlargePolicy;
-#[cfg(feature = "ShowBackupPolicies")]
-pub mod ShowBackupPolicies;

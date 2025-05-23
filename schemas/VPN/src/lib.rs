@@ -90,6 +90,8 @@ pub mod ListVpnUsers;
 pub mod ListVpnUsersInGroup;
 #[cfg(feature = "RemoveVpnUsersFromGroup")]
 pub mod RemoveVpnUsersFromGroup;
+#[cfg(feature = "ResetVpnConnection")]
+pub mod ResetVpnConnection;
 #[cfg(feature = "ResetVpnUserPassword")]
 pub mod ResetVpnUserPassword;
 #[cfg(feature = "ShowCgw")]
