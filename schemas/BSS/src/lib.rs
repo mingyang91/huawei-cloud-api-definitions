@@ -146,6 +146,8 @@ pub mod RenewalResources;
 pub mod SendSmsVerificationCode;
 #[cfg(feature = "SendVerificationMessageCode")]
 pub mod SendVerificationMessageCode;
+#[cfg(feature = "SetResourcesRenewConfig")]
+pub mod SetResourcesRenewConfig;
 #[cfg(feature = "ShowCustomerAccountBalances")]
 pub mod ShowCustomerAccountBalances;
 #[cfg(feature = "ShowCustomerMonthlySum")]

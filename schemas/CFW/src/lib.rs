@@ -184,5 +184,7 @@ pub mod UpdateDnsServers;
 pub mod UpdateDomainSet;
 #[cfg(feature = "UpdateLogConfig")]
 pub mod UpdateLogConfig;
+#[cfg(feature = "UpdateObjectConfigDesc")]
+pub mod UpdateObjectConfigDesc;
 #[cfg(feature = "UpdateServiceSet")]
 pub mod UpdateServiceSet;

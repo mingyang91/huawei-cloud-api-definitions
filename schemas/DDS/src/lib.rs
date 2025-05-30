@@ -56,6 +56,8 @@ pub mod DeleteKillOpRuleList;
 pub mod DeleteLtsConfig;
 #[cfg(feature = "DeleteManualBackup")]
 pub mod DeleteManualBackup;
+#[cfg(feature = "DeleteMongosNode")]
+pub mod DeleteMongosNode;
 #[cfg(feature = "DeleteReadonlyNode")]
 pub mod DeleteReadonlyNode;
 #[cfg(feature = "DeleteSession")]
@@ -196,5 +198,3 @@ pub mod ShowRecyclePolicy;
 pub mod ShowReplSetName;
 #[cfg(feature = "ShowSecondLevelMonitoringStatus")]
 pub mod ShowSecondLevelMonitoringStatus;
-#[cfg(feature = "ShowShardingBalancer")]
-pub mod ShowShardingBalancer;

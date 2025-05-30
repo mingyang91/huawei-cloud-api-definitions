@@ -16,6 +16,7 @@ version = "1"
 version = "0"
 
 [features]
+BatchGetKv = []
 BatchWriteKv = []
 CheckHealth = []
 CreateTable = []
@@ -29,7 +30,7 @@ PutKv = []
 ScanKv = []
 ScanSkeyKv = []
 UpdateKv = []
-full = ["BatchWriteKv", "CheckHealth", "CreateTable", "DeleteKv", "DeleteTable", "DescribeTable", "GetKv", "ListStore", "ListTable", "PutKv", "ScanKv", "ScanSkeyKv", "UpdateKv"]
+full = ["BatchGetKv", "BatchWriteKv", "CheckHealth", "CreateTable", "DeleteKv", "DeleteTable", "DescribeTable", "GetKv", "ListStore", "ListTable", "PutKv", "ScanKv", "ScanSkeyKv", "UpdateKv"]
 
 [lib]
 name = "huawei_cloud_api_definitions_KVS"

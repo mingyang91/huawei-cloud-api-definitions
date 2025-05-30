@@ -1,3 +1,5 @@
+#[cfg(feature = "BatchGetKv")]
+pub mod BatchGetKv;
 #[cfg(feature = "BatchWriteKv")]
 pub mod BatchWriteKv;
 #[cfg(feature = "CheckHealth")]

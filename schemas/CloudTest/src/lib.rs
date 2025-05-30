@@ -142,6 +142,10 @@ pub mod ListScattersUsing;
 pub mod ListSubTaskCaseOverstockUsing;
 #[cfg(feature = "ListTaskAssignCases")]
 pub mod ListTaskAssignCases;
+#[cfg(feature = "ListTaskResults")]
+pub mod ListTaskResults;
+#[cfg(feature = "ListTaskResultsDetail")]
+pub mod ListTaskResultsDetail;
 #[cfg(feature = "ListTasks")]
 pub mod ListTasks;
 #[cfg(feature = "ListTaskTestCases")]
@@ -194,7 +198,3 @@ pub mod ShowAsset;
 pub mod ShowAssetTree;
 #[cfg(feature = "ShowBackgroundInfo")]
 pub mod ShowBackgroundInfo;
-#[cfg(feature = "ShowBranch")]
-pub mod ShowBranch;
-#[cfg(feature = "ShowCaseResult")]
-pub mod ShowCaseResult;
