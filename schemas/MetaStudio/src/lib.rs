@@ -30,6 +30,8 @@ pub mod CreateAssetByReplicationInfo;
 pub mod CreateAsyncTtsJob;
 #[cfg(feature = "CreateBatchKnowledgeQuestion")]
 pub mod CreateBatchKnowledgeQuestion;
+#[cfg(feature = "CreateDialogReportConfig")]
+pub mod CreateDialogReportConfig;
 #[cfg(feature = "CreateDialogUrl")]
 pub mod CreateDialogUrl;
 #[cfg(feature = "CreateDigitalAsset")]
@@ -108,6 +110,8 @@ pub mod DeleteActiveCode;
 pub mod DeleteAgencyWithRoleType;
 #[cfg(feature = "DeleteAsset")]
 pub mod DeleteAsset;
+#[cfg(feature = "DeleteDialogReportConfig")]
+pub mod DeleteDialogReportConfig;
 #[cfg(feature = "DeleteDigitalHumanBusinessCard")]
 pub mod DeleteDigitalHumanBusinessCard;
 #[cfg(feature = "DeleteFile")]
@@ -194,7 +198,3 @@ pub mod ListProducts;
 pub mod ListRobot;
 #[cfg(feature = "ListSmartChatRooms")]
 pub mod ListSmartChatRooms;
-#[cfg(feature = "ListSmartLive")]
-pub mod ListSmartLive;
-#[cfg(feature = "ListSmartLiveJobs")]
-pub mod ListSmartLiveJobs;

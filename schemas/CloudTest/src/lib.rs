@@ -46,6 +46,8 @@ pub mod CreateReport;
 pub mod CreateResourceUri;
 #[cfg(feature = "CreateService")]
 pub mod CreateService;
+#[cfg(feature = "CreateTaskDefaultResult")]
+pub mod CreateTaskDefaultResult;
 #[cfg(feature = "CreateTemplate")]
 pub mod CreateTemplate;
 #[cfg(feature = "CreateTestCase")]
@@ -196,5 +198,3 @@ pub mod ShowApiTestcaseHistories;
 pub mod ShowAsset;
 #[cfg(feature = "ShowAssetTree")]
 pub mod ShowAssetTree;
-#[cfg(feature = "ShowBackgroundInfo")]
-pub mod ShowBackgroundInfo;

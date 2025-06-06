@@ -56,6 +56,8 @@ pub mod CreateClusteringJob;
 pub mod CreateClusterJob;
 #[cfg(feature = "CreateCode")]
 pub mod CreateCode;
+#[cfg(feature = "CreateComputingCluster")]
+pub mod CreateComputingCluster;
 #[cfg(feature = "CreateComputingResource")]
 pub mod CreateComputingResource;
 #[cfg(feature = "CreateCpiJob")]
@@ -156,6 +158,8 @@ pub mod DeleteAssetVersion;
 pub mod DeleteAutoJob;
 #[cfg(feature = "DeleteBackup")]
 pub mod DeleteBackup;
+#[cfg(feature = "DeleteComputingCluster")]
+pub mod DeleteComputingCluster;
 #[cfg(feature = "DeleteComputingResource")]
 pub mod DeleteComputingResource;
 #[cfg(feature = "DeleteCssCluster")]
@@ -194,7 +198,3 @@ pub mod DeleteMember;
 pub mod DeleteMessageEmailConfig;
 #[cfg(feature = "DeleteNextflowJob")]
 pub mod DeleteNextflowJob;
-#[cfg(feature = "DeleteNextflowWorkflow")]
-pub mod DeleteNextflowWorkflow;
-#[cfg(feature = "DeleteNotebook")]
-pub mod DeleteNotebook;
