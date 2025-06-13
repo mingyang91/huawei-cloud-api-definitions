@@ -2,6 +2,8 @@
 pub mod BatchCreateVolumeTags;
 #[cfg(feature = "BatchDeleteVolumeTags")]
 pub mod BatchDeleteVolumeTags;
+#[cfg(feature = "BatchResizeVolumes")]
+pub mod BatchResizeVolumes;
 #[cfg(feature = "CinderAcceptVolumeTransfer")]
 pub mod CinderAcceptVolumeTransfer;
 #[cfg(feature = "CinderCreateVolumeTransfer")]

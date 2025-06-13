@@ -58,6 +58,8 @@ pub mod DeletePlaybookAction;
 pub mod DeletePlaybookRule;
 #[cfg(feature = "DeletePlaybookVersion")]
 pub mod DeletePlaybookVersion;
+#[cfg(feature = "DeleteWorkspace")]
+pub mod DeleteWorkspace;
 #[cfg(feature = "DisableAlertRule")]
 pub mod DisableAlertRule;
 #[cfg(feature = "EnableAlertRule")]
@@ -124,6 +126,8 @@ pub mod ShowPlaybookStatistics;
 pub mod ShowPlaybookTopology;
 #[cfg(feature = "ShowPlaybookVersion")]
 pub mod ShowPlaybookVersion;
+#[cfg(feature = "ShowWorkspace")]
+pub mod ShowWorkspace;
 #[cfg(feature = "UpdateAlertRule")]
 pub mod UpdateAlertRule;
 #[cfg(feature = "UpdateIndicator")]
@@ -136,3 +140,5 @@ pub mod UpdatePlaybookAction;
 pub mod UpdatePlaybookRule;
 #[cfg(feature = "UpdatePlaybookVersion")]
 pub mod UpdatePlaybookVersion;
+#[cfg(feature = "UpdateWorkspace")]
+pub mod UpdateWorkspace;

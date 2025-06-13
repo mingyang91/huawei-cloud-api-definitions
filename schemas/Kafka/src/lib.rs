@@ -16,8 +16,6 @@ pub mod CloseKafkaManager;
 pub mod CreateConnector;
 #[cfg(feature = "CreateConnectorTask")]
 pub mod CreateConnectorTask;
-#[cfg(feature = "CreateInstanceByEngine")]
-pub mod CreateInstanceByEngine;
 #[cfg(feature = "CreateInstanceTopic")]
 pub mod CreateInstanceTopic;
 #[cfg(feature = "CreateInstanceUser")]
@@ -84,6 +82,8 @@ pub mod ListMessageDiagnosisReports;
 pub mod ListTopicPartitions;
 #[cfg(feature = "ListTopicProducers")]
 pub mod ListTopicProducers;
+#[cfg(feature = "ModifyConnectorTask")]
+pub mod ModifyConnectorTask;
 #[cfg(feature = "ModifyInstanceConfigs")]
 pub mod ModifyInstanceConfigs;
 #[cfg(feature = "ModifyKafkaTopicQuota")]
@@ -188,3 +188,5 @@ pub mod UpdateTopicAccessPolicy;
 pub mod UpdateTopicReplica;
 #[cfg(feature = "UpgradeInstance")]
 pub mod UpgradeInstance;
+#[cfg(feature = "ValidateConnectorConnectivity")]
+pub mod ValidateConnectorConnectivity;
