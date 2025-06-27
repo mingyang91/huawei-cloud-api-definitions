@@ -2,6 +2,8 @@
 pub mod AddVpnUsersToGroup;
 #[cfg(feature = "BatchCreateResourceTags")]
 pub mod BatchCreateResourceTags;
+#[cfg(feature = "BatchCreateVpnConnection")]
+pub mod BatchCreateVpnConnection;
 #[cfg(feature = "BatchCreateVpnUsers")]
 pub mod BatchCreateVpnUsers;
 #[cfg(feature = "BatchDeleteResourceTags")]

@@ -10,6 +10,10 @@ pub mod ClearRecyclingJobs;
 pub mod CopyJob;
 #[cfg(feature = "CreateBuildJob")]
 pub mod CreateBuildJob;
+#[cfg(feature = "CreateNewJob")]
+pub mod CreateNewJob;
+#[cfg(feature = "CreateTemplate")]
+pub mod CreateTemplate;
 #[cfg(feature = "CreateTemplates")]
 pub mod CreateTemplates;
 #[cfg(feature = "DeleteBuildJob")]
@@ -96,6 +100,8 @@ pub mod ListUpdateJobHistory;
 pub mod RestoreRecyclingJobs;
 #[cfg(feature = "RunJob")]
 pub mod RunJob;
+#[cfg(feature = "SaveTemplateUsedInfo")]
+pub mod SaveTemplateUsedInfo;
 #[cfg(feature = "SetKeepTime")]
 pub mod SetKeepTime;
 #[cfg(feature = "ShowBuildInfoRecord")]
@@ -164,6 +170,8 @@ pub mod ShowListHistory;
 pub mod ShowListPeriodHistory;
 #[cfg(feature = "ShowOutputInfo")]
 pub mod ShowOutputInfo;
+#[cfg(feature = "ShowProjectJobPermission")]
+pub mod ShowProjectJobPermission;
 #[cfg(feature = "ShowProjectPermission")]
 pub mod ShowProjectPermission;
 #[cfg(feature = "ShowRecordDetail")]
@@ -188,7 +196,5 @@ pub mod StopBuildJob;
 pub mod StopJob;
 #[cfg(feature = "UpdateBuildJob")]
 pub mod UpdateBuildJob;
-#[cfg(feature = "UpdateNewJob")]
-pub mod UpdateNewJob;
-#[cfg(feature = "UpdateNotice")]
-pub mod UpdateNotice;
+#[cfg(feature = "UpdateKeystore")]
+pub mod UpdateKeystore;

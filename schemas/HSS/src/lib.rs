@@ -1,3 +1,5 @@
+#[cfg(feature = "AddBaselineWhiteList")]
+pub mod AddBaselineWhiteList;
 #[cfg(feature = "AddCceIntegrationProtection")]
 pub mod AddCceIntegrationProtection;
 #[cfg(feature = "AddHostsGroup")]
@@ -24,8 +26,12 @@ pub mod BatchScanSwrImage;
 pub mod BatchStartProtection;
 #[cfg(feature = "BatchUpgradeAgentDaemonset")]
 pub mod BatchUpgradeAgentDaemonset;
+#[cfg(feature = "BatchUploadFiles")]
+pub mod BatchUploadFiles;
 #[cfg(feature = "ChangeAntivirusPolicy")]
 pub mod ChangeAntivirusPolicy;
+#[cfg(feature = "ChangeBaselineWhiteList")]
+pub mod ChangeBaselineWhiteList;
 #[cfg(feature = "ChangeBlockedIp")]
 pub mod ChangeBlockedIp;
 #[cfg(feature = "ChangeCheckRuleAction")]
@@ -46,6 +52,8 @@ pub mod ChangePasswordComplexityStatus;
 pub mod ChangeVulScanPolicy;
 #[cfg(feature = "ChangeVulStatus")]
 pub mod ChangeVulStatus;
+#[cfg(feature = "CopyBaselinePolicyGroup")]
+pub mod CopyBaselinePolicyGroup;
 #[cfg(feature = "CreateAgentDaemonset")]
 pub mod CreateAgentDaemonset;
 #[cfg(feature = "CreateAntiVirusPolicy")]
@@ -68,6 +76,8 @@ pub mod CreateMultiCloudClusters;
 pub mod CreateQuotasOrder;
 #[cfg(feature = "CreateSecurityGroupPolicy")]
 pub mod CreateSecurityGroupPolicy;
+#[cfg(feature = "CreateTask")]
+pub mod CreateTask;
 #[cfg(feature = "CreateVulnerabilityScanTask")]
 pub mod CreateVulnerabilityScanTask;
 #[cfg(feature = "DeleteAccount")]
@@ -76,6 +86,8 @@ pub mod DeleteAccount;
 pub mod DeleteAgentDaemonset;
 #[cfg(feature = "DeleteAntivirusPolicy")]
 pub mod DeleteAntivirusPolicy;
+#[cfg(feature = "DeleteBaselineWhiteList")]
+pub mod DeleteBaselineWhiteList;
 #[cfg(feature = "DeleteClusterProtectionPolicy")]
 pub mod DeleteClusterProtectionPolicy;
 #[cfg(feature = "DeleteContainerNetworkPolicy")]
@@ -134,6 +146,8 @@ pub mod ListAutoLaunchs;
 pub mod ListAutoLaunchStatistics;
 #[cfg(feature = "ListBackupVaults")]
 pub mod ListBackupVaults;
+#[cfg(feature = "ListBaselineWhiteLists")]
+pub mod ListBaselineWhiteLists;
 #[cfg(feature = "ListBlockedIp")]
 pub mod ListBlockedIp;
 #[cfg(feature = "ListCceClusterConfig")]
@@ -162,6 +176,10 @@ pub mod ListClusterProtectionPolicyDetail;
 pub mod ListClusterProtectOverview;
 #[cfg(feature = "ListClusterProtectPolicyTemplates")]
 pub mod ListClusterProtectPolicyTemplates;
+#[cfg(feature = "ListClusterRiskAffectResources")]
+pub mod ListClusterRiskAffectResources;
+#[cfg(feature = "ListClusterRisks")]
+pub mod ListClusterRisks;
 #[cfg(feature = "ListCommonTips")]
 pub mod ListCommonTips;
 #[cfg(feature = "ListContainerCmdLogs")]
@@ -180,21 +198,3 @@ pub mod ListContainerNetworkNodeList;
 pub mod ListContainerNetworkPolicy;
 #[cfg(feature = "ListContainerNodes")]
 pub mod ListContainerNodes;
-#[cfg(feature = "ListContainers")]
-pub mod ListContainers;
-#[cfg(feature = "ListDecoyPortPolicy")]
-pub mod ListDecoyPortPolicy;
-#[cfg(feature = "ListDownloadExportedFile")]
-pub mod ListDownloadExportedFile;
-#[cfg(feature = "ListEventHandleHistory")]
-pub mod ListEventHandleHistory;
-#[cfg(feature = "ListGlobalAssetScanTask")]
-pub mod ListGlobalAssetScanTask;
-#[cfg(feature = "ListHostGroups")]
-pub mod ListHostGroups;
-#[cfg(feature = "ListHostProtectHistoryInfo")]
-pub mod ListHostProtectHistoryInfo;
-#[cfg(feature = "ListHostRaspProtectHistoryInfo")]
-pub mod ListHostRaspProtectHistoryInfo;
-#[cfg(feature = "ListHostStatus")]
-pub mod ListHostStatus;

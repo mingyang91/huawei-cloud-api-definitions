@@ -24,6 +24,8 @@ pub mod DeleteTasks;
 pub mod DeleteTemplate;
 #[cfg(feature = "DeleteTemplates")]
 pub mod DeleteTemplates;
+#[cfg(feature = "ExportConsistencyResults")]
+pub mod ExportConsistencyResults;
 #[cfg(feature = "ListApiVersion")]
 pub mod ListApiVersion;
 #[cfg(feature = "ListErrorServers")]

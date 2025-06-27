@@ -72,6 +72,8 @@ pub mod ListSubscriptionsByTopic;
 pub mod ListTopicAttributes;
 #[cfg(feature = "ListTopicDetails")]
 pub mod ListTopicDetails;
+#[cfg(feature = "ListTopicMessageStatistics")]
+pub mod ListTopicMessageStatistics;
 #[cfg(feature = "ListTopics")]
 pub mod ListTopics;
 #[cfg(feature = "ListVersion")]

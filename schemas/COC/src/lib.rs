@@ -2,6 +2,8 @@
 pub mod AcceptScript;
 #[cfg(feature = "BatchCreateApplicationView")]
 pub mod BatchCreateApplicationView;
+#[cfg(feature = "CancelDiagnosisTask")]
+pub mod CancelDiagnosisTask;
 #[cfg(feature = "CheckScriptRisk")]
 pub mod CheckScriptRisk;
 #[cfg(feature = "CountMultiResources")]
@@ -10,6 +12,8 @@ pub mod CountMultiResources;
 pub mod CreateCocIncident;
 #[cfg(feature = "CreateCocIssues")]
 pub mod CreateCocIssues;
+#[cfg(feature = "CreateDiagnosisTask")]
+pub mod CreateDiagnosisTask;
 #[cfg(feature = "CreateDocument")]
 pub mod CreateDocument;
 #[cfg(feature = "CreateReportCustomEvent")]
@@ -64,6 +68,8 @@ pub mod ListApplications;
 pub mod ListAuthorizableTicketsExternal;
 #[cfg(feature = "ListCocTicketOperationHistories")]
 pub mod ListCocTicketOperationHistories;
+#[cfg(feature = "ListDiagnosisTasks")]
+pub mod ListDiagnosisTasks;
 #[cfg(feature = "ListDocumentAtomics")]
 pub mod ListDocumentAtomics;
 #[cfg(feature = "ListDocuments")]
@@ -102,10 +108,18 @@ pub mod ListWarRooms;
 pub mod OperateExecution;
 #[cfg(feature = "OperateScriptJob")]
 pub mod OperateScriptJob;
+#[cfg(feature = "RetryDiagnosisTask")]
+pub mod RetryDiagnosisTask;
 #[cfg(feature = "ShowCocIncidentDetail")]
 pub mod ShowCocIncidentDetail;
 #[cfg(feature = "ShowCocIssuesDetail")]
 pub mod ShowCocIssuesDetail;
+#[cfg(feature = "ShowDiagnosisNode")]
+pub mod ShowDiagnosisNode;
+#[cfg(feature = "ShowDiagnosisSummary")]
+pub mod ShowDiagnosisSummary;
+#[cfg(feature = "ShowDiagnosisTask")]
+pub mod ShowDiagnosisTask;
 #[cfg(feature = "ShowInstancePatchItems")]
 pub mod ShowInstancePatchItems;
 #[cfg(feature = "ShowScheduledTask")]

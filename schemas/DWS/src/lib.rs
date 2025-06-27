@@ -102,6 +102,8 @@ pub mod DeleteWorkloadPlan;
 pub mod DeleteWorkloadPlanStage;
 #[cfg(feature = "DeleteWorkloadQueue")]
 pub mod DeleteWorkloadQueue;
+#[cfg(feature = "DeleteWorkloadRule")]
+pub mod DeleteWorkloadRule;
 #[cfg(feature = "DisableLogicalClusterPlan")]
 pub mod DisableLogicalClusterPlan;
 #[cfg(feature = "DisableLtsLogs")]
@@ -172,6 +174,8 @@ pub mod ListClusterTags;
 pub mod ListClusterWorkload;
 #[cfg(feature = "ListConfigurationsAuditRecords")]
 pub mod ListConfigurationsAuditRecords;
+#[cfg(feature = "ListDatabaseObjects")]
+pub mod ListDatabaseObjects;
 #[cfg(feature = "ListDatabaseUserAuthorities")]
 pub mod ListDatabaseUserAuthorities;
 #[cfg(feature = "ListDatabaseUsers")]
@@ -194,7 +198,3 @@ pub mod ListEventSubs;
 pub mod ListHostDisk;
 #[cfg(feature = "ListHostNet")]
 pub mod ListHostNet;
-#[cfg(feature = "ListHostOverview")]
-pub mod ListHostOverview;
-#[cfg(feature = "ListJobDetails")]
-pub mod ListJobDetails;

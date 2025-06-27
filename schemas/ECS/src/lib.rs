@@ -192,9 +192,9 @@ pub mod RevertRecycleBinServer;
 pub mod ShowJob;
 #[cfg(feature = "ShowRecycleBin")]
 pub mod ShowRecycleBin;
-#[cfg(feature = "ShowRecycleBinServer")]
-pub mod ShowRecycleBinServer;
 #[cfg(feature = "ShowResetPasswordFlag")]
 pub mod ShowResetPasswordFlag;
 #[cfg(feature = "ShowServer")]
 pub mod ShowServer;
+#[cfg(feature = "ShowServerBlockDevice")]
+pub mod ShowServerBlockDevice;

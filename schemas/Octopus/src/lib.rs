@@ -10,6 +10,8 @@ pub mod CreateCollectionRecord;
 pub mod CreateJob;
 #[cfg(feature = "CreateProcessor")]
 pub mod CreateProcessor;
+#[cfg(feature = "CreateSimBatches")]
+pub mod CreateSimBatches;
 #[cfg(feature = "CreateSimSmMaps")]
 pub mod CreateSimSmMaps;
 #[cfg(feature = "CreateSimSmScenarios")]
@@ -40,6 +42,8 @@ pub mod ListCollectionRecords;
 pub mod ListJobs;
 #[cfg(feature = "ListPackages")]
 pub mod ListPackages;
+#[cfg(feature = "ListSimSimulations")]
+pub mod ListSimSimulations;
 #[cfg(feature = "ListSimSmScenarios")]
 pub mod ListSimSmScenarios;
 #[cfg(feature = "QueryJobDetail")]
@@ -54,6 +58,8 @@ pub mod QueryJobQueueList;
 pub mod QueryProcessorDetail;
 #[cfg(feature = "QueryProcessorList")]
 pub mod QueryProcessorList;
+#[cfg(feature = "ShowSimSimulationsFiles")]
+pub mod ShowSimSimulationsFiles;
 #[cfg(feature = "UpdateJob")]
 pub mod UpdateJob;
 #[cfg(feature = "UpdatePackageById")]
