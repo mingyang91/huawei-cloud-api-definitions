@@ -34,6 +34,8 @@ pub mod ChangeOpsWindow;
 pub mod ChangeProxyScale;
 #[cfg(feature = "ChangeTheDelayThreshold")]
 pub mod ChangeTheDelayThreshold;
+#[cfg(feature = "CheckInstanceForUpgrade")]
+pub mod CheckInstanceForUpgrade;
 #[cfg(feature = "CopyConfiguration")]
 pub mod CopyConfiguration;
 #[cfg(feature = "CopyDatabase")]
@@ -196,5 +198,3 @@ pub mod ListPostgresqlDatabases;
 pub mod ListPostgresqlDatabaseSchemas;
 #[cfg(feature = "ListPostgresqlDbUserPaginated")]
 pub mod ListPostgresqlDbUserPaginated;
-#[cfg(feature = "ListPostgresqlExtension")]
-pub mod ListPostgresqlExtension;

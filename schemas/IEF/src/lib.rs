@@ -68,6 +68,8 @@ pub mod DeleteEncryptdatas;
 pub mod DeleteEndPoint;
 #[cfg(feature = "DeleteNodeEncryptdatas")]
 pub mod DeleteNodeEncryptdatas;
+#[cfg(feature = "DeletePod")]
+pub mod DeletePod;
 #[cfg(feature = "DeleteProduct")]
 pub mod DeleteProduct;
 #[cfg(feature = "DeleteResourceTag")]
@@ -196,5 +198,3 @@ pub mod UpdateConfigMap;
 pub mod UpdateDeployment;
 #[cfg(feature = "UpdateDevice")]
 pub mod UpdateDevice;
-#[cfg(feature = "UpdateDeviceTemplateById")]
-pub mod UpdateDeviceTemplateById;

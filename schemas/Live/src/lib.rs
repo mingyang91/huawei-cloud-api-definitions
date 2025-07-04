@@ -4,6 +4,8 @@ pub mod BatchShowIpBelongs;
 pub mod CreateDomain;
 #[cfg(feature = "CreateDomainMapping")]
 pub mod CreateDomainMapping;
+#[cfg(feature = "CreateFlows")]
+pub mod CreateFlows;
 #[cfg(feature = "CreateOttChannelInfo")]
 pub mod CreateOttChannelInfo;
 #[cfg(feature = "CreateRecordCallbackConfig")]
@@ -28,6 +30,8 @@ pub mod DeleteDomainHttpsCert;
 pub mod DeleteDomainKeyChain;
 #[cfg(feature = "DeleteDomainMapping")]
 pub mod DeleteDomainMapping;
+#[cfg(feature = "DeleteFlow")]
+pub mod DeleteFlow;
 #[cfg(feature = "DeleteOttChannelInfo")]
 pub mod DeleteOttChannelInfo;
 #[cfg(feature = "DeletePublishTemplate")]
@@ -56,6 +60,8 @@ pub mod ListDomainBandwidthPeak;
 pub mod ListDomainTrafficDetail;
 #[cfg(feature = "ListDomainTrafficSummary")]
 pub mod ListDomainTrafficSummary;
+#[cfg(feature = "ListFlows")]
+pub mod ListFlows;
 #[cfg(feature = "ListGeoBlockingConfig")]
 pub mod ListGeoBlockingConfig;
 #[cfg(feature = "ListHistoryStreams")]
@@ -100,6 +106,12 @@ pub mod ListTranscodeData;
 pub mod ListUpStreamDetail;
 #[cfg(feature = "ListUsersOfStream")]
 pub mod ListUsersOfStream;
+#[cfg(feature = "ModifyFlowSources")]
+pub mod ModifyFlowSources;
+#[cfg(feature = "ModifyFlowStart")]
+pub mod ModifyFlowStart;
+#[cfg(feature = "ModifyFlowStop")]
+pub mod ModifyFlowStop;
 #[cfg(feature = "ModifyOttChannelInfoEncoderSettings")]
 pub mod ModifyOttChannelInfoEncoderSettings;
 #[cfg(feature = "ModifyOttChannelInfoEndPoints")]
@@ -124,6 +136,8 @@ pub mod ShowDomain;
 pub mod ShowDomainHttpsCert;
 #[cfg(feature = "ShowDomainKeyChain")]
 pub mod ShowDomainKeyChain;
+#[cfg(feature = "ShowFlowDetail")]
+pub mod ShowFlowDetail;
 #[cfg(feature = "ShowPullSourcesConfig")]
 pub mod ShowPullSourcesConfig;
 #[cfg(feature = "ShowRecordCallbackConfig")]

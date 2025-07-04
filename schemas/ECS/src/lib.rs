@@ -1,3 +1,5 @@
+#[cfg(feature = "AcceptScheduledEvent")]
+pub mod AcceptScheduledEvent;
 #[cfg(feature = "AddServerGroupMember")]
 pub mod AddServerGroupMember;
 #[cfg(feature = "AssociateServerVirtualIp")]
@@ -40,6 +42,8 @@ pub mod CreatePostPaidServers;
 pub mod CreateServerGroup;
 #[cfg(feature = "CreateServers")]
 pub mod CreateServers;
+#[cfg(feature = "DeleteLaunchTemplates")]
+pub mod DeleteLaunchTemplates;
 #[cfg(feature = "DeleteRecycleBinServer")]
 pub mod DeleteRecycleBinServer;
 #[cfg(feature = "DeleteServerGroup")]
@@ -62,6 +66,8 @@ pub mod ListCloudServers;
 pub mod ListFlavors;
 #[cfg(feature = "ListFlavorSellPolicies")]
 pub mod ListFlavorSellPolicies;
+#[cfg(feature = "ListLaunchTemplateVersions")]
+pub mod ListLaunchTemplateVersions;
 #[cfg(feature = "ListRecycleBinServers")]
 pub mod ListRecycleBinServers;
 #[cfg(feature = "ListResizeFlavors")]
@@ -82,6 +88,8 @@ pub mod ListServersDetails;
 pub mod ListServerTags;
 #[cfg(feature = "ListServerVolumeAttachments")]
 pub mod ListServerVolumeAttachments;
+#[cfg(feature = "ListTemplates")]
+pub mod ListTemplates;
 #[cfg(feature = "MigrateServer")]
 pub mod MigrateServer;
 #[cfg(feature = "NovaAssociateSecurityGroup")]
@@ -190,11 +198,3 @@ pub mod ResizeServer;
 pub mod RevertRecycleBinServer;
 #[cfg(feature = "ShowJob")]
 pub mod ShowJob;
-#[cfg(feature = "ShowRecycleBin")]
-pub mod ShowRecycleBin;
-#[cfg(feature = "ShowResetPasswordFlag")]
-pub mod ShowResetPasswordFlag;
-#[cfg(feature = "ShowServer")]
-pub mod ShowServer;
-#[cfg(feature = "ShowServerBlockDevice")]
-pub mod ShowServerBlockDevice;

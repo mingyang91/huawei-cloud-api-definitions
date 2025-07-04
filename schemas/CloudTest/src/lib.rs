@@ -188,6 +188,8 @@ pub mod RemoveIssuesFromIterator;
 pub mod RunTestCase;
 #[cfg(feature = "SaveTaskSetting")]
 pub mod SaveTaskSetting;
+#[cfg(feature = "SetTaskResult")]
+pub mod SetTaskResult;
 #[cfg(feature = "ShowAllConfigValueByTypeAndKey")]
 pub mod ShowAllConfigValueByTypeAndKey;
 #[cfg(feature = "ShowAllFeatureChildren")]
@@ -196,5 +198,3 @@ pub mod ShowAllFeatureChildren;
 pub mod ShowApiTestcaseHistories;
 #[cfg(feature = "ShowAsset")]
 pub mod ShowAsset;
-#[cfg(feature = "ShowAssetTree")]
-pub mod ShowAssetTree;

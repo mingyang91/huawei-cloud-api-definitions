@@ -184,6 +184,8 @@ pub mod ShowListener;
 pub mod ShowListenerTags;
 #[cfg(feature = "ShowLoadBalancer")]
 pub mod ShowLoadBalancer;
+#[cfg(feature = "ShowLoadBalancerPorts")]
+pub mod ShowLoadBalancerPorts;
 #[cfg(feature = "ShowLoadbalancersStatus")]
 pub mod ShowLoadbalancersStatus;
 #[cfg(feature = "ShowLoadBalancerStatus")]
@@ -196,5 +198,3 @@ pub mod ShowLogtank;
 pub mod ShowMasterSlavePool;
 #[cfg(feature = "ShowMember")]
 pub mod ShowMember;
-#[cfg(feature = "ShowMemberHealthCheckJob")]
-pub mod ShowMemberHealthCheckJob;

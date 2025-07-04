@@ -38,14 +38,14 @@ pub mod ReinstallBaremetalServerOs;
 pub mod ResetPwdOneClick;
 #[cfg(feature = "ShowBaremetalServerInterfaceAttachments")]
 pub mod ShowBaremetalServerInterfaceAttachments;
-#[cfg(feature = "ShowBaremetalServerMetadataOptions")]
-pub mod ShowBaremetalServerMetadataOptions;
 #[cfg(feature = "ShowBaremetalServerTags")]
 pub mod ShowBaremetalServerTags;
 #[cfg(feature = "ShowBaremetalServerVolumeInfo")]
 pub mod ShowBaremetalServerVolumeInfo;
 #[cfg(feature = "ShowJobInfos")]
 pub mod ShowJobInfos;
+#[cfg(feature = "ShowMetadataOptions")]
+pub mod ShowMetadataOptions;
 #[cfg(feature = "ShowResetPwd")]
 pub mod ShowResetPwd;
 #[cfg(feature = "ShowServerRemoteConsole")]
@@ -62,5 +62,5 @@ pub mod ShowWindowsBaremetalServerPwd;
 pub mod UpdateBaremetalServerInterfaceAttachments;
 #[cfg(feature = "UpdateBaremetalServerMetadata")]
 pub mod UpdateBaremetalServerMetadata;
-#[cfg(feature = "UpdateBaremetalServerMetadataOptions")]
-pub mod UpdateBaremetalServerMetadataOptions;
+#[cfg(feature = "UpdateMetadataOptions")]
+pub mod UpdateMetadataOptions;

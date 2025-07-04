@@ -20,6 +20,8 @@ pub mod AddResource;
 pub mod AddToPersonalSpace;
 #[cfg(feature = "AddUser")]
 pub mod AddUser;
+#[cfg(feature = "AllowAudienceJoin")]
+pub mod AllowAudienceJoin;
 #[cfg(feature = "AllowClientRecord")]
 pub mod AllowClientRecord;
 #[cfg(feature = "AllowGuestUnmute")]
@@ -42,6 +44,8 @@ pub mod BatchDeletePublications;
 pub mod BatchDeleteUsers;
 #[cfg(feature = "BatchHand")]
 pub mod BatchHand;
+#[cfg(feature = "BatchMoveToWaitingRoom")]
+pub mod BatchMoveToWaitingRoom;
 #[cfg(feature = "BatchSearchAppId")]
 pub mod BatchSearchAppId;
 #[cfg(feature = "BatchShowUserDetails")]
@@ -156,6 +160,8 @@ pub mod MoveToWaitingRoom;
 pub mod MuteMeeting;
 #[cfg(feature = "MuteParticipant")]
 pub mod MuteParticipant;
+#[cfg(feature = "PauseConference")]
+pub mod PauseConference;
 #[cfg(feature = "ProlongMeeting")]
 pub mod ProlongMeeting;
 #[cfg(feature = "Record")]
@@ -192,9 +198,3 @@ pub mod SearchCorpExternalDir;
 pub mod SearchCorpResources;
 #[cfg(feature = "SearchCorpVmr")]
 pub mod SearchCorpVmr;
-#[cfg(feature = "SearchCtlRecordsOfHisMeeting")]
-pub mod SearchCtlRecordsOfHisMeeting;
-#[cfg(feature = "SearchDepartmentByName")]
-pub mod SearchDepartmentByName;
-#[cfg(feature = "SearchDevices")]
-pub mod SearchDevices;

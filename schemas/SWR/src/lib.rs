@@ -188,13 +188,13 @@ pub mod ListNamespaces;
 pub mod ListNamespaceTags;
 #[cfg(feature = "ListQuotas")]
 pub mod ListQuotas;
+#[cfg(feature = "ListRepoDetails")]
+pub mod ListRepoDetails;
 #[cfg(feature = "ListRepoDomains")]
 pub mod ListRepoDomains;
 #[cfg(feature = "ListReposDetails")]
 pub mod ListReposDetails;
+#[cfg(feature = "ListRepositoryTag")]
+pub mod ListRepositoryTag;
 #[cfg(feature = "ListRepositoryTags")]
 pub mod ListRepositoryTags;
-#[cfg(feature = "ListRetentionHistories")]
-pub mod ListRetentionHistories;
-#[cfg(feature = "ListRetentions")]
-pub mod ListRetentions;
