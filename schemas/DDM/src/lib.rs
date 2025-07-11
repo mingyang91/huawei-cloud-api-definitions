@@ -102,6 +102,8 @@ pub mod UpdateDatabaseInfo;
 pub mod UpdateInstanceName;
 #[cfg(feature = "UpdateInstanceParam")]
 pub mod UpdateInstanceParam;
+#[cfg(feature = "UpdateInstancePort")]
+pub mod UpdateInstancePort;
 #[cfg(feature = "UpdateInstanceSecurityGroup")]
 pub mod UpdateInstanceSecurityGroup;
 #[cfg(feature = "UpdateReadAndWriteStrategy")]

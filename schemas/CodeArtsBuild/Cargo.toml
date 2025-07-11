@@ -16,6 +16,7 @@ version = "1"
 version = "0"
 
 [features]
+AddKeystorePermission = []
 CheckJobCountIsTopLimit = []
 CheckJobNameIsExists = []
 CheckWebhookUrl = []
@@ -91,6 +92,7 @@ ShowJobConfigDiff = []
 ShowJobInfo = []
 ShowJobListByProjectId = []
 ShowJobNoticeConfigInfo = []
+ShowJobPipelineInfo = []
 ShowJobRolePermission = []
 ShowJobStatus = []
 ShowJobStepStatus = []
@@ -114,9 +116,7 @@ ShowUserOverPackageQuota = []
 ShowYamlTemplate = []
 StopBuildJob = []
 StopJob = []
-UpdateBuildJob = []
-UpdateKeystore = []
-full = ["CheckJobCountIsTopLimit", "CheckJobNameIsExists", "CheckWebhookUrl", "ClearRecyclingJobs", "CopyJob", "CreateBuildJob", "CreateNewJob", "CreateTemplate", "CreateTemplates", "DeleteBuildJob", "DeleteKeystore", "DeleteKeystorePermission", "DeleteRecyclingJobs", "DeleteTemplate", "DeleteTemplates", "DeleteTheJob", "DisableBuildJob", "DisableNotice", "DisableTheJob", "DownloadBuildLog", "DownloadJunitCoverageZip", "DownloadKeystore", "DownloadKeystoreByName", "DownloadLogByRecordId", "DownloadRealTimeLog", "DownloadTaskLog", "EnableBuildJob", "ExecuteJob", "ListBriefRecord", "ListBuildInfoRecord", "ListBuildInfoRecordByJobId", "ListBuildParameter", "ListCustomTemplate", "ListJob", "ListJobConfig", "ListJunitCoverageSummary", "ListKeystore", "ListKeystoreSearch", "ListNotice", "ListOfficialTemplate", "ListProjectJobs", "ListRecommendOfficialTemplate", "ListRecords", "ListRecyclingJob", "ListRelatedProjectInfo", "ListRepoBranch", "ListRepository", "ListTemplates", "ListUpdateJobHistory", "RestoreRecyclingJobs", "RunJob", "SaveTemplateUsedInfo", "SetKeepTime", "ShowBuildInfoRecord", "ShowBuildParamsList", "ShowBuildRecord", "ShowBuildRecordBuildScript", "ShowBuildRecordFlowGraph", "ShowBuildRecordFullStages", "ShowCopyName", "ShowDefaultBuildParameters", "ShowDefaultProjectPermission", "ShowDisable", "ShowDockerfileTemplate", "ShowFlowGraph", "ShowHistoryDetails", "ShowImageTemplateList", "ShowJobBuildRecordDetail", "ShowJobBuildSuccessRatio", "ShowJobBuildTime", "ShowJobConfig", "ShowJobConfigDiff", "ShowJobInfo", "ShowJobListByProjectId", "ShowJobNoticeConfigInfo", "ShowJobRolePermission", "ShowJobStatus", "ShowJobStepStatus", "ShowJobSuccessRatio", "ShowJobSystemParameters", "ShowJobTotal", "ShowKeystorePermission", "ShowLastHistory", "ShowListHistory", "ShowListPeriodHistory", "ShowOutputInfo", "ShowProjectJobPermission", "ShowProjectPermission", "ShowRecordDetail", "ShowRecordInfo", "ShowRelatedProject", "ShowReportSummary", "ShowRunningStatus", "ShowSummaryBuildJobInfo", "ShowUserOverPackageQuota", "ShowYamlTemplate", "StopBuildJob", "StopJob", "UpdateBuildJob", "UpdateKeystore"]
+full = ["AddKeystorePermission", "CheckJobCountIsTopLimit", "CheckJobNameIsExists", "CheckWebhookUrl", "ClearRecyclingJobs", "CopyJob", "CreateBuildJob", "CreateNewJob", "CreateTemplate", "CreateTemplates", "DeleteBuildJob", "DeleteKeystore", "DeleteKeystorePermission", "DeleteRecyclingJobs", "DeleteTemplate", "DeleteTemplates", "DeleteTheJob", "DisableBuildJob", "DisableNotice", "DisableTheJob", "DownloadBuildLog", "DownloadJunitCoverageZip", "DownloadKeystore", "DownloadKeystoreByName", "DownloadLogByRecordId", "DownloadRealTimeLog", "DownloadTaskLog", "EnableBuildJob", "ExecuteJob", "ListBriefRecord", "ListBuildInfoRecord", "ListBuildInfoRecordByJobId", "ListBuildParameter", "ListCustomTemplate", "ListJob", "ListJobConfig", "ListJunitCoverageSummary", "ListKeystore", "ListKeystoreSearch", "ListNotice", "ListOfficialTemplate", "ListProjectJobs", "ListRecommendOfficialTemplate", "ListRecords", "ListRecyclingJob", "ListRelatedProjectInfo", "ListRepoBranch", "ListRepository", "ListTemplates", "ListUpdateJobHistory", "RestoreRecyclingJobs", "RunJob", "SaveTemplateUsedInfo", "SetKeepTime", "ShowBuildInfoRecord", "ShowBuildParamsList", "ShowBuildRecord", "ShowBuildRecordBuildScript", "ShowBuildRecordFlowGraph", "ShowBuildRecordFullStages", "ShowCopyName", "ShowDefaultBuildParameters", "ShowDefaultProjectPermission", "ShowDisable", "ShowDockerfileTemplate", "ShowFlowGraph", "ShowHistoryDetails", "ShowImageTemplateList", "ShowJobBuildRecordDetail", "ShowJobBuildSuccessRatio", "ShowJobBuildTime", "ShowJobConfig", "ShowJobConfigDiff", "ShowJobInfo", "ShowJobListByProjectId", "ShowJobNoticeConfigInfo", "ShowJobPipelineInfo", "ShowJobRolePermission", "ShowJobStatus", "ShowJobStepStatus", "ShowJobSuccessRatio", "ShowJobSystemParameters", "ShowJobTotal", "ShowKeystorePermission", "ShowLastHistory", "ShowListHistory", "ShowListPeriodHistory", "ShowOutputInfo", "ShowProjectJobPermission", "ShowProjectPermission", "ShowRecordDetail", "ShowRecordInfo", "ShowRelatedProject", "ShowReportSummary", "ShowRunningStatus", "ShowSummaryBuildJobInfo", "ShowUserOverPackageQuota", "ShowYamlTemplate", "StopBuildJob", "StopJob"]
 
 [lib]
 name = "huawei_cloud_api_definitions_CodeArtsBuild"

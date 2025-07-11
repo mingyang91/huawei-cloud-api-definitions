@@ -1,3 +1,5 @@
+#[cfg(feature = "AddKeystorePermission")]
+pub mod AddKeystorePermission;
 #[cfg(feature = "CheckJobCountIsTopLimit")]
 pub mod CheckJobCountIsTopLimit;
 #[cfg(feature = "CheckJobNameIsExists")]
@@ -148,6 +150,8 @@ pub mod ShowJobInfo;
 pub mod ShowJobListByProjectId;
 #[cfg(feature = "ShowJobNoticeConfigInfo")]
 pub mod ShowJobNoticeConfigInfo;
+#[cfg(feature = "ShowJobPipelineInfo")]
+pub mod ShowJobPipelineInfo;
 #[cfg(feature = "ShowJobRolePermission")]
 pub mod ShowJobRolePermission;
 #[cfg(feature = "ShowJobStatus")]
@@ -194,7 +198,3 @@ pub mod ShowYamlTemplate;
 pub mod StopBuildJob;
 #[cfg(feature = "StopJob")]
 pub mod StopJob;
-#[cfg(feature = "UpdateBuildJob")]
-pub mod UpdateBuildJob;
-#[cfg(feature = "UpdateKeystore")]
-pub mod UpdateKeystore;

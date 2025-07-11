@@ -134,6 +134,8 @@ pub mod ListAuthorizedDbUsers;
 pub mod ListAuthorizedSqlserverDbUsers;
 #[cfg(feature = "ListBackups")]
 pub mod ListBackups;
+#[cfg(feature = "ListBackupTransfers")]
+pub mod ListBackupTransfers;
 #[cfg(feature = "ListCollations")]
 pub mod ListCollations;
 #[cfg(feature = "ListConfigurations")]
@@ -196,5 +198,3 @@ pub mod ListOffSiteRestoreTimes;
 pub mod ListPostgresqlDatabases;
 #[cfg(feature = "ListPostgresqlDatabaseSchemas")]
 pub mod ListPostgresqlDatabaseSchemas;
-#[cfg(feature = "ListPostgresqlDbUserPaginated")]
-pub mod ListPostgresqlDbUserPaginated;

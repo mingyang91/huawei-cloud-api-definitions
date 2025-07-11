@@ -90,6 +90,8 @@ pub mod CreateDrugLigandSimilarityGraphTask;
 pub mod CreateDrugLigandSvg;
 #[cfg(feature = "CreateDrugModel")]
 pub mod CreateDrugModel;
+#[cfg(feature = "CreateDrugModelResource")]
+pub mod CreateDrugModelResource;
 #[cfg(feature = "CreateFavorite")]
 pub mod CreateFavorite;
 #[cfg(feature = "CreateFepJob")]
@@ -180,6 +182,8 @@ pub mod DeleteDrugLigandPreviewTask;
 pub mod DeleteDrugLigandSimilarityGraphTask;
 #[cfg(feature = "DeleteDrugModel")]
 pub mod DeleteDrugModel;
+#[cfg(feature = "DeleteDrugModelResource")]
+pub mod DeleteDrugModelResource;
 #[cfg(feature = "DeleteFavorite")]
 pub mod DeleteFavorite;
 #[cfg(feature = "DeleteImage")]
@@ -194,7 +198,3 @@ pub mod DeleteLabel;
 pub mod DeleteLabelPage;
 #[cfg(feature = "DeleteMember")]
 pub mod DeleteMember;
-#[cfg(feature = "DeleteMessageEmailConfig")]
-pub mod DeleteMessageEmailConfig;
-#[cfg(feature = "DeleteNextflowJob")]
-pub mod DeleteNextflowJob;

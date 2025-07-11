@@ -196,5 +196,5 @@ pub mod ListPictureModelingJobs;
 pub mod ListProducts;
 #[cfg(feature = "ListRobot")]
 pub mod ListRobot;
-#[cfg(feature = "ListSmartChatRooms")]
-pub mod ListSmartChatRooms;
+#[cfg(feature = "ListSmartChatJob")]
+pub mod ListSmartChatJob;
