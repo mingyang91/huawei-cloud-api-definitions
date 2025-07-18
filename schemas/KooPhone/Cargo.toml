@@ -19,11 +19,16 @@ version = "0"
 AsyncInvokeInstance = []
 BatchResetInstance = []
 BatchShowInstance = []
+BatchShowSku = []
+CancelInstance = []
+CreateInstance = []
+DeleteInstance = []
 ExecuteInstanceAuthToken = []
 ExecuteJob = []
+ProvisionInstance = []
 SetVideo = []
 SyncInvokeInstance = []
-full = ["AsyncInvokeInstance", "BatchResetInstance", "BatchShowInstance", "ExecuteInstanceAuthToken", "ExecuteJob", "SetVideo", "SyncInvokeInstance"]
+full = ["AsyncInvokeInstance", "BatchResetInstance", "BatchShowInstance", "BatchShowSku", "CancelInstance", "CreateInstance", "DeleteInstance", "ExecuteInstanceAuthToken", "ExecuteJob", "ProvisionInstance", "SetVideo", "SyncInvokeInstance"]
 
 [lib]
 name = "huawei_cloud_api_definitions_KooPhone"

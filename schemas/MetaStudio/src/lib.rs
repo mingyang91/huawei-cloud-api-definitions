@@ -24,6 +24,8 @@ pub mod Create2dModelTrainingJob;
 pub mod CreateActiveCode;
 #[cfg(feature = "CreateAgencyWithRoleType")]
 pub mod CreateAgencyWithRoleType;
+#[cfg(feature = "CreateAsrVocabulary")]
+pub mod CreateAsrVocabulary;
 #[cfg(feature = "CreateAssetByReplicationInfo")]
 pub mod CreateAssetByReplicationInfo;
 #[cfg(feature = "CreateAsyncTtsJob")]
@@ -108,6 +110,8 @@ pub mod Delete2dModelTrainingJob;
 pub mod DeleteActiveCode;
 #[cfg(feature = "DeleteAgencyWithRoleType")]
 pub mod DeleteAgencyWithRoleType;
+#[cfg(feature = "DeleteAsrVocabulary")]
+pub mod DeleteAsrVocabulary;
 #[cfg(feature = "DeleteAsset")]
 pub mod DeleteAsset;
 #[cfg(feature = "DeleteDialogReportConfig")]
@@ -160,6 +164,8 @@ pub mod ExportKnowledgeSkill;
 pub mod List2dModelTrainingJob;
 #[cfg(feature = "ListActiveCode")]
 pub mod ListActiveCode;
+#[cfg(feature = "ListAsrVocabulary")]
+pub mod ListAsrVocabulary;
 #[cfg(feature = "ListAssets")]
 pub mod ListAssets;
 #[cfg(feature = "ListAssetSummary")]
@@ -192,9 +198,3 @@ pub mod ListLivePlatforms;
 pub mod ListPacifyWords;
 #[cfg(feature = "ListPictureModelingJobs")]
 pub mod ListPictureModelingJobs;
-#[cfg(feature = "ListProducts")]
-pub mod ListProducts;
-#[cfg(feature = "ListRobot")]
-pub mod ListRobot;
-#[cfg(feature = "ListSmartChatJob")]
-pub mod ListSmartChatJob;
