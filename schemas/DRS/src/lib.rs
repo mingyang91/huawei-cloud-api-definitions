@@ -114,10 +114,14 @@ pub mod DeleteUserJdbcDriver;
 pub mod DownloadBatchCreateTemplate;
 #[cfg(feature = "DownloadCompareResultFile")]
 pub mod DownloadCompareResultFile;
+#[cfg(feature = "DownloadCreateTemplate")]
+pub mod DownloadCreateTemplate;
 #[cfg(feature = "DownloadDbObjectTemplate")]
 pub mod DownloadDbObjectTemplate;
 #[cfg(feature = "ExecuteJobAction")]
 pub mod ExecuteJobAction;
+#[cfg(feature = "ExportCreationTemplate")]
+pub mod ExportCreationTemplate;
 #[cfg(feature = "ExportOperationInfo")]
 pub mod ExportOperationInfo;
 #[cfg(feature = "ImportBatchCreateJobs")]
@@ -178,6 +182,8 @@ pub mod ListReplicationJobs;
 pub mod ListsAgencyPermissions;
 #[cfg(feature = "ListTags")]
 pub mod ListTags;
+#[cfg(feature = "ListTemplates")]
+pub mod ListTemplates;
 #[cfg(feature = "ListUserJdbcDrivers")]
 pub mod ListUserJdbcDrivers;
 #[cfg(feature = "ListUsers")]
@@ -192,9 +198,3 @@ pub mod ShowAgencyInfo;
 pub mod ShowColumnInfoResult;
 #[cfg(feature = "ShowComparePolicy")]
 pub mod ShowComparePolicy;
-#[cfg(feature = "ShowDataFilteringResult")]
-pub mod ShowDataFilteringResult;
-#[cfg(feature = "ShowDataProcessingRulesResult")]
-pub mod ShowDataProcessingRulesResult;
-#[cfg(feature = "ShowDataProgress")]
-pub mod ShowDataProgress;

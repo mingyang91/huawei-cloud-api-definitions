@@ -22,6 +22,8 @@ pub mod DeleteAuditDatabase;
 pub mod DeleteInstances;
 #[cfg(feature = "DownloadAuditAgent")]
 pub mod DownloadAuditAgent;
+#[cfg(feature = "ListAlarmTopicConfigInfo")]
+pub mod ListAlarmTopicConfigInfo;
 #[cfg(feature = "ListAuditAgent")]
 pub mod ListAuditAgent;
 #[cfg(feature = "ListAuditAlarmLog")]
@@ -58,6 +60,8 @@ pub mod ListResourceInstanceByTag;
 pub mod ListSqlInjectionRules;
 #[cfg(feature = "RebootAuditInstance")]
 pub mod RebootAuditInstance;
+#[cfg(feature = "SetAlarmTopicConfigInfo")]
+pub mod SetAlarmTopicConfigInfo;
 #[cfg(feature = "ShowAuditQuota")]
 pub mod ShowAuditQuota;
 #[cfg(feature = "ShowAuditRuleRisk")]

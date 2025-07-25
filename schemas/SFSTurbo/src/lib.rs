@@ -1,7 +1,11 @@
+#[cfg(feature = "AddActiveDirectoryDomain")]
+pub mod AddActiveDirectoryDomain;
 #[cfg(feature = "BatchAddSharedTags")]
 pub mod BatchAddSharedTags;
 #[cfg(feature = "ChangeSecurityGroup")]
 pub mod ChangeSecurityGroup;
+#[cfg(feature = "ChangeShareChargeModeV2")]
+pub mod ChangeShareChargeModeV2;
 #[cfg(feature = "ChangeShareName")]
 pub mod ChangeShareName;
 #[cfg(feature = "CreateBackendTarget")]
@@ -22,6 +26,8 @@ pub mod CreatePermRule;
 pub mod CreateShare;
 #[cfg(feature = "CreateSharedTag")]
 pub mod CreateSharedTag;
+#[cfg(feature = "DeleteActiveDirectoryDomain")]
+pub mod DeleteActiveDirectoryDomain;
 #[cfg(feature = "DeleteBackendTarget")]
 pub mod DeleteBackendTarget;
 #[cfg(feature = "DeleteFsDir")]
@@ -56,10 +62,16 @@ pub mod ListSharedTags;
 pub mod ListShares;
 #[cfg(feature = "ListSharesByTag")]
 pub mod ListSharesByTag;
+#[cfg(feature = "ListShareTypes")]
+pub mod ListShareTypes;
 #[cfg(feature = "SetHpcCacheBackend")]
 pub mod SetHpcCacheBackend;
+#[cfg(feature = "ShowActiveDirectoryDomain")]
+pub mod ShowActiveDirectoryDomain;
 #[cfg(feature = "ShowBackendTargetInfo")]
 pub mod ShowBackendTargetInfo;
+#[cfg(feature = "ShowClientIpInfo")]
+pub mod ShowClientIpInfo;
 #[cfg(feature = "ShowFsDir")]
 pub mod ShowFsDir;
 #[cfg(feature = "ShowFsDirQuota")]
@@ -80,6 +92,8 @@ pub mod ShowPermRule;
 pub mod ShowShare;
 #[cfg(feature = "ShowSharedTags")]
 pub mod ShowSharedTags;
+#[cfg(feature = "UpdateActiveDirectoryDomain")]
+pub mod UpdateActiveDirectoryDomain;
 #[cfg(feature = "UpdateFsDirQuota")]
 pub mod UpdateFsDirQuota;
 #[cfg(feature = "UpdateHpcShare")]

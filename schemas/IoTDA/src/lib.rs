@@ -80,6 +80,8 @@ pub mod DeleteDevice;
 pub mod DeleteDeviceAuthorizer;
 #[cfg(feature = "DeleteDeviceGroup")]
 pub mod DeleteDeviceGroup;
+#[cfg(feature = "DeleteDeviceMessage")]
+pub mod DeleteDeviceMessage;
 #[cfg(feature = "DeleteDevicePolicy")]
 pub mod DeleteDevicePolicy;
 #[cfg(feature = "DeleteDeviceProxy")]
@@ -196,5 +198,3 @@ pub mod ShowDevicesInGroup;
 pub mod ShowDeviceTunnel;
 #[cfg(feature = "ShowOtaPackage")]
 pub mod ShowOtaPackage;
-#[cfg(feature = "ShowProduct")]
-pub mod ShowProduct;
