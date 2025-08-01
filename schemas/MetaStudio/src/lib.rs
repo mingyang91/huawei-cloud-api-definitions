@@ -98,6 +98,8 @@ pub mod CreateTtsa;
 pub mod CreateTtsAudition;
 #[cfg(feature = "CreateTtscVocabularyConfigs")]
 pub mod CreateTtscVocabularyConfigs;
+#[cfg(feature = "CreateTtscVocabularyGroups")]
+pub mod CreateTtscVocabularyGroups;
 #[cfg(feature = "CreateVideoMotionCaptureJob")]
 pub mod CreateVideoMotionCaptureJob;
 #[cfg(feature = "CreateVideoScripts")]
@@ -146,6 +148,8 @@ pub mod DeleteSmartChatRoom;
 pub mod DeleteSmartLiveRoom;
 #[cfg(feature = "DeleteTtscVocabularyConfigs")]
 pub mod DeleteTtscVocabularyConfigs;
+#[cfg(feature = "DeleteTtscVocabularyGroups")]
+pub mod DeleteTtscVocabularyGroups;
 #[cfg(feature = "DeleteVideoScript")]
 pub mod DeleteVideoScript;
 #[cfg(feature = "DeleteVoiceTrainingJob")]
@@ -194,7 +198,3 @@ pub mod ListKnowledgeSkill;
 pub mod ListLivePlatformProducts;
 #[cfg(feature = "ListLivePlatforms")]
 pub mod ListLivePlatforms;
-#[cfg(feature = "ListPacifyWords")]
-pub mod ListPacifyWords;
-#[cfg(feature = "ListPictureModelingJobs")]
-pub mod ListPictureModelingJobs;

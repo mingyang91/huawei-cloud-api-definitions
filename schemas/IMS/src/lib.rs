@@ -14,10 +14,16 @@ pub mod BatchUpdateMembers;
 pub mod CopyImageCrossRegion;
 #[cfg(feature = "CopyImageInRegion")]
 pub mod CopyImageInRegion;
+#[cfg(feature = "CopyImageInRegionInSafeMode")]
+pub mod CopyImageInRegionInSafeMode;
 #[cfg(feature = "CreateDataImage")]
 pub mod CreateDataImage;
+#[cfg(feature = "CreateDataImageInSafeMode")]
+pub mod CreateDataImageInSafeMode;
 #[cfg(feature = "CreateImage")]
 pub mod CreateImage;
+#[cfg(feature = "CreateImageInSafeMode")]
+pub mod CreateImageInSafeMode;
 #[cfg(feature = "CreateOrUpdateTags")]
 pub mod CreateOrUpdateTags;
 #[cfg(feature = "CreateWholeImage")]
@@ -26,6 +32,8 @@ pub mod CreateWholeImage;
 pub mod DeleteImageTag;
 #[cfg(feature = "ExportImage")]
 pub mod ExportImage;
+#[cfg(feature = "ExportImageInSafeMode")]
+pub mod ExportImageInSafeMode;
 #[cfg(feature = "GlanceAddImageMember")]
 pub mod GlanceAddImageMember;
 #[cfg(feature = "GlanceCreateImageMetadata")]
@@ -60,6 +68,8 @@ pub mod GlanceUpdateImage;
 pub mod GlanceUpdateImageMember;
 #[cfg(feature = "ImportImageQuick")]
 pub mod ImportImageQuick;
+#[cfg(feature = "ImportImageQuickInSafeMode")]
+pub mod ImportImageQuickInSafeMode;
 #[cfg(feature = "ListImageByTags")]
 pub mod ListImageByTags;
 #[cfg(feature = "ListImageMembers")]

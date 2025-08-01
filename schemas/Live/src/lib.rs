@@ -18,6 +18,8 @@ pub mod CreateRecordRule;
 pub mod CreateSnapshotConfig;
 #[cfg(feature = "CreateStreamForbidden")]
 pub mod CreateStreamForbidden;
+#[cfg(feature = "CreateStreamForbiddenOnce")]
+pub mod CreateStreamForbiddenOnce;
 #[cfg(feature = "CreateTranscodingsTemplate")]
 pub mod CreateTranscodingsTemplate;
 #[cfg(feature = "CreateUrlAuthchain")]
