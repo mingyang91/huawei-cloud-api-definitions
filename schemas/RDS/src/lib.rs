@@ -136,6 +136,8 @@ pub mod ListAuthorizedSqlserverDbUsers;
 pub mod ListBackups;
 #[cfg(feature = "ListBackupTransfers")]
 pub mod ListBackupTransfers;
+#[cfg(feature = "ListBusinessPartners")]
+pub mod ListBusinessPartners;
 #[cfg(feature = "ListCollations")]
 pub mod ListCollations;
 #[cfg(feature = "ListConfigurations")]
@@ -186,6 +188,8 @@ pub mod ListJobInfo;
 pub mod ListJobInfoDetail;
 #[cfg(feature = "ListLogLtsConfigs")]
 pub mod ListLogLtsConfigs;
+#[cfg(feature = "ListMarketplaceEngineProducts")]
+pub mod ListMarketplaceEngineProducts;
 #[cfg(feature = "ListMsdtcHosts")]
 pub mod ListMsdtcHosts;
 #[cfg(feature = "ListOffSiteBackups")]
@@ -194,7 +198,3 @@ pub mod ListOffSiteBackups;
 pub mod ListOffSiteInstances;
 #[cfg(feature = "ListOffSiteRestoreTimes")]
 pub mod ListOffSiteRestoreTimes;
-#[cfg(feature = "ListPostgresqlDatabases")]
-pub mod ListPostgresqlDatabases;
-#[cfg(feature = "ListPostgresqlDatabaseSchemas")]
-pub mod ListPostgresqlDatabaseSchemas;

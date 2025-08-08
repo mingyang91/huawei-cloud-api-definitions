@@ -14,6 +14,8 @@ pub mod CreateOrganization;
 pub mod CreateOrganizationalUnit;
 #[cfg(feature = "CreatePolicy")]
 pub mod CreatePolicy;
+#[cfg(feature = "CreateResourceAccount")]
+pub mod CreateResourceAccount;
 #[cfg(feature = "CreateTagResource")]
 pub mod CreateTagResource;
 #[cfg(feature = "DeclineHandshake")]

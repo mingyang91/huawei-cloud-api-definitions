@@ -24,8 +24,6 @@ pub mod CreateApp;
 pub mod CreateComponent;
 #[cfg(feature = "CreateEnv")]
 pub mod CreateEnv;
-#[cfg(feature = "CreateFastExecuteScript")]
-pub mod CreateFastExecuteScript;
 #[cfg(feature = "CreatePromInstance")]
 pub mod CreatePromInstance;
 #[cfg(feature = "CreateRecordingRule")]

@@ -28,8 +28,8 @@ pub mod ListEvents;
 pub mod ListIDcs;
 #[cfg(feature = "ListInstances")]
 pub mod ListInstances;
-#[cfg(feature = "ListIRack")]
-pub mod ListIRack;
+#[cfg(feature = "ListIRacks")]
+pub mod ListIRacks;
 #[cfg(feature = "ListServers")]
 pub mod ListServers;
 #[cfg(feature = "ModifyInstanceIp")]

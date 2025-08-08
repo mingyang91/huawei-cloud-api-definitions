@@ -36,6 +36,10 @@ pub mod ListResourceShareTags;
 pub mod ListResourceTypes;
 #[cfg(feature = "RejectResourceShareInvitation")]
 pub mod RejectResourceShareInvitation;
+#[cfg(feature = "SearchDistinctPrincipals")]
+pub mod SearchDistinctPrincipals;
+#[cfg(feature = "SearchDistinctSharedResources")]
+pub mod SearchDistinctSharedResources;
 #[cfg(feature = "SearchResourceShareAssociations")]
 pub mod SearchResourceShareAssociations;
 #[cfg(feature = "SearchResourceShareCountByTags")]
