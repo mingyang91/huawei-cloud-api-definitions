@@ -6,8 +6,14 @@ pub mod BatchDeleteRemediationExceptions;
 pub mod CollectAllResourcesSummary;
 #[cfg(feature = "CollectConformancePackComplianceSummary")]
 pub mod CollectConformancePackComplianceSummary;
+#[cfg(feature = "CollectPolicyAssignmentsStatesSummary")]
+pub mod CollectPolicyAssignmentsStatesSummary;
+#[cfg(feature = "CollectPolicyStatesSummary")]
+pub mod CollectPolicyStatesSummary;
 #[cfg(feature = "CollectRemediationExecutionStatusesSummary")]
 pub mod CollectRemediationExecutionStatusesSummary;
+#[cfg(feature = "CollectResourcesPolicyStatesSummary")]
+pub mod CollectResourcesPolicyStatesSummary;
 #[cfg(feature = "CollectTrackedResourcesSummary")]
 pub mod CollectTrackedResourcesSummary;
 #[cfg(feature = "CountAllResources")]
@@ -64,6 +70,8 @@ pub mod ListAggregateComplianceByPolicyAssignment;
 pub mod ListAggregateDiscoveredResources;
 #[cfg(feature = "ListAggregationAuthorizations")]
 pub mod ListAggregationAuthorizations;
+#[cfg(feature = "ListAllProviders")]
+pub mod ListAllProviders;
 #[cfg(feature = "ListAllResources")]
 pub mod ListAllResources;
 #[cfg(feature = "ListAllTags")]
@@ -190,11 +198,3 @@ pub mod UnTagResource;
 pub mod UpdateConfigurationAggregator;
 #[cfg(feature = "UpdateConformancePack")]
 pub mod UpdateConformancePack;
-#[cfg(feature = "UpdateOrganizationConformancePack")]
-pub mod UpdateOrganizationConformancePack;
-#[cfg(feature = "UpdateOrganizationPolicyAssignment")]
-pub mod UpdateOrganizationPolicyAssignment;
-#[cfg(feature = "UpdatePolicyAssignment")]
-pub mod UpdatePolicyAssignment;
-#[cfg(feature = "UpdatePolicyState")]
-pub mod UpdatePolicyState;

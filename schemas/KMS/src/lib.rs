@@ -26,6 +26,8 @@ pub mod CreateKeyStore;
 pub mod CreateKmsTag;
 #[cfg(feature = "CreateParametersForImport")]
 pub mod CreateParametersForImport;
+#[cfg(feature = "CreatePin")]
+pub mod CreatePin;
 #[cfg(feature = "CreateRandom")]
 pub mod CreateRandom;
 #[cfg(feature = "CreateRsaDatakeyPair")]

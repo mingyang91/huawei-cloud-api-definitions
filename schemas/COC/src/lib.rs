@@ -22,6 +22,8 @@ pub mod CreateApplication;
 pub mod CreateApplicationComponents;
 #[cfg(feature = "CreateApplicationGroup")]
 pub mod CreateApplicationGroup;
+#[cfg(feature = "CreateAssessTask")]
+pub mod CreateAssessTask;
 #[cfg(feature = "CreateAttachment")]
 pub mod CreateAttachment;
 #[cfg(feature = "CreateCocIncident")]
@@ -122,6 +124,8 @@ pub mod ListApplicationModel;
 pub mod ListApplications;
 #[cfg(feature = "ListApplicationView")]
 pub mod ListApplicationView;
+#[cfg(feature = "ListAssessTask")]
+pub mod ListAssessTask;
 #[cfg(feature = "ListAuthorizableTicketsExternal")]
 pub mod ListAuthorizableTicketsExternal;
 #[cfg(feature = "ListCapacityOrder")]
@@ -194,7 +198,3 @@ pub mod OperateExecution;
 pub mod OperateScriptJob;
 #[cfg(feature = "ResetAccountPassword")]
 pub mod ResetAccountPassword;
-#[cfg(feature = "RetryDiagnosisTask")]
-pub mod RetryDiagnosisTask;
-#[cfg(feature = "ShowAlarm")]
-pub mod ShowAlarm;

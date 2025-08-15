@@ -32,8 +32,6 @@ pub mod BatchStartProtection;
 pub mod BatchStartWebTamperProtection;
 #[cfg(feature = "BatchUpgradeAgentDaemonset")]
 pub mod BatchUpgradeAgentDaemonset;
-#[cfg(feature = "BatchUploadFiles")]
-pub mod BatchUploadFiles;
 #[cfg(feature = "ChangeAntivirusPayPerScanStatus")]
 pub mod ChangeAntivirusPayPerScanStatus;
 #[cfg(feature = "ChangeAntivirusPolicy")]
@@ -198,3 +196,5 @@ pub mod ListBaselineWhiteLists;
 pub mod ListBlockedIp;
 #[cfg(feature = "ListCceClusterConfig")]
 pub mod ListCceClusterConfig;
+#[cfg(feature = "ListCceClusterDetectRisk")]
+pub mod ListCceClusterDetectRisk;
