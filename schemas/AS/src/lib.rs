@@ -20,6 +20,8 @@ pub mod BatchSetScalingInstancesStandby;
 pub mod BatchUnprotectScalingInstances;
 #[cfg(feature = "BatchUnsetScalingInstancesStantby")]
 pub mod BatchUnsetScalingInstancesStantby;
+#[cfg(feature = "CloseWarmPool")]
+pub mod CloseWarmPool;
 #[cfg(feature = "CreateGroupScheduledTask")]
 pub mod CreateGroupScheduledTask;
 #[cfg(feature = "CreateLifyCycleHook")]
@@ -88,10 +90,16 @@ pub mod ListScalingTagInfosByResourceId;
 pub mod ListScalingTagInfosByTenantId;
 #[cfg(feature = "ListScalingV2Policies")]
 pub mod ListScalingV2Policies;
+#[cfg(feature = "ListWarmPoolInstances")]
+pub mod ListWarmPoolInstances;
 #[cfg(feature = "PauseScalingGroup")]
 pub mod PauseScalingGroup;
 #[cfg(feature = "PauseScalingPolicy")]
 pub mod PauseScalingPolicy;
+#[cfg(feature = "PutWarmPool")]
+pub mod PutWarmPool;
+#[cfg(feature = "QueryWarmPool")]
+pub mod QueryWarmPool;
 #[cfg(feature = "ResumeScalingGroup")]
 pub mod ResumeScalingGroup;
 #[cfg(feature = "ResumeScalingPolicy")]
