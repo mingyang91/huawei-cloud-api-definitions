@@ -56,6 +56,8 @@ pub mod ReRegisterOrganizationalUnit;
 pub mod SetupLandingZone;
 #[cfg(feature = "ShowAvailableUpdates")]
 pub mod ShowAvailableUpdates;
+#[cfg(feature = "ShowBestPracticeAccountInfo")]
+pub mod ShowBestPracticeAccountInfo;
 #[cfg(feature = "ShowBestPracticeDetails")]
 pub mod ShowBestPracticeDetails;
 #[cfg(feature = "ShowBestPracticeOverview")]

@@ -4,6 +4,8 @@ pub mod BatchShowIpBelongs;
 pub mod CreateDomain;
 #[cfg(feature = "CreateDomainMapping")]
 pub mod CreateDomainMapping;
+#[cfg(feature = "CreateFlowOutput")]
+pub mod CreateFlowOutput;
 #[cfg(feature = "CreateFlows")]
 pub mod CreateFlows;
 #[cfg(feature = "CreateOttChannelInfo")]
@@ -34,6 +36,8 @@ pub mod DeleteDomainKeyChain;
 pub mod DeleteDomainMapping;
 #[cfg(feature = "DeleteFlow")]
 pub mod DeleteFlow;
+#[cfg(feature = "DeleteFlowOutput")]
+pub mod DeleteFlowOutput;
 #[cfg(feature = "DeleteOttChannelInfo")]
 pub mod DeleteOttChannelInfo;
 #[cfg(feature = "DeletePublishTemplate")]
@@ -54,6 +58,10 @@ pub mod DeleteTranscodingsTemplate;
 pub mod ListAreaDetail;
 #[cfg(feature = "ListBandwidthDetail")]
 pub mod ListBandwidthDetail;
+#[cfg(feature = "ListCesDimsInfo")]
+pub mod ListCesDimsInfo;
+#[cfg(feature = "ListCesInstance")]
+pub mod ListCesInstance;
 #[cfg(feature = "ListDelayConfig")]
 pub mod ListDelayConfig;
 #[cfg(feature = "ListDomainBandwidthPeak")]
@@ -108,6 +116,8 @@ pub mod ListTranscodeData;
 pub mod ListUpStreamDetail;
 #[cfg(feature = "ListUsersOfStream")]
 pub mod ListUsersOfStream;
+#[cfg(feature = "ModifyFlowOutput")]
+pub mod ModifyFlowOutput;
 #[cfg(feature = "ModifyFlowSources")]
 pub mod ModifyFlowSources;
 #[cfg(feature = "ModifyFlowStart")]
@@ -140,6 +150,8 @@ pub mod ShowDomainHttpsCert;
 pub mod ShowDomainKeyChain;
 #[cfg(feature = "ShowFlowDetail")]
 pub mod ShowFlowDetail;
+#[cfg(feature = "ShowOutputInfo")]
+pub mod ShowOutputInfo;
 #[cfg(feature = "ShowPullSourcesConfig")]
 pub mod ShowPullSourcesConfig;
 #[cfg(feature = "ShowRecordCallbackConfig")]
@@ -186,5 +198,3 @@ pub mod UpdateRecordRule;
 pub mod UpdateSnapshotConfig;
 #[cfg(feature = "UpdateStreamForbidden")]
 pub mod UpdateStreamForbidden;
-#[cfg(feature = "UpdateTranscodingsTemplate")]
-pub mod UpdateTranscodingsTemplate;

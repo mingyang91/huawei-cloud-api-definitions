@@ -2,6 +2,8 @@
 pub mod AddFavorite;
 #[cfg(feature = "AddIndependentNode")]
 pub mod AddIndependentNode;
+#[cfg(feature = "ChangeClusterSubnet")]
+pub mod ChangeClusterSubnet;
 #[cfg(feature = "ChangeMode")]
 pub mod ChangeMode;
 #[cfg(feature = "ChangeSecurityGroup")]
@@ -196,5 +198,3 @@ pub mod UpdateShrinkNodes;
 pub mod UpdateSnapshotSetting;
 #[cfg(feature = "UpdateUnbindPublic")]
 pub mod UpdateUnbindPublic;
-#[cfg(feature = "UpdateVpcepConnection")]
-pub mod UpdateVpcepConnection;

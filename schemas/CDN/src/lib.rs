@@ -1,3 +1,5 @@
+#[cfg(feature = "ApplyDomainTemplate")]
+pub mod ApplyDomainTemplate;
 #[cfg(feature = "BatchCopyDomain")]
 pub mod BatchCopyDomain;
 #[cfg(feature = "BatchDeleteTags")]
@@ -6,6 +8,8 @@ pub mod BatchDeleteTags;
 pub mod BatchUpdateRuleStatus;
 #[cfg(feature = "CreateDomain")]
 pub mod CreateDomain;
+#[cfg(feature = "CreateDomainTemplate")]
+pub mod CreateDomainTemplate;
 #[cfg(feature = "CreatePreheatingTasks")]
 pub mod CreatePreheatingTasks;
 #[cfg(feature = "CreateRefreshTasks")]
@@ -18,6 +22,8 @@ pub mod CreateShareCacheGroups;
 pub mod CreateTags;
 #[cfg(feature = "DeleteDomain")]
 pub mod DeleteDomain;
+#[cfg(feature = "DeleteDomainTemplate")]
+pub mod DeleteDomainTemplate;
 #[cfg(feature = "DeleteRuleNew")]
 pub mod DeleteRuleNew;
 #[cfg(feature = "DeleteShareCacheGroups")]
@@ -42,6 +48,8 @@ pub mod ListShareCacheGroups;
 pub mod ModifyAccountInfo;
 #[cfg(feature = "SetChargeModes")]
 pub mod SetChargeModes;
+#[cfg(feature = "ShowAppliedTemplateRecord")]
+pub mod ShowAppliedTemplateRecord;
 #[cfg(feature = "ShowBandwidthCalc")]
 pub mod ShowBandwidthCalc;
 #[cfg(feature = "ShowBlackWhiteList")]
@@ -62,6 +70,8 @@ pub mod ShowDomainFullConfig;
 pub mod ShowDomainLocationStats;
 #[cfg(feature = "ShowDomainStats")]
 pub mod ShowDomainStats;
+#[cfg(feature = "ShowDomainTemplate")]
+pub mod ShowDomainTemplate;
 #[cfg(feature = "ShowHistoryTaskDetails")]
 pub mod ShowHistoryTaskDetails;
 #[cfg(feature = "ShowHistoryTasks")]
@@ -100,6 +110,8 @@ pub mod UpdateDomainFullConfig;
 pub mod UpdateDomainMultiCertificates;
 #[cfg(feature = "UpdateDomainOrigin")]
 pub mod UpdateDomainOrigin;
+#[cfg(feature = "UpdateDomainTemplate")]
+pub mod UpdateDomainTemplate;
 #[cfg(feature = "UpdateFollow302Switch")]
 pub mod UpdateFollow302Switch;
 #[cfg(feature = "UpdateFullRule")]
