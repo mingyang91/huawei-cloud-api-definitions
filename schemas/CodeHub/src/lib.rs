@@ -92,6 +92,8 @@ pub mod CreateProjectAndforkRepositories;
 pub mod CreateProjectAndRepositories;
 #[cfg(feature = "CreateProjectMergeRequestApproverSetting")]
 pub mod CreateProjectMergeRequestApproverSetting;
+#[cfg(feature = "CreateProjectProtectedBranches")]
+pub mod CreateProjectProtectedBranches;
 #[cfg(feature = "CreateRepository")]
 pub mod CreateRepository;
 #[cfg(feature = "CreateRepositoryLabel")]
@@ -196,5 +198,3 @@ pub mod ListGroupMembers;
 pub mod ListGroupMergeRequestApproverSettings;
 #[cfg(feature = "ListGroupMergeRequestCanBeAssignedReviewers")]
 pub mod ListGroupMergeRequestCanBeAssignedReviewers;
-#[cfg(feature = "ListGroupMergeRequestValidAssignedCandidates")]
-pub mod ListGroupMergeRequestValidAssignedCandidates;
