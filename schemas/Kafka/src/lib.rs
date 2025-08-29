@@ -16,6 +16,8 @@ pub mod CloseKafkaManager;
 pub mod CreateConnector;
 #[cfg(feature = "CreateConnectorTask")]
 pub mod CreateConnectorTask;
+#[cfg(feature = "CreateInstanceByEngine")]
+pub mod CreateInstanceByEngine;
 #[cfg(feature = "CreateInstanceTopic")]
 pub mod CreateInstanceTopic;
 #[cfg(feature = "CreateInstanceUser")]
@@ -30,8 +32,6 @@ pub mod CreateKafkaTopicQuota;
 pub mod CreateKafkaUserClientQuotaTask;
 #[cfg(feature = "CreateMessageDiagnosisTask")]
 pub mod CreateMessageDiagnosisTask;
-#[cfg(feature = "CreatePostPaidKafkaInstance")]
-pub mod CreatePostPaidKafkaInstance;
 #[cfg(feature = "CreateReassignmentTask")]
 pub mod CreateReassignmentTask;
 #[cfg(feature = "DeleteBackgroundTask")]

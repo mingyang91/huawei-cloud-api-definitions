@@ -98,8 +98,6 @@ pub mod PauseScalingGroup;
 pub mod PauseScalingPolicy;
 #[cfg(feature = "PutWarmPool")]
 pub mod PutWarmPool;
-#[cfg(feature = "QueryWarmPool")]
-pub mod QueryWarmPool;
 #[cfg(feature = "ResumeScalingGroup")]
 pub mod ResumeScalingGroup;
 #[cfg(feature = "ResumeScalingPolicy")]
@@ -120,6 +118,8 @@ pub mod ShowScalingGroup;
 pub mod ShowScalingPolicy;
 #[cfg(feature = "ShowScalingV2Policy")]
 pub mod ShowScalingV2Policy;
+#[cfg(feature = "ShowWarmPool")]
+pub mod ShowWarmPool;
 #[cfg(feature = "UpdateGroupScheduledTask")]
 pub mod UpdateGroupScheduledTask;
 #[cfg(feature = "UpdateLifeCycleHook")]

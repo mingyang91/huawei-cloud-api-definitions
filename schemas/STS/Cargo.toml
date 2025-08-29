@@ -16,9 +16,10 @@ version = "1"
 version = "0"
 
 [features]
+AssumeAgency = []
 DecodeAuthorizationMessage = []
 GetCallerIdentity = []
-full = ["DecodeAuthorizationMessage", "GetCallerIdentity"]
+full = ["AssumeAgency", "DecodeAuthorizationMessage", "GetCallerIdentity"]
 
 [lib]
 name = "huawei_cloud_api_definitions_STS"

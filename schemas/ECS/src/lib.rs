@@ -36,6 +36,8 @@ pub mod ChangeServerOsWithCloudInit;
 pub mod ChangeServerOsWithoutCloudInit;
 #[cfg(feature = "ChangeVpc")]
 pub mod ChangeVpc;
+#[cfg(feature = "CreateLaunchTemplate")]
+pub mod CreateLaunchTemplate;
 #[cfg(feature = "CreatePostPaidServers")]
 pub mod CreatePostPaidServers;
 #[cfg(feature = "CreateServerGroup")]
@@ -196,5 +198,3 @@ pub mod ResizePostPaidServer;
 pub mod ResizeServer;
 #[cfg(feature = "RevertRecycleBinServer")]
 pub mod RevertRecycleBinServer;
-#[cfg(feature = "ShowJob")]
-pub mod ShowJob;

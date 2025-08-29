@@ -16,6 +16,8 @@ pub mod ListProviders;
 pub mod ListResource;
 #[cfg(feature = "ListTagKeys")]
 pub mod ListTagKeys;
+#[cfg(feature = "ListTags")]
+pub mod ListTags;
 #[cfg(feature = "ListTagValues")]
 pub mod ListTagValues;
 #[cfg(feature = "ShowApiVersion")]

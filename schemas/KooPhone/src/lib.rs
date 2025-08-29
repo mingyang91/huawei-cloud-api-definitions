@@ -1,5 +1,11 @@
 #[cfg(feature = "AsyncInvokeInstance")]
 pub mod AsyncInvokeInstance;
+#[cfg(feature = "BatchBackupInstances")]
+pub mod BatchBackupInstances;
+#[cfg(feature = "BatchPrepareInstances")]
+pub mod BatchPrepareInstances;
+#[cfg(feature = "BatchRebootInstance")]
+pub mod BatchRebootInstance;
 #[cfg(feature = "BatchResetInstance")]
 pub mod BatchResetInstance;
 #[cfg(feature = "BatchShowInstance")]
@@ -16,9 +22,15 @@ pub mod DeleteInstance;
 pub mod ExecuteInstanceAuthToken;
 #[cfg(feature = "ExecuteJob")]
 pub mod ExecuteJob;
+#[cfg(feature = "InstallApp")]
+pub mod InstallApp;
+#[cfg(feature = "ListInstances")]
+pub mod ListInstances;
 #[cfg(feature = "ProvisionInstance")]
 pub mod ProvisionInstance;
 #[cfg(feature = "SetVideo")]
 pub mod SetVideo;
+#[cfg(feature = "ShowProgress")]
+pub mod ShowProgress;
 #[cfg(feature = "SyncInvokeInstance")]
 pub mod SyncInvokeInstance;

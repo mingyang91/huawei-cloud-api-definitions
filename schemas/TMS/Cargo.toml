@@ -26,11 +26,12 @@ ListProviders = []
 ListResource = []
 ListTagKeys = []
 ListTagValues = []
+ListTags = []
 ShowApiVersion = []
 ShowResourceTag = []
 ShowTagQuota = []
 UpdatePredefineTags = []
-full = ["CreatePredefineTags", "CreateResourceTag", "DeletePredefineTags", "DeleteResourceTag", "ListApiVersions", "ListPredefineTags", "ListProviders", "ListResource", "ListTagKeys", "ListTagValues", "ShowApiVersion", "ShowResourceTag", "ShowTagQuota", "UpdatePredefineTags"]
+full = ["CreatePredefineTags", "CreateResourceTag", "DeletePredefineTags", "DeleteResourceTag", "ListApiVersions", "ListPredefineTags", "ListProviders", "ListResource", "ListTagKeys", "ListTags", "ListTagValues", "ShowApiVersion", "ShowResourceTag", "ShowTagQuota", "UpdatePredefineTags"]
 
 [lib]
 name = "huawei_cloud_api_definitions_TMS"

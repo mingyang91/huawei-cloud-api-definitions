@@ -6,8 +6,6 @@ pub mod CheckNeedVerify;
 pub mod CheckVerifyCodes;
 #[cfg(feature = "ConfirmAuthorizations")]
 pub mod ConfirmAuthorizations;
-#[cfg(feature = "CreateAskQuestion")]
-pub mod CreateAskQuestion;
 #[cfg(feature = "CreateCaseExtendsParam")]
 pub mod CreateCaseExtendsParam;
 #[cfg(feature = "CreateCaseLabels")]
@@ -18,8 +16,6 @@ pub mod CreateCases;
 pub mod CreateDiagnoseFeedback;
 #[cfg(feature = "CreateDiagnoseJob")]
 pub mod CreateDiagnoseJob;
-#[cfg(feature = "CreateEvaluate")]
-pub mod CreateEvaluate;
 #[cfg(feature = "CreateFeedback")]
 pub mod CreateFeedback;
 #[cfg(feature = "CreateLabels")]
@@ -28,18 +24,10 @@ pub mod CreateLabels;
 pub mod CreateMessages;
 #[cfg(feature = "CreatePrivileges")]
 pub mod CreatePrivileges;
-#[cfg(feature = "CreateQaAsk")]
-pub mod CreateQaAsk;
-#[cfg(feature = "CreateQaFeedbacks")]
-pub mod CreateQaFeedbacks;
-#[cfg(feature = "CreateQuestionInSession")]
-pub mod CreateQuestionInSession;
 #[cfg(feature = "CreateRelations")]
 pub mod CreateRelations;
 #[cfg(feature = "CreateScores")]
 pub mod CreateScores;
-#[cfg(feature = "CreateSession")]
-pub mod CreateSession;
 #[cfg(feature = "DeleteAccessories")]
 pub mod DeleteAccessories;
 #[cfg(feature = "DeleteCaseLabels")]
@@ -60,8 +48,6 @@ pub mod ListAccessoryAccessUrls;
 pub mod ListAgencies;
 #[cfg(feature = "ListAreaCodes")]
 pub mod ListAreaCodes;
-#[cfg(feature = "ListArticles")]
-pub mod ListArticles;
 #[cfg(feature = "ListAuthorizations")]
 pub mod ListAuthorizations;
 #[cfg(feature = "ListCaseCategories")]
@@ -94,8 +80,6 @@ pub mod ListDiagnoseRecords;
 pub mod ListDiagnoseResources;
 #[cfg(feature = "ListExtendsParams")]
 pub mod ListExtendsParams;
-#[cfg(feature = "ListFeedbackOption")]
-pub mod ListFeedbackOption;
 #[cfg(feature = "ListHasVerifiedContacts")]
 pub mod ListHasVerifiedContacts;
 #[cfg(feature = "ListHistoryOperateLogs")]
@@ -110,8 +94,6 @@ pub mod ListMessages;
 pub mod ListMoreInstantMessages;
 #[cfg(feature = "ListNewInstantMessages")]
 pub mod ListNewInstantMessages;
-#[cfg(feature = "ListNotices")]
-pub mod ListNotices;
 #[cfg(feature = "ListOrderIncident")]
 pub mod ListOrderIncident;
 #[cfg(feature = "ListPrivileges")]
@@ -120,8 +102,6 @@ pub mod ListPrivileges;
 pub mod ListProblemTypes;
 #[cfg(feature = "ListProductCategories")]
 pub mod ListProductCategories;
-#[cfg(feature = "ListRecommendWords")]
-pub mod ListRecommendWords;
 #[cfg(feature = "ListRegions")]
 pub mod ListRegions;
 #[cfg(feature = "ListRelation")]
@@ -132,8 +112,6 @@ pub mod ListSatisfactionDimensions;
 pub mod ListSeverities;
 #[cfg(feature = "ListSubCustomers")]
 pub mod ListSubCustomers;
-#[cfg(feature = "ListTools")]
-pub mod ListTools;
 #[cfg(feature = "ListTransportHistories")]
 pub mod ListTransportHistories;
 #[cfg(feature = "ListUnreadNewInstantMessages")]
@@ -144,8 +122,6 @@ pub mod RevokeMessage;
 pub mod SendVerifyCodes;
 #[cfg(feature = "ShowAccessoryLimits")]
 pub mod ShowAccessoryLimits;
-#[cfg(feature = "ShowAssociatedQuestions")]
-pub mod ShowAssociatedQuestions;
 #[cfg(feature = "ShowAuthorizationDetail")]
 pub mod ShowAuthorizationDetail;
 #[cfg(feature = "ShowCaseDetail")]
@@ -168,14 +144,8 @@ pub mod ShowLoginType;
 pub mod ShowPartnersCasesPrivilege;
 #[cfg(feature = "ShowPartnersServiceInfo")]
 pub mod ShowPartnersServiceInfo;
-#[cfg(feature = "ShowQaPairDetail")]
-pub mod ShowQaPairDetail;
-#[cfg(feature = "ShowQaPairs")]
-pub mod ShowQaPairs;
 #[cfg(feature = "ShowSignedLatestPublishedAgreement")]
 pub mod ShowSignedLatestPublishedAgreement;
-#[cfg(feature = "ShowTheme")]
-pub mod ShowTheme;
 #[cfg(feature = "SignPublishedAgreement")]
 pub mod SignPublishedAgreement;
 #[cfg(feature = "UpdateAuthorizations")]
