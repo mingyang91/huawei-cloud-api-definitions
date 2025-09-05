@@ -78,6 +78,8 @@ pub mod ListAuditlogLinks;
 pub mod ListAuditlogs;
 #[cfg(feature = "ListAz2Migrate")]
 pub mod ListAz2Migrate;
+#[cfg(feature = "ListBackupDownloadPolicy")]
+pub mod ListBackupDownloadPolicy;
 #[cfg(feature = "ListBackups")]
 pub mod ListBackups;
 #[cfg(feature = "ListConfigurations")]
@@ -148,6 +150,8 @@ pub mod RestoreInstance;
 pub mod RestoreInstanceFromCollection;
 #[cfg(feature = "RestoreNewInstance")]
 pub mod RestoreNewInstance;
+#[cfg(feature = "SaveBackupDownloadPolicy")]
+pub mod SaveBackupDownloadPolicy;
 #[cfg(feature = "SetAuditlogPolicy")]
 pub mod SetAuditlogPolicy;
 #[cfg(feature = "SetAutoEnlargePolicies")]
@@ -194,7 +198,3 @@ pub mod ShowKillOpRuleRuleList;
 pub mod ShowQuotas;
 #[cfg(feature = "ShowRecyclePolicy")]
 pub mod ShowRecyclePolicy;
-#[cfg(feature = "ShowReplSetName")]
-pub mod ShowReplSetName;
-#[cfg(feature = "ShowSecondLevelMonitoringStatus")]
-pub mod ShowSecondLevelMonitoringStatus;

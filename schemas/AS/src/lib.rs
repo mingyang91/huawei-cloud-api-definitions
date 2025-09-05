@@ -124,6 +124,8 @@ pub mod ShowWarmPool;
 pub mod UpdateGroupScheduledTask;
 #[cfg(feature = "UpdateLifeCycleHook")]
 pub mod UpdateLifeCycleHook;
+#[cfg(feature = "UpdateScalingConfig")]
+pub mod UpdateScalingConfig;
 #[cfg(feature = "UpdateScalingGroup")]
 pub mod UpdateScalingGroup;
 #[cfg(feature = "UpdateScalingPolicy")]

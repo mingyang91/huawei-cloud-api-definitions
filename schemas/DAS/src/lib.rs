@@ -4,6 +4,8 @@ pub mod AddFullSqlTask;
 pub mod CancelShareConnections;
 #[cfg(feature = "ChangeChargeMode")]
 pub mod ChangeChargeMode;
+#[cfg(feature = "ChangeFullDeadLockSwitch")]
+pub mod ChangeFullDeadLockSwitch;
 #[cfg(feature = "ChangeSqlLimitSwitchStatus")]
 pub mod ChangeSqlLimitSwitchStatus;
 #[cfg(feature = "ChangeSqlSwitch")]
@@ -16,6 +18,8 @@ pub mod CreateHealthReportTask;
 pub mod CreateInstanceConnection;
 #[cfg(feature = "CreateShareConnections")]
 pub mod CreateShareConnections;
+#[cfg(feature = "CreateSnapshots")]
+pub mod CreateSnapshots;
 #[cfg(feature = "CreateSpaceAnalysisTask")]
 pub mod CreateSpaceAnalysisTask;
 #[cfg(feature = "CreateSqlLimitRules")]
@@ -76,6 +80,8 @@ pub mod ListProcesses;
 pub mod ListRiskItems;
 #[cfg(feature = "ListRiskTrend")]
 pub mod ListRiskTrend;
+#[cfg(feature = "ListSnapshots")]
+pub mod ListSnapshots;
 #[cfg(feature = "ListSpaceAnalysis")]
 pub mod ListSpaceAnalysis;
 #[cfg(feature = "ListSqlLimitRules")]
@@ -94,8 +100,14 @@ pub mod SetThresholdForMetric;
 pub mod ShowApiVersion;
 #[cfg(feature = "ShowDbUser")]
 pub mod ShowDbUser;
+#[cfg(feature = "ShowFullDeadLockList")]
+pub mod ShowFullDeadLockList;
+#[cfg(feature = "ShowFullDeadLockSwitch")]
+pub mod ShowFullDeadLockSwitch;
 #[cfg(feature = "ShowInstanceHealthReport")]
 pub mod ShowInstanceHealthReport;
+#[cfg(feature = "ShowLatestDeadLockSnapshot")]
+pub mod ShowLatestDeadLockSnapshot;
 #[cfg(feature = "ShowMetricNamesSupport")]
 pub mod ShowMetricNamesSupport;
 #[cfg(feature = "ShowQuotas")]

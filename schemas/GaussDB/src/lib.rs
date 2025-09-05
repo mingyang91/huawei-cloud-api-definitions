@@ -2,6 +2,8 @@
 pub mod AddDatabasePermission;
 #[cfg(feature = "BatchTagAction")]
 pub mod BatchTagAction;
+#[cfg(feature = "BatchUpgradeDatabases")]
+pub mod BatchUpgradeDatabases;
 #[cfg(feature = "CancelGaussMySqlInstanceEip")]
 pub mod CancelGaussMySqlInstanceEip;
 #[cfg(feature = "CancelScheduleTask")]
@@ -54,6 +56,8 @@ pub mod CreateGaussMySqlProxy;
 pub mod CreateGaussMySqlReadonlyNode;
 #[cfg(feature = "CreateLtsConfigs")]
 pub mod CreateLtsConfigs;
+#[cfg(feature = "CreateProxyDnsName")]
+pub mod CreateProxyDnsName;
 #[cfg(feature = "CreateRestoreTables")]
 pub mod CreateRestoreTables;
 #[cfg(feature = "CreateStarRocksDatabaseUser")]
@@ -90,6 +94,8 @@ pub mod DeleteGaussMySqlProxy;
 pub mod DeleteGaussMySqlReadonlyNode;
 #[cfg(feature = "DeleteLtsConfigs")]
 pub mod DeleteLtsConfigs;
+#[cfg(feature = "DeleteProxyPrivateDnsName")]
+pub mod DeleteProxyPrivateDnsName;
 #[cfg(feature = "DeleteScheduleTasK")]
 pub mod DeleteScheduleTasK;
 #[cfg(feature = "DeleteSqlFilterRule")]
@@ -116,6 +122,8 @@ pub mod ExpandGaussMySqlProxy;
 pub mod InvokeGaussMySqlInstanceSwitchOver;
 #[cfg(feature = "ListAuditLogDownloadLink")]
 pub mod ListAuditLogDownloadLink;
+#[cfg(feature = "ListAuditLogs")]
+pub mod ListAuditLogs;
 #[cfg(feature = "ListClickHouseDataBase")]
 pub mod ListClickHouseDataBase;
 #[cfg(feature = "ListClickHouseDataBaseParameter")]
@@ -164,6 +172,8 @@ pub mod ListHtapStorageType;
 pub mod ListImmediateJobs;
 #[cfg(feature = "ListInstanceConfigurations")]
 pub mod ListInstanceConfigurations;
+#[cfg(feature = "ListInstanceNode")]
+pub mod ListInstanceNode;
 #[cfg(feature = "ListInstanceTags")]
 pub mod ListInstanceTags;
 #[cfg(feature = "ListLtsErrorLogDetails")]
@@ -188,13 +198,3 @@ pub mod ListStarRocksDataReplicationConfig;
 pub mod ListStarRocksDataReplicationConfigByDataBase;
 #[cfg(feature = "ListStarRocksDataReplications")]
 pub mod ListStarRocksDataReplications;
-#[cfg(feature = "ListStarRocksDbParameters")]
-pub mod ListStarRocksDbParameters;
-#[cfg(feature = "ListStarrocksInstanceInfo")]
-pub mod ListStarrocksInstanceInfo;
-#[cfg(feature = "ListTaurusDbNodeProcesses")]
-pub mod ListTaurusDbNodeProcesses;
-#[cfg(feature = "ModifyAutoExpandPolicy")]
-pub mod ModifyAutoExpandPolicy;
-#[cfg(feature = "ModifyBackupEncryptStatus")]
-pub mod ModifyBackupEncryptStatus;

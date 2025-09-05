@@ -80,6 +80,8 @@ pub mod ExecuteCrossCloudDisasterStartSimulation;
 pub mod ExecuteCrossCloudDisasterSwitchover;
 #[cfg(feature = "ExecuteCrossCloudReleaseDisaster")]
 pub mod ExecuteCrossCloudReleaseDisaster;
+#[cfg(feature = "ExportSlowSql")]
+pub mod ExportSlowSql;
 #[cfg(feature = "InstallKernelPlugin")]
 pub mod InstallKernelPlugin;
 #[cfg(feature = "ListApplicableInstances")]
@@ -174,6 +176,8 @@ pub mod ListRestorableInstancesDetails;
 pub mod ListRestoreTimes;
 #[cfg(feature = "ListScheduleTask")]
 pub mod ListScheduleTask;
+#[cfg(feature = "ListSchemaAndTable")]
+pub mod ListSchemaAndTable;
 #[cfg(feature = "ListStorageTypes")]
 pub mod ListStorageTypes;
 #[cfg(feature = "ListSupportKernelPlugins")]
@@ -194,7 +198,3 @@ pub mod ResizeInstanceFlavor;
 pub mod RestartInstance;
 #[cfg(feature = "RestoreInstance")]
 pub mod RestoreInstance;
-#[cfg(feature = "ResumePluginExtensions")]
-pub mod ResumePluginExtensions;
-#[cfg(feature = "RunInstanceAction")]
-pub mod RunInstanceAction;

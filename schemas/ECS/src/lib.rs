@@ -16,10 +16,14 @@ pub mod BatchCreateServerTags;
 pub mod BatchDeleteServerNics;
 #[cfg(feature = "BatchDeleteServerTags")]
 pub mod BatchDeleteServerTags;
+#[cfg(feature = "BatchDetachVolumes")]
+pub mod BatchDetachVolumes;
 #[cfg(feature = "BatchRebootServers")]
 pub mod BatchRebootServers;
 #[cfg(feature = "BatchResetServersPassword")]
 pub mod BatchResetServersPassword;
+#[cfg(feature = "BatchResizeServers")]
+pub mod BatchResizeServers;
 #[cfg(feature = "BatchStartServers")]
 pub mod BatchStartServers;
 #[cfg(feature = "BatchStopServers")]
@@ -62,6 +66,10 @@ pub mod DeleteServers;
 pub mod DetachServerVolume;
 #[cfg(feature = "DisassociateServerVirtualIp")]
 pub mod DisassociateServerVirtualIp;
+#[cfg(feature = "ExecuteServerDump")]
+pub mod ExecuteServerDump;
+#[cfg(feature = "ExecuteServerRedeploy")]
+pub mod ExecuteServerRedeploy;
 #[cfg(feature = "ListCloudServers")]
 pub mod ListCloudServers;
 #[cfg(feature = "ListFlavors")]
@@ -190,11 +198,3 @@ pub mod RegisterServerMonitor;
 pub mod ReinstallServerWithCloudInit;
 #[cfg(feature = "ReinstallServerWithoutCloudInit")]
 pub mod ReinstallServerWithoutCloudInit;
-#[cfg(feature = "ResetServerPassword")]
-pub mod ResetServerPassword;
-#[cfg(feature = "ResizePostPaidServer")]
-pub mod ResizePostPaidServer;
-#[cfg(feature = "ResizeServer")]
-pub mod ResizeServer;
-#[cfg(feature = "RevertRecycleBinServer")]
-pub mod RevertRecycleBinServer;

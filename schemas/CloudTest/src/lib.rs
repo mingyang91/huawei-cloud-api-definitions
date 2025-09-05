@@ -64,6 +64,8 @@ pub mod DeleteAsset;
 pub mod DeleteAssetTree;
 #[cfg(feature = "DeleteBasicAwById")]
 pub mod DeleteBasicAwById;
+#[cfg(feature = "DeleteCacheFile")]
+pub mod DeleteCacheFile;
 #[cfg(feature = "DeleteFacotrById")]
 pub mod DeleteFacotrById;
 #[cfg(feature = "DeleteMindmapBackupById")]
@@ -78,6 +80,8 @@ pub mod DeleteService;
 pub mod DeleteTemplateById;
 #[cfg(feature = "DeleteTestCaseComment")]
 pub mod DeleteTestCaseComment;
+#[cfg(feature = "DeleteTestReportCustomDetailByUri")]
+pub mod DeleteTestReportCustomDetailByUri;
 #[cfg(feature = "DownloadAssetTemplate")]
 pub mod DownloadAssetTemplate;
 #[cfg(feature = "ExportFactor")]
@@ -122,6 +126,8 @@ pub mod ListIssueTree;
 pub mod ListIteratorIssueTree;
 #[cfg(feature = "ListIterators")]
 pub mod ListIterators;
+#[cfg(feature = "ListIteratorsInfo")]
+pub mod ListIteratorsInfo;
 #[cfg(feature = "ListLinesUsing")]
 pub mod ListLinesUsing;
 #[cfg(feature = "ListMsgInfosUsing")]
@@ -188,13 +194,7 @@ pub mod RemoveIssuesFromIterator;
 pub mod RunTestCase;
 #[cfg(feature = "SaveTaskSetting")]
 pub mod SaveTaskSetting;
+#[cfg(feature = "SaveTestReportCustomDetail")]
+pub mod SaveTestReportCustomDetail;
 #[cfg(feature = "SetTaskResult")]
 pub mod SetTaskResult;
-#[cfg(feature = "ShowAllConfigValueByTypeAndKey")]
-pub mod ShowAllConfigValueByTypeAndKey;
-#[cfg(feature = "ShowAllFeatureChildren")]
-pub mod ShowAllFeatureChildren;
-#[cfg(feature = "ShowApiTestcaseHistories")]
-pub mod ShowApiTestcaseHistories;
-#[cfg(feature = "ShowAsset")]
-pub mod ShowAsset;
