@@ -40,6 +40,8 @@ pub mod DeleteTags;
 pub mod DisassociateListener;
 #[cfg(feature = "ListAccelerators")]
 pub mod ListAccelerators;
+#[cfg(feature = "ListAllPops")]
+pub mod ListAllPops;
 #[cfg(feature = "ListEndpointGroups")]
 pub mod ListEndpointGroups;
 #[cfg(feature = "ListEndpoints")]
@@ -58,6 +60,8 @@ pub mod ListRegions;
 pub mod ListResourcesByTag;
 #[cfg(feature = "ListTags")]
 pub mod ListTags;
+#[cfg(feature = "ListTenantQuotas")]
+pub mod ListTenantQuotas;
 #[cfg(feature = "RemoveIpGroupIp")]
 pub mod RemoveIpGroupIp;
 #[cfg(feature = "ShowAccelerator")]

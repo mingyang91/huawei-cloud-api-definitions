@@ -82,6 +82,8 @@ pub mod DeleteInstanceResourceTags;
 pub mod DeleteInstanceRetentionPolicy;
 #[cfg(feature = "DeleteInstanceSignPolicy")]
 pub mod DeleteInstanceSignPolicy;
+#[cfg(feature = "DeleteInstanceTag")]
+pub mod DeleteInstanceTag;
 #[cfg(feature = "DeleteInstanceWebhook")]
 pub mod DeleteInstanceWebhook;
 #[cfg(feature = "DeleteNamespaceAuth")]
@@ -196,5 +198,3 @@ pub mod ListRepoDomains;
 pub mod ListReposDetails;
 #[cfg(feature = "ListRepositoryTag")]
 pub mod ListRepositoryTag;
-#[cfg(feature = "ListRepositoryTags")]
-pub mod ListRepositoryTags;

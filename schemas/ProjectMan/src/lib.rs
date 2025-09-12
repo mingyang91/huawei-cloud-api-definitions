@@ -22,6 +22,10 @@ pub mod CancelProjectDomain;
 pub mod CheckProjectNameV4;
 #[cfg(feature = "CreateCustomfields")]
 pub mod CreateCustomfields;
+#[cfg(feature = "CreateIpdProjectIssue")]
+pub mod CreateIpdProjectIssue;
+#[cfg(feature = "CreateIpdProjectIssueAttachment")]
+pub mod CreateIpdProjectIssueAttachment;
 #[cfg(feature = "CreateIssueV4")]
 pub mod CreateIssueV4;
 #[cfg(feature = "CreateIterationV4")]
@@ -32,6 +36,8 @@ pub mod CreateProjectDomain;
 pub mod CreateProjectModule;
 #[cfg(feature = "CreateProjectV4")]
 pub mod CreateProjectV4;
+#[cfg(feature = "CreateScrumPlanToProject")]
+pub mod CreateScrumPlanToProject;
 #[cfg(feature = "CreateSystemIssueV4")]
 pub mod CreateSystemIssueV4;
 #[cfg(feature = "DeleteAttachment")]
@@ -44,10 +50,14 @@ pub mod DeleteIterationV4;
 pub mod DeleteProjectModule;
 #[cfg(feature = "DeleteProjectV4")]
 pub mod DeleteProjectV4;
+#[cfg(feature = "DeleteScrumPlanInProject")]
+pub mod DeleteScrumPlanInProject;
 #[cfg(feature = "DownloadAttachment")]
 pub mod DownloadAttachment;
 #[cfg(feature = "DownloadImageFile")]
 pub mod DownloadImageFile;
+#[cfg(feature = "DownloadIpdIssueAttachment")]
+pub mod DownloadIpdIssueAttachment;
 #[cfg(feature = "ListAssociatedIssues")]
 pub mod ListAssociatedIssues;
 #[cfg(feature = "ListAssociatedTestCases")]
@@ -58,6 +68,8 @@ pub mod ListAssociatedWikis;
 pub mod ListChildIssuesV4;
 #[cfg(feature = "ListDomainNotAddedProjectsV4")]
 pub mod ListDomainNotAddedProjectsV4;
+#[cfg(feature = "ListIpdProjectIssues")]
+pub mod ListIpdProjectIssues;
 #[cfg(feature = "ListIssueAssociatedCommits")]
 pub mod ListIssueAssociatedCommits;
 #[cfg(feature = "ListIssueCommentsV4")]
@@ -92,6 +104,8 @@ pub mod ListProjectMembersV4;
 pub mod ListProjectModules;
 #[cfg(feature = "ListProjectsV4")]
 pub mod ListProjectsV4;
+#[cfg(feature = "ListProjectUsers")]
+pub mod ListProjectUsers;
 #[cfg(feature = "ListProjectWorkHours")]
 pub mod ListProjectWorkHours;
 #[cfg(feature = "ListProjectWorkHoursType")]
@@ -122,6 +136,8 @@ pub mod ShowCompletionRate;
 pub mod ShowCurUserInfo;
 #[cfg(feature = "ShowCurUserRole")]
 pub mod ShowCurUserRole;
+#[cfg(feature = "ShowIpdAttachmentByWorkItemId")]
+pub mod ShowIpdAttachmentByWorkItemId;
 #[cfg(feature = "ShowIssueCompletionRate")]
 pub mod ShowIssueCompletionRate;
 #[cfg(feature = "ShowIssueConfigFields")]
@@ -140,6 +156,10 @@ pub mod ShowProjectInfoV4;
 pub mod ShowProjectSummaryV4;
 #[cfg(feature = "ShowProjectWorkHours")]
 pub mod ShowProjectWorkHours;
+#[cfg(feature = "ShowScrumIssueSeverities")]
+pub mod ShowScrumIssueSeverities;
+#[cfg(feature = "ShowScrumPlansByCondition")]
+pub mod ShowScrumPlansByCondition;
 #[cfg(feature = "ShowWorkflowTemplate")]
 pub mod ShowWorkflowTemplate;
 #[cfg(feature = "ShowWorkItemWrokflowConfig")]
@@ -160,6 +180,8 @@ pub mod UpdateProjectDomain;
 pub mod UpdateProjectModule;
 #[cfg(feature = "UpdateProjectV4")]
 pub mod UpdateProjectV4;
+#[cfg(feature = "UpdateScrumPlanInProject")]
+pub mod UpdateScrumPlanInProject;
 #[cfg(feature = "UploadAttachments")]
 pub mod UploadAttachments;
 #[cfg(feature = "UploadIssueImg")]

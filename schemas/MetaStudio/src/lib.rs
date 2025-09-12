@@ -28,8 +28,6 @@ pub mod Create2dModelTrainingJob;
 pub mod CreateActiveCode;
 #[cfg(feature = "CreateAgencyWithRoleType")]
 pub mod CreateAgencyWithRoleType;
-#[cfg(feature = "CreateAsrVocabulary")]
-pub mod CreateAsrVocabulary;
 #[cfg(feature = "CreateAssetByReplicationInfo")]
 pub mod CreateAssetByReplicationInfo;
 #[cfg(feature = "CreateAsyncTtsJob")]
@@ -136,8 +134,6 @@ pub mod Delete2dModelTrainingJob;
 pub mod DeleteActiveCode;
 #[cfg(feature = "DeleteAgencyWithRoleType")]
 pub mod DeleteAgencyWithRoleType;
-#[cfg(feature = "DeleteAsrVocabulary")]
-pub mod DeleteAsrVocabulary;
 #[cfg(feature = "DeleteAsset")]
 pub mod DeleteAsset;
 #[cfg(feature = "DeleteDialogReportConfig")]
@@ -188,6 +184,8 @@ pub mod DeleteRole;
 pub mod DeleteSmartChatRoom;
 #[cfg(feature = "DeleteSmartLiveRoom")]
 pub mod DeleteSmartLiveRoom;
+#[cfg(feature = "DeleteTask")]
+pub mod DeleteTask;
 #[cfg(feature = "DeleteTtscVocabularyConfigs")]
 pub mod DeleteTtscVocabularyConfigs;
 #[cfg(feature = "DeleteTtscVocabularyGroups")]
@@ -198,3 +196,5 @@ pub mod DeleteVideoScript;
 pub mod DeleteVoiceTrainingJob;
 #[cfg(feature = "DeleteWelcomeSpeech")]
 pub mod DeleteWelcomeSpeech;
+#[cfg(feature = "DownloadDocument")]
+pub mod DownloadDocument;

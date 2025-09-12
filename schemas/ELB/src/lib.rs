@@ -32,8 +32,8 @@ pub mod CountPreoccupyIpNum;
 pub mod CreateCertificate;
 #[cfg(feature = "CreateCertificatePrivateKeyEcho")]
 pub mod CreateCertificatePrivateKeyEcho;
-#[cfg(feature = "CreateHealthmonitor")]
-pub mod CreateHealthmonitor;
+#[cfg(feature = "CreateHealthMonitor")]
+pub mod CreateHealthMonitor;
 #[cfg(feature = "CreateIpGroup")]
 pub mod CreateIpGroup;
 #[cfg(feature = "CreateL7policy")]

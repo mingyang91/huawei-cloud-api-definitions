@@ -32,10 +32,14 @@ pub mod ListBareMetalServerDetails;
 pub mod ListBareMetalServers;
 #[cfg(feature = "ListBareMetalServersDetail")]
 pub mod ListBareMetalServersDetail;
+#[cfg(feature = "ModifyVmNic")]
+pub mod ModifyVmNic;
 #[cfg(feature = "ReinstallBaremetalServerOs")]
 pub mod ReinstallBaremetalServerOs;
 #[cfg(feature = "ResetPwdOneClick")]
 pub mod ResetPwdOneClick;
+#[cfg(feature = "ShowAvailableResource")]
+pub mod ShowAvailableResource;
 #[cfg(feature = "ShowBaremetalServerInterfaceAttachments")]
 pub mod ShowBaremetalServerInterfaceAttachments;
 #[cfg(feature = "ShowBaremetalServerTags")]

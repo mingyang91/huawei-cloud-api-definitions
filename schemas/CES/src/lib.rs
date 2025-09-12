@@ -20,6 +20,8 @@ pub mod BatchDeleteResources;
 pub mod BatchEnableAlarmRules;
 #[cfg(feature = "BatchListMetricData")]
 pub mod BatchListMetricData;
+#[cfg(feature = "BatchListSpecifiedMetricData")]
+pub mod BatchListSpecifiedMetricData;
 #[cfg(feature = "BatchUpdateNotificationMasks")]
 pub mod BatchUpdateNotificationMasks;
 #[cfg(feature = "BatchUpdateNotificationMaskTime")]
