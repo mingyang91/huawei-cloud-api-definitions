@@ -4,8 +4,6 @@ pub mod CancelRemuxTask;
 pub mod CreateAgenciesTask;
 #[cfg(feature = "CreateAnimatedGraphicsTask")]
 pub mod CreateAnimatedGraphicsTask;
-#[cfg(feature = "CreateEncryptTask")]
-pub mod CreateEncryptTask;
 #[cfg(feature = "CreateExtractTask")]
 pub mod CreateExtractTask;
 #[cfg(feature = "CreateRemuxTask")]
@@ -24,8 +22,6 @@ pub mod CreateTransTemplate;
 pub mod CreateWatermarkTemplate;
 #[cfg(feature = "DeleteAnimatedGraphicsTask")]
 pub mod DeleteAnimatedGraphicsTask;
-#[cfg(feature = "DeleteEncryptTask")]
-pub mod DeleteEncryptTask;
 #[cfg(feature = "DeleteExtractTask")]
 pub mod DeleteExtractTask;
 #[cfg(feature = "DeleteRemuxTask")]
@@ -48,8 +44,6 @@ pub mod ListAllBuckets;
 pub mod ListAllObsObjList;
 #[cfg(feature = "ListAnimatedGraphicsTask")]
 pub mod ListAnimatedGraphicsTask;
-#[cfg(feature = "ListEncryptTask")]
-pub mod ListEncryptTask;
 #[cfg(feature = "ListExtractTask")]
 pub mod ListExtractTask;
 #[cfg(feature = "ListNotifyEvent")]

@@ -64,6 +64,8 @@ pub mod QueryEntities;
 pub mod ReleaseCollection;
 #[cfg(feature = "RestoreWorkflowExecution")]
 pub mod RestoreWorkflowExecution;
+#[cfg(feature = "ScaleStore")]
+pub mod ScaleStore;
 #[cfg(feature = "SearchEntities")]
 pub mod SearchEntities;
 #[cfg(feature = "ShowPublicActionList")]

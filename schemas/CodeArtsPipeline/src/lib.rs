@@ -28,6 +28,8 @@ pub mod CreatePublisher;
 pub mod CreateRule;
 #[cfg(feature = "CreateStrategy")]
 pub mod CreateStrategy;
+#[cfg(feature = "DeleteActionsRunPipeline")]
+pub mod DeleteActionsRunPipeline;
 #[cfg(feature = "DeleteBasicPlugin")]
 pub mod DeleteBasicPlugin;
 #[cfg(feature = "DeletePipeline")]
@@ -44,6 +46,10 @@ pub mod DeletePublisher;
 pub mod DeleteRule;
 #[cfg(feature = "DeleteStrategy")]
 pub mod DeleteStrategy;
+#[cfg(feature = "ListActionsPipelineRuns")]
+pub mod ListActionsPipelineRuns;
+#[cfg(feature = "ListActionsPipelineRunsByRunIds")]
+pub mod ListActionsPipelineRunsByRunIds;
 #[cfg(feature = "ListAvailablePublisher")]
 pub mod ListAvailablePublisher;
 #[cfg(feature = "ListBasePlugins")]
@@ -90,8 +96,14 @@ pub mod RejectManualReview;
 pub mod RemovePipeline;
 #[cfg(feature = "RetryPipelineRun")]
 pub mod RetryPipelineRun;
+#[cfg(feature = "RetryRunActionsPipeline")]
+pub mod RetryRunActionsPipeline;
+#[cfg(feature = "RunActionsPipeline")]
+pub mod RunActionsPipeline;
 #[cfg(feature = "RunPipeline")]
 pub mod RunPipeline;
+#[cfg(feature = "ShowActionsRunsDetail")]
+pub mod ShowActionsRunsDetail;
 #[cfg(feature = "ShowBasicPlugin")]
 pub mod ShowBasicPlugin;
 #[cfg(feature = "ShowInstanceStatus")]

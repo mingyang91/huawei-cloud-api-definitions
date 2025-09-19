@@ -178,6 +178,8 @@ pub mod ListInstanceParamHistories;
 pub mod ListInstances;
 #[cfg(feature = "ListInstancesInfoDiagnosis")]
 pub mod ListInstancesInfoDiagnosis;
+#[cfg(feature = "ListInstancesNoIndexTables")]
+pub mod ListInstancesNoIndexTables;
 #[cfg(feature = "ListInstancesSupportFastRestore")]
 pub mod ListInstancesSupportFastRestore;
 #[cfg(feature = "ListInstanceTags")]
@@ -196,5 +198,3 @@ pub mod ListMsdtcHosts;
 pub mod ListOffSiteBackups;
 #[cfg(feature = "ListOffSiteInstances")]
 pub mod ListOffSiteInstances;
-#[cfg(feature = "ListOffSiteRestoreTimes")]
-pub mod ListOffSiteRestoreTimes;

@@ -1,5 +1,9 @@
 #[cfg(feature = "ApplyCertificateToHost")]
 pub mod ApplyCertificateToHost;
+#[cfg(feature = "BatchDeleteCompositeHosts")]
+pub mod BatchDeleteCompositeHosts;
+#[cfg(feature = "BatchDeletePolicies")]
+pub mod BatchDeletePolicies;
 #[cfg(feature = "ChangePrepaidCloudWaf")]
 pub mod ChangePrepaidCloudWaf;
 #[cfg(feature = "CheckAgency")]
@@ -14,6 +18,8 @@ pub mod ConfirmPolicyIpReputationMap;
 pub mod ConfirmThreatMap;
 #[cfg(feature = "ConfirmUserBundle")]
 pub mod ConfirmUserBundle;
+#[cfg(feature = "CopyPolicyById")]
+pub mod CopyPolicyById;
 #[cfg(feature = "CreateAnticrawlerRule")]
 pub mod CreateAnticrawlerRule;
 #[cfg(feature = "CreateAntileakageRule")]
@@ -48,6 +54,8 @@ pub mod CreatePrepaidCloudWaf;
 pub mod CreatePrivacyRule;
 #[cfg(feature = "CreatePunishmentRule")]
 pub mod CreatePunishmentRule;
+#[cfg(feature = "CreateSecurityReportSubscription")]
+pub mod CreateSecurityReportSubscription;
 #[cfg(feature = "CreateValueList")]
 pub mod CreateValueList;
 #[cfg(feature = "CreateWhiteblackipRule")]
@@ -84,6 +92,8 @@ pub mod DeletePremiumHost;
 pub mod DeletePrivacyRule;
 #[cfg(feature = "DeletePunishmentRule")]
 pub mod DeletePunishmentRule;
+#[cfg(feature = "DeleteSecurityReportSubscription")]
+pub mod DeleteSecurityReportSubscription;
 #[cfg(feature = "DeleteValueList")]
 pub mod DeleteValueList;
 #[cfg(feature = "DeleteWhiteBlackIpRule")]
@@ -100,6 +110,8 @@ pub mod ListAttackActionTypes;
 pub mod ListBandwidthTimeline;
 #[cfg(feature = "ListBotMRequestDistribution")]
 pub mod ListBotMRequestDistribution;
+#[cfg(feature = "ListBotMRules")]
+pub mod ListBotMRules;
 #[cfg(feature = "ListBotMScoreDistribution")]
 pub mod ListBotMScoreDistribution;
 #[cfg(feature = "ListBotMTimeline")]
@@ -152,6 +164,10 @@ pub mod ListQpsTimeline;
 pub mod ListRequestTimeline;
 #[cfg(feature = "ListResponseCodeTimeline")]
 pub mod ListResponseCodeTimeline;
+#[cfg(feature = "ListSecurityReportHistoryPeriods")]
+pub mod ListSecurityReportHistoryPeriods;
+#[cfg(feature = "ListSecurityReportSendingRecords")]
+pub mod ListSecurityReportSendingRecords;
 #[cfg(feature = "ListSecurityReportSubscriptions")]
 pub mod ListSecurityReportSubscriptions;
 #[cfg(feature = "ListStatistics")]
@@ -182,19 +198,3 @@ pub mod ShowAntileakageRule;
 pub mod ShowAntitamperRule;
 #[cfg(feature = "ShowCcRule")]
 pub mod ShowCcRule;
-#[cfg(feature = "ShowCertificate")]
-pub mod ShowCertificate;
-#[cfg(feature = "ShowCompositeHost")]
-pub mod ShowCompositeHost;
-#[cfg(feature = "ShowConsoleConfig")]
-pub mod ShowConsoleConfig;
-#[cfg(feature = "ShowCustomRule")]
-pub mod ShowCustomRule;
-#[cfg(feature = "ShowEvent")]
-pub mod ShowEvent;
-#[cfg(feature = "ShowGeoipRule")]
-pub mod ShowGeoipRule;
-#[cfg(feature = "ShowHost")]
-pub mod ShowHost;
-#[cfg(feature = "ShowHostStatus")]
-pub mod ShowHostStatus;
