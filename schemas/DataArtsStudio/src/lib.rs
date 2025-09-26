@@ -32,6 +32,8 @@ pub mod BatchCreateDesignTableModelsFromLogic;
 pub mod BatchCreateSecurityPermissionSetMembers;
 #[cfg(feature = "BatchCreateSecurityPermissionSetPermissions")]
 pub mod BatchCreateSecurityPermissionSetPermissions;
+#[cfg(feature = "BatchDeleteSecurityDataCategories")]
+pub mod BatchDeleteSecurityDataCategories;
 #[cfg(feature = "BatchDeleteSecurityDataClassificationRule")]
 pub mod BatchDeleteSecurityDataClassificationRule;
 #[cfg(feature = "BatchDeleteSecurityDynamicMaskingPolicies")]
@@ -126,6 +128,8 @@ pub mod CreateOrUpdateAsset;
 pub mod CreateOrUpdateEntities;
 #[cfg(feature = "CreateSecurityAssignedQueue")]
 pub mod CreateSecurityAssignedQueue;
+#[cfg(feature = "CreateSecurityDataCategory")]
+pub mod CreateSecurityDataCategory;
 #[cfg(feature = "CreateSecurityDataClassificationCombineRule")]
 pub mod CreateSecurityDataClassificationCombineRule;
 #[cfg(feature = "CreateSecurityDataClassificationRule")]
@@ -194,7 +198,3 @@ pub mod DeleteDesignAggregationLogicTable;
 pub mod DeleteDesignAtomicIndex;
 #[cfg(feature = "DeleteDesignCompoundMetric")]
 pub mod DeleteDesignCompoundMetric;
-#[cfg(feature = "DeleteDesignDerivativeIndex")]
-pub mod DeleteDesignDerivativeIndex;
-#[cfg(feature = "DeleteDesignDimension")]
-pub mod DeleteDesignDimension;

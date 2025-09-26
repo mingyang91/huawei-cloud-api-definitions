@@ -40,6 +40,10 @@ pub mod DeleteClustersTags;
 pub mod DeleteConf;
 #[cfg(feature = "DeleteIkThesaurus")]
 pub mod DeleteIkThesaurus;
+#[cfg(feature = "DeleteLogstashConf")]
+pub mod DeleteLogstashConf;
+#[cfg(feature = "DeleteLogstashTemplate")]
+pub mod DeleteLogstashTemplate;
 #[cfg(feature = "DeleteSnapshot")]
 pub mod DeleteSnapshot;
 #[cfg(feature = "DeleteTemplate")]
@@ -194,7 +198,3 @@ pub mod UpdateRoute;
 pub mod UpdateShrinkCluster;
 #[cfg(feature = "UpdateShrinkNodes")]
 pub mod UpdateShrinkNodes;
-#[cfg(feature = "UpdateSnapshotSetting")]
-pub mod UpdateSnapshotSetting;
-#[cfg(feature = "UpdateUnbindPublic")]
-pub mod UpdateUnbindPublic;

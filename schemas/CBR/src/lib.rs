@@ -58,6 +58,8 @@ pub mod ListBackups;
 pub mod ListDomainProjects;
 #[cfg(feature = "ListExternalVault")]
 pub mod ListExternalVault;
+#[cfg(feature = "ListFeatures")]
+pub mod ListFeatures;
 #[cfg(feature = "ListOpLogs")]
 pub mod ListOpLogs;
 #[cfg(feature = "ListOrganizationPolicies")]
@@ -94,6 +96,8 @@ pub mod ShowBackup;
 pub mod ShowCheckpoint;
 #[cfg(feature = "ShowDomain")]
 pub mod ShowDomain;
+#[cfg(feature = "ShowFeature")]
+pub mod ShowFeature;
 #[cfg(feature = "ShowMemberDetail")]
 pub mod ShowMemberDetail;
 #[cfg(feature = "ShowMembersDetail")]

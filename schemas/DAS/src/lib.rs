@@ -12,6 +12,8 @@ pub mod ChangeSqlLimitSwitchStatus;
 pub mod ChangeSqlSwitch;
 #[cfg(feature = "ChangeTransactionSwitchStatus")]
 pub mod ChangeTransactionSwitchStatus;
+#[cfg(feature = "CheckCredential")]
+pub mod CheckCredential;
 #[cfg(feature = "CreateHealthReportTask")]
 pub mod CreateHealthReportTask;
 #[cfg(feature = "CreateInstanceConnection")]
@@ -94,6 +96,8 @@ pub mod ListTransactions;
 pub mod ParseSqlLimitRules;
 #[cfg(feature = "RegisterDbUser")]
 pub mod RegisterDbUser;
+#[cfg(feature = "SaveCredential")]
+pub mod SaveCredential;
 #[cfg(feature = "SetThresholdForMetric")]
 pub mod SetThresholdForMetric;
 #[cfg(feature = "ShowApiVersion")]
@@ -104,6 +108,8 @@ pub mod ShowDbUser;
 pub mod ShowFullDeadLockList;
 #[cfg(feature = "ShowFullDeadLockSwitch")]
 pub mod ShowFullDeadLockSwitch;
+#[cfg(feature = "ShowHealthReportSettings")]
+pub mod ShowHealthReportSettings;
 #[cfg(feature = "ShowInstanceHealthReport")]
 pub mod ShowInstanceHealthReport;
 #[cfg(feature = "ShowLatestDeadLockSnapshot")]
@@ -130,5 +136,7 @@ pub mod ShowTuning;
 pub mod SynchronizeInstances;
 #[cfg(feature = "UpdateDbUser")]
 pub mod UpdateDbUser;
+#[cfg(feature = "UpdateHealthReportSettings")]
+pub mod UpdateHealthReportSettings;
 #[cfg(feature = "UpdateSqlLimitRules")]
 pub mod UpdateSqlLimitRules;

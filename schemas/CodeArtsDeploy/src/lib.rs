@@ -8,8 +8,6 @@ pub mod BatchUpdateApplicationPermissions;
 pub mod BatchUpdatePermissionLevel;
 #[cfg(feature = "CheckCanCreate")]
 pub mod CheckCanCreate;
-#[cfg(feature = "CheckDeployStatus")]
-pub mod CheckDeployStatus;
 #[cfg(feature = "CheckIsDuplicateAppName")]
 pub mod CheckIsDuplicateAppName;
 #[cfg(feature = "CheckWhetherHostGroupCanBeCreated")]
@@ -92,8 +90,6 @@ pub mod MoveAppGroups;
 pub mod MoveAppToGroup;
 #[cfg(feature = "ShowAppDetailById")]
 pub mod ShowAppDetailById;
-#[cfg(feature = "ShowApplicationMsgList")]
-pub mod ShowApplicationMsgList;
 #[cfg(feature = "ShowDeploymentGroupDetail")]
 pub mod ShowDeploymentGroupDetail;
 #[cfg(feature = "ShowDeploymentHostDetail")]
@@ -112,16 +108,12 @@ pub mod ShowHostDetail;
 pub mod ShowProjectSuccessRate;
 #[cfg(feature = "StartDeployTask")]
 pub mod StartDeployTask;
-#[cfg(feature = "StopDeployTask")]
-pub mod StopDeployTask;
 #[cfg(feature = "UpdateAppDisableStatus")]
 pub mod UpdateAppDisableStatus;
 #[cfg(feature = "UpdateAppGroups")]
 pub mod UpdateAppGroups;
 #[cfg(feature = "UpdateAppInfo")]
 pub mod UpdateAppInfo;
-#[cfg(feature = "UpdateApplicationMsgV2")]
-pub mod UpdateApplicationMsgV2;
 #[cfg(feature = "UpdateDeploymentGroup")]
 pub mod UpdateDeploymentGroup;
 #[cfg(feature = "UpdateDeploymentHost")]

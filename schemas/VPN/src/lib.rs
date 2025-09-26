@@ -18,6 +18,8 @@ pub mod CountResourcesByTags;
 pub mod CreateCgw;
 #[cfg(feature = "CreateConnectionMonitor")]
 pub mod CreateConnectionMonitor;
+#[cfg(feature = "CreateP2cVgw")]
+pub mod CreateP2cVgw;
 #[cfg(feature = "CreateVgw")]
 pub mod CreateVgw;
 #[cfg(feature = "CreateVgwCertificate")]
@@ -38,6 +40,8 @@ pub mod DeleteCgw;
 pub mod DeleteClientCa;
 #[cfg(feature = "DeleteConnectionMonitor")]
 pub mod DeleteConnectionMonitor;
+#[cfg(feature = "DeleteP2cVgw")]
+pub mod DeleteP2cVgw;
 #[cfg(feature = "DeleteP2cVgwConnection")]
 pub mod DeleteP2cVgwConnection;
 #[cfg(feature = "DeleteVgw")]
