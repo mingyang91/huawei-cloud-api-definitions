@@ -140,6 +140,8 @@ pub mod ListBackupTransfers;
 pub mod ListBusinessPartners;
 #[cfg(feature = "ListCollations")]
 pub mod ListCollations;
+#[cfg(feature = "ListConfigurationApplyHistories")]
+pub mod ListConfigurationApplyHistories;
 #[cfg(feature = "ListConfigurations")]
 pub mod ListConfigurations;
 #[cfg(feature = "ListDatabases")]
@@ -176,6 +178,8 @@ pub mod ListInstanceDiagnosis;
 pub mod ListInstanceParamHistories;
 #[cfg(feature = "ListInstances")]
 pub mod ListInstances;
+#[cfg(feature = "ListInstancesConfigurations")]
+pub mod ListInstancesConfigurations;
 #[cfg(feature = "ListInstancesInfoDiagnosis")]
 pub mod ListInstancesInfoDiagnosis;
 #[cfg(feature = "ListInstancesNoIndexTables")]
@@ -194,7 +198,3 @@ pub mod ListLogLtsConfigs;
 pub mod ListMarketplaceEngineProducts;
 #[cfg(feature = "ListMsdtcHosts")]
 pub mod ListMsdtcHosts;
-#[cfg(feature = "ListOffSiteBackups")]
-pub mod ListOffSiteBackups;
-#[cfg(feature = "ListOffSiteInstances")]
-pub mod ListOffSiteInstances;

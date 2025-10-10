@@ -44,6 +44,8 @@ pub mod DeleteConnectionMonitor;
 pub mod DeleteP2cVgw;
 #[cfg(feature = "DeleteP2cVgwConnection")]
 pub mod DeleteP2cVgwConnection;
+#[cfg(feature = "DeleteP2cVpnGatewayJob")]
+pub mod DeleteP2cVpnGatewayJob;
 #[cfg(feature = "DeleteVgw")]
 pub mod DeleteVgw;
 #[cfg(feature = "DeleteVpnAccessPolicy")]
@@ -52,6 +54,8 @@ pub mod DeleteVpnAccessPolicy;
 pub mod DeleteVpnConnection;
 #[cfg(feature = "DeleteVpnConnectionsLogConfig")]
 pub mod DeleteVpnConnectionsLogConfig;
+#[cfg(feature = "DeleteVpnGatewayJob")]
+pub mod DeleteVpnGatewayJob;
 #[cfg(feature = "DeleteVpnUser")]
 pub mod DeleteVpnUser;
 #[cfg(feature = "DeleteVpnUserGroup")]
@@ -74,6 +78,8 @@ pub mod ListP2cVgwAvailabilityZones;
 pub mod ListP2cVgwConnections;
 #[cfg(feature = "ListP2cVgws")]
 pub mod ListP2cVgws;
+#[cfg(feature = "ListP2cVpnGatewayJobs")]
+pub mod ListP2cVpnGatewayJobs;
 #[cfg(feature = "ListProjectTags")]
 pub mod ListProjectTags;
 #[cfg(feature = "ListResourcesByTags")]
@@ -84,6 +90,8 @@ pub mod ListVgws;
 pub mod ListVpnAccessPolicies;
 #[cfg(feature = "ListVpnConnections")]
 pub mod ListVpnConnections;
+#[cfg(feature = "ListVpnGatewayJobs")]
+pub mod ListVpnGatewayJobs;
 #[cfg(feature = "ListVpnServersByProject")]
 pub mod ListVpnServersByProject;
 #[cfg(feature = "ListVpnServersByVgw")]
@@ -156,3 +164,7 @@ pub mod UpdateVpnUser;
 pub mod UpdateVpnUserGroup;
 #[cfg(feature = "UpdateVpnUserPassword")]
 pub mod UpdateVpnUserPassword;
+#[cfg(feature = "UpgradeP2cVpnGateway")]
+pub mod UpgradeP2cVpnGateway;
+#[cfg(feature = "UpgradeVpnGateway")]
+pub mod UpgradeVpnGateway;

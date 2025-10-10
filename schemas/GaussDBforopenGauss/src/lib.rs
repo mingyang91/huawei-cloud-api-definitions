@@ -8,6 +8,8 @@ pub mod AllowDbPrivileges;
 pub mod AllowDbRolePrivileges;
 #[cfg(feature = "AttachEip")]
 pub mod AttachEip;
+#[cfg(feature = "AuthorizeBackupDownload")]
+pub mod AuthorizeBackupDownload;
 #[cfg(feature = "BatchSetBackupPolicy")]
 pub mod BatchSetBackupPolicy;
 #[cfg(feature = "BatchShowUpgradeCandidateVersions")]
@@ -66,6 +68,8 @@ pub mod DeleteConfiguration;
 pub mod DeleteDatabase;
 #[cfg(feature = "DeleteDatabaseSchema")]
 pub mod DeleteDatabaseSchema;
+#[cfg(feature = "DeleteDisasterRecord")]
+pub mod DeleteDisasterRecord;
 #[cfg(feature = "DeleteHbaConfs")]
 pub mod DeleteHbaConfs;
 #[cfg(feature = "DeleteInstance")]
@@ -194,7 +198,3 @@ pub mod ListInstancesDetails;
 pub mod ListInstanceTags;
 #[cfg(feature = "ListKernelPlugins")]
 pub mod ListKernelPlugins;
-#[cfg(feature = "ListKeyViewExecuteNode")]
-pub mod ListKeyViewExecuteNode;
-#[cfg(feature = "ListKmsTdeKey")]
-pub mod ListKmsTdeKey;
