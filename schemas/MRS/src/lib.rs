@@ -52,8 +52,6 @@ pub mod ListHosts;
 pub mod ListNodes;
 #[cfg(feature = "RunJobFlow")]
 pub mod RunJobFlow;
-#[cfg(feature = "ShowAgencyMapping")]
-pub mod ShowAgencyMapping;
 #[cfg(feature = "ShowAutoScalingPolicy")]
 pub mod ShowAutoScalingPolicy;
 #[cfg(feature = "ShowClusterDetails")]
