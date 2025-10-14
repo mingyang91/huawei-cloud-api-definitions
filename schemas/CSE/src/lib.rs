@@ -50,6 +50,8 @@ pub mod RetryEngine;
 pub mod ShowEngine;
 #[cfg(feature = "ShowEngineJob")]
 pub mod ShowEngineJob;
+#[cfg(feature = "ShowEngineQuotas")]
+pub mod ShowEngineQuotas;
 #[cfg(feature = "ShowHttp2Rpcs")]
 pub mod ShowHttp2Rpcs;
 #[cfg(feature = "ShowPlugins")]
