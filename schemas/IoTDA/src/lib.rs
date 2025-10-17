@@ -52,6 +52,8 @@ pub mod CreateDeviceProxy;
 pub mod CreateMessage;
 #[cfg(feature = "CreateOrDeleteDeviceInGroup")]
 pub mod CreateOrDeleteDeviceInGroup;
+#[cfg(feature = "CreateOtaModule")]
+pub mod CreateOtaModule;
 #[cfg(feature = "CreateOtaPackage")]
 pub mod CreateOtaPackage;
 #[cfg(feature = "CreateProduct")]
@@ -106,6 +108,8 @@ pub mod DeleteDeviceTunnel;
 pub mod DeleteFunctions;
 #[cfg(feature = "DeleteHarmonySoftBus")]
 pub mod DeleteHarmonySoftBus;
+#[cfg(feature = "DeleteOtaModule")]
+pub mod DeleteOtaModule;
 #[cfg(feature = "DeleteOtaPackage")]
 pub mod DeleteOtaPackage;
 #[cfg(feature = "DeleteProduct")]
@@ -166,6 +170,8 @@ pub mod ListDeviceTunnels;
 pub mod ListFunctions;
 #[cfg(feature = "ListHarmonySoftBus")]
 pub mod ListHarmonySoftBus;
+#[cfg(feature = "ListOtaModules")]
+pub mod ListOtaModules;
 #[cfg(feature = "ListOtaPackageInfo")]
 pub mod ListOtaPackageInfo;
 #[cfg(feature = "ListProducts")]
@@ -192,9 +198,3 @@ pub mod ListSecurityProfiles;
 pub mod ResetBridgeSecret;
 #[cfg(feature = "ResetDeviceSecret")]
 pub mod ResetDeviceSecret;
-#[cfg(feature = "ResetFingerprint")]
-pub mod ResetFingerprint;
-#[cfg(feature = "ResetHarmonySoftBusKey")]
-pub mod ResetHarmonySoftBusKey;
-#[cfg(feature = "RetryBatchTask")]
-pub mod RetryBatchTask;

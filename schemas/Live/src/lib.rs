@@ -110,6 +110,8 @@ pub mod ListSnapshotConfigs;
 pub mod ListSnapshotData;
 #[cfg(feature = "ListStreamForbidden")]
 pub mod ListStreamForbidden;
+#[cfg(feature = "ListTranscodeConcurrencyNum")]
+pub mod ListTranscodeConcurrencyNum;
 #[cfg(feature = "ListTranscodeData")]
 pub mod ListTranscodeData;
 #[cfg(feature = "ListUpStreamDetail")]
@@ -196,5 +198,3 @@ pub mod UpdateRecordCallbackConfig;
 pub mod UpdateRecordRule;
 #[cfg(feature = "UpdateSnapshotConfig")]
 pub mod UpdateSnapshotConfig;
-#[cfg(feature = "UpdateStreamForbidden")]
-pub mod UpdateStreamForbidden;

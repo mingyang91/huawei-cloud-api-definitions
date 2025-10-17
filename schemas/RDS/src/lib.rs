@@ -72,6 +72,8 @@ pub mod CreateSqlLimit;
 pub mod CreateSqlserverDatabase;
 #[cfg(feature = "CreateSqlserverDbUser")]
 pub mod CreateSqlserverDbUser;
+#[cfg(feature = "CreateSubscription")]
+pub mod CreateSubscription;
 #[cfg(feature = "CreateXelLogDownload")]
 pub mod CreateXelLogDownload;
 #[cfg(feature = "DeleteConfiguration")]
@@ -100,6 +102,8 @@ pub mod DeletePostgresqlDbUser;
 pub mod DeletePostgresqlExtension;
 #[cfg(feature = "DeletePostgresqlHbaConf")]
 pub mod DeletePostgresqlHbaConf;
+#[cfg(feature = "DeletePublication")]
+pub mod DeletePublication;
 #[cfg(feature = "DeleteRdSforMySqlProxy")]
 pub mod DeleteRdSforMySqlProxy;
 #[cfg(feature = "DeleteSqlLimit")]
@@ -152,6 +156,10 @@ pub mod ListDatabaseUserRole;
 pub mod ListDatastores;
 #[cfg(feature = "ListDbUsers")]
 pub mod ListDbUsers;
+#[cfg(feature = "ListDistribution")]
+pub mod ListDistribution;
+#[cfg(feature = "ListDistributorInstances")]
+pub mod ListDistributorInstances;
 #[cfg(feature = "ListDrInfos")]
 pub mod ListDrInfos;
 #[cfg(feature = "ListDrRelations")]
@@ -190,11 +198,3 @@ pub mod ListInstancesSupportFastRestore;
 pub mod ListInstanceTags;
 #[cfg(feature = "ListJobInfo")]
 pub mod ListJobInfo;
-#[cfg(feature = "ListJobInfoDetail")]
-pub mod ListJobInfoDetail;
-#[cfg(feature = "ListLogLtsConfigs")]
-pub mod ListLogLtsConfigs;
-#[cfg(feature = "ListMarketplaceEngineProducts")]
-pub mod ListMarketplaceEngineProducts;
-#[cfg(feature = "ListMsdtcHosts")]
-pub mod ListMsdtcHosts;

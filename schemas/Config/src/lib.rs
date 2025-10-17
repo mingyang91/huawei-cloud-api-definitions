@@ -106,6 +106,8 @@ pub mod ListPolicyStatesByAssignmentId;
 pub mod ListPolicyStatesByDomainId;
 #[cfg(feature = "ListPolicyStatesByResourceId")]
 pub mod ListPolicyStatesByResourceId;
+#[cfg(feature = "ListPolicyStatesStatistics")]
+pub mod ListPolicyStatesStatistics;
 #[cfg(feature = "ListProviders")]
 pub mod ListProviders;
 #[cfg(feature = "ListRegions")]
@@ -196,5 +198,3 @@ pub mod TagResource;
 pub mod UnTagResource;
 #[cfg(feature = "UpdateConfigurationAggregator")]
 pub mod UpdateConfigurationAggregator;
-#[cfg(feature = "UpdateConformancePack")]
-pub mod UpdateConformancePack;

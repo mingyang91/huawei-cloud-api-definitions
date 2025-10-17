@@ -50,6 +50,8 @@ pub mod DeleteDatabaseRole;
 pub mod DeleteDatabaseUser;
 #[cfg(feature = "DeleteInstance")]
 pub mod DeleteInstance;
+#[cfg(feature = "DeleteIp")]
+pub mod DeleteIp;
 #[cfg(feature = "DeleteKillOpRuleList")]
 pub mod DeleteKillOpRuleList;
 #[cfg(feature = "DeleteLtsConfig")]
@@ -196,5 +198,3 @@ pub mod ShowJobDetail;
 pub mod ShowKillOpRuleRuleList;
 #[cfg(feature = "ShowQuotas")]
 pub mod ShowQuotas;
-#[cfg(feature = "ShowRecyclePolicy")]
-pub mod ShowRecyclePolicy;

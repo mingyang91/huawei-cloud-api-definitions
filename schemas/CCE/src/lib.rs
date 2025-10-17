@@ -102,8 +102,6 @@ pub mod GetAvaliableZone;
 pub mod GetClusterFlavorSpecs;
 #[cfg(feature = "GetClusterQuota")]
 pub mod GetClusterQuota;
-#[cfg(feature = "GetClusterSupportConfiguration")]
-pub mod GetClusterSupportConfiguration;
 #[cfg(feature = "GetCustomizeTags")]
 pub mod GetCustomizeTags;
 #[cfg(feature = "GetLabels")]
@@ -198,3 +196,5 @@ pub mod ShowAddonInstance;
 pub mod ShowAutopilotAddonInstance;
 #[cfg(feature = "ShowAutopilotChart")]
 pub mod ShowAutopilotChart;
+#[cfg(feature = "ShowAutopilotChartValues")]
+pub mod ShowAutopilotChartValues;

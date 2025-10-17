@@ -20,6 +20,10 @@ pub mod BatchSetRecordSetsStatus;
 pub mod BatchSetZonesStatus;
 #[cfg(feature = "BatchUpdateRecordSetWithLine")]
 pub mod BatchUpdateRecordSetWithLine;
+#[cfg(feature = "CreateAuthorizeTxtRecord")]
+pub mod CreateAuthorizeTxtRecord;
+#[cfg(feature = "CreateAuthorizeTxtRecordVerification")]
+pub mod CreateAuthorizeTxtRecordVerification;
 #[cfg(feature = "CreateCustomLine")]
 pub mod CreateCustomLine;
 #[cfg(feature = "CreateEipRecordSet")]
@@ -118,6 +122,8 @@ pub mod SetPrivateZoneProxyPattern;
 pub mod SetRecordSetsStatus;
 #[cfg(feature = "ShowApiInfo")]
 pub mod ShowApiInfo;
+#[cfg(feature = "ShowAuthorizeTxtRecord")]
+pub mod ShowAuthorizeTxtRecord;
 #[cfg(feature = "ShowDnssecConfig")]
 pub mod ShowDnssecConfig;
 #[cfg(feature = "ShowDomainQuota")]
