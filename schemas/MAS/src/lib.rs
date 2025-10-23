@@ -4,6 +4,8 @@ pub mod BatchSwitchMonitor;
 pub mod CreateApplication;
 #[cfg(feature = "CreateDataSource")]
 pub mod CreateDataSource;
+#[cfg(feature = "CreateDataSyncTask")]
+pub mod CreateDataSyncTask;
 #[cfg(feature = "CreateDbConnectionPool")]
 pub mod CreateDbConnectionPool;
 #[cfg(feature = "CreateInstance")]
@@ -64,6 +66,8 @@ pub mod ShowDataSyncTasks;
 pub mod ShowDbConnectionPool;
 #[cfg(feature = "ShowDcMonitor")]
 pub mod ShowDcMonitor;
+#[cfg(feature = "ShowGlobalConf")]
+pub mod ShowGlobalConf;
 #[cfg(feature = "ShowInstance")]
 pub mod ShowInstance;
 #[cfg(feature = "ShowModule")]
