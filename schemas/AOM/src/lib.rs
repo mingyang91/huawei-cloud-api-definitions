@@ -16,6 +16,8 @@ pub mod AddOrUpdateServiceDiscoveryRules;
 pub mod BatchImportAgent;
 #[cfg(feature = "BatchUpdateAgent")]
 pub mod BatchUpdateAgent;
+#[cfg(feature = "BatchUpdateAlarmRule")]
+pub mod BatchUpdateAlarmRule;
 #[cfg(feature = "CountEvents")]
 pub mod CountEvents;
 #[cfg(feature = "CreateApp")]

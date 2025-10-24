@@ -1,3 +1,5 @@
+#[cfg(feature = "AcceptScheduledEvent")]
+pub mod AcceptScheduledEvent;
 #[cfg(feature = "ApigAppExists")]
 pub mod ApigAppExists;
 #[cfg(feature = "AttachObs")]
@@ -166,6 +168,8 @@ pub mod ListPools;
 pub mod ListPoolTags;
 #[cfg(feature = "ListResourceFlavors")]
 pub mod ListResourceFlavors;
+#[cfg(feature = "ListScheduledEvents")]
+pub mod ListScheduledEvents;
 #[cfg(feature = "ListServices")]
 pub mod ListServices;
 #[cfg(feature = "ListServiceTags")]
@@ -194,7 +198,3 @@ pub mod PatchServiceV2;
 pub mod RegisterImage;
 #[cfg(feature = "RenewLease")]
 pub mod RenewLease;
-#[cfg(feature = "ResetApigAppCode")]
-pub mod ResetApigAppCode;
-#[cfg(feature = "ResetApigAppSecret")]
-pub mod ResetApigAppSecret;

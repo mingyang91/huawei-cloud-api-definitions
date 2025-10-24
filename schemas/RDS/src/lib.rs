@@ -36,6 +36,8 @@ pub mod ChangeProxyScale;
 pub mod ChangeTheDelayThreshold;
 #[cfg(feature = "CheckInstanceForUpgrade")]
 pub mod CheckInstanceForUpgrade;
+#[cfg(feature = "CheckWeakpwd")]
+pub mod CheckWeakpwd;
 #[cfg(feature = "CopyConfiguration")]
 pub mod CopyConfiguration;
 #[cfg(feature = "CopyDatabase")]
@@ -196,5 +198,3 @@ pub mod ListInstancesNoIndexTables;
 pub mod ListInstancesSupportFastRestore;
 #[cfg(feature = "ListInstanceTags")]
 pub mod ListInstanceTags;
-#[cfg(feature = "ListJobInfo")]
-pub mod ListJobInfo;

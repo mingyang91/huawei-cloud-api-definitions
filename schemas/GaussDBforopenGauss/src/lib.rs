@@ -68,8 +68,6 @@ pub mod DeleteConfiguration;
 pub mod DeleteDatabase;
 #[cfg(feature = "DeleteDatabaseSchema")]
 pub mod DeleteDatabaseSchema;
-#[cfg(feature = "DeleteDisasterRecord")]
-pub mod DeleteDisasterRecord;
 #[cfg(feature = "DeleteHbaConfs")]
 pub mod DeleteHbaConfs;
 #[cfg(feature = "DeleteInstance")]
@@ -144,8 +142,6 @@ pub mod ListDatabaseSchemas;
 pub mod ListDatabaseSchemaTables;
 #[cfg(feature = "ListDatabaseVersions")]
 pub mod ListDatabaseVersions;
-#[cfg(feature = "ListDatabaseVolume")]
-pub mod ListDatabaseVolume;
 #[cfg(feature = "ListDatabaseVolumeSummary")]
 pub mod ListDatabaseVolumeSummary;
 #[cfg(feature = "ListDatastores")]
@@ -198,3 +194,7 @@ pub mod ListInstancesDetails;
 pub mod ListInstanceTags;
 #[cfg(feature = "ListKernelPlugins")]
 pub mod ListKernelPlugins;
+#[cfg(feature = "ListKeyViewExecuteNode")]
+pub mod ListKeyViewExecuteNode;
+#[cfg(feature = "ListKmsTdeKey")]
+pub mod ListKmsTdeKey;

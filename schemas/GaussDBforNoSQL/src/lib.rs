@@ -68,6 +68,8 @@ pub mod ExpandInstanceNode;
 pub mod ListApiVersion;
 #[cfg(feature = "ListAvailableFlavorInfos")]
 pub mod ListAvailableFlavorInfos;
+#[cfg(feature = "ListBackups")]
+pub mod ListBackups;
 #[cfg(feature = "ListCassandraSlowLogs")]
 pub mod ListCassandraSlowLogs;
 #[cfg(feature = "ListConfigurationDatastores")]
@@ -170,6 +172,8 @@ pub mod ResizeInstanceVolume;
 pub mod RestartInstance;
 #[cfg(feature = "RestoreExistingInstance")]
 pub mod RestoreExistingInstance;
+#[cfg(feature = "RestoreRedisData")]
+pub mod RestoreRedisData;
 #[cfg(feature = "RestoreRedisPitr")]
 pub mod RestoreRedisPitr;
 #[cfg(feature = "SaveLtsConfigs")]
@@ -194,7 +198,3 @@ pub mod ShowAllInstancesBackups;
 pub mod ShowAllInstancesBackupsNew;
 #[cfg(feature = "ShowApiVersion")]
 pub mod ShowApiVersion;
-#[cfg(feature = "ShowApplicableInstances")]
-pub mod ShowApplicableInstances;
-#[cfg(feature = "ShowApplyHistory")]
-pub mod ShowApplyHistory;
