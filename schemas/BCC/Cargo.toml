@@ -1,0 +1,91 @@
+[dependencies.chrono]
+features = ["serde"]
+version = "0"
+
+[dependencies.regress]
+version = "0"
+
+[dependencies.serde]
+features = ["derive"]
+version = "1"
+
+[dependencies.serde_json]
+version = "1"
+
+[dependencies.typify]
+version = "0"
+
+[features]
+BindResourceLevelCompliance = []
+ChangeResourcesLevel = []
+CreateComplianceRule = []
+CreatePolicy = []
+CreateReportSetting = []
+CreateResourcesLevel = []
+CreateTemplate = []
+DeleteComplianceRule = []
+DeletePolicy = []
+DeleteReport = []
+DeleteReportSetting = []
+DeleteTemplate = []
+EnableDomain = []
+ListAlarmRules = []
+ListAlarms = []
+ListComplianceRule = []
+ListEvents = []
+ListMetrics = []
+ListOrganizationPolicy = []
+ListPolicy = []
+ListReportSettings = []
+ListReports = []
+ListResourceCopies = []
+ListResources = []
+ListResourcesLevel = []
+ListResourcesLevelTags = []
+ListSupportedRegion = []
+ListTasks = []
+ListTemplates = []
+ListVault = []
+ListVaultTops = []
+ModifyResourceLevel = []
+NotifyResourceChange = []
+RemoveResourceLevel = []
+SetProtectionConfiguration = []
+ShowAlarmSummary = []
+ShowComplianceRule = []
+ShowDomain = []
+ShowOrganizationPolicy = []
+ShowPolicy = []
+ShowReport = []
+ShowReportResourceDetailsData = []
+ShowReportSetting = []
+ShowReportSummaryData = []
+ShowReportTaskDetailsData = []
+ShowResourceCopiesSummary = []
+ShowResourceDetail = []
+ShowResourcesSummary = []
+ShowTask = []
+ShowTaskStatusSummary = []
+ShowTaskTypeSummary = []
+ShowTemplate = []
+ShowVault = []
+ShowVaultSummary = []
+UnbindResourceLevelCompliance = []
+UpdateComplianceRule = []
+UpdatePolicy = []
+UpdateReportSetting = []
+UpdateTemplate = []
+full = ["BindResourceLevelCompliance", "ChangeResourcesLevel", "CreateComplianceRule", "CreatePolicy", "CreateReportSetting", "CreateResourcesLevel", "CreateTemplate", "DeleteComplianceRule", "DeletePolicy", "DeleteReport", "DeleteReportSetting", "DeleteTemplate", "EnableDomain", "ListAlarmRules", "ListAlarms", "ListComplianceRule", "ListEvents", "ListMetrics", "ListOrganizationPolicy", "ListPolicy", "ListReports", "ListReportSettings", "ListResourceCopies", "ListResources", "ListResourcesLevel", "ListResourcesLevelTags", "ListSupportedRegion", "ListTasks", "ListTemplates", "ListVault", "ListVaultTops", "ModifyResourceLevel", "NotifyResourceChange", "RemoveResourceLevel", "SetProtectionConfiguration", "ShowAlarmSummary", "ShowComplianceRule", "ShowDomain", "ShowOrganizationPolicy", "ShowPolicy", "ShowReport", "ShowReportResourceDetailsData", "ShowReportSetting", "ShowReportSummaryData", "ShowReportTaskDetailsData", "ShowResourceCopiesSummary", "ShowResourceDetail", "ShowResourcesSummary", "ShowTask", "ShowTaskStatusSummary", "ShowTaskTypeSummary", "ShowTemplate", "ShowVault", "ShowVaultSummary", "UnbindResourceLevelCompliance", "UpdateComplianceRule", "UpdatePolicy", "UpdateReportSetting", "UpdateTemplate"]
+
+[lib]
+name = "huawei_cloud_api_definitions_BCC"
+path = "src/lib.rs"
+
+[package]
+authors = ["mingyang91 <mingyang91@qq.com>"]
+description = "Huawei Cloud API definitions, generated from OpenAPI spec"
+edition = "2021"
+license = "MIT"
+name = "huawei-cloud-api-definitions-BCC"
+repository = "https://github.com/mingyang91/huawei-cloud-api-definitions"
+version = "CHANGE_ME"
