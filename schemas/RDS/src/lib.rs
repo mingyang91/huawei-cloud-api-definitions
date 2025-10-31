@@ -126,6 +126,8 @@ pub mod EnableConfiguration;
 pub mod ExecutePrivilegeDatabaseUserRole;
 #[cfg(feature = "ExecuteRevokeDatabaseUserRole")]
 pub mod ExecuteRevokeDatabaseUserRole;
+#[cfg(feature = "GetInstancesNoIndexTables")]
+pub mod GetInstancesNoIndexTables;
 #[cfg(feature = "ListApiVersion")]
 pub mod ListApiVersion;
 #[cfg(feature = "ListApiVersionNew")]
@@ -192,8 +194,6 @@ pub mod ListInstances;
 pub mod ListInstancesConfigurations;
 #[cfg(feature = "ListInstancesInfoDiagnosis")]
 pub mod ListInstancesInfoDiagnosis;
-#[cfg(feature = "ListInstancesNoIndexTables")]
-pub mod ListInstancesNoIndexTables;
 #[cfg(feature = "ListInstancesSupportFastRestore")]
 pub mod ListInstancesSupportFastRestore;
 #[cfg(feature = "ListInstanceTags")]

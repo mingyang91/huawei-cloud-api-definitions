@@ -74,6 +74,8 @@ pub mod GetStackTemplate;
 pub mod ListExecutionPlans;
 #[cfg(feature = "ListPrivateHooks")]
 pub mod ListPrivateHooks;
+#[cfg(feature = "ListPrivateHookVersions")]
+pub mod ListPrivateHookVersions;
 #[cfg(feature = "ListPrivateModules")]
 pub mod ListPrivateModules;
 #[cfg(feature = "ListPrivateModuleVersions")]

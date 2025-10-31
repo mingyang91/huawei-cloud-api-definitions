@@ -54,6 +54,8 @@ pub mod ExportTopSqlTemplatesDetails;
 pub mod ExportTopSqlTrendDetails;
 #[cfg(feature = "ListApiVersions")]
 pub mod ListApiVersions;
+#[cfg(feature = "ListAutoIncrementUsage")]
+pub mod ListAutoIncrementUsage;
 #[cfg(feature = "ListCloudDbaInstances")]
 pub mod ListCloudDbaInstances;
 #[cfg(feature = "ListConnections")]
@@ -102,6 +104,8 @@ pub mod SaveCredential;
 pub mod SetThresholdForMetric;
 #[cfg(feature = "ShowApiVersion")]
 pub mod ShowApiVersion;
+#[cfg(feature = "ShowDasRecommendSqlLimitRule")]
+pub mod ShowDasRecommendSqlLimitRule;
 #[cfg(feature = "ShowDbUser")]
 pub mod ShowDbUser;
 #[cfg(feature = "ShowFullDeadLockList")]

@@ -30,8 +30,6 @@ pub mod DeleteRocketMqMigrationTask;
 pub mod DeleteTopic;
 #[cfg(feature = "DeleteUser")]
 pub mod DeleteUser;
-#[cfg(feature = "EnableDns")]
-pub mod EnableDns;
 #[cfg(feature = "ExportDlqMessage")]
 pub mod ExportDlqMessage;
 #[cfg(feature = "ListAvailableZones")]

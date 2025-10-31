@@ -12,8 +12,6 @@ pub mod ChangeInstance;
 pub mod ChangeResourceInEnvironment;
 #[cfg(feature = "CreateApplication")]
 pub mod CreateApplication;
-#[cfg(feature = "CreateCamInstance")]
-pub mod CreateCamInstance;
 #[cfg(feature = "CreateComponent")]
 pub mod CreateComponent;
 #[cfg(feature = "CreateEnvironment")]
@@ -34,8 +32,6 @@ pub mod CreatePersonalAuth;
 pub mod CreateProject;
 #[cfg(feature = "CreateTag")]
 pub mod CreateTag;
-#[cfg(feature = "CreateTemplate")]
-pub mod CreateTemplate;
 #[cfg(feature = "DeleteApplication")]
 pub mod DeleteApplication;
 #[cfg(feature = "DeleteApplicationConfiguration")]
@@ -52,14 +48,8 @@ pub mod DeleteFile;
 pub mod DeleteHook;
 #[cfg(feature = "DeleteInstance")]
 pub mod DeleteInstance;
-#[cfg(feature = "DeleteInstanceById")]
-pub mod DeleteInstanceById;
 #[cfg(feature = "DeleteTag")]
 pub mod DeleteTag;
-#[cfg(feature = "DeleteTemplate")]
-pub mod DeleteTemplate;
-#[cfg(feature = "DeployInstance")]
-pub mod DeployInstance;
 #[cfg(feature = "ListApplications")]
 pub mod ListApplications;
 #[cfg(feature = "ListAuthorizations")]
@@ -150,5 +140,3 @@ pub mod UpdateComponentAction;
 pub mod UpdateFile;
 #[cfg(feature = "UpdateInstanceAction")]
 pub mod UpdateInstanceAction;
-#[cfg(feature = "UpdateTemplate")]
-pub mod UpdateTemplate;

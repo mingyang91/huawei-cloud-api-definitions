@@ -190,11 +190,11 @@ pub mod ListUserJdbcDrivers;
 pub mod ListUsers;
 #[cfg(feature = "ModifyConnection")]
 pub mod ModifyConnection;
+#[cfg(feature = "ModifyGroupAndStream")]
+pub mod ModifyGroupAndStream;
+#[cfg(feature = "QueryTuningParams")]
+pub mod QueryTuningParams;
+#[cfg(feature = "SelectGroupAndStream")]
+pub mod SelectGroupAndStream;
 #[cfg(feature = "ShowActions")]
 pub mod ShowActions;
-#[cfg(feature = "ShowAgencyInfo")]
-pub mod ShowAgencyInfo;
-#[cfg(feature = "ShowColumnInfoResult")]
-pub mod ShowColumnInfoResult;
-#[cfg(feature = "ShowComparePolicy")]
-pub mod ShowComparePolicy;

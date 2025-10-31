@@ -52,8 +52,6 @@ pub mod DeleteKafkaMessage;
 pub mod DeleteKafkaTopicQuota;
 #[cfg(feature = "DeleteKafkaUserClientQuotaTask")]
 pub mod DeleteKafkaUserClientQuotaTask;
-#[cfg(feature = "EnableDns")]
-pub mod EnableDns;
 #[cfg(feature = "ListAvailableZones")]
 pub mod ListAvailableZones;
 #[cfg(feature = "ListBackgroundTasks")]

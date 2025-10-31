@@ -32,5 +32,9 @@ pub mod ProvisionInstance;
 pub mod SetVideo;
 #[cfg(feature = "ShowProgress")]
 pub mod ShowProgress;
+#[cfg(feature = "StopInstancesSession")]
+pub mod StopInstancesSession;
+#[cfg(feature = "StopInstancesStreaming")]
+pub mod StopInstancesStreaming;
 #[cfg(feature = "SyncInvokeInstance")]
 pub mod SyncInvokeInstance;

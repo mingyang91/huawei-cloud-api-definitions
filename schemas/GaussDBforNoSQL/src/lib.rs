@@ -140,6 +140,8 @@ pub mod ListRestoreTables;
 pub mod ListRestoreTime;
 #[cfg(feature = "ListSlowLogs")]
 pub mod ListSlowLogs;
+#[cfg(feature = "ModifyAutoNodeExpansionPolicy")]
+pub mod ModifyAutoNodeExpansionPolicy;
 #[cfg(feature = "ModifyDbUserPrivilege")]
 pub mod ModifyDbUserPrivilege;
 #[cfg(feature = "ModifyEpsQuotas")]
@@ -196,5 +198,3 @@ pub mod SetRedisPitrPolicy;
 pub mod ShowAllInstancesBackups;
 #[cfg(feature = "ShowAllInstancesBackupsNew")]
 pub mod ShowAllInstancesBackupsNew;
-#[cfg(feature = "ShowApiVersion")]
-pub mod ShowApiVersion;
