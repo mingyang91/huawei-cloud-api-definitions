@@ -8,6 +8,8 @@ pub mod ChangeClusterSubnet;
 pub mod ChangeMode;
 #[cfg(feature = "ChangeSecurityGroup")]
 pub mod ChangeSecurityGroup;
+#[cfg(feature = "CreateAgency")]
+pub mod CreateAgency;
 #[cfg(feature = "CreateAiOps")]
 pub mod CreateAiOps;
 #[cfg(feature = "CreateAutoCreatePolicy")]
@@ -52,8 +54,6 @@ pub mod DeleteTemplate;
 pub mod DownloadCert;
 #[cfg(feature = "EnableOrDisableElb")]
 pub mod EnableOrDisableElb;
-#[cfg(feature = "GetRoutes")]
-pub mod GetRoutes;
 #[cfg(feature = "ListActions")]
 pub mod ListActions;
 #[cfg(feature = "ListAiOps")]
@@ -78,6 +78,8 @@ pub mod ListImages;
 pub mod ListLogsJob;
 #[cfg(feature = "ListPipelines")]
 pub mod ListPipelines;
+#[cfg(feature = "ListRoutes")]
+pub mod ListRoutes;
 #[cfg(feature = "ListSmnTopics")]
 pub mod ListSmnTopics;
 #[cfg(feature = "ListSnapshots")]
@@ -108,8 +110,14 @@ pub mod ShowCertsDetail;
 pub mod ShowClusterDetail;
 #[cfg(feature = "ShowClusterTag")]
 pub mod ShowClusterTag;
+#[cfg(feature = "ShowClusterVolumeUsage")]
+pub mod ShowClusterVolumeUsage;
+#[cfg(feature = "ShowDataStoreFlavorDetail")]
+pub mod ShowDataStoreFlavorDetail;
 #[cfg(feature = "ShowElbDetail")]
 pub mod ShowElbDetail;
+#[cfg(feature = "ShowFlavorDetail")]
+pub mod ShowFlavorDetail;
 #[cfg(feature = "ShowGetConfDetail")]
 pub mod ShowGetConfDetail;
 #[cfg(feature = "ShowGetLogSetting")]
@@ -118,6 +126,8 @@ pub mod ShowGetLogSetting;
 pub mod ShowIkThesaurus;
 #[cfg(feature = "ShowLogBackup")]
 pub mod ShowLogBackup;
+#[cfg(feature = "ShowResizeFlavors")]
+pub mod ShowResizeFlavors;
 #[cfg(feature = "ShowVpcepConnection")]
 pub mod ShowVpcepConnection;
 #[cfg(feature = "StartAutoCreateSnapshots")]
@@ -188,13 +198,3 @@ pub mod UpdateInstance;
 pub mod UpdateLogSetting;
 #[cfg(feature = "UpdateOndemandClusterToPeriod")]
 pub mod UpdateOndemandClusterToPeriod;
-#[cfg(feature = "UpdatePublicBandWidth")]
-pub mod UpdatePublicBandWidth;
-#[cfg(feature = "UpdatePublicKibanaWhitelist")]
-pub mod UpdatePublicKibanaWhitelist;
-#[cfg(feature = "UpdateRoute")]
-pub mod UpdateRoute;
-#[cfg(feature = "UpdateShrinkCluster")]
-pub mod UpdateShrinkCluster;
-#[cfg(feature = "UpdateShrinkNodes")]
-pub mod UpdateShrinkNodes;

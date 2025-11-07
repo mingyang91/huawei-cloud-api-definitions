@@ -114,12 +114,12 @@ pub mod GetScriptJobBatch;
 pub mod GetScriptJobInfo;
 #[cfg(feature = "GetScriptJobStatistics")]
 pub mod GetScriptJobStatistics;
-#[cfg(feature = "HandleAlarm")]
-pub mod HandleAlarm;
 #[cfg(feature = "HandleCocIncident")]
 pub mod HandleCocIncident;
 #[cfg(feature = "HandleIncident")]
 pub mod HandleIncident;
+#[cfg(feature = "HandlerAlarm")]
+pub mod HandlerAlarm;
 #[cfg(feature = "ImportOtherResource")]
 pub mod ImportOtherResource;
 #[cfg(feature = "ListAlarmHandleHistories")]

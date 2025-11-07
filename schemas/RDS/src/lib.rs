@@ -54,6 +54,8 @@ pub mod CreateDnsName;
 pub mod CreateInstance;
 #[cfg(feature = "CreateInstanceIam5")]
 pub mod CreateInstanceIam5;
+#[cfg(feature = "CreateIntelligentKillSession")]
+pub mod CreateIntelligentKillSession;
 #[cfg(feature = "CreateManualBackup")]
 pub mod CreateManualBackup;
 #[cfg(feature = "CreatePostgresqlDatabase")]
@@ -140,6 +142,8 @@ pub mod ListAuthorizedDatabases;
 pub mod ListAuthorizedDbUsers;
 #[cfg(feature = "ListAuthorizedSqlserverDbUsers")]
 pub mod ListAuthorizedSqlserverDbUsers;
+#[cfg(feature = "ListAutoScalingPolicy")]
+pub mod ListAutoScalingPolicy;
 #[cfg(feature = "ListBackups")]
 pub mod ListBackups;
 #[cfg(feature = "ListBackupTransfers")]
@@ -194,7 +198,3 @@ pub mod ListInstances;
 pub mod ListInstancesConfigurations;
 #[cfg(feature = "ListInstancesInfoDiagnosis")]
 pub mod ListInstancesInfoDiagnosis;
-#[cfg(feature = "ListInstancesSupportFastRestore")]
-pub mod ListInstancesSupportFastRestore;
-#[cfg(feature = "ListInstanceTags")]
-pub mod ListInstanceTags;
