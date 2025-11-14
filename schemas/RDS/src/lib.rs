@@ -14,6 +14,8 @@ pub mod AttachEip;
 pub mod BatchAddMsdtcs;
 #[cfg(feature = "BatchDeleteManualBackup")]
 pub mod BatchDeleteManualBackup;
+#[cfg(feature = "BatchModifySubscription")]
+pub mod BatchModifySubscription;
 #[cfg(feature = "BatchRestoreDatabase")]
 pub mod BatchRestoreDatabase;
 #[cfg(feature = "BatchRestorePostgreSqlTables")]
@@ -38,6 +40,10 @@ pub mod ChangeTheDelayThreshold;
 pub mod CheckInstanceForUpgrade;
 #[cfg(feature = "CheckWeakpwd")]
 pub mod CheckWeakpwd;
+#[cfg(feature = "CollectPublicationMonitor")]
+pub mod CollectPublicationMonitor;
+#[cfg(feature = "CollectSubscriptionMonitor")]
+pub mod CollectSubscriptionMonitor;
 #[cfg(feature = "CopyConfiguration")]
 pub mod CopyConfiguration;
 #[cfg(feature = "CopyDatabase")]
@@ -88,6 +94,8 @@ pub mod DeleteDatabase;
 pub mod DeleteDbUser;
 #[cfg(feature = "DeleteDisasterRecovery")]
 pub mod DeleteDisasterRecovery;
+#[cfg(feature = "DeleteDistribution")]
+pub mod DeleteDistribution;
 #[cfg(feature = "DeleteInstance")]
 pub mod DeleteInstance;
 #[cfg(feature = "DeleteJob")]
@@ -118,6 +126,8 @@ pub mod DeleteSqlserverDatabase;
 pub mod DeleteSqlserverDatabaseEx;
 #[cfg(feature = "DeleteSqlserverDbUser")]
 pub mod DeleteSqlserverDbUser;
+#[cfg(feature = "DeleteSubscription")]
+pub mod DeleteSubscription;
 #[cfg(feature = "DownloadErrorlog")]
 pub mod DownloadErrorlog;
 #[cfg(feature = "DownloadSlowlog")]
@@ -162,6 +172,8 @@ pub mod ListDatabases;
 pub mod ListDatabaseUserRole;
 #[cfg(feature = "ListDatastores")]
 pub mod ListDatastores;
+#[cfg(feature = "ListDbAgentJobs")]
+pub mod ListDbAgentJobs;
 #[cfg(feature = "ListDbUsers")]
 pub mod ListDbUsers;
 #[cfg(feature = "ListDistribution")]
@@ -186,15 +198,3 @@ pub mod ListFlavors;
 pub mod ListFlavorsResize;
 #[cfg(feature = "ListHistoryDatabase")]
 pub mod ListHistoryDatabase;
-#[cfg(feature = "ListInspectionHistories")]
-pub mod ListInspectionHistories;
-#[cfg(feature = "ListInstanceDiagnosis")]
-pub mod ListInstanceDiagnosis;
-#[cfg(feature = "ListInstanceParamHistories")]
-pub mod ListInstanceParamHistories;
-#[cfg(feature = "ListInstances")]
-pub mod ListInstances;
-#[cfg(feature = "ListInstancesConfigurations")]
-pub mod ListInstancesConfigurations;
-#[cfg(feature = "ListInstancesInfoDiagnosis")]
-pub mod ListInstancesInfoDiagnosis;

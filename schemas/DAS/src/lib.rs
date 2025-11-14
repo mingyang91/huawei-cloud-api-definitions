@@ -16,6 +16,8 @@ pub mod ChangeTransactionSwitchStatus;
 pub mod CheckCredential;
 #[cfg(feature = "CreateHealthReportTask")]
 pub mod CreateHealthReportTask;
+#[cfg(feature = "CreateHistoryTransactionExportTask")]
+pub mod CreateHistoryTransactionExportTask;
 #[cfg(feature = "CreateInstanceConnection")]
 pub mod CreateInstanceConnection;
 #[cfg(feature = "CreateShareConnections")]
@@ -30,6 +32,8 @@ pub mod CreateSqlLimitRules;
 pub mod CreateTuning;
 #[cfg(feature = "DeleteDbUser")]
 pub mod DeleteDbUser;
+#[cfg(feature = "DeleteHistoryTransactionExportTask")]
+pub mod DeleteHistoryTransactionExportTask;
 #[cfg(feature = "DeleteProcess")]
 pub mod DeleteProcess;
 #[cfg(feature = "DeleteSqlLimitRules")]
@@ -66,6 +70,8 @@ pub mod ListDbUsers;
 pub mod ListFullSqlTasks;
 #[cfg(feature = "ListHealthReportTask")]
 pub mod ListHealthReportTask;
+#[cfg(feature = "ListHistoryTransactionExportTask")]
+pub mod ListHistoryTransactionExportTask;
 #[cfg(feature = "ListInnodbLocks")]
 pub mod ListInnodbLocks;
 #[cfg(feature = "ListInstanceDistribution")]
@@ -94,6 +100,10 @@ pub mod ListSqlLimitRules;
 pub mod ListTopSlowLog;
 #[cfg(feature = "ListTransactions")]
 pub mod ListTransactions;
+#[cfg(feature = "LoginBuiltInAccount")]
+pub mod LoginBuiltInAccount;
+#[cfg(feature = "LogoffBuiltInAccount")]
+pub mod LogoffBuiltInAccount;
 #[cfg(feature = "ParseSqlLimitRules")]
 pub mod ParseSqlLimitRules;
 #[cfg(feature = "RegisterDbUser")]
@@ -114,6 +124,8 @@ pub mod ShowFullDeadLockList;
 pub mod ShowFullDeadLockSwitch;
 #[cfg(feature = "ShowHealthReportSettings")]
 pub mod ShowHealthReportSettings;
+#[cfg(feature = "ShowHistoryTransactionExportTaskInfo")]
+pub mod ShowHistoryTransactionExportTaskInfo;
 #[cfg(feature = "ShowInstanceHealthReport")]
 pub mod ShowInstanceHealthReport;
 #[cfg(feature = "ShowLatestDeadLockSnapshot")]

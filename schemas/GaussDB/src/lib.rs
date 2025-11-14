@@ -92,6 +92,8 @@ pub mod DeleteTaskRecord;
 pub mod DeleteTaurusDbNodeProcesses;
 #[cfg(feature = "DescribeBackupEncryptStatus")]
 pub mod DescribeBackupEncryptStatus;
+#[cfg(feature = "DownloadImportExcelTemplate")]
+pub mod DownloadImportExcelTemplate;
 #[cfg(feature = "DownloadSlowLogFile")]
 pub mod DownloadSlowLogFile;
 #[cfg(feature = "ExpandGaussMySqlInstanceVolume")]
@@ -196,5 +198,3 @@ pub mod ResetGaussMySqlDatabasePassword;
 pub mod ResetGaussMySqlPassword;
 #[cfg(feature = "ResizeStarRocksFlavor")]
 pub mod ResizeStarRocksFlavor;
-#[cfg(feature = "RestartGaussMySqlInstance")]
-pub mod RestartGaussMySqlInstance;

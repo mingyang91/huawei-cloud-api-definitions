@@ -6,12 +6,16 @@ pub mod AddServerGroupMember;
 pub mod AssociateServerVirtualIp;
 #[cfg(feature = "AttachServerVolume")]
 pub mod AttachServerVolume;
+#[cfg(feature = "BatchAddServerGroupMember")]
+pub mod BatchAddServerGroupMember;
 #[cfg(feature = "BatchAddServerNics")]
 pub mod BatchAddServerNics;
 #[cfg(feature = "BatchAttachSharableVolumes")]
 pub mod BatchAttachSharableVolumes;
 #[cfg(feature = "BatchCreateServerTags")]
 pub mod BatchCreateServerTags;
+#[cfg(feature = "BatchDeleteServerGroupMember")]
+pub mod BatchDeleteServerGroupMember;
 #[cfg(feature = "BatchDeleteServerNics")]
 pub mod BatchDeleteServerNics;
 #[cfg(feature = "BatchDeleteServerTags")]
@@ -194,7 +198,3 @@ pub mod NovaUpdateServerMetadata;
 pub mod NovaUpdateServerMetadataItem;
 #[cfg(feature = "RegisterServerMonitor")]
 pub mod RegisterServerMonitor;
-#[cfg(feature = "ReinstallServerWithCloudInit")]
-pub mod ReinstallServerWithCloudInit;
-#[cfg(feature = "ReinstallServerWithoutCloudInit")]
-pub mod ReinstallServerWithoutCloudInit;

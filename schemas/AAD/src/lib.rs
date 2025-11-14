@@ -96,6 +96,8 @@ pub mod ShowBlockStatistics;
 pub mod ShowDomainCertificate;
 #[cfg(feature = "ShowFlowBlock")]
 pub mod ShowFlowBlock;
+#[cfg(feature = "ShowLtsConfig")]
+pub mod ShowLtsConfig;
 #[cfg(feature = "ShowPolicy")]
 pub mod ShowPolicy;
 #[cfg(feature = "ShowUnblockRecord")]
@@ -110,6 +112,8 @@ pub mod UpdateAlarmConfig;
 pub mod UpdateDomain;
 #[cfg(feature = "UpdateInstanceIpRule")]
 pub mod UpdateInstanceIpRule;
+#[cfg(feature = "UpdateLtsConfig")]
+pub mod UpdateLtsConfig;
 #[cfg(feature = "UpdatePackageIp")]
 pub mod UpdatePackageIp;
 #[cfg(feature = "UpdatePackageName")]

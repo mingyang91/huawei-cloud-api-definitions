@@ -50,6 +50,12 @@ pub mod ListDataConnector;
 pub mod ListHosts;
 #[cfg(feature = "ListNodes")]
 pub mod ListNodes;
+#[cfg(feature = "ListSecurityRuleStatus")]
+pub mod ListSecurityRuleStatus;
+#[cfg(feature = "ListSyncRequirements")]
+pub mod ListSyncRequirements;
+#[cfg(feature = "ListSyncStatus")]
+pub mod ListSyncStatus;
 #[cfg(feature = "RunJobFlow")]
 pub mod RunJobFlow;
 #[cfg(feature = "ShowAgencyMapping")]

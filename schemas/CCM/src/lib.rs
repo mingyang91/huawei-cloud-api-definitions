@@ -10,6 +10,8 @@ pub mod BatchDeleteCertTags;
 pub mod CountCaResourceInstances;
 #[cfg(feature = "CountCertResourceInstances")]
 pub mod CountCertResourceInstances;
+#[cfg(feature = "CreateAgency")]
+pub mod CreateAgency;
 #[cfg(feature = "CreateCaTag")]
 pub mod CreateCaTag;
 #[cfg(feature = "CreateCertificate")]
@@ -72,6 +74,8 @@ pub mod RestoreCertificateAuthority;
 pub mod RevokeCertificate;
 #[cfg(feature = "RevokeCertificateAuthority")]
 pub mod RevokeCertificateAuthority;
+#[cfg(feature = "ShowAgency")]
+pub mod ShowAgency;
 #[cfg(feature = "ShowCertificate")]
 pub mod ShowCertificate;
 #[cfg(feature = "ShowCertificateAuthority")]
@@ -82,3 +86,7 @@ pub mod ShowCertificateAuthorityObsAgency;
 pub mod ShowCertificateAuthorityQuota;
 #[cfg(feature = "ShowCertificateQuota")]
 pub mod ShowCertificateQuota;
+#[cfg(feature = "ShowConsoleConfig")]
+pub mod ShowConsoleConfig;
+#[cfg(feature = "UpdateOcspSwitch")]
+pub mod UpdateOcspSwitch;
