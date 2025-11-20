@@ -18,6 +18,8 @@ pub mod CreateKeywordsAlarmRule;
 pub mod CreateLogGroup;
 #[cfg(feature = "CreateLogStream")]
 pub mod CreateLogStream;
+#[cfg(feature = "CreateLogStreamIndex")]
+pub mod CreateLogStreamIndex;
 #[cfg(feature = "CreateNotificationTemplate")]
 pub mod CreateNotificationTemplate;
 #[cfg(feature = "CreateSearchCriterias")]
