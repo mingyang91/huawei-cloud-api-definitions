@@ -172,6 +172,10 @@ pub mod ListDatabases;
 pub mod ListDatabaseUserRole;
 #[cfg(feature = "ListDatastores")]
 pub mod ListDatastores;
+#[cfg(feature = "ListDbAgentJobHistorys")]
+pub mod ListDbAgentJobHistorys;
+#[cfg(feature = "ListDbAgentJobHistorySteps")]
+pub mod ListDbAgentJobHistorySteps;
 #[cfg(feature = "ListDbAgentJobs")]
 pub mod ListDbAgentJobs;
 #[cfg(feature = "ListDbUsers")]
@@ -194,7 +198,3 @@ pub mod ListErrorLogs;
 pub mod ListErrorLogsNew;
 #[cfg(feature = "ListFlavors")]
 pub mod ListFlavors;
-#[cfg(feature = "ListFlavorsResize")]
-pub mod ListFlavorsResize;
-#[cfg(feature = "ListHistoryDatabase")]
-pub mod ListHistoryDatabase;

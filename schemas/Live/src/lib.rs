@@ -122,6 +122,8 @@ pub mod ListStreamForbidden;
 pub mod ListTranscodeConcurrencyNum;
 #[cfg(feature = "ListTranscodeData")]
 pub mod ListTranscodeData;
+#[cfg(feature = "ListTranscodeTaskDetail")]
+pub mod ListTranscodeTaskDetail;
 #[cfg(feature = "ListUpStreamDetail")]
 pub mod ListUpStreamDetail;
 #[cfg(feature = "ListUsersOfStream")]
@@ -196,5 +198,3 @@ pub mod UpdateDomainHttpsCert;
 pub mod UpdateDomainIp6Switch;
 #[cfg(feature = "UpdateDomainKeyChain")]
 pub mod UpdateDomainKeyChain;
-#[cfg(feature = "UpdateGeoBlockingConfig")]
-pub mod UpdateGeoBlockingConfig;

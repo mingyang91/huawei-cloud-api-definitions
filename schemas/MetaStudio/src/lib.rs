@@ -2,6 +2,8 @@
 pub mod BatchDeletePacifyWords;
 #[cfg(feature = "BatchExecuteAssetAction")]
 pub mod BatchExecuteAssetAction;
+#[cfg(feature = "BindUserAssetResource")]
+pub mod BindUserAssetResource;
 #[cfg(feature = "Cancel2DDigitalHumanVideo")]
 pub mod Cancel2DDigitalHumanVideo;
 #[cfg(feature = "CancelPhotoDigitalHumanVideo")]
@@ -126,6 +128,10 @@ pub mod CreateTtsAudition;
 pub mod CreateTtscVocabularyConfigs;
 #[cfg(feature = "CreateTtscVocabularyGroups")]
 pub mod CreateTtscVocabularyGroups;
+#[cfg(feature = "CreateTtsOnceCode")]
+pub mod CreateTtsOnceCode;
+#[cfg(feature = "CreateUserQuotas")]
+pub mod CreateUserQuotas;
 #[cfg(feature = "CreateVideoScripts")]
 pub mod CreateVideoScripts;
 #[cfg(feature = "CreateWelcomeSpeech")]
@@ -192,9 +198,3 @@ pub mod DeleteSmartChatRoom;
 pub mod DeleteSmartLiveRoom;
 #[cfg(feature = "DeleteTask")]
 pub mod DeleteTask;
-#[cfg(feature = "DeleteTtscVocabularyConfigs")]
-pub mod DeleteTtscVocabularyConfigs;
-#[cfg(feature = "DeleteTtscVocabularyGroups")]
-pub mod DeleteTtscVocabularyGroups;
-#[cfg(feature = "DeleteVideoScript")]
-pub mod DeleteVideoScript;

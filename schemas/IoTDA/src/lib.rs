@@ -48,6 +48,8 @@ pub mod CreateDeviceAuthorizer;
 pub mod CreateDevicePolicy;
 #[cfg(feature = "CreateDeviceProxy")]
 pub mod CreateDeviceProxy;
+#[cfg(feature = "CreateDomainConfiguration")]
+pub mod CreateDomainConfiguration;
 #[cfg(feature = "CreateMessage")]
 pub mod CreateMessage;
 #[cfg(feature = "CreateOrDeleteDeviceInGroup")]
@@ -72,6 +74,8 @@ pub mod CreateRule;
 pub mod CreateRuleAction;
 #[cfg(feature = "CreateSecurityProfile")]
 pub mod CreateSecurityProfile;
+#[cfg(feature = "CreateServerCertificate")]
+pub mod CreateServerCertificate;
 #[cfg(feature = "CreateSyncHarmonySoftBus")]
 pub mod CreateSyncHarmonySoftBus;
 #[cfg(feature = "DeleteApplication")]
@@ -104,6 +108,8 @@ pub mod DeleteDeviceProxy;
 pub mod DeleteDeviceShadow;
 #[cfg(feature = "DeleteDeviceTunnel")]
 pub mod DeleteDeviceTunnel;
+#[cfg(feature = "DeleteDomainConfiguration")]
+pub mod DeleteDomainConfiguration;
 #[cfg(feature = "DeleteFunctions")]
 pub mod DeleteFunctions;
 #[cfg(feature = "DeleteHarmonySoftBus")]
@@ -130,6 +136,8 @@ pub mod DeleteRule;
 pub mod DeleteRuleAction;
 #[cfg(feature = "DeleteSecurityProfile")]
 pub mod DeleteSecurityProfile;
+#[cfg(feature = "DeleteServerCertificate")]
+pub mod DeleteServerCertificate;
 #[cfg(feature = "FreezeDevice")]
 pub mod FreezeDevice;
 #[cfg(feature = "ListAsyncCommands")]
@@ -166,6 +174,8 @@ pub mod ListDeviceProxies;
 pub mod ListDevices;
 #[cfg(feature = "ListDeviceTunnels")]
 pub mod ListDeviceTunnels;
+#[cfg(feature = "ListDomainConfigurations")]
+pub mod ListDomainConfigurations;
 #[cfg(feature = "ListFunctions")]
 pub mod ListFunctions;
 #[cfg(feature = "ListHarmonySoftBus")]
@@ -188,13 +198,3 @@ pub mod ListRoutingBacklogPolicy;
 pub mod ListRoutingFlowControlPolicy;
 #[cfg(feature = "ListRoutingRules")]
 pub mod ListRoutingRules;
-#[cfg(feature = "ListRuleActions")]
-pub mod ListRuleActions;
-#[cfg(feature = "ListRules")]
-pub mod ListRules;
-#[cfg(feature = "ListSecurityProfiles")]
-pub mod ListSecurityProfiles;
-#[cfg(feature = "ResetBridgeSecret")]
-pub mod ResetBridgeSecret;
-#[cfg(feature = "ResetDeviceSecret")]
-pub mod ResetDeviceSecret;

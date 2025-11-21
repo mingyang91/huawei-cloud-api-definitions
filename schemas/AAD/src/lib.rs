@@ -12,8 +12,6 @@ pub mod AssociateIpToPolicyAndPackage;
 pub mod BatchCreateInstanceIpRule;
 #[cfg(feature = "BatchDeleteInstanceIpRule")]
 pub mod BatchDeleteInstanceIpRule;
-#[cfg(feature = "CreateAadDomain")]
-pub mod CreateAadDomain;
 #[cfg(feature = "CreateDomain")]
 pub mod CreateDomain;
 #[cfg(feature = "CreatePolicy")]
@@ -40,6 +38,8 @@ pub mod ExecuteUnblockIp;
 pub mod ListBlockIps;
 #[cfg(feature = "ListDDoSAttackEvent")]
 pub mod ListDDoSAttackEvent;
+#[cfg(feature = "ListDDoSBlackHoleEvent")]
+pub mod ListDDoSBlackHoleEvent;
 #[cfg(feature = "ListDDoSConnectionNumber")]
 pub mod ListDDoSConnectionNumber;
 #[cfg(feature = "ListDDoSFlow")]
@@ -48,6 +48,8 @@ pub mod ListDDoSFlow;
 pub mod ListDomain;
 #[cfg(feature = "ListFrequencyControlRule")]
 pub mod ListFrequencyControlRule;
+#[cfg(feature = "ListGlobalConfig")]
+pub mod ListGlobalConfig;
 #[cfg(feature = "ListInstance")]
 pub mod ListInstance;
 #[cfg(feature = "ListInstanceDomains")]
@@ -64,6 +66,8 @@ pub mod ListPeak;
 pub mod ListPolicy;
 #[cfg(feature = "ListProtectedIp")]
 pub mod ListProtectedIp;
+#[cfg(feature = "ListSourceIp")]
+pub mod ListSourceIp;
 #[cfg(feature = "ListSourceIps")]
 pub mod ListSourceIps;
 #[cfg(feature = "ListUnblockQuotaStatistics")]
@@ -92,10 +96,18 @@ pub mod SetCertForDomain;
 pub mod ShowAlarmConfig;
 #[cfg(feature = "ShowBlockStatistics")]
 pub mod ShowBlockStatistics;
+#[cfg(feature = "ShowDDoSPeak")]
+pub mod ShowDDoSPeak;
 #[cfg(feature = "ShowDomainCertificate")]
 pub mod ShowDomainCertificate;
+#[cfg(feature = "ShowDomainDetail")]
+pub mod ShowDomainDetail;
+#[cfg(feature = "ShowDomainNameConfig")]
+pub mod ShowDomainNameConfig;
 #[cfg(feature = "ShowFlowBlock")]
 pub mod ShowFlowBlock;
+#[cfg(feature = "ShowInstanceByInstanceId")]
+pub mod ShowInstanceByInstanceId;
 #[cfg(feature = "ShowLtsConfig")]
 pub mod ShowLtsConfig;
 #[cfg(feature = "ShowPolicy")]
@@ -110,6 +122,10 @@ pub mod ShowWafQps;
 pub mod UpdateAlarmConfig;
 #[cfg(feature = "UpdateDomain")]
 pub mod UpdateDomain;
+#[cfg(feature = "UpdateDomainConfig")]
+pub mod UpdateDomainConfig;
+#[cfg(feature = "UpdateForwardRule")]
+pub mod UpdateForwardRule;
 #[cfg(feature = "UpdateInstanceIpRule")]
 pub mod UpdateInstanceIpRule;
 #[cfg(feature = "UpdateLtsConfig")]
