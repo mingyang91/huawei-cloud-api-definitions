@@ -114,6 +114,8 @@ pub mod HibernateCluster;
 pub mod ListAccessPolicy;
 #[cfg(feature = "ListAddonInstances")]
 pub mod ListAddonInstances;
+#[cfg(feature = "ListAddonPrecheckTasks")]
+pub mod ListAddonPrecheckTasks;
 #[cfg(feature = "ListAddonTemplates")]
 pub mod ListAddonTemplates;
 #[cfg(feature = "ListAutopilotAddonInstances")]
@@ -150,6 +152,8 @@ pub mod ListClusters;
 pub mod ListClusterUpgradeFeatureGates;
 #[cfg(feature = "ListClusterUpgradePaths")]
 pub mod ListClusterUpgradePaths;
+#[cfg(feature = "ListHyperNodes")]
+pub mod ListHyperNodes;
 #[cfg(feature = "ListImageCaches")]
 pub mod ListImageCaches;
 #[cfg(feature = "ListNodePools")]
@@ -194,7 +198,3 @@ pub mod ScaleNodePool;
 pub mod ShowAddonInstance;
 #[cfg(feature = "ShowAutopilotAddonInstance")]
 pub mod ShowAutopilotAddonInstance;
-#[cfg(feature = "ShowAutopilotChart")]
-pub mod ShowAutopilotChart;
-#[cfg(feature = "ShowAutopilotChartValues")]
-pub mod ShowAutopilotChartValues;

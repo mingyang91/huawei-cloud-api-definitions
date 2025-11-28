@@ -42,6 +42,8 @@ pub mod ListCustomerAccountChangeRecords;
 pub mod ListCustomerBillsFeeRecords;
 #[cfg(feature = "ListCustomerBillsMonthlyBreakDown")]
 pub mod ListCustomerBillsMonthlyBreakDown;
+#[cfg(feature = "ListCustomerCouponChangeRecords")]
+pub mod ListCustomerCouponChangeRecords;
 #[cfg(feature = "ListCustomerOnDemandResources")]
 pub mod ListCustomerOnDemandResources;
 #[cfg(feature = "ListCustomerOrders")]

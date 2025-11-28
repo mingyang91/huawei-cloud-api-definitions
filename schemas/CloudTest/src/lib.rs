@@ -22,6 +22,8 @@ pub mod BatchDeleteTestReport;
 pub mod BatchRemoveTestCasesFromIterator;
 #[cfg(feature = "BatchShowTestCase")]
 pub mod BatchShowTestCase;
+#[cfg(feature = "BatchUpdateTestCasesInDiffVersion")]
+pub mod BatchUpdateTestCasesInDiffVersion;
 #[cfg(feature = "BatchUpdateVersionTestCases")]
 pub mod BatchUpdateVersionTestCases;
 #[cfg(feature = "CheckPermission")]
@@ -196,5 +198,3 @@ pub mod RunTestCase;
 pub mod SaveTaskSetting;
 #[cfg(feature = "SaveTestReportCustomDetail")]
 pub mod SaveTestReportCustomDetail;
-#[cfg(feature = "SetTaskResult")]
-pub mod SetTaskResult;

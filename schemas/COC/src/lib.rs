@@ -158,6 +158,10 @@ pub mod ListExecutionInstances;
 pub mod ListExecutions;
 #[cfg(feature = "ListExecutionSteps")]
 pub mod ListExecutionSteps;
+#[cfg(feature = "ListGroupAliResourceRelations")]
+pub mod ListGroupAliResourceRelations;
+#[cfg(feature = "ListGroupOtherResourceRelations")]
+pub mod ListGroupOtherResourceRelations;
 #[cfg(feature = "ListGroupRmsResourceRelations")]
 pub mod ListGroupRmsResourceRelations;
 #[cfg(feature = "ListIncidents")]
@@ -194,7 +198,3 @@ pub mod ListScriptJobBatches;
 pub mod ListScriptJobs;
 #[cfg(feature = "ListScriptResourceTags")]
 pub mod ListScriptResourceTags;
-#[cfg(feature = "ListScripts")]
-pub mod ListScripts;
-#[cfg(feature = "ListSubTickets")]
-pub mod ListSubTickets;

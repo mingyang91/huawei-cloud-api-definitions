@@ -140,6 +140,8 @@ pub mod ListRestoreTables;
 pub mod ListRestoreTime;
 #[cfg(feature = "ListSlowLogs")]
 pub mod ListSlowLogs;
+#[cfg(feature = "ListSslCertDownloadAddresses")]
+pub mod ListSslCertDownloadAddresses;
 #[cfg(feature = "ModifyAutoNodeExpansionPolicy")]
 pub mod ModifyAutoNodeExpansionPolicy;
 #[cfg(feature = "ModifyDbUserPrivilege")]
@@ -196,5 +198,3 @@ pub mod SetRecyclePolicy;
 pub mod SetRedisPitrPolicy;
 #[cfg(feature = "ShowAllInstancesBackups")]
 pub mod ShowAllInstancesBackups;
-#[cfg(feature = "ShowAllInstancesBackupsNew")]
-pub mod ShowAllInstancesBackupsNew;

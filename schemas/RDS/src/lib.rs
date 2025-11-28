@@ -14,6 +14,8 @@ pub mod AttachEip;
 pub mod BatchAddMsdtcs;
 #[cfg(feature = "BatchDeleteManualBackup")]
 pub mod BatchDeleteManualBackup;
+#[cfg(feature = "BatchModifyPublication")]
+pub mod BatchModifyPublication;
 #[cfg(feature = "BatchModifySubscription")]
 pub mod BatchModifySubscription;
 #[cfg(feature = "BatchRestoreDatabase")]
@@ -54,6 +56,8 @@ pub mod CreateConfiguration;
 pub mod CreateDatabase;
 #[cfg(feature = "CreateDbUser")]
 pub mod CreateDbUser;
+#[cfg(feature = "CreateDistribution")]
+pub mod CreateDistribution;
 #[cfg(feature = "CreateDnsName")]
 pub mod CreateDnsName;
 #[cfg(feature = "CreateInstance")]
@@ -72,6 +76,8 @@ pub mod CreatePostgresqlDatabaseSchema;
 pub mod CreatePostgresqlDbUser;
 #[cfg(feature = "CreatePostgresqlExtension")]
 pub mod CreatePostgresqlExtension;
+#[cfg(feature = "CreatePublication")]
+pub mod CreatePublication;
 #[cfg(feature = "CreateRdSforMySqlProxy")]
 pub mod CreateRdSforMySqlProxy;
 #[cfg(feature = "CreateRestoreInstance")]
@@ -192,9 +198,3 @@ pub mod ListDrRelations;
 pub mod ListEngineFlavors;
 #[cfg(feature = "ListErrorlogForLts")]
 pub mod ListErrorlogForLts;
-#[cfg(feature = "ListErrorLogs")]
-pub mod ListErrorLogs;
-#[cfg(feature = "ListErrorLogsNew")]
-pub mod ListErrorLogsNew;
-#[cfg(feature = "ListFlavors")]
-pub mod ListFlavors;

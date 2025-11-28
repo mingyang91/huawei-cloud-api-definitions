@@ -50,6 +50,8 @@ pub mod CreateDevicePolicy;
 pub mod CreateDeviceProxy;
 #[cfg(feature = "CreateDomainConfiguration")]
 pub mod CreateDomainConfiguration;
+#[cfg(feature = "CreateExportTask")]
+pub mod CreateExportTask;
 #[cfg(feature = "CreateMessage")]
 pub mod CreateMessage;
 #[cfg(feature = "CreateOrDeleteDeviceInGroup")]
@@ -110,6 +112,8 @@ pub mod DeleteDeviceShadow;
 pub mod DeleteDeviceTunnel;
 #[cfg(feature = "DeleteDomainConfiguration")]
 pub mod DeleteDomainConfiguration;
+#[cfg(feature = "DeleteExportTask")]
+pub mod DeleteExportTask;
 #[cfg(feature = "DeleteFunctions")]
 pub mod DeleteFunctions;
 #[cfg(feature = "DeleteHarmonySoftBus")]
@@ -176,6 +180,8 @@ pub mod ListDevices;
 pub mod ListDeviceTunnels;
 #[cfg(feature = "ListDomainConfigurations")]
 pub mod ListDomainConfigurations;
+#[cfg(feature = "ListExportTasks")]
+pub mod ListExportTasks;
 #[cfg(feature = "ListFunctions")]
 pub mod ListFunctions;
 #[cfg(feature = "ListHarmonySoftBus")]
@@ -192,9 +198,3 @@ pub mod ListProperties;
 pub mod ListProvisioningTemplates;
 #[cfg(feature = "ListResourcesByTags")]
 pub mod ListResourcesByTags;
-#[cfg(feature = "ListRoutingBacklogPolicy")]
-pub mod ListRoutingBacklogPolicy;
-#[cfg(feature = "ListRoutingFlowControlPolicy")]
-pub mod ListRoutingFlowControlPolicy;
-#[cfg(feature = "ListRoutingRules")]
-pub mod ListRoutingRules;

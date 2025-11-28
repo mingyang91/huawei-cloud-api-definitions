@@ -22,10 +22,14 @@ pub mod AddPolicyGroup;
 pub mod AddProtectionPolicy;
 #[cfg(feature = "AddRegistry")]
 pub mod AddRegistry;
+#[cfg(feature = "AddSecurityCheckPolicyGroup")]
+pub mod AddSecurityCheckPolicyGroup;
 #[cfg(feature = "AddSystemUserWhiteList")]
 pub mod AddSystemUserWhiteList;
 #[cfg(feature = "AddVulWhiteList")]
 pub mod AddVulWhiteList;
+#[cfg(feature = "AssociateBackupPolicy")]
+pub mod AssociateBackupPolicy;
 #[cfg(feature = "AssociateHostAssetValue")]
 pub mod AssociateHostAssetValue;
 #[cfg(feature = "AssociateHostsGroup")]
@@ -50,6 +54,8 @@ pub mod BatchDeleteTags;
 pub mod BatchExportBaselineTask;
 #[cfg(feature = "BatchExportLocalVulTask")]
 pub mod BatchExportLocalVulTask;
+#[cfg(feature = "BatchModifyPortStatus")]
+pub mod BatchModifyPortStatus;
 #[cfg(feature = "BatchScanLocalImage")]
 pub mod BatchScanLocalImage;
 #[cfg(feature = "BatchScanSwrImage")]
@@ -90,6 +96,8 @@ pub mod ChangeContainerStatus;
 pub mod ChangeEvent;
 #[cfg(feature = "ChangeExtendedWeakPassword")]
 pub mod ChangeExtendedWeakPassword;
+#[cfg(feature = "ChangeFilePathWhiteDetail")]
+pub mod ChangeFilePathWhiteDetail;
 #[cfg(feature = "ChangeHostIgnoreStatus")]
 pub mod ChangeHostIgnoreStatus;
 #[cfg(feature = "ChangeHostsGroup")]
@@ -108,6 +116,8 @@ pub mod ChangePasswordComplexityStatus;
 pub mod ChangePolicyGroup;
 #[cfg(feature = "ChangePolicySwitchStatus")]
 pub mod ChangePolicySwitchStatus;
+#[cfg(feature = "ChangeSensitiveInfo")]
+pub mod ChangeSensitiveInfo;
 #[cfg(feature = "ChangeSwitchesStatus")]
 pub mod ChangeSwitchesStatus;
 #[cfg(feature = "ChangeVulScanPolicy")]
@@ -156,6 +166,8 @@ pub mod CreateTask;
 pub mod CreateVpcEndpoint;
 #[cfg(feature = "CreateVulnerabilityScanTask")]
 pub mod CreateVulnerabilityScanTask;
+#[cfg(feature = "CreateWebTamperProtectionConfig")]
+pub mod CreateWebTamperProtectionConfig;
 #[cfg(feature = "DeleteAccount")]
 pub mod DeleteAccount;
 #[cfg(feature = "DeleteAgentDaemonset")]
@@ -186,15 +198,3 @@ pub mod DeleteDuplicationInfo;
 pub mod DeleteHostsGroup;
 #[cfg(feature = "DeleteImageWhiteLists")]
 pub mod DeleteImageWhiteLists;
-#[cfg(feature = "DeleteIsolatedFile")]
-pub mod DeleteIsolatedFile;
-#[cfg(feature = "DeletePolicy")]
-pub mod DeletePolicy;
-#[cfg(feature = "DeletePolicyGroup")]
-pub mod DeletePolicyGroup;
-#[cfg(feature = "DeleteProtectionPolicy")]
-pub mod DeleteProtectionPolicy;
-#[cfg(feature = "DeleteRegistry")]
-pub mod DeleteRegistry;
-#[cfg(feature = "DeleteResourceInstanceTag")]
-pub mod DeleteResourceInstanceTag;

@@ -42,6 +42,8 @@ pub mod DisassociateListener;
 pub mod ListAccelerators;
 #[cfg(feature = "ListAllPops")]
 pub mod ListAllPops;
+#[cfg(feature = "ListByoipPools")]
+pub mod ListByoipPools;
 #[cfg(feature = "ListEndpointGroups")]
 pub mod ListEndpointGroups;
 #[cfg(feature = "ListEndpoints")]

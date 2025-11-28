@@ -4,6 +4,8 @@ pub mod BatchCreateDeleteNatGatewayTag;
 pub mod BatchCreateDeletePrivateNatTags;
 #[cfg(feature = "BatchCreateDeleteTransitIpTags")]
 pub mod BatchCreateDeleteTransitIpTags;
+#[cfg(feature = "BatchCreateDeleteTransitSubnetTags")]
+pub mod BatchCreateDeleteTransitSubnetTags;
 #[cfg(feature = "BatchCreateNatGatewayDnatRules")]
 pub mod BatchCreateNatGatewayDnatRules;
 #[cfg(feature = "CreateNatGateway")]
@@ -26,6 +28,10 @@ pub mod CreatePrivateSnat;
 pub mod CreateTransitIp;
 #[cfg(feature = "CreateTransitIpTag")]
 pub mod CreateTransitIpTag;
+#[cfg(feature = "CreateTransitSubnet")]
+pub mod CreateTransitSubnet;
+#[cfg(feature = "CreateTransitSubnetTag")]
+pub mod CreateTransitSubnetTag;
 #[cfg(feature = "DeleteNatGateway")]
 pub mod DeleteNatGateway;
 #[cfg(feature = "DeleteNatGatewayDnatRule")]
@@ -46,6 +52,10 @@ pub mod DeletePrivateSnat;
 pub mod DeleteTransitIp;
 #[cfg(feature = "DeleteTransitIpTag")]
 pub mod DeleteTransitIpTag;
+#[cfg(feature = "DeleteTransitSubnet")]
+pub mod DeleteTransitSubnet;
+#[cfg(feature = "DeleteTransitSubnetTag")]
+pub mod DeleteTransitSubnetTag;
 #[cfg(feature = "ListNatGatewayByTag")]
 pub mod ListNatGatewayByTag;
 #[cfg(feature = "ListNatGatewayDnatRules")]
@@ -54,6 +64,8 @@ pub mod ListNatGatewayDnatRules;
 pub mod ListNatGateways;
 #[cfg(feature = "ListNatGatewaySnatRules")]
 pub mod ListNatGatewaySnatRules;
+#[cfg(feature = "ListNatGatewaySpecs")]
+pub mod ListNatGatewaySpecs;
 #[cfg(feature = "ListNatGatewayTag")]
 pub mod ListNatGatewayTag;
 #[cfg(feature = "ListPrivateDnats")]
@@ -66,12 +78,20 @@ pub mod ListPrivateNatsByTags;
 pub mod ListPrivateNatTags;
 #[cfg(feature = "ListPrivateSnats")]
 pub mod ListPrivateSnats;
+#[cfg(feature = "ListSpecs")]
+pub mod ListSpecs;
 #[cfg(feature = "ListTransitIps")]
 pub mod ListTransitIps;
 #[cfg(feature = "ListTransitIpsByTags")]
 pub mod ListTransitIpsByTags;
 #[cfg(feature = "ListTransitIpTags")]
 pub mod ListTransitIpTags;
+#[cfg(feature = "ListTransitSubnet")]
+pub mod ListTransitSubnet;
+#[cfg(feature = "ListTransitSubnetsByTags")]
+pub mod ListTransitSubnetsByTags;
+#[cfg(feature = "ListTransitSubnetTags")]
+pub mod ListTransitSubnetTags;
 #[cfg(feature = "ShowNatGateway")]
 pub mod ShowNatGateway;
 #[cfg(feature = "ShowNatGatewayDnatRule")]
@@ -92,6 +112,10 @@ pub mod ShowPrivateSnat;
 pub mod ShowTransitIp;
 #[cfg(feature = "ShowTransitIpTags")]
 pub mod ShowTransitIpTags;
+#[cfg(feature = "ShowTransitSubnet")]
+pub mod ShowTransitSubnet;
+#[cfg(feature = "ShowTransitSubnetTags")]
+pub mod ShowTransitSubnetTags;
 #[cfg(feature = "UpdateNatGateway")]
 pub mod UpdateNatGateway;
 #[cfg(feature = "UpdateNatGatewayDnatRule")]
@@ -104,3 +128,5 @@ pub mod UpdatePrivateDnat;
 pub mod UpdatePrivateNat;
 #[cfg(feature = "UpdatePrivateSnat")]
 pub mod UpdatePrivateSnat;
+#[cfg(feature = "UpdateTransitSubnet")]
+pub mod UpdateTransitSubnet;

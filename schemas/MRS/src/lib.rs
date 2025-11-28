@@ -36,6 +36,8 @@ pub mod ExecuteSql;
 pub mod ExpandCluster;
 #[cfg(feature = "ListAllTags")]
 pub mod ListAllTags;
+#[cfg(feature = "ListAsyncTaskStatus")]
+pub mod ListAsyncTaskStatus;
 #[cfg(feature = "ListAvailableZones")]
 pub mod ListAvailableZones;
 #[cfg(feature = "ListClusters")]
