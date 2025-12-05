@@ -22,6 +22,8 @@ pub mod ConfirmSubscription;
 pub mod CreateApplication;
 #[cfg(feature = "CreateApplicationEndpoint")]
 pub mod CreateApplicationEndpoint;
+#[cfg(feature = "CreateKmsKey")]
+pub mod CreateKmsKey;
 #[cfg(feature = "CreateLogtank")]
 pub mod CreateLogtank;
 #[cfg(feature = "CreateMessageTemplate")]
@@ -36,6 +38,8 @@ pub mod CreateTopic;
 pub mod DeleteApplication;
 #[cfg(feature = "DeleteApplicationEndpoint")]
 pub mod DeleteApplicationEndpoint;
+#[cfg(feature = "DeleteKmsKey")]
+pub mod DeleteKmsKey;
 #[cfg(feature = "DeleteLogtank")]
 pub mod DeleteLogtank;
 #[cfg(feature = "DeleteMessageTemplate")]
@@ -54,6 +58,8 @@ pub mod DeleteTopicAttributeByName;
 pub mod DeleteTopicAttributes;
 #[cfg(feature = "DownloadHttpCert")]
 pub mod DownloadHttpCert;
+#[cfg(feature = "DownloadHttpSignCert")]
+pub mod DownloadHttpSignCert;
 #[cfg(feature = "ListApplicationAttributes")]
 pub mod ListApplicationAttributes;
 #[cfg(feature = "ListApplicationEndpointAttributes")]
@@ -64,6 +70,8 @@ pub mod ListApplicationEndpoints;
 pub mod ListApplications;
 #[cfg(feature = "ListCloudService")]
 pub mod ListCloudService;
+#[cfg(feature = "ListCloudServices")]
+pub mod ListCloudServices;
 #[cfg(feature = "ListLogtank")]
 pub mod ListLogtank;
 #[cfg(feature = "ListMessageTemplateDetails")]
@@ -90,6 +98,8 @@ pub mod ListTopicDetails;
 pub mod ListTopicMessageStatistics;
 #[cfg(feature = "ListTopics")]
 pub mod ListTopics;
+#[cfg(feature = "ListTopicsWithAssociatedResources")]
+pub mod ListTopicsWithAssociatedResources;
 #[cfg(feature = "ListVersion")]
 pub mod ListVersion;
 #[cfg(feature = "ListVersions")]
@@ -102,14 +112,22 @@ pub mod PublishHttpDetect;
 pub mod PublishMessage;
 #[cfg(feature = "ShowHttpDetectResult")]
 pub mod ShowHttpDetectResult;
+#[cfg(feature = "ShowKmsKey")]
+pub mod ShowKmsKey;
 #[cfg(feature = "ShowNotifyPolicy")]
 pub mod ShowNotifyPolicy;
+#[cfg(feature = "SubscribeTopic")]
+pub mod SubscribeTopic;
 #[cfg(feature = "UnsubscribeSubscription")]
 pub mod UnsubscribeSubscription;
+#[cfg(feature = "UnsubscribeTopic")]
+pub mod UnsubscribeTopic;
 #[cfg(feature = "UpdateApplication")]
 pub mod UpdateApplication;
 #[cfg(feature = "UpdateApplicationEndpoint")]
 pub mod UpdateApplicationEndpoint;
+#[cfg(feature = "UpdateKmsKey")]
+pub mod UpdateKmsKey;
 #[cfg(feature = "UpdateLogtank")]
 pub mod UpdateLogtank;
 #[cfg(feature = "UpdateMessageTemplate")]

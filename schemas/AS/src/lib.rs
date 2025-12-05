@@ -22,6 +22,8 @@ pub mod BatchUnprotectScalingInstances;
 pub mod BatchUnsetScalingInstancesStantby;
 #[cfg(feature = "CloseWarmPool")]
 pub mod CloseWarmPool;
+#[cfg(feature = "CloseWarmPoolNew")]
+pub mod CloseWarmPoolNew;
 #[cfg(feature = "CreateGroupScheduledTask")]
 pub mod CreateGroupScheduledTask;
 #[cfg(feature = "CreateLifyCycleHook")]
@@ -92,12 +94,16 @@ pub mod ListScalingTagInfosByTenantId;
 pub mod ListScalingV2Policies;
 #[cfg(feature = "ListWarmPoolInstances")]
 pub mod ListWarmPoolInstances;
+#[cfg(feature = "ListWarmPoolInstancesNew")]
+pub mod ListWarmPoolInstancesNew;
 #[cfg(feature = "PauseScalingGroup")]
 pub mod PauseScalingGroup;
 #[cfg(feature = "PauseScalingPolicy")]
 pub mod PauseScalingPolicy;
 #[cfg(feature = "PutWarmPool")]
 pub mod PutWarmPool;
+#[cfg(feature = "PutWarmPoolNew")]
+pub mod PutWarmPoolNew;
 #[cfg(feature = "ResumeScalingGroup")]
 pub mod ResumeScalingGroup;
 #[cfg(feature = "ResumeScalingPolicy")]
@@ -120,6 +126,8 @@ pub mod ShowScalingPolicy;
 pub mod ShowScalingV2Policy;
 #[cfg(feature = "ShowWarmPool")]
 pub mod ShowWarmPool;
+#[cfg(feature = "ShowWarmPoolNew")]
+pub mod ShowWarmPoolNew;
 #[cfg(feature = "UpdateGroupScheduledTask")]
 pub mod UpdateGroupScheduledTask;
 #[cfg(feature = "UpdateLifeCycleHook")]

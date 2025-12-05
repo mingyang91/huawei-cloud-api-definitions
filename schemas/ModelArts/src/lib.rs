@@ -110,8 +110,8 @@ pub mod DeleteLogDiagnosisJob;
 pub mod DeleteModel;
 #[cfg(feature = "DeleteNetwork")]
 pub mod DeleteNetwork;
-#[cfg(feature = "DeleteNetworkDiagnosisJob1")]
-pub mod DeleteNetworkDiagnosisJob1;
+#[cfg(feature = "DeleteNetworkDiagnosisJob")]
+pub mod DeleteNetworkDiagnosisJob;
 #[cfg(feature = "DeleteNodePool")]
 pub mod DeleteNodePool;
 #[cfg(feature = "DeleteNotebook")]

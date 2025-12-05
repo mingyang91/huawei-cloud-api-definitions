@@ -32,6 +32,8 @@ pub mod CreateConfiguration;
 pub mod CreateDatabaseRole;
 #[cfg(feature = "CreateDatabaseUser")]
 pub mod CreateDatabaseUser;
+#[cfg(feature = "CreateInstance")]
+pub mod CreateInstance;
 #[cfg(feature = "CreateIp")]
 pub mod CreateIp;
 #[cfg(feature = "CreateKillOpRule")]
@@ -98,6 +100,8 @@ pub mod ListErrorLogs;
 pub mod ListFlavorInfos;
 #[cfg(feature = "ListFlavors")]
 pub mod ListFlavors;
+#[cfg(feature = "ListInstances")]
+pub mod ListInstances;
 #[cfg(feature = "ListInstancesByTags")]
 pub mod ListInstancesByTags;
 #[cfg(feature = "ListInstanceTags")]
@@ -194,7 +198,3 @@ pub mod ShowJobDetail;
 pub mod ShowKillOpRuleRuleList;
 #[cfg(feature = "ShowQuotas")]
 pub mod ShowQuotas;
-#[cfg(feature = "ShowRecyclePolicy")]
-pub mod ShowRecyclePolicy;
-#[cfg(feature = "ShowReplSetName")]
-pub mod ShowReplSetName;

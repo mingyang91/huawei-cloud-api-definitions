@@ -66,6 +66,8 @@ pub mod DeleteWatermarkTemplate;
 pub mod ListAreaDetail;
 #[cfg(feature = "ListBandwidthDetail")]
 pub mod ListBandwidthDetail;
+#[cfg(feature = "ListCarouselTaskDetail")]
+pub mod ListCarouselTaskDetail;
 #[cfg(feature = "ListCesDimsInfo")]
 pub mod ListCesDimsInfo;
 #[cfg(feature = "ListCesInstance")]
@@ -196,5 +198,3 @@ pub mod UpdateDomain;
 pub mod UpdateDomainHttpsCert;
 #[cfg(feature = "UpdateDomainIp6Switch")]
 pub mod UpdateDomainIp6Switch;
-#[cfg(feature = "UpdateDomainKeyChain")]
-pub mod UpdateDomainKeyChain;

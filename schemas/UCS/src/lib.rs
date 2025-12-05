@@ -38,8 +38,8 @@ pub mod DeleteProxyUnitedWorkload;
 pub mod DeleteRepo;
 #[cfg(feature = "DeleteRule")]
 pub mod DeleteRule;
-#[cfg(feature = "DisableClustergroupPolicy")]
-pub mod DisableClustergroupPolicy;
+#[cfg(feature = "DisableClusterGroupPolicy")]
+pub mod DisableClusterGroupPolicy;
 #[cfg(feature = "DisableClusterPolicy")]
 pub mod DisableClusterPolicy;
 #[cfg(feature = "DisableFederation")]
@@ -48,8 +48,8 @@ pub mod DisableFederation;
 pub mod DisableGitOps;
 #[cfg(feature = "DownloadFederationKubeconfig")]
 pub mod DownloadFederationKubeconfig;
-#[cfg(feature = "EnableClustergroupPolicy")]
-pub mod EnableClustergroupPolicy;
+#[cfg(feature = "EnableClusterGroupPolicy")]
+pub mod EnableClusterGroupPolicy;
 #[cfg(feature = "EnableClusterPolicy")]
 pub mod EnableClusterPolicy;
 #[cfg(feature = "EnableFederation")]

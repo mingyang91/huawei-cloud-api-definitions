@@ -1,3 +1,7 @@
+#[cfg(feature = "BatchDeleteNodes")]
+pub mod BatchDeleteNodes;
+#[cfg(feature = "BindEip")]
+pub mod BindEip;
 #[cfg(feature = "CancelMigration")]
 pub mod CancelMigration;
 #[cfg(feature = "ChangeDatabaseVersion")]
@@ -16,6 +20,8 @@ pub mod CreateDatabase;
 pub mod CreateDdmConfigurations;
 #[cfg(feature = "CreateDdmDatabase")]
 pub mod CreateDdmDatabase;
+#[cfg(feature = "CreateDdmInstance")]
+pub mod CreateDdmInstance;
 #[cfg(feature = "CreateGroup")]
 pub mod CreateGroup;
 #[cfg(feature = "CreateInstance")]
@@ -32,8 +38,12 @@ pub mod DeleteDatabase;
 pub mod DeleteDdmDatabase;
 #[cfg(feature = "DeleteDdmInstance")]
 pub mod DeleteDdmInstance;
+#[cfg(feature = "DeleteGroup")]
+pub mod DeleteGroup;
 #[cfg(feature = "DeleteInstance")]
 pub mod DeleteInstance;
+#[cfg(feature = "DeleteNodes")]
+pub mod DeleteNodes;
 #[cfg(feature = "DeleteUser")]
 pub mod DeleteUser;
 #[cfg(feature = "DownloadSchemaMetadata")]
@@ -82,6 +92,8 @@ pub mod ListReadWriteRatio;
 pub mod ListSlowLog;
 #[cfg(feature = "ListSlowLogs")]
 pub mod ListSlowLogs;
+#[cfg(feature = "ListTasks")]
+pub mod ListTasks;
 #[cfg(feature = "ListUsers")]
 pub mod ListUsers;
 #[cfg(feature = "MigrateLogicDb")]
@@ -90,6 +102,8 @@ pub mod MigrateLogicDb;
 pub mod MigrateResults;
 #[cfg(feature = "ModifyConfiguration")]
 pub mod ModifyConfiguration;
+#[cfg(feature = "ModifyEip")]
+pub mod ModifyEip;
 #[cfg(feature = "RebuildConfig")]
 pub mod RebuildConfig;
 #[cfg(feature = "ResetAdministrator")]
@@ -98,8 +112,12 @@ pub mod ResetAdministrator;
 pub mod ResetUserPassword;
 #[cfg(feature = "ResizeFlavor")]
 pub mod ResizeFlavor;
+#[cfg(feature = "RestartDdmInstance")]
+pub mod RestartDdmInstance;
 #[cfg(feature = "RestartInstance")]
 pub mod RestartInstance;
+#[cfg(feature = "RestartNode")]
+pub mod RestartNode;
 #[cfg(feature = "Restore2Exist")]
 pub mod Restore2Exist;
 #[cfg(feature = "RestoreMetadata")]
@@ -124,6 +142,8 @@ pub mod ShowConfiguration;
 pub mod ShowDatabase;
 #[cfg(feature = "ShowDdmJobResult")]
 pub mod ShowDdmJobResult;
+#[cfg(feature = "ShowDdmNodeDetail")]
+pub mod ShowDdmNodeDetail;
 #[cfg(feature = "ShowInstance")]
 pub mod ShowInstance;
 #[cfg(feature = "ShowInstanceDatabase")]
@@ -138,6 +158,8 @@ pub mod ShowNode;
 pub mod ShowPhysicalProcesses;
 #[cfg(feature = "ShowProcessesAuditLog")]
 pub mod ShowProcessesAuditLog;
+#[cfg(feature = "ShowPublicIp")]
+pub mod ShowPublicIp;
 #[cfg(feature = "ShowRelatedDns")]
 pub mod ShowRelatedDns;
 #[cfg(feature = "ShowRiskInfo")]
@@ -148,6 +170,10 @@ pub mod ShrinkInstanceNodes;
 pub mod SwitchRoute;
 #[cfg(feature = "SwitchSsl")]
 pub mod SwitchSsl;
+#[cfg(feature = "SyncDnInformation")]
+pub mod SyncDnInformation;
+#[cfg(feature = "UnbindEip")]
+pub mod UnbindEip;
 #[cfg(feature = "UpdateDatabaseInfo")]
 pub mod UpdateDatabaseInfo;
 #[cfg(feature = "UpdateInstanceName")]

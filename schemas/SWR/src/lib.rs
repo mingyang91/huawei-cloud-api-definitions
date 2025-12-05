@@ -132,6 +132,8 @@ pub mod ListInstanceAccessories;
 pub mod ListInstanceAllArtifacts;
 #[cfg(feature = "ListInstanceArtifacts")]
 pub mod ListInstanceArtifacts;
+#[cfg(feature = "ListInstanceArtifactVulnerabilities")]
+pub mod ListInstanceArtifactVulnerabilities;
 #[cfg(feature = "ListInstanceInternalEndpoints")]
 pub mod ListInstanceInternalEndpoints;
 #[cfg(feature = "ListInstanceJobs")]
@@ -196,5 +198,3 @@ pub mod ListRepoDetails;
 pub mod ListRepoDomains;
 #[cfg(feature = "ListReposDetails")]
 pub mod ListReposDetails;
-#[cfg(feature = "ListRepositoryTag")]
-pub mod ListRepositoryTag;

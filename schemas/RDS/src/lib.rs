@@ -12,8 +12,12 @@ pub mod ApplyConfigurationAsync;
 pub mod AttachEip;
 #[cfg(feature = "BatchAddMsdtcs")]
 pub mod BatchAddMsdtcs;
+#[cfg(feature = "BatchDeleteInstance")]
+pub mod BatchDeleteInstance;
 #[cfg(feature = "BatchDeleteManualBackup")]
 pub mod BatchDeleteManualBackup;
+#[cfg(feature = "BatchExecuteEvents")]
+pub mod BatchExecuteEvents;
 #[cfg(feature = "BatchModifyPublication")]
 pub mod BatchModifyPublication;
 #[cfg(feature = "BatchModifySubscription")]
@@ -46,6 +50,8 @@ pub mod CheckWeakpwd;
 pub mod CollectPublicationMonitor;
 #[cfg(feature = "CollectSubscriptionMonitor")]
 pub mod CollectSubscriptionMonitor;
+#[cfg(feature = "CompareConfiguration")]
+pub mod CompareConfiguration;
 #[cfg(feature = "CopyConfiguration")]
 pub mod CopyConfiguration;
 #[cfg(feature = "CopyDatabase")]
@@ -80,6 +86,8 @@ pub mod CreatePostgresqlExtension;
 pub mod CreatePublication;
 #[cfg(feature = "CreateRdSforMySqlProxy")]
 pub mod CreateRdSforMySqlProxy;
+#[cfg(feature = "CreateRebuildSlave")]
+pub mod CreateRebuildSlave;
 #[cfg(feature = "CreateRestoreInstance")]
 pub mod CreateRestoreInstance;
 #[cfg(feature = "CreateSqlLimit")]
@@ -190,11 +198,3 @@ pub mod ListDbUsers;
 pub mod ListDistribution;
 #[cfg(feature = "ListDistributorInstances")]
 pub mod ListDistributorInstances;
-#[cfg(feature = "ListDrInfos")]
-pub mod ListDrInfos;
-#[cfg(feature = "ListDrRelations")]
-pub mod ListDrRelations;
-#[cfg(feature = "ListEngineFlavors")]
-pub mod ListEngineFlavors;
-#[cfg(feature = "ListErrorlogForLts")]
-pub mod ListErrorlogForLts;

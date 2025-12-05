@@ -62,5 +62,7 @@ pub mod StopTask;
 pub mod StopTaskGroup;
 #[cfg(feature = "UpdateBandwidthPolicy")]
 pub mod UpdateBandwidthPolicy;
+#[cfg(feature = "UpdatePrivacyAgreementRecord")]
+pub mod UpdatePrivacyAgreementRecord;
 #[cfg(feature = "UpdateTaskGroup")]
 pub mod UpdateTaskGroup;

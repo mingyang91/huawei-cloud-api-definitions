@@ -84,6 +84,8 @@ pub mod CreateAntiTamperRule;
 pub mod CreateCcRule;
 #[cfg(feature = "CreateCertificate")]
 pub mod CreateCertificate;
+#[cfg(feature = "CreateCloudWafPostPaidResource")]
+pub mod CreateCloudWafPostPaidResource;
 #[cfg(feature = "CreateCustomRule")]
 pub mod CreateCustomRule;
 #[cfg(feature = "CreateEventExportJob")]
@@ -120,6 +122,8 @@ pub mod CreateValueList;
 pub mod CreateWhiteblackipRule;
 #[cfg(feature = "DeleteAgency")]
 pub mod DeleteAgency;
+#[cfg(feature = "DeleteAlertNoticeConfig")]
+pub mod DeleteAlertNoticeConfig;
 #[cfg(feature = "DeleteAnticrawlerRule")]
 pub mod DeleteAnticrawlerRule;
 #[cfg(feature = "DeleteAntileakageRule")]
@@ -130,6 +134,8 @@ pub mod DeleteAntitamperRule;
 pub mod DeleteCcRule;
 #[cfg(feature = "DeleteCertificate")]
 pub mod DeleteCertificate;
+#[cfg(feature = "DeleteCloudWafPostPaidResource")]
+pub mod DeleteCloudWafPostPaidResource;
 #[cfg(feature = "DeleteCustomRule")]
 pub mod DeleteCustomRule;
 #[cfg(feature = "DeleteGeoipRule")]
@@ -192,9 +198,3 @@ pub mod ListEventLog;
 pub mod ListGeoIpPolicyRules;
 #[cfg(feature = "ListGeoipRule")]
 pub mod ListGeoipRule;
-#[cfg(feature = "ListHost")]
-pub mod ListHost;
-#[cfg(feature = "ListHostRoute")]
-pub mod ListHostRoute;
-#[cfg(feature = "ListIgnorePolicyRules")]
-pub mod ListIgnorePolicyRules;

@@ -122,6 +122,8 @@ pub mod UpdateNatGateway;
 pub mod UpdateNatGatewayDnatRule;
 #[cfg(feature = "UpdateNatGatewaySnatRule")]
 pub mod UpdateNatGatewaySnatRule;
+#[cfg(feature = "UpdateNatGatewayToPeriod")]
+pub mod UpdateNatGatewayToPeriod;
 #[cfg(feature = "UpdatePrivateDnat")]
 pub mod UpdatePrivateDnat;
 #[cfg(feature = "UpdatePrivateNat")]
