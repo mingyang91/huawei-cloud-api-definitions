@@ -1,5 +1,7 @@
 #[cfg(feature = "AddDatabasePermission")]
 pub mod AddDatabasePermission;
+#[cfg(feature = "BatchDeleteBackup")]
+pub mod BatchDeleteBackup;
 #[cfg(feature = "BatchTagAction")]
 pub mod BatchTagAction;
 #[cfg(feature = "BatchUpgradeDatabases")]
@@ -56,6 +58,8 @@ pub mod CreateStarRocksDatabaseUser;
 pub mod CreateStarRocksDataReplication;
 #[cfg(feature = "CreateStarrocksInstance")]
 pub mod CreateStarrocksInstance;
+#[cfg(feature = "DeleteAutoSqlLimiting")]
+pub mod DeleteAutoSqlLimiting;
 #[cfg(feature = "DeleteDatabasePermission")]
 pub mod DeleteDatabasePermission;
 #[cfg(feature = "DeleteGaussMySqlBackup")]
@@ -194,7 +198,3 @@ pub mod PauseStarRocksDataReplication;
 pub mod RenameInstanceNode;
 #[cfg(feature = "ResetGaussMySqlDatabasePassword")]
 pub mod ResetGaussMySqlDatabasePassword;
-#[cfg(feature = "ResetGaussMySqlPassword")]
-pub mod ResetGaussMySqlPassword;
-#[cfg(feature = "ResizeStarRocksFlavor")]
-pub mod ResizeStarRocksFlavor;

@@ -98,6 +98,8 @@ pub mod ChangeEvent;
 pub mod ChangeExtendedWeakPassword;
 #[cfg(feature = "ChangeFilePathWhiteDetail")]
 pub mod ChangeFilePathWhiteDetail;
+#[cfg(feature = "ChangeFilePathWhiteLists")]
+pub mod ChangeFilePathWhiteLists;
 #[cfg(feature = "ChangeHostIgnoreStatus")]
 pub mod ChangeHostIgnoreStatus;
 #[cfg(feature = "ChangeHostsGroup")]
@@ -196,5 +198,3 @@ pub mod DeleteDecoyPortPolicy;
 pub mod DeleteDuplicationInfo;
 #[cfg(feature = "DeleteHostsGroup")]
 pub mod DeleteHostsGroup;
-#[cfg(feature = "DeleteImageWhiteLists")]
-pub mod DeleteImageWhiteLists;

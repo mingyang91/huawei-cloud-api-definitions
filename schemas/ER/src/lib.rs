@@ -4,6 +4,8 @@ pub mod AcceptAttachment;
 pub mod AssociateRouteTable;
 #[cfg(feature = "BatchCreateResourceTags")]
 pub mod BatchCreateResourceTags;
+#[cfg(feature = "ChangeAssociationRoutePolicy")]
+pub mod ChangeAssociationRoutePolicy;
 #[cfg(feature = "ChangeAvailabilityZone")]
 pub mod ChangeAvailabilityZone;
 #[cfg(feature = "CreateEnterpriseRouter")]
@@ -86,6 +88,8 @@ pub mod UpdateAttachment;
 pub mod UpdateEnterpriseRouter;
 #[cfg(feature = "UpdateFlowLog")]
 pub mod UpdateFlowLog;
+#[cfg(feature = "UpdatePropagationRoutePolicy")]
+pub mod UpdatePropagationRoutePolicy;
 #[cfg(feature = "UpdateRouteTable")]
 pub mod UpdateRouteTable;
 #[cfg(feature = "UpdateStaticRoute")]

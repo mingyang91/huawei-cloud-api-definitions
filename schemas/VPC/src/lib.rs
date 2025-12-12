@@ -74,6 +74,8 @@ pub mod CreateTrafficMirrorFilter;
 pub mod CreateTrafficMirrorFilterRule;
 #[cfg(feature = "CreateTrafficMirrorSession")]
 pub mod CreateTrafficMirrorSession;
+#[cfg(feature = "CreateVirsubnetCidrReservation")]
+pub mod CreateVirsubnetCidrReservation;
 #[cfg(feature = "CreateVpc")]
 pub mod CreateVpc;
 #[cfg(feature = "CreateVpcPeering")]
@@ -118,6 +120,8 @@ pub mod DeleteTrafficMirrorFilter;
 pub mod DeleteTrafficMirrorFilterRule;
 #[cfg(feature = "DeleteTrafficMirrorSession")]
 pub mod DeleteTrafficMirrorSession;
+#[cfg(feature = "DeleteVirsubnetCidrReservation")]
+pub mod DeleteVirsubnetCidrReservation;
 #[cfg(feature = "DeleteVpc")]
 pub mod DeleteVpc;
 #[cfg(feature = "DeleteVpcPeering")]
@@ -174,6 +178,8 @@ pub mod ListTrafficMirrorFilterRules;
 pub mod ListTrafficMirrorFilters;
 #[cfg(feature = "ListTrafficMirrorSessions")]
 pub mod ListTrafficMirrorSessions;
+#[cfg(feature = "ListVirsubnetCidrReservations")]
+pub mod ListVirsubnetCidrReservations;
 #[cfg(feature = "ListVpcPeerings")]
 pub mod ListVpcPeerings;
 #[cfg(feature = "ListVpcRoutes")]
@@ -192,9 +198,3 @@ pub mod NeutronAddRouterInterface;
 pub mod NeutronCreateFirewallGroup;
 #[cfg(feature = "NeutronCreateFirewallPolicy")]
 pub mod NeutronCreateFirewallPolicy;
-#[cfg(feature = "NeutronCreateFirewallRule")]
-pub mod NeutronCreateFirewallRule;
-#[cfg(feature = "NeutronCreateNetwork")]
-pub mod NeutronCreateNetwork;
-#[cfg(feature = "NeutronCreatePort")]
-pub mod NeutronCreatePort;

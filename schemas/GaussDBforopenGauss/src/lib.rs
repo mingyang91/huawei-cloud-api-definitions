@@ -10,6 +10,8 @@ pub mod AllowDbRolePrivileges;
 pub mod AttachEip;
 #[cfg(feature = "AuthorizeBackupDownload")]
 pub mod AuthorizeBackupDownload;
+#[cfg(feature = "BatchDeleteInstanceTag")]
+pub mod BatchDeleteInstanceTag;
 #[cfg(feature = "BatchSetBackupPolicy")]
 pub mod BatchSetBackupPolicy;
 #[cfg(feature = "BatchShowUpgradeCandidateVersions")]
@@ -196,5 +198,3 @@ pub mod ListInstanceTags;
 pub mod ListKernelPlugins;
 #[cfg(feature = "ListKeyViewExecuteNode")]
 pub mod ListKeyViewExecuteNode;
-#[cfg(feature = "ListKmsTdeKey")]
-pub mod ListKmsTdeKey;

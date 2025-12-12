@@ -1,5 +1,9 @@
 #[cfg(feature = "AddDomainName")]
 pub mod AddDomainName;
+#[cfg(feature = "CheckAgency")]
+pub mod CheckAgency;
+#[cfg(feature = "CreateAgency")]
+pub mod CreateAgency;
 #[cfg(feature = "CreateAuthorizationToken")]
 pub mod CreateAuthorizationToken;
 #[cfg(feature = "CreateImageSyncRepo")]
@@ -194,7 +198,3 @@ pub mod ListNamespaceTags;
 pub mod ListQuotas;
 #[cfg(feature = "ListRepoDetails")]
 pub mod ListRepoDetails;
-#[cfg(feature = "ListRepoDomains")]
-pub mod ListRepoDomains;
-#[cfg(feature = "ListReposDetails")]
-pub mod ListReposDetails;
