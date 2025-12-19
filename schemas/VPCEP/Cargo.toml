@@ -17,6 +17,7 @@ version = "0"
 
 [features]
 AcceptOrRejectEndpoint = []
+AddEndpointServiceServerResource = []
 AddOrRemoveServicePermissions = []
 BatchAddEndpointServicePermissions = []
 BatchAddOrRemoveResourceInstance = []
@@ -46,8 +47,9 @@ UpdateEndpointService = []
 UpdateEndpointServiceName = []
 UpdateEndpointServicePermissionDesc = []
 UpdateEndpointWhite = []
+UpgradeEndpoint = []
 UpgradeEndpointService = []
-full = ["AcceptOrRejectEndpoint", "AddOrRemoveServicePermissions", "BatchAddEndpointServicePermissions", "BatchAddOrRemoveResourceInstance", "BatchRemoveEndpointServicePermissions", "CreateEndpoint", "CreateEndpointService", "DeleteEndpoint", "DeleteEndpointPolicy", "DeleteEndpointService", "ListEndpointInfoDetails", "ListEndpoints", "ListEndpointService", "ListQueryProjectResourceTags", "ListQuotaDetails", "ListResourceInstances", "ListServiceConnections", "ListServiceDescribeDetails", "ListServiceDetails", "ListServicePermissionsDetails", "ListServicePublicDetails", "ListSpecifiedVersionDetails", "ListVersionDetails", "UpdateEndpointConnectionsDesc", "UpdateEndpointPolicy", "UpdateEndpointRoutetable", "UpdateEndpointService", "UpdateEndpointServiceName", "UpdateEndpointServicePermissionDesc", "UpdateEndpointWhite", "UpgradeEndpointService"]
+full = ["AcceptOrRejectEndpoint", "AddEndpointServiceServerResource", "AddOrRemoveServicePermissions", "BatchAddEndpointServicePermissions", "BatchAddOrRemoveResourceInstance", "BatchRemoveEndpointServicePermissions", "CreateEndpoint", "CreateEndpointService", "DeleteEndpoint", "DeleteEndpointPolicy", "DeleteEndpointService", "ListEndpointInfoDetails", "ListEndpoints", "ListEndpointService", "ListQueryProjectResourceTags", "ListQuotaDetails", "ListResourceInstances", "ListServiceConnections", "ListServiceDescribeDetails", "ListServiceDetails", "ListServicePermissionsDetails", "ListServicePublicDetails", "ListSpecifiedVersionDetails", "ListVersionDetails", "UpdateEndpointConnectionsDesc", "UpdateEndpointPolicy", "UpdateEndpointRoutetable", "UpdateEndpointService", "UpdateEndpointServiceName", "UpdateEndpointServicePermissionDesc", "UpdateEndpointWhite", "UpgradeEndpoint", "UpgradeEndpointService"]
 
 [lib]
 name = "huawei_cloud_api_definitions_VPCEP"

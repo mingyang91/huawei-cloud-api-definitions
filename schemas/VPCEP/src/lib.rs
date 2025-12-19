@@ -1,5 +1,7 @@
 #[cfg(feature = "AcceptOrRejectEndpoint")]
 pub mod AcceptOrRejectEndpoint;
+#[cfg(feature = "AddEndpointServiceServerResource")]
+pub mod AddEndpointServiceServerResource;
 #[cfg(feature = "AddOrRemoveServicePermissions")]
 pub mod AddOrRemoveServicePermissions;
 #[cfg(feature = "BatchAddEndpointServicePermissions")]
@@ -58,5 +60,7 @@ pub mod UpdateEndpointServiceName;
 pub mod UpdateEndpointServicePermissionDesc;
 #[cfg(feature = "UpdateEndpointWhite")]
 pub mod UpdateEndpointWhite;
+#[cfg(feature = "UpgradeEndpoint")]
+pub mod UpgradeEndpoint;
 #[cfg(feature = "UpgradeEndpointService")]
 pub mod UpgradeEndpointService;
