@@ -4,6 +4,8 @@ pub mod BatchCreateOrDeleteRocketmqTag;
 pub mod BatchDeleteDiagnosisReport;
 #[cfg(feature = "BatchDeleteInstances")]
 pub mod BatchDeleteInstances;
+#[cfg(feature = "BatchDeleteRocketMqMigrationTask")]
+pub mod BatchDeleteRocketMqMigrationTask;
 #[cfg(feature = "BatchUpdateConsumerGroup")]
 pub mod BatchUpdateConsumerGroup;
 #[cfg(feature = "CreateConsumerGroupOrBatchDeleteConsumerGroup")]
@@ -24,8 +26,6 @@ pub mod DeleteBackgroundTask;
 pub mod DeleteConsumerGroup;
 #[cfg(feature = "DeleteInstance")]
 pub mod DeleteInstance;
-#[cfg(feature = "DeleteRocketMqMigrationTask")]
-pub mod DeleteRocketMqMigrationTask;
 #[cfg(feature = "DeleteTopic")]
 pub mod DeleteTopic;
 #[cfg(feature = "DeleteUser")]

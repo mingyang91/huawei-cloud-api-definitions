@@ -14,6 +14,8 @@ pub mod CreatePeerLink;
 pub mod CreateResourceTag;
 #[cfg(feature = "CreateVifPeer")]
 pub mod CreateVifPeer;
+#[cfg(feature = "CreateVifPeerDetection")]
+pub mod CreateVifPeerDetection;
 #[cfg(feature = "CreateVirtualGateway")]
 pub mod CreateVirtualGateway;
 #[cfg(feature = "CreateVirtualInterface")]
@@ -32,6 +34,8 @@ pub mod DeletePeerLink;
 pub mod DeleteResourceTag;
 #[cfg(feature = "DeleteVifPeer")]
 pub mod DeleteVifPeer;
+#[cfg(feature = "DeleteVifPeerDetection")]
+pub mod DeleteVifPeerDetection;
 #[cfg(feature = "DeleteVirtualGateway")]
 pub mod DeleteVirtualGateway;
 #[cfg(feature = "DeleteVirtualInterface")]
@@ -58,6 +62,8 @@ pub mod ListProjectTags;
 pub mod ListSwitchoverTestRecords;
 #[cfg(feature = "ListTagResourceInstances")]
 pub mod ListTagResourceInstances;
+#[cfg(feature = "ListVifPeerDetections")]
+pub mod ListVifPeerDetections;
 #[cfg(feature = "ListVirtualGateways")]
 pub mod ListVirtualGateways;
 #[cfg(feature = "ListVirtualInterfaces")]
@@ -78,6 +84,8 @@ pub mod ShowPeerLink;
 pub mod ShowQuotas;
 #[cfg(feature = "ShowResourceTag")]
 pub mod ShowResourceTag;
+#[cfg(feature = "ShowVifPeerDetection")]
+pub mod ShowVifPeerDetection;
 #[cfg(feature = "ShowVirtualGateway")]
 pub mod ShowVirtualGateway;
 #[cfg(feature = "ShowVirtualInterface")]
@@ -90,6 +98,8 @@ pub mod UnbindGlobalEips;
 pub mod UpdateConnectGateway;
 #[cfg(feature = "UpdateDirectConnect")]
 pub mod UpdateDirectConnect;
+#[cfg(feature = "UpdateExtendAttribute")]
+pub mod UpdateExtendAttribute;
 #[cfg(feature = "UpdateGdgwRouteTable")]
 pub mod UpdateGdgwRouteTable;
 #[cfg(feature = "UpdateGlobalDcGateway")]

@@ -1,7 +1,5 @@
 #[cfg(feature = "AddQueueUserList")]
 pub mod AddQueueUserList;
-#[cfg(feature = "AddSnapshotCrossRegionPolicy")]
-pub mod AddSnapshotCrossRegionPolicy;
 #[cfg(feature = "AddWorkloadPlanStage")]
 pub mod AddWorkloadPlanStage;
 #[cfg(feature = "AddWorkloadQueue")]
@@ -92,8 +90,6 @@ pub mod DeleteLogicalClusterPlan;
 pub mod DeleteQueueUserList;
 #[cfg(feature = "DeleteSnapshot")]
 pub mod DeleteSnapshot;
-#[cfg(feature = "DeleteSnapshotCrossRegionPolicy")]
-pub mod DeleteSnapshotCrossRegionPolicy;
 #[cfg(feature = "DeleteSnapshotPolicy")]
 pub mod DeleteSnapshotPolicy;
 #[cfg(feature = "DeleteWorkloadPlan")]
@@ -198,3 +194,7 @@ pub mod ListEventSubs;
 pub mod ListHostDisk;
 #[cfg(feature = "ListHostNet")]
 pub mod ListHostNet;
+#[cfg(feature = "ListHostOverview")]
+pub mod ListHostOverview;
+#[cfg(feature = "ListJobDetails")]
+pub mod ListJobDetails;
