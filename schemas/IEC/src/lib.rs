@@ -52,8 +52,6 @@ pub mod DeleteImage;
 pub mod DeleteInstances;
 #[cfg(feature = "DeleteKeypair")]
 pub mod DeleteKeypair;
-#[cfg(feature = "DeleteNics")]
-pub mod DeleteNics;
 #[cfg(feature = "DeletePort")]
 pub mod DeletePort;
 #[cfg(feature = "DeletePublicIp")]
