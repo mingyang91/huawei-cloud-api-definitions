@@ -34,6 +34,8 @@ pub mod DeletePortInfo;
 pub mod DeleteTemplateMaterial;
 #[cfg(feature = "FreezePub")]
 pub mod FreezePub;
+#[cfg(feature = "ListAimCallbacks")]
+pub mod ListAimCallbacks;
 #[cfg(feature = "ListAimMsgApp")]
 pub mod ListAimMsgApp;
 #[cfg(feature = "ListAimMsgAppDetail")]
