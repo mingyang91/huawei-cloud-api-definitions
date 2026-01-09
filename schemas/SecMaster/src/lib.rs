@@ -90,8 +90,6 @@ pub mod CreateDataobjectRelation;
 pub mod CreateDataspace;
 #[cfg(feature = "CreateDataTransformation")]
 pub mod CreateDataTransformation;
-#[cfg(feature = "CreateGenericAction")]
-pub mod CreateGenericAction;
 #[cfg(feature = "CreateIncident")]
 pub mod CreateIncident;
 #[cfg(feature = "CreateIndicator")]
@@ -198,3 +196,5 @@ pub mod DeleteDataclassType;
 pub mod DeleteDataobjectRelation;
 #[cfg(feature = "DeleteDataobjects")]
 pub mod DeleteDataobjects;
+#[cfg(feature = "DeleteDataspace")]
+pub mod DeleteDataspace;

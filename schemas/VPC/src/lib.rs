@@ -136,6 +136,8 @@ pub mod DisassociateRouteTable;
 pub mod DisassociateSubnetFirewall;
 #[cfg(feature = "ListAddressGroup")]
 pub mod ListAddressGroup;
+#[cfg(feature = "ListAddressGroupsDependency")]
+pub mod ListAddressGroupsDependency;
 #[cfg(feature = "ListApiVersion")]
 pub mod ListApiVersion;
 #[cfg(feature = "ListFirewall")]
@@ -180,6 +182,8 @@ pub mod ListTrafficMirrorFilters;
 pub mod ListTrafficMirrorSessions;
 #[cfg(feature = "ListVirsubnetCidrReservations")]
 pub mod ListVirsubnetCidrReservations;
+#[cfg(feature = "ListVirsubnets")]
+pub mod ListVirsubnets;
 #[cfg(feature = "ListVpcPeerings")]
 pub mod ListVpcPeerings;
 #[cfg(feature = "ListVpcRoutes")]
@@ -194,7 +198,3 @@ pub mod ListVpcTags;
 pub mod NeutronAddFirewallRule;
 #[cfg(feature = "NeutronAddRouterInterface")]
 pub mod NeutronAddRouterInterface;
-#[cfg(feature = "NeutronCreateFirewallGroup")]
-pub mod NeutronCreateFirewallGroup;
-#[cfg(feature = "NeutronCreateFirewallPolicy")]
-pub mod NeutronCreateFirewallPolicy;

@@ -88,6 +88,8 @@ pub mod ShowJobDetail;
 pub mod ShowLdapConfig;
 #[cfg(feature = "ShowPermRule")]
 pub mod ShowPermRule;
+#[cfg(feature = "ShowQuota")]
+pub mod ShowQuota;
 #[cfg(feature = "ShowShare")]
 pub mod ShowShare;
 #[cfg(feature = "ShowSharedTags")]

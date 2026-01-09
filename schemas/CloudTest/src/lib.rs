@@ -86,6 +86,8 @@ pub mod DeleteTestCaseComment;
 pub mod DeleteTestReportCustomDetailByUri;
 #[cfg(feature = "DownloadAssetTemplate")]
 pub mod DownloadAssetTemplate;
+#[cfg(feature = "DownloadStepImageNew")]
+pub mod DownloadStepImageNew;
 #[cfg(feature = "ExportFactor")]
 pub mod ExportFactor;
 #[cfg(feature = "ImportAsset")]
@@ -196,5 +198,3 @@ pub mod RemoveIssuesFromIterator;
 pub mod RunTestCase;
 #[cfg(feature = "SaveTaskSetting")]
 pub mod SaveTaskSetting;
-#[cfg(feature = "SaveTestReportCustomDetail")]
-pub mod SaveTestReportCustomDetail;

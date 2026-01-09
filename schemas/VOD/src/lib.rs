@@ -50,6 +50,10 @@ pub mod ListAssetCategory;
 pub mod ListAssetDailySummaryLog;
 #[cfg(feature = "ListAssetList")]
 pub mod ListAssetList;
+#[cfg(feature = "ListAssetTaskInfo")]
+pub mod ListAssetTaskInfo;
+#[cfg(feature = "ListCategoryInfo")]
+pub mod ListCategoryInfo;
 #[cfg(feature = "ListCdnStatistics")]
 pub mod ListCdnStatistics;
 #[cfg(feature = "ListDomainLogs")]
