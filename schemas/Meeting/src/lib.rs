@@ -100,8 +100,6 @@ pub mod CreateWebinar;
 pub mod CreateWebSocketToken;
 #[cfg(feature = "DeleteAppId")]
 pub mod DeleteAppId;
-#[cfg(feature = "DeleteAttendees")]
-pub mod DeleteAttendees;
 #[cfg(feature = "DeleteCorp")]
 pub mod DeleteCorp;
 #[cfg(feature = "DeleteCorpVmr")]

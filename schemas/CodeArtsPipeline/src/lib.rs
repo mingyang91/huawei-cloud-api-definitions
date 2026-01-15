@@ -30,8 +30,6 @@ pub mod CreateRule;
 pub mod CreateStrategy;
 #[cfg(feature = "DeleteActionsRunPipeline")]
 pub mod DeleteActionsRunPipeline;
-#[cfg(feature = "DeleteBasicPlugin")]
-pub mod DeleteBasicPlugin;
 #[cfg(feature = "DeletePipeline")]
 pub mod DeletePipeline;
 #[cfg(feature = "DeletePipelineGroup")]
