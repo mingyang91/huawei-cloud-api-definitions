@@ -118,6 +118,8 @@ pub mod ListEndpointIpaddresses;
 pub mod ListEndpoints;
 #[cfg(feature = "ListEndpointVpcs")]
 pub mod ListEndpointVpcs;
+#[cfg(feature = "ListInstances")]
+pub mod ListInstances;
 #[cfg(feature = "ListLineGroups")]
 pub mod ListLineGroups;
 #[cfg(feature = "ListNameServers")]
@@ -196,5 +198,3 @@ pub mod ShowRecordSetWithLine;
 pub mod ShowResolverQueryLogConfig;
 #[cfg(feature = "ShowResolverRule")]
 pub mod ShowResolverRule;
-#[cfg(feature = "ShowResourceTag")]
-pub mod ShowResourceTag;

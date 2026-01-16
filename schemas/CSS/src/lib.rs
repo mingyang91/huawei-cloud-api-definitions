@@ -8,6 +8,8 @@ pub mod ChangeClusterSubnet;
 pub mod ChangeMode;
 #[cfg(feature = "ChangeSecurityGroup")]
 pub mod ChangeSecurityGroup;
+#[cfg(feature = "CloseAiOpsSetting")]
+pub mod CloseAiOpsSetting;
 #[cfg(feature = "CreateAgency")]
 pub mod CreateAgency;
 #[cfg(feature = "CreateAiOps")]
@@ -102,6 +104,10 @@ pub mod RestoreSnapshot;
 pub mod RetryUpgradeTask;
 #[cfg(feature = "RollingRestart")]
 pub mod RollingRestart;
+#[cfg(feature = "ShowAiOpsDetector")]
+pub mod ShowAiOpsDetector;
+#[cfg(feature = "ShowAiOpsSetting")]
+pub mod ShowAiOpsSetting;
 #[cfg(feature = "ShowAutoCreatePolicy")]
 pub mod ShowAutoCreatePolicy;
 #[cfg(feature = "ShowCertsDetail")]
@@ -170,6 +176,8 @@ pub mod StopPublicWhitelist;
 pub mod StopSnapshot;
 #[cfg(feature = "StopVpecp")]
 pub mod StopVpecp;
+#[cfg(feature = "UpdateAiOpsSetting")]
+pub mod UpdateAiOpsSetting;
 #[cfg(feature = "UpdateAlterKibana")]
 pub mod UpdateAlterKibana;
 #[cfg(feature = "UpdateAzByInstanceType")]
@@ -190,11 +198,3 @@ pub mod UpdateExtendCluster;
 pub mod UpdateExtendInstanceStorage;
 #[cfg(feature = "UpdateFlavor")]
 pub mod UpdateFlavor;
-#[cfg(feature = "UpdateFlavorByType")]
-pub mod UpdateFlavorByType;
-#[cfg(feature = "UpdateInstance")]
-pub mod UpdateInstance;
-#[cfg(feature = "UpdateLogSetting")]
-pub mod UpdateLogSetting;
-#[cfg(feature = "UpdateOndemandClusterToPeriod")]
-pub mod UpdateOndemandClusterToPeriod;

@@ -106,6 +106,8 @@ pub mod ChangeDesktopToImage;
 pub mod ChangeUserPrivilegeGroup;
 #[cfg(feature = "ChangeUserStatus")]
 pub mod ChangeUserStatus;
+#[cfg(feature = "CheckCidr")]
+pub mod CheckCidr;
 #[cfg(feature = "CheckDesktopImages")]
 pub mod CheckDesktopImages;
 #[cfg(feature = "CheckEdgeSiteResources")]
@@ -196,5 +198,3 @@ pub mod DeleteRestrictedRule;
 pub mod DeleteScheduledTasks;
 #[cfg(feature = "DeleteScript")]
 pub mod DeleteScript;
-#[cfg(feature = "DeleteSite")]
-pub mod DeleteSite;

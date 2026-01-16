@@ -98,6 +98,8 @@ pub mod CreateJob;
 pub mod CreateObjectLevelCompareJob;
 #[cfg(feature = "CreateReplicationJob")]
 pub mod CreateReplicationJob;
+#[cfg(feature = "DeleteColumnInfos")]
+pub mod DeleteColumnInfos;
 #[cfg(feature = "DeleteCompareJob")]
 pub mod DeleteCompareJob;
 #[cfg(feature = "DeleteConnection")]
@@ -188,13 +190,11 @@ pub mod ListTemplates;
 pub mod ListUserJdbcDrivers;
 #[cfg(feature = "ListUsers")]
 pub mod ListUsers;
+#[cfg(feature = "ModifyColumnInfos")]
+pub mod ModifyColumnInfos;
 #[cfg(feature = "ModifyConnection")]
 pub mod ModifyConnection;
 #[cfg(feature = "ModifyGroupAndStream")]
 pub mod ModifyGroupAndStream;
 #[cfg(feature = "QueryTuningParams")]
 pub mod QueryTuningParams;
-#[cfg(feature = "SelectGroupAndStream")]
-pub mod SelectGroupAndStream;
-#[cfg(feature = "ShowActions")]
-pub mod ShowActions;
