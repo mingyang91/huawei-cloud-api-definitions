@@ -196,5 +196,5 @@ pub mod ListNamespaces;
 pub mod ListNamespaceTags;
 #[cfg(feature = "ListQuotas")]
 pub mod ListQuotas;
-#[cfg(feature = "ListRepoDetails")]
-pub mod ListRepoDetails;
+#[cfg(feature = "ListReferences")]
+pub mod ListReferences;

@@ -50,14 +50,14 @@ pub mod DeleteInstance;
 pub mod DeleteInstanceConsumerGroup;
 #[cfg(feature = "DeleteKafkaMessage")]
 pub mod DeleteKafkaMessage;
+#[cfg(feature = "DeleteKafkaTopicMessages")]
+pub mod DeleteKafkaTopicMessages;
 #[cfg(feature = "DeleteKafkaTopicQuota")]
 pub mod DeleteKafkaTopicQuota;
 #[cfg(feature = "DeleteKafkaUserClientQuotaTask")]
 pub mod DeleteKafkaUserClientQuotaTask;
 #[cfg(feature = "DeleteScheduledTask")]
 pub mod DeleteScheduledTask;
-#[cfg(feature = "DeleteUser")]
-pub mod DeleteUser;
 #[cfg(feature = "ListAvailableZones")]
 pub mod ListAvailableZones;
 #[cfg(feature = "ListBackgroundTasks")]
@@ -114,8 +114,6 @@ pub mod ResetPassword;
 pub mod ResetUserPasswrod;
 #[cfg(feature = "ResizeEngineInstance")]
 pub mod ResizeEngineInstance;
-#[cfg(feature = "ResizeKafkaInstance")]
-pub mod ResizeKafkaInstance;
 #[cfg(feature = "RestartConnectorTask")]
 pub mod RestartConnectorTask;
 #[cfg(feature = "RestartManager")]
@@ -156,8 +154,6 @@ pub mod ShowInstanceMessages;
 pub mod ShowInstanceUsers;
 #[cfg(feature = "ShowKafkaCluster")]
 pub mod ShowKafkaCluster;
-#[cfg(feature = "ShowKafkaInstanceExtendProductInfo")]
-pub mod ShowKafkaInstanceExtendProductInfo;
 #[cfg(feature = "ShowKafkaProductCores")]
 pub mod ShowKafkaProductCores;
 #[cfg(feature = "ShowKafkaProjectTags")]
@@ -198,3 +194,7 @@ pub mod ShowTopicAccessPolicy;
 pub mod ShowUpgradeInstanceVersion;
 #[cfg(feature = "ShowVolumeExpandConfig")]
 pub mod ShowVolumeExpandConfig;
+#[cfg(feature = "StopKafkaRebalanceLogTask")]
+pub mod StopKafkaRebalanceLogTask;
+#[cfg(feature = "UpdateInstance")]
+pub mod UpdateInstance;

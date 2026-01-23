@@ -1,5 +1,7 @@
 #[cfg(feature = "BatchShowIpBelongs")]
 pub mod BatchShowIpBelongs;
+#[cfg(feature = "CheckDomainVerification")]
+pub mod CheckDomainVerification;
 #[cfg(feature = "CreateDomain")]
 pub mod CreateDomain;
 #[cfg(feature = "CreateDomainMapping")]
@@ -10,6 +12,8 @@ pub mod CreateFlowOutput;
 pub mod CreateFlows;
 #[cfg(feature = "CreateOttChannelInfo")]
 pub mod CreateOttChannelInfo;
+#[cfg(feature = "CreatePullTask")]
+pub mod CreatePullTask;
 #[cfg(feature = "CreateRecordCallbackConfig")]
 pub mod CreateRecordCallbackConfig;
 #[cfg(feature = "CreateRecordIndex")]
@@ -46,6 +50,8 @@ pub mod DeleteFlowOutput;
 pub mod DeleteOttChannelInfo;
 #[cfg(feature = "DeletePublishTemplate")]
 pub mod DeletePublishTemplate;
+#[cfg(feature = "DeletePullTask")]
+pub mod DeletePullTask;
 #[cfg(feature = "DeleteRecordCallbackConfig")]
 pub mod DeleteRecordCallbackConfig;
 #[cfg(feature = "DeleteRecordRule")]
@@ -100,6 +106,8 @@ pub mod ListOttChannelInfo;
 pub mod ListPlayDomainStreamInfo;
 #[cfg(feature = "ListPublishTemplate")]
 pub mod ListPublishTemplate;
+#[cfg(feature = "ListPullTasks")]
+pub mod ListPullTasks;
 #[cfg(feature = "ListQueryHttpCode")]
 pub mod ListQueryHttpCode;
 #[cfg(feature = "ListRecordCallbackConfigs")]
@@ -154,10 +162,14 @@ pub mod ModifyOttChannelInfoInput;
 pub mod ModifyOttChannelInfoRecordSettings;
 #[cfg(feature = "ModifyOttChannelInfoStats")]
 pub mod ModifyOttChannelInfoStats;
+#[cfg(feature = "ModifyPullTask")]
+pub mod ModifyPullTask;
 #[cfg(feature = "RunRecord")]
 pub mod RunRecord;
 #[cfg(feature = "SetRefererChain")]
 pub mod SetRefererChain;
+#[cfg(feature = "ShowCertificateInfo")]
+pub mod ShowCertificateInfo;
 #[cfg(feature = "ShowChannelStatistic")]
 pub mod ShowChannelStatistic;
 #[cfg(feature = "ShowDomain")]
@@ -166,6 +178,8 @@ pub mod ShowDomain;
 pub mod ShowDomainHttpsCert;
 #[cfg(feature = "ShowDomainKeyChain")]
 pub mod ShowDomainKeyChain;
+#[cfg(feature = "ShowDomainVerification")]
+pub mod ShowDomainVerification;
 #[cfg(feature = "ShowFlowDetail")]
 pub mod ShowFlowDetail;
 #[cfg(feature = "ShowOutputInfo")]
@@ -184,17 +198,3 @@ pub mod ShowStreamCount;
 pub mod ShowStreamPortrait;
 #[cfg(feature = "ShowTranscodingsTemplate")]
 pub mod ShowTranscodingsTemplate;
-#[cfg(feature = "ShowUpBandwidth")]
-pub mod ShowUpBandwidth;
-#[cfg(feature = "ShowWatermarkRule")]
-pub mod ShowWatermarkRule;
-#[cfg(feature = "ShowWatermarkTemplate")]
-pub mod ShowWatermarkTemplate;
-#[cfg(feature = "UpdateDelayConfig")]
-pub mod UpdateDelayConfig;
-#[cfg(feature = "UpdateDomain")]
-pub mod UpdateDomain;
-#[cfg(feature = "UpdateDomainHttpsCert")]
-pub mod UpdateDomainHttpsCert;
-#[cfg(feature = "UpdateDomainIp6Switch")]
-pub mod UpdateDomainIp6Switch;

@@ -68,6 +68,8 @@ pub mod ListClustersDetails;
 pub mod ListClustersTags;
 #[cfg(feature = "ListConfs")]
 pub mod ListConfs;
+#[cfg(feature = "ListDiskType")]
+pub mod ListDiskType;
 #[cfg(feature = "ListElbCerts")]
 pub mod ListElbCerts;
 #[cfg(feature = "ListElbs")]
@@ -196,5 +198,3 @@ pub mod UpdateEsListener;
 pub mod UpdateExtendCluster;
 #[cfg(feature = "UpdateExtendInstanceStorage")]
 pub mod UpdateExtendInstanceStorage;
-#[cfg(feature = "UpdateFlavor")]
-pub mod UpdateFlavor;
