@@ -54,8 +54,6 @@ pub mod CreateClassifier;
 pub mod CreateCodeSegment;
 #[cfg(feature = "CreateCollectConfig")]
 pub mod CreateCollectConfig;
-#[cfg(feature = "CreateCollectConfigV2")]
-pub mod CreateCollectConfigV2;
 #[cfg(feature = "CreateCollectorChannel")]
 pub mod CreateCollectorChannel;
 #[cfg(feature = "CreateCollectorChannelGroup")]
@@ -146,6 +144,8 @@ pub mod CreateShipperDelegateAuth;
 pub mod CreateSqlRender;
 #[cfg(feature = "CreateSqlValidation")]
 pub mod CreateSqlValidation;
+#[cfg(feature = "CreateSubscriptionOrder")]
+pub mod CreateSubscriptionOrder;
 #[cfg(feature = "CreateTable")]
 pub mod CreateTable;
 #[cfg(feature = "CreateTableAnalysis")]
@@ -170,6 +170,8 @@ pub mod DeleteAopWorkflow;
 pub mod DeleteAopWorkflowVersion;
 #[cfg(feature = "DeleteCatalogue")]
 pub mod DeleteCatalogue;
+#[cfg(feature = "DeleteClassifier")]
+pub mod DeleteClassifier;
 #[cfg(feature = "DeleteCodeSegment")]
 pub mod DeleteCodeSegment;
 #[cfg(feature = "DeleteCollectorChannel")]
@@ -196,5 +198,3 @@ pub mod DeleteDataclassType;
 pub mod DeleteDataobjectRelation;
 #[cfg(feature = "DeleteDataobjects")]
 pub mod DeleteDataobjects;
-#[cfg(feature = "DeleteDataspace")]
-pub mod DeleteDataspace;

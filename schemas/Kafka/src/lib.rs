@@ -34,8 +34,6 @@ pub mod CreateKafkaUserClientQuotaTask;
 pub mod CreateMessageDiagnosisTask;
 #[cfg(feature = "CreatePostPaidKafkaInstance")]
 pub mod CreatePostPaidKafkaInstance;
-#[cfg(feature = "CreateReassignmentTask")]
-pub mod CreateReassignmentTask;
 #[cfg(feature = "DeleteBackgroundTask")]
 pub mod DeleteBackgroundTask;
 #[cfg(feature = "DeleteConnector")]
@@ -48,8 +46,6 @@ pub mod DeleteConsumerGroupOffsets;
 pub mod DeleteInstance;
 #[cfg(feature = "DeleteInstanceConsumerGroup")]
 pub mod DeleteInstanceConsumerGroup;
-#[cfg(feature = "DeleteKafkaMessage")]
-pub mod DeleteKafkaMessage;
 #[cfg(feature = "DeleteKafkaTopicMessages")]
 pub mod DeleteKafkaTopicMessages;
 #[cfg(feature = "DeleteKafkaTopicQuota")]
@@ -112,8 +108,8 @@ pub mod ResetMessageOffsetWithEngine;
 pub mod ResetPassword;
 #[cfg(feature = "ResetUserPasswrod")]
 pub mod ResetUserPasswrod;
-#[cfg(feature = "ResizeEngineInstance")]
-pub mod ResizeEngineInstance;
+#[cfg(feature = "ResizeKafkaInstance")]
+pub mod ResizeKafkaInstance;
 #[cfg(feature = "RestartConnectorTask")]
 pub mod RestartConnectorTask;
 #[cfg(feature = "RestartManager")]
@@ -140,8 +136,6 @@ pub mod ShowConnectorTask;
 pub mod ShowCoordinators;
 #[cfg(feature = "ShowDiagnosisPreCheck")]
 pub mod ShowDiagnosisPreCheck;
-#[cfg(feature = "ShowEngineInstanceExtendProductInfo")]
-pub mod ShowEngineInstanceExtendProductInfo;
 #[cfg(feature = "ShowGroups")]
 pub mod ShowGroups;
 #[cfg(feature = "ShowInstance")]
@@ -154,6 +148,8 @@ pub mod ShowInstanceMessages;
 pub mod ShowInstanceUsers;
 #[cfg(feature = "ShowKafkaCluster")]
 pub mod ShowKafkaCluster;
+#[cfg(feature = "ShowKafkaInstanceExtendProductInfo")]
+pub mod ShowKafkaInstanceExtendProductInfo;
 #[cfg(feature = "ShowKafkaProductCores")]
 pub mod ShowKafkaProductCores;
 #[cfg(feature = "ShowKafkaProjectTags")]
@@ -186,8 +182,6 @@ pub mod ShowPartitionEndMessage;
 pub mod ShowPartitionMessage;
 #[cfg(feature = "ShowRecycleInstances")]
 pub mod ShowRecycleInstances;
-#[cfg(feature = "ShowSpecConvertProduct")]
-pub mod ShowSpecConvertProduct;
 #[cfg(feature = "ShowTopicAccessPolicy")]
 pub mod ShowTopicAccessPolicy;
 #[cfg(feature = "ShowUpgradeInstanceVersion")]
@@ -198,3 +192,9 @@ pub mod ShowVolumeExpandConfig;
 pub mod StopKafkaRebalanceLogTask;
 #[cfg(feature = "UpdateInstance")]
 pub mod UpdateInstance;
+#[cfg(feature = "UpdateInstanceAutoCreateTopic")]
+pub mod UpdateInstanceAutoCreateTopic;
+#[cfg(feature = "UpdateInstanceConsumerGroup")]
+pub mod UpdateInstanceConsumerGroup;
+#[cfg(feature = "UpdateInstanceCrossVpcIp")]
+pub mod UpdateInstanceCrossVpcIp;

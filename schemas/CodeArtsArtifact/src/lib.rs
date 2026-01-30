@@ -50,6 +50,8 @@ pub mod ListProjectRolePermissions;
 pub mod ListProjectUsers;
 #[cfg(feature = "ListSecGuardList")]
 pub mod ListSecGuardList;
+#[cfg(feature = "ListUserPrivileges")]
+pub mod ListUserPrivileges;
 #[cfg(feature = "ModifyRepository")]
 pub mod ModifyRepository;
 #[cfg(feature = "ResetUserPassword")]
@@ -84,10 +86,14 @@ pub mod ShowPackageDataDetail;
 pub mod ShowPackageInfo;
 #[cfg(feature = "ShowProjectList")]
 pub mod ShowProjectList;
+#[cfg(feature = "ShowProjectRelatedRepository")]
+pub mod ShowProjectRelatedRepository;
 #[cfg(feature = "ShowProjectReleaseFiles")]
 pub mod ShowProjectReleaseFiles;
 #[cfg(feature = "ShowProjectStorageInfo")]
 pub mod ShowProjectStorageInfo;
+#[cfg(feature = "ShowProjectVersionsCount")]
+pub mod ShowProjectVersionsCount;
 #[cfg(feature = "ShowReleaseProjectFiles")]
 pub mod ShowReleaseProjectFiles;
 #[cfg(feature = "ShowRepository")]
@@ -104,6 +110,8 @@ pub mod ShowStorage;
 pub mod ShowUserPrivileges;
 #[cfg(feature = "ShowUserTicket")]
 pub mod ShowUserTicket;
+#[cfg(feature = "ShowVersionList")]
+pub mod ShowVersionList;
 #[cfg(feature = "UpdateArtifactory")]
 pub mod UpdateArtifactory;
 #[cfg(feature = "UpdateRepoRolesPrivilege")]
