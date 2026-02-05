@@ -142,6 +142,8 @@ pub mod UpdatePrivateModuleMetadata;
 pub mod UpdatePrivateProviderMetadata;
 #[cfg(feature = "UpdateStack")]
 pub mod UpdateStack;
+#[cfg(feature = "UpdateStackInstances")]
+pub mod UpdateStackInstances;
 #[cfg(feature = "UpdateStackSet")]
 pub mod UpdateStackSet;
 #[cfg(feature = "UpdateTemplateMetadata")]
