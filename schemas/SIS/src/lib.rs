@@ -2,8 +2,14 @@
 pub mod CollectTranscriberJob;
 #[cfg(feature = "CreateVocabulary")]
 pub mod CreateVocabulary;
+#[cfg(feature = "CreateVoice")]
+pub mod CreateVoice;
 #[cfg(feature = "DeleteVocabulary")]
 pub mod DeleteVocabulary;
+#[cfg(feature = "GenerateSpeech")]
+pub mod GenerateSpeech;
+#[cfg(feature = "ListVoices")]
+pub mod ListVoices;
 #[cfg(feature = "PushTranscriberJobs")]
 pub mod PushTranscriberJobs;
 #[cfg(feature = "RecognizeFlashAsr")]

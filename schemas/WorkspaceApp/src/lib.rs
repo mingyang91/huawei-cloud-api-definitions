@@ -54,10 +54,14 @@ pub mod BatchUpdateTsvi;
 pub mod BatchUpgradeHdaVersion;
 #[cfg(feature = "BindAppWarehouseBucket")]
 pub mod BindAppWarehouseBucket;
+#[cfg(feature = "ChangeCluster")]
+pub mod ChangeCluster;
 #[cfg(feature = "ChangeServerImage")]
 pub mod ChangeServerImage;
 #[cfg(feature = "CheckAppGroup")]
 pub mod CheckAppGroup;
+#[cfg(feature = "CheckPublishApp")]
+pub mod CheckPublishApp;
 #[cfg(feature = "CheckQuota")]
 pub mod CheckQuota;
 #[cfg(feature = "CountImageSubJobs")]
@@ -72,6 +76,8 @@ pub mod CreateAppServers;
 pub mod CreateBucketOrAcl;
 #[cfg(feature = "CreateCloudStorage")]
 pub mod CreateCloudStorage;
+#[cfg(feature = "CreateHotspotSessionConfig")]
+pub mod CreateHotspotSessionConfig;
 #[cfg(feature = "CreateImageServer")]
 pub mod CreateImageServer;
 #[cfg(feature = "CreateOrder")]
@@ -162,6 +168,8 @@ pub mod ListCorpConfigInfo;
 pub mod ListFoldersAndFiles;
 #[cfg(feature = "ListFutureExecutions")]
 pub mod ListFutureExecutions;
+#[cfg(feature = "ListHotspotSessionConfig")]
+pub mod ListHotspotSessionConfig;
 #[cfg(feature = "ListImageJobs")]
 pub mod ListImageJobs;
 #[cfg(feature = "ListImageServers")]
@@ -170,6 +178,8 @@ pub mod ListImageServers;
 pub mod ListImageSubJobs;
 #[cfg(feature = "ListLatestAttachedServerApp")]
 pub mod ListLatestAttachedServerApp;
+#[cfg(feature = "ListNonMigrationUsers")]
+pub mod ListNonMigrationUsers;
 #[cfg(feature = "ListPersistentStorage")]
 pub mod ListPersistentStorage;
 #[cfg(feature = "ListPolicyGroup")]
@@ -188,13 +198,3 @@ pub mod ListProjectConfigs;
 pub mod ListPublishedApp;
 #[cfg(feature = "ListScheduleTasks")]
 pub mod ListScheduleTasks;
-#[cfg(feature = "ListServerGroups")]
-pub mod ListServerGroups;
-#[cfg(feature = "ListServerGroupTag")]
-pub mod ListServerGroupTag;
-#[cfg(feature = "ListServerHdaDetails")]
-pub mod ListServerHdaDetails;
-#[cfg(feature = "ListServerHdaUpgradeRecords")]
-pub mod ListServerHdaUpgradeRecords;
-#[cfg(feature = "ListServerMetricData")]
-pub mod ListServerMetricData;

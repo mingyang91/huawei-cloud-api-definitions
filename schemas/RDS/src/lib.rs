@@ -100,6 +100,8 @@ pub mod CreateSqlserverDbUser;
 pub mod CreateSubscription;
 #[cfg(feature = "CreateXelLogDownload")]
 pub mod CreateXelLogDownload;
+#[cfg(feature = "DeleteBackupSelection")]
+pub mod DeleteBackupSelection;
 #[cfg(feature = "DeleteConfiguration")]
 pub mod DeleteConfiguration;
 #[cfg(feature = "DeleteDatabase")]
@@ -196,5 +198,3 @@ pub mod ListDbAgentJobs;
 pub mod ListDbUsers;
 #[cfg(feature = "ListDistribution")]
 pub mod ListDistribution;
-#[cfg(feature = "ListDistributorInstances")]
-pub mod ListDistributorInstances;

@@ -72,6 +72,8 @@ pub mod CheckApisV2;
 pub mod CheckAppV2;
 #[cfg(feature = "CreateAclStrategyV2")]
 pub mod CreateAclStrategyV2;
+#[cfg(feature = "CreateAiApiKey")]
+pub mod CreateAiApiKey;
 #[cfg(feature = "CreateAnApp")]
 pub mod CreateAnApp;
 #[cfg(feature = "CreateAnAppV2")]
@@ -146,6 +148,8 @@ pub mod CreateVpcChannelV2;
 pub mod DebugApiV2;
 #[cfg(feature = "DeleteAclV2")]
 pub mod DeleteAclV2;
+#[cfg(feature = "DeleteAiApiKey")]
+pub mod DeleteAiApiKey;
 #[cfg(feature = "DeleteAnApp")]
 pub mod DeleteAnApp;
 #[cfg(feature = "DeleteApi")]
@@ -194,7 +198,3 @@ pub mod DeleteGatewayResponseV2;
 pub mod DeleteInstancesV2;
 #[cfg(feature = "DeleteMemberGroup")]
 pub mod DeleteMemberGroup;
-#[cfg(feature = "DeleteOrchestration")]
-pub mod DeleteOrchestration;
-#[cfg(feature = "DeletePlugin")]
-pub mod DeletePlugin;

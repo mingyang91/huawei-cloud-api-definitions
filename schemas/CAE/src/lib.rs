@@ -96,6 +96,8 @@ pub mod ShowJob;
 pub mod ShowMonitorSystem;
 #[cfg(feature = "ShowNoticeRule")]
 pub mod ShowNoticeRule;
+#[cfg(feature = "UpdateCertificate")]
+pub mod UpdateCertificate;
 #[cfg(feature = "UpdateComponent")]
 pub mod UpdateComponent;
 #[cfg(feature = "UpdateEip")]
