@@ -114,6 +114,8 @@ pub mod ExecuteInstanceReplicationPolicy;
 pub mod ExecuteInstanceRetentionPolicy;
 #[cfg(feature = "ExecuteInstanceSignPolicy")]
 pub mod ExecuteInstanceSignPolicy;
+#[cfg(feature = "ListAllInstanceRepositories")]
+pub mod ListAllInstanceRepositories;
 #[cfg(feature = "ListApiVersions")]
 pub mod ListApiVersions;
 #[cfg(feature = "ListAuditLogs")]
@@ -196,5 +198,3 @@ pub mod ListNamespaces;
 pub mod ListNamespaceTags;
 #[cfg(feature = "ListQuotas")]
 pub mod ListQuotas;
-#[cfg(feature = "ListReferences")]
-pub mod ListReferences;

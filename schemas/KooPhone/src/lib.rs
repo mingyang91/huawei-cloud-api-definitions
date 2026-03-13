@@ -24,6 +24,8 @@ pub mod ExecuteInstanceAuthToken;
 pub mod ExecuteJob;
 #[cfg(feature = "InstallApp")]
 pub mod InstallApp;
+#[cfg(feature = "ListInstanceApp")]
+pub mod ListInstanceApp;
 #[cfg(feature = "ListInstances")]
 pub mod ListInstances;
 #[cfg(feature = "ProvisionInstance")]

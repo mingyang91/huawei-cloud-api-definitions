@@ -38,6 +38,8 @@ pub mod DeleteAssets;
 pub mod DeleteTemplateGroup;
 #[cfg(feature = "DeleteTemplateGroupCollection")]
 pub mod DeleteTemplateGroupCollection;
+#[cfg(feature = "DeleteThumbnails")]
+pub mod DeleteThumbnails;
 #[cfg(feature = "DeleteTranscodeProduct")]
 pub mod DeleteTranscodeProduct;
 #[cfg(feature = "DeleteTranscodeTemplate")]
@@ -64,6 +66,10 @@ pub mod ListTakeOverTask;
 pub mod ListTemplateGroup;
 #[cfg(feature = "ListTemplateGroupCollection")]
 pub mod ListTemplateGroupCollection;
+#[cfg(feature = "ListThumbnailDetails")]
+pub mod ListThumbnailDetails;
+#[cfg(feature = "ListThumbnailInfo")]
+pub mod ListThumbnailInfo;
 #[cfg(feature = "ListTopStatistics")]
 pub mod ListTopStatistics;
 #[cfg(feature = "ListTranscodeTemplate")]

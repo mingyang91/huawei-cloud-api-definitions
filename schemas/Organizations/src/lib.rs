@@ -1,5 +1,7 @@
 #[cfg(feature = "AcceptHandshake")]
 pub mod AcceptHandshake;
+#[cfg(feature = "AttachDryRunPolicy")]
+pub mod AttachDryRunPolicy;
 #[cfg(feature = "AttachPolicy")]
 pub mod AttachPolicy;
 #[cfg(feature = "CancelHandshake")]
@@ -8,6 +10,8 @@ pub mod CancelHandshake;
 pub mod CloseAccount;
 #[cfg(feature = "CreateAccount")]
 pub mod CreateAccount;
+#[cfg(feature = "CreateDryRunPolicy")]
+pub mod CreateDryRunPolicy;
 #[cfg(feature = "CreateOrganization")]
 pub mod CreateOrganization;
 #[cfg(feature = "CreateOrganizationalUnit")]
@@ -20,6 +24,8 @@ pub mod CreateResourceAccount;
 pub mod CreateTagResource;
 #[cfg(feature = "DeclineHandshake")]
 pub mod DeclineHandshake;
+#[cfg(feature = "DeleteDryRunPolicy")]
+pub mod DeleteDryRunPolicy;
 #[cfg(feature = "DeleteOrganization")]
 pub mod DeleteOrganization;
 #[cfg(feature = "DeleteOrganizationalUnit")]
@@ -30,6 +36,8 @@ pub mod DeletePolicy;
 pub mod DeleteTagResource;
 #[cfg(feature = "DeregisterDelegatedAdministrator")]
 pub mod DeregisterDelegatedAdministrator;
+#[cfg(feature = "DetachDryRunPolicy")]
+pub mod DetachDryRunPolicy;
 #[cfg(feature = "DetachPolicy")]
 pub mod DetachPolicy;
 #[cfg(feature = "DisablePolicyType")]
@@ -54,8 +62,12 @@ pub mod ListCreateAccountStatuses;
 pub mod ListDelegatedAdministrators;
 #[cfg(feature = "ListDelegatedServices")]
 pub mod ListDelegatedServices;
+#[cfg(feature = "ListDryRunPolicies")]
+pub mod ListDryRunPolicies;
 #[cfg(feature = "ListEntities")]
 pub mod ListEntities;
+#[cfg(feature = "ListEntitiesForDryRunPolicy")]
+pub mod ListEntitiesForDryRunPolicy;
 #[cfg(feature = "ListEntitiesForPolicy")]
 pub mod ListEntitiesForPolicy;
 #[cfg(feature = "ListHandshakes")]
@@ -94,6 +106,10 @@ pub mod RemoveAccount;
 pub mod ShowAccount;
 #[cfg(feature = "ShowCreateAccountStatus")]
 pub mod ShowCreateAccountStatus;
+#[cfg(feature = "ShowDryRunConfig")]
+pub mod ShowDryRunConfig;
+#[cfg(feature = "ShowDryRunPolicy")]
+pub mod ShowDryRunPolicy;
 #[cfg(feature = "ShowEffectivePolicies")]
 pub mod ShowEffectivePolicies;
 #[cfg(feature = "ShowHandshake")]
@@ -112,6 +128,10 @@ pub mod TagResource;
 pub mod UntagResource;
 #[cfg(feature = "UpdateAccount")]
 pub mod UpdateAccount;
+#[cfg(feature = "UpdateDryRunConfig")]
+pub mod UpdateDryRunConfig;
+#[cfg(feature = "UpdateDryRunPolicy")]
+pub mod UpdateDryRunPolicy;
 #[cfg(feature = "UpdateOrganizationalUnit")]
 pub mod UpdateOrganizationalUnit;
 #[cfg(feature = "UpdatePolicy")]
