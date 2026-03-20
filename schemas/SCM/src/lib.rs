@@ -16,6 +16,10 @@ pub mod DeleteCertificate;
 pub mod DeleteCsr;
 #[cfg(feature = "DeployCertificate")]
 pub mod DeployCertificate;
+#[cfg(feature = "DisableNotification")]
+pub mod DisableNotification;
+#[cfg(feature = "EnableNotification")]
+pub mod EnableNotification;
 #[cfg(feature = "ExportCertificate")]
 pub mod ExportCertificate;
 #[cfg(feature = "ImportCertificate")]
