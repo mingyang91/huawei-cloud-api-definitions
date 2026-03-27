@@ -12,6 +12,8 @@ pub mod CreateAgency;
 pub mod CreateAgreement;
 #[cfg(feature = "CreateEndpoint")]
 pub mod CreateEndpoint;
+#[cfg(feature = "CreateJob")]
+pub mod CreateJob;
 #[cfg(feature = "CreateMessageNotificationPolicy")]
 pub mod CreateMessageNotificationPolicy;
 #[cfg(feature = "CreateModelDefinition")]
@@ -24,6 +26,10 @@ pub mod DeleteAgency;
 pub mod DeleteAgreement;
 #[cfg(feature = "DeleteEndpoint")]
 pub mod DeleteEndpoint;
+#[cfg(feature = "DeleteJob")]
+pub mod DeleteJob;
+#[cfg(feature = "DeleteJobVersion")]
+pub mod DeleteJobVersion;
 #[cfg(feature = "DeleteMessageNotificationPolicy")]
 pub mod DeleteMessageNotificationPolicy;
 #[cfg(feature = "DeleteModelVersion")]
@@ -44,6 +50,10 @@ pub mod ListFabricWorkspaceTags;
 pub mod ListFeatures;
 #[cfg(feature = "ListFrameworks")]
 pub mod ListFrameworks;
+#[cfg(feature = "ListJobs")]
+pub mod ListJobs;
+#[cfg(feature = "ListJobVersions")]
+pub mod ListJobVersions;
 #[cfg(feature = "ListMessageNotificationPolicy")]
 pub mod ListMessageNotificationPolicy;
 #[cfg(feature = "ListModels")]
@@ -68,6 +78,8 @@ pub mod ShowEndpoint;
 pub mod SubscribeEndpoint;
 #[cfg(feature = "UpdateEndpoint")]
 pub mod UpdateEndpoint;
+#[cfg(feature = "UpdateJob")]
+pub mod UpdateJob;
 #[cfg(feature = "UpdateMetricsConfig")]
 pub mod UpdateMetricsConfig;
 #[cfg(feature = "UpdateModelDefinition")]

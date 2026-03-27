@@ -32,6 +32,8 @@ pub mod BatchStopInstance;
 pub mod BatchTagAddAction;
 #[cfg(feature = "BatchTagDelAction")]
 pub mod BatchTagDelAction;
+#[cfg(feature = "ChangeBackupConfig")]
+pub mod ChangeBackupConfig;
 #[cfg(feature = "ChangeFailoverMode")]
 pub mod ChangeFailoverMode;
 #[cfg(feature = "ChangeFailoverStrategy")]
@@ -196,5 +198,3 @@ pub mod ListDbAgentJobHistorySteps;
 pub mod ListDbAgentJobs;
 #[cfg(feature = "ListDbUsers")]
 pub mod ListDbUsers;
-#[cfg(feature = "ListDistribution")]
-pub mod ListDistribution;

@@ -40,6 +40,8 @@ pub mod DeleteBucketTagging;
 pub mod DeleteBucketWebsite;
 #[cfg(feature = "DeleteDirectcoldaccess")]
 pub mod DeleteDirectcoldaccess;
+#[cfg(feature = "DeleteDisPolicy")]
+pub mod DeleteDisPolicy;
 #[cfg(feature = "DeleteObject")]
 pub mod DeleteObject;
 #[cfg(feature = "DeleteObjects")]
@@ -86,6 +88,8 @@ pub mod GetBucketVersioning;
 pub mod GetBucketWebsite;
 #[cfg(feature = "GetDirectcoldaccess")]
 pub mod GetDirectcoldaccess;
+#[cfg(feature = "GetDisPolicy")]
+pub mod GetDisPolicy;
 #[cfg(feature = "GetObject")]
 pub mod GetObject;
 #[cfg(feature = "GetObjectAcl")]
@@ -148,6 +152,8 @@ pub mod SetBucketVersioning;
 pub mod SetBucketWebsite;
 #[cfg(feature = "SetDirectcoldaccess")]
 pub mod SetDirectcoldaccess;
+#[cfg(feature = "SetDisPolicy")]
+pub mod SetDisPolicy;
 #[cfg(feature = "SetObjectAcl")]
 pub mod SetObjectAcl;
 #[cfg(feature = "SetObjectMetadata")]

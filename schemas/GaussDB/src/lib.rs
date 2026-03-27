@@ -76,6 +76,8 @@ pub mod DeleteGaussMySqlInstance;
 pub mod DeleteGaussMySqlProxy;
 #[cfg(feature = "DeleteGaussMySqlReadonlyNode")]
 pub mod DeleteGaussMySqlReadonlyNode;
+#[cfg(feature = "DeleteHtapProcessList")]
+pub mod DeleteHtapProcessList;
 #[cfg(feature = "DeleteLtsConfigs")]
 pub mod DeleteLtsConfigs;
 #[cfg(feature = "DeleteProxyPrivateDnsName")]
@@ -84,6 +86,8 @@ pub mod DeleteProxyPrivateDnsName;
 pub mod DeleteScheduleTasK;
 #[cfg(feature = "DeleteSqlFilterRule")]
 pub mod DeleteSqlFilterRule;
+#[cfg(feature = "DeleteStarRockLtsConfig")]
+pub mod DeleteStarRockLtsConfig;
 #[cfg(feature = "DeleteStarRocksDatabaseUser")]
 pub mod DeleteStarRocksDatabaseUser;
 #[cfg(feature = "DeleteStarRocksDataReplication")]
@@ -194,7 +198,3 @@ pub mod ModifyNodePriority;
 pub mod ModifyStarRocksSecurityGroup;
 #[cfg(feature = "PauseStarRocksDataReplication")]
 pub mod PauseStarRocksDataReplication;
-#[cfg(feature = "RenameInstanceNode")]
-pub mod RenameInstanceNode;
-#[cfg(feature = "ResetGaussMySqlDatabasePassword")]
-pub mod ResetGaussMySqlDatabasePassword;

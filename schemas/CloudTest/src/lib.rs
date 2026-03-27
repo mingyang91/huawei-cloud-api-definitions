@@ -6,6 +6,8 @@ pub mod AddFeature;
 pub mod AddTestCaseComment;
 #[cfg(feature = "AddTestCaseResultLog")]
 pub mod AddTestCaseResultLog;
+#[cfg(feature = "BatchAddCaseResultInTask")]
+pub mod BatchAddCaseResultInTask;
 #[cfg(feature = "BatchAddRelationsByOneCase")]
 pub mod BatchAddRelationsByOneCase;
 #[cfg(feature = "BatchAddResourcesForIterator")]
@@ -196,5 +198,3 @@ pub mod ListVariables;
 pub mod RemoveIssuesFromIterator;
 #[cfg(feature = "RunTestCase")]
 pub mod RunTestCase;
-#[cfg(feature = "SaveTaskSetting")]
-pub mod SaveTaskSetting;

@@ -106,6 +106,12 @@ pub mod ListInstanceMultiNodesSingleMetric;
 pub mod ListInstanceNodesInfo;
 #[cfg(feature = "ListInstanceTopSlowLog")]
 pub mod ListInstanceTopSlowLog;
+#[cfg(feature = "ListLockBlockingDb")]
+pub mod ListLockBlockingDb;
+#[cfg(feature = "ListLockBlockingDetail")]
+pub mod ListLockBlockingDetail;
+#[cfg(feature = "ListLockBlockingRelationship")]
+pub mod ListLockBlockingRelationship;
 #[cfg(feature = "ListMetadataLocks")]
 pub mod ListMetadataLocks;
 #[cfg(feature = "ListProcesses")]
@@ -136,6 +142,8 @@ pub mod RegisterDbUser;
 pub mod SaveCredential;
 #[cfg(feature = "SaveCredentialForBatchInspection")]
 pub mod SaveCredentialForBatchInspection;
+#[cfg(feature = "SetLockBlockingSwitch")]
+pub mod SetLockBlockingSwitch;
 #[cfg(feature = "SetThresholdForMetric")]
 pub mod SetThresholdForMetric;
 #[cfg(feature = "ShowApiVersion")]
@@ -158,6 +166,12 @@ pub mod ShowHistoryTransactionExportTaskInfo;
 pub mod ShowInstanceHealthReport;
 #[cfg(feature = "ShowLatestDeadLockSnapshot")]
 pub mod ShowLatestDeadLockSnapshot;
+#[cfg(feature = "ShowLockBlockingStatistics")]
+pub mod ShowLockBlockingStatistics;
+#[cfg(feature = "ShowLockBlockingSwitch")]
+pub mod ShowLockBlockingSwitch;
+#[cfg(feature = "ShowLockBlockingTrend")]
+pub mod ShowLockBlockingTrend;
 #[cfg(feature = "ShowMetricNamesSupport")]
 pub mod ShowMetricNamesSupport;
 #[cfg(feature = "ShowQuotas")]
@@ -184,7 +198,3 @@ pub mod UpdateDbUser;
 pub mod UpdateEmailTemplate;
 #[cfg(feature = "UpdateHealthReportSettings")]
 pub mod UpdateHealthReportSettings;
-#[cfg(feature = "UpdateInstanceGroup")]
-pub mod UpdateInstanceGroup;
-#[cfg(feature = "UpdateSqlLimitRules")]
-pub mod UpdateSqlLimitRules;
