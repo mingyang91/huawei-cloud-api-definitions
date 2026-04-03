@@ -108,8 +108,6 @@ pub mod ListMultipartUploads;
 pub mod ListObjects;
 #[cfg(feature = "ListParts")]
 pub mod ListParts;
-#[cfg(feature = "ListVersions")]
-pub mod ListVersions;
 #[cfg(feature = "PutObject")]
 pub mod PutObject;
 #[cfg(feature = "RenameObject")]

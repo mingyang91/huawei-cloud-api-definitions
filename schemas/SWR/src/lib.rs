@@ -108,6 +108,8 @@ pub mod DeleteSubResourceTags;
 pub mod DeleteTrigger;
 #[cfg(feature = "DeleteUserRepositoryAuth")]
 pub mod DeleteUserRepositoryAuth;
+#[cfg(feature = "ExecuteGcSchedule")]
+pub mod ExecuteGcSchedule;
 #[cfg(feature = "ExecuteInstanceReplicationPolicy")]
 pub mod ExecuteInstanceReplicationPolicy;
 #[cfg(feature = "ExecuteInstanceRetentionPolicy")]
@@ -124,6 +126,8 @@ pub mod ListAuditLogs;
 pub mod ListDomainNames;
 #[cfg(feature = "ListFeatureGates")]
 pub mod ListFeatureGates;
+#[cfg(feature = "ListGcTasks")]
+pub mod ListGcTasks;
 #[cfg(feature = "ListGlobalFeatureGates")]
 pub mod ListGlobalFeatureGates;
 #[cfg(feature = "ListImageAutoSyncReposDetails")]
@@ -194,7 +198,3 @@ pub mod ListInstanceWebhooks;
 pub mod ListNamespaceRepositories;
 #[cfg(feature = "ListNamespaces")]
 pub mod ListNamespaces;
-#[cfg(feature = "ListNamespaceTags")]
-pub mod ListNamespaceTags;
-#[cfg(feature = "ListQuotas")]
-pub mod ListQuotas;
