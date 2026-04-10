@@ -30,6 +30,8 @@ pub mod ChangeRuleStatus;
 pub mod CheckCertificate;
 #[cfg(feature = "CloseDeviceTunnel")]
 pub mod CloseDeviceTunnel;
+#[cfg(feature = "ConfirmBatchTask")]
+pub mod ConfirmBatchTask;
 #[cfg(feature = "CountAsyncHistoryCommands")]
 pub mod CountAsyncHistoryCommands;
 #[cfg(feature = "CreateAccessCode")]
@@ -196,5 +198,3 @@ pub mod ListProducts;
 pub mod ListProperties;
 #[cfg(feature = "ListProvisioningTemplates")]
 pub mod ListProvisioningTemplates;
-#[cfg(feature = "ListResourcesByTags")]
-pub mod ListResourcesByTags;

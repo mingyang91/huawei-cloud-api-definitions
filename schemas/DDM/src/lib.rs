@@ -30,6 +30,8 @@ pub mod CreateDdmConfigurations;
 pub mod CreateDdmDatabase;
 #[cfg(feature = "CreateDdmInstance")]
 pub mod CreateDdmInstance;
+#[cfg(feature = "CreateDdmUser")]
+pub mod CreateDdmUser;
 #[cfg(feature = "CreateGroup")]
 pub mod CreateGroup;
 #[cfg(feature = "CreateInstance")]
@@ -46,6 +48,8 @@ pub mod DeleteDatabase;
 pub mod DeleteDdmDatabase;
 #[cfg(feature = "DeleteDdmInstance")]
 pub mod DeleteDdmInstance;
+#[cfg(feature = "DeleteDdmUser")]
+pub mod DeleteDdmUser;
 #[cfg(feature = "DeleteGroup")]
 pub mod DeleteGroup;
 #[cfg(feature = "DeleteInstance")]
@@ -88,6 +92,8 @@ pub mod ListDdmEngines;
 pub mod ListDdmFlavors;
 #[cfg(feature = "ListDdms")]
 pub mod ListDdms;
+#[cfg(feature = "ListDdmUsers")]
+pub mod ListDdmUsers;
 #[cfg(feature = "ListEngines")]
 pub mod ListEngines;
 #[cfg(feature = "ListFlavors")]
@@ -124,10 +130,14 @@ pub mod ModifyConfiguration;
 pub mod ModifyEip;
 #[cfg(feature = "ModifySqlBlackList")]
 pub mod ModifySqlBlackList;
+#[cfg(feature = "MoveTmlogFiles")]
+pub mod MoveTmlogFiles;
 #[cfg(feature = "RebuildConfig")]
 pub mod RebuildConfig;
 #[cfg(feature = "ResetAdministrator")]
 pub mod ResetAdministrator;
+#[cfg(feature = "ResetDdmUserPassword")]
+pub mod ResetDdmUserPassword;
 #[cfg(feature = "ResetParameterGroup")]
 pub mod ResetParameterGroup;
 #[cfg(feature = "ResetUserPassword")]
@@ -150,6 +160,8 @@ pub mod RetryMigration;
 pub mod RollBackDatabaseVersion;
 #[cfg(feature = "RollbackMigration")]
 pub mod RollbackMigration;
+#[cfg(feature = "SetReadOnlyStatus")]
+pub mod SetReadOnlyStatus;
 #[cfg(feature = "ShowAvalibleDdms")]
 pub mod ShowAvalibleDdms;
 #[cfg(feature = "ShowAvalibleRds")]
@@ -186,15 +198,3 @@ pub mod ShowNode;
 pub mod ShowPhysicalProcesses;
 #[cfg(feature = "ShowProcessesAuditLog")]
 pub mod ShowProcessesAuditLog;
-#[cfg(feature = "ShowPublicIp")]
-pub mod ShowPublicIp;
-#[cfg(feature = "ShowRelatedDns")]
-pub mod ShowRelatedDns;
-#[cfg(feature = "ShowRiskInfo")]
-pub mod ShowRiskInfo;
-#[cfg(feature = "ShrinkInstanceNodes")]
-pub mod ShrinkInstanceNodes;
-#[cfg(feature = "SwitchIpGroup")]
-pub mod SwitchIpGroup;
-#[cfg(feature = "SwitchRoute")]
-pub mod SwitchRoute;

@@ -32,6 +32,8 @@ pub mod DeleteBucketMirrorBackToSource;
 pub mod DeleteBucketObsCompressPolicy;
 #[cfg(feature = "DeleteBucketPolicy")]
 pub mod DeleteBucketPolicy;
+#[cfg(feature = "DeleteBucketPublicAccessBlock")]
+pub mod DeleteBucketPublicAccessBlock;
 #[cfg(feature = "DeleteBucketReplication")]
 pub mod DeleteBucketReplication;
 #[cfg(feature = "DeleteBucketTagging")]
@@ -46,6 +48,8 @@ pub mod DeleteDisPolicy;
 pub mod DeleteObject;
 #[cfg(feature = "DeleteObjects")]
 pub mod DeleteObjects;
+#[cfg(feature = "DeleteObjectTagging")]
+pub mod DeleteObjectTagging;
 #[cfg(feature = "GetBucketAcl")]
 pub mod GetBucketAcl;
 #[cfg(feature = "GetBucketCors")]
@@ -72,6 +76,12 @@ pub mod GetBucketNotification;
 pub mod GetBucketObsCompressPolicy;
 #[cfg(feature = "GetBucketPolicy")]
 pub mod GetBucketPolicy;
+#[cfg(feature = "GetBucketPolicyPublicStatus")]
+pub mod GetBucketPolicyPublicStatus;
+#[cfg(feature = "GetBucketPublicAccessBlock")]
+pub mod GetBucketPublicAccessBlock;
+#[cfg(feature = "GetBucketPublicStatus")]
+pub mod GetBucketPublicStatus;
 #[cfg(feature = "GetBucketQuota")]
 pub mod GetBucketQuota;
 #[cfg(feature = "GetBucketReplication")]
@@ -94,8 +104,10 @@ pub mod GetDisPolicy;
 pub mod GetObject;
 #[cfg(feature = "GetObjectAcl")]
 pub mod GetObjectAcl;
-#[cfg(feature = "GetObjectMetadata")]
-pub mod GetObjectMetadata;
+#[cfg(feature = "GetObjectTagging")]
+pub mod GetObjectTagging;
+#[cfg(feature = "HeadObject")]
+pub mod HeadObject;
 #[cfg(feature = "InitiateMultipartUpload")]
 pub mod InitiateMultipartUpload;
 #[cfg(feature = "ListBucketInventory")]
@@ -110,6 +122,8 @@ pub mod ListObjects;
 pub mod ListParts;
 #[cfg(feature = "PutObject")]
 pub mod PutObject;
+#[cfg(feature = "PutObjectTagging")]
+pub mod PutObjectTagging;
 #[cfg(feature = "RenameObject")]
 pub mod RenameObject;
 #[cfg(feature = "RestoreObject")]
@@ -132,10 +146,14 @@ pub mod SetBucketLogging;
 pub mod SetBucketMirrorBackToSource;
 #[cfg(feature = "SetBucketNotification")]
 pub mod SetBucketNotification;
+#[cfg(feature = "SetBucketObjectLock")]
+pub mod SetBucketObjectLock;
 #[cfg(feature = "SetBucketObsCompressPolicy")]
 pub mod SetBucketObsCompressPolicy;
 #[cfg(feature = "SetBucketPolicy")]
 pub mod SetBucketPolicy;
+#[cfg(feature = "SetBucketPublicAccessBlock")]
+pub mod SetBucketPublicAccessBlock;
 #[cfg(feature = "SetBucketQuota")]
 pub mod SetBucketQuota;
 #[cfg(feature = "SetBucketReplication")]

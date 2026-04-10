@@ -20,6 +20,8 @@ pub mod BatchShowUpgradeCandidateVersions;
 pub mod BindLtsConfig;
 #[cfg(feature = "CancelScheduleTask")]
 pub mod CancelScheduleTask;
+#[cfg(feature = "ChangeDemand2Period")]
+pub mod ChangeDemand2Period;
 #[cfg(feature = "CollectAsp")]
 pub mod CollectAsp;
 #[cfg(feature = "CollectWdrSnapshot")]
@@ -196,5 +198,3 @@ pub mod ListGaussDbDatastores;
 pub mod ListHbaInfoHistory;
 #[cfg(feature = "ListHbaInfos")]
 pub mod ListHbaInfos;
-#[cfg(feature = "ListHistoryOperations")]
-pub mod ListHistoryOperations;
