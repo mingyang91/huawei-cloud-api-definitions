@@ -72,6 +72,8 @@ pub mod GetBucketMetadata;
 pub mod GetBucketMirrorBackToSource;
 #[cfg(feature = "GetBucketNotification")]
 pub mod GetBucketNotification;
+#[cfg(feature = "GetBucketObjectLock")]
+pub mod GetBucketObjectLock;
 #[cfg(feature = "GetBucketObsCompressPolicy")]
 pub mod GetBucketObsCompressPolicy;
 #[cfg(feature = "GetBucketPolicy")]
@@ -172,6 +174,8 @@ pub mod SetDirectcoldaccess;
 pub mod SetDisPolicy;
 #[cfg(feature = "SetObjectAcl")]
 pub mod SetObjectAcl;
+#[cfg(feature = "SetObjectLock")]
+pub mod SetObjectLock;
 #[cfg(feature = "SetObjectMetadata")]
 pub mod SetObjectMetadata;
 #[cfg(feature = "TruncateObject")]

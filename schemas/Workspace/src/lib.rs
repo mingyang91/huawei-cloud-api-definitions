@@ -116,6 +116,8 @@ pub mod CheckEdgeSiteResources;
 pub mod CheckEnterpriseId;
 #[cfg(feature = "CheckSysprepInfo")]
 pub mod CheckSysprepInfo;
+#[cfg(feature = "CloseDomainNew")]
+pub mod CloseDomainNew;
 #[cfg(feature = "CreateAccessPolicy")]
 pub mod CreateAccessPolicy;
 #[cfg(feature = "CreateAgencies")]
@@ -146,6 +148,8 @@ pub mod CreateDesktopPoolAuthorizedObjects;
 pub mod CreateDesktopPoolChangeOrder;
 #[cfg(feature = "CreateDesktopUser")]
 pub mod CreateDesktopUser;
+#[cfg(feature = "CreateDomainNew")]
+pub mod CreateDomainNew;
 #[cfg(feature = "CreateOrder")]
 pub mod CreateOrder;
 #[cfg(feature = "CreatePolicyGroup")]
@@ -194,7 +198,3 @@ pub mod DeleteOu;
 pub mod DeletePolicyGroup;
 #[cfg(feature = "DeleteRestrictedRule")]
 pub mod DeleteRestrictedRule;
-#[cfg(feature = "DeleteScheduledTasks")]
-pub mod DeleteScheduledTasks;
-#[cfg(feature = "DeleteScript")]
-pub mod DeleteScript;

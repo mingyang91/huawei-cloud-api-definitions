@@ -16,6 +16,8 @@ pub mod BatchDeleteInstanceTag;
 pub mod BatchSetBackupPolicy;
 #[cfg(feature = "BatchShowUpgradeCandidateVersions")]
 pub mod BatchShowUpgradeCandidateVersions;
+#[cfg(feature = "BindDNat")]
+pub mod BindDNat;
 #[cfg(feature = "BindLtsConfig")]
 pub mod BindLtsConfig;
 #[cfg(feature = "CancelScheduleTask")]
@@ -176,6 +178,8 @@ pub mod ListDbFlavors;
 pub mod ListDbUsers;
 #[cfg(feature = "ListDisasterRecoveryRecord")]
 pub mod ListDisasterRecoveryRecord;
+#[cfg(feature = "ListDNatInfo")]
+pub mod ListDNatInfo;
 #[cfg(feature = "ListEnhanceFullSqls")]
 pub mod ListEnhanceFullSqls;
 #[cfg(feature = "ListEnhanceFullSqlStatistics")]
@@ -194,7 +198,3 @@ pub mod ListFlavorsDetails;
 pub mod ListFullSqlSwitches;
 #[cfg(feature = "ListGaussDbDatastores")]
 pub mod ListGaussDbDatastores;
-#[cfg(feature = "ListHbaInfoHistory")]
-pub mod ListHbaInfoHistory;
-#[cfg(feature = "ListHbaInfos")]
-pub mod ListHbaInfos;

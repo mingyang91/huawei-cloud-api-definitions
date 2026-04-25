@@ -98,6 +98,8 @@ pub mod CreateJob;
 pub mod CreateObjectLevelCompareJob;
 #[cfg(feature = "CreateReplicationJob")]
 pub mod CreateReplicationJob;
+#[cfg(feature = "CreateSubscription")]
+pub mod CreateSubscription;
 #[cfg(feature = "DeleteColumnInfos")]
 pub mod DeleteColumnInfos;
 #[cfg(feature = "DeleteCompareJob")]
@@ -110,6 +112,8 @@ pub mod DeleteJdbcDriver;
 pub mod DeleteJob;
 #[cfg(feature = "DeleteReplicationJob")]
 pub mod DeleteReplicationJob;
+#[cfg(feature = "DeleteSubscription")]
+pub mod DeleteSubscription;
 #[cfg(feature = "DeleteUserJdbcDriver")]
 pub mod DeleteUserJdbcDriver;
 #[cfg(feature = "DownloadBatchCreateTemplate")]
@@ -126,6 +130,8 @@ pub mod ExecuteJobAction;
 pub mod ExportCreationTemplate;
 #[cfg(feature = "ExportOperationInfo")]
 pub mod ExportOperationInfo;
+#[cfg(feature = "ExportReplayReport")]
+pub mod ExportReplayReport;
 #[cfg(feature = "ImportBatchCreateJobs")]
 pub mod ImportBatchCreateJobs;
 #[cfg(feature = "ListAsyncJobDetail")]
@@ -154,6 +160,8 @@ pub mod ListDataCompareOverview;
 pub mod ListDataLevelTableCompareJobs;
 #[cfg(feature = "ListDbObjects")]
 pub mod ListDbObjects;
+#[cfg(feature = "ListExtraColumns")]
+pub mod ListExtraColumns;
 #[cfg(feature = "ListFeatures")]
 pub mod ListFeatures;
 #[cfg(feature = "ListInstanceByTags")]
@@ -182,19 +190,11 @@ pub mod ListProjectTags;
 pub mod ListReplicationJobs;
 #[cfg(feature = "ListsAgencyPermissions")]
 pub mod ListsAgencyPermissions;
+#[cfg(feature = "ListSupportLinks")]
+pub mod ListSupportLinks;
 #[cfg(feature = "ListTags")]
 pub mod ListTags;
 #[cfg(feature = "ListTemplates")]
 pub mod ListTemplates;
 #[cfg(feature = "ListUserJdbcDrivers")]
 pub mod ListUserJdbcDrivers;
-#[cfg(feature = "ListUsers")]
-pub mod ListUsers;
-#[cfg(feature = "ModifyColumnInfos")]
-pub mod ModifyColumnInfos;
-#[cfg(feature = "ModifyConnection")]
-pub mod ModifyConnection;
-#[cfg(feature = "ModifyGroupAndStream")]
-pub mod ModifyGroupAndStream;
-#[cfg(feature = "QueryTuningParams")]
-pub mod QueryTuningParams;

@@ -134,6 +134,8 @@ pub mod ModifySqlBlackList;
 pub mod MoveTmlogFiles;
 #[cfg(feature = "RebuildConfig")]
 pub mod RebuildConfig;
+#[cfg(feature = "RebuildDdmConfig")]
+pub mod RebuildDdmConfig;
 #[cfg(feature = "ResetAdministrator")]
 pub mod ResetAdministrator;
 #[cfg(feature = "ResetDdmUserPassword")]
@@ -196,5 +198,3 @@ pub mod ShowMigrationLog;
 pub mod ShowNode;
 #[cfg(feature = "ShowPhysicalProcesses")]
 pub mod ShowPhysicalProcesses;
-#[cfg(feature = "ShowProcessesAuditLog")]
-pub mod ShowProcessesAuditLog;
