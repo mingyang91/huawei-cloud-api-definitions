@@ -4,8 +4,8 @@ pub mod AcceptScheduledEvent;
 pub mod ApigAppExists;
 #[cfg(feature = "AttachDevServerVolume")]
 pub mod AttachDevServerVolume;
-#[cfg(feature = "AttachObs")]
-pub mod AttachObs;
+#[cfg(feature = "AttachDynamicStorage")]
+pub mod AttachDynamicStorage;
 #[cfg(feature = "AuthorizeApiToApigApps")]
 pub mod AuthorizeApiToApigApps;
 #[cfg(feature = "BatchCreateServiceTags")]
@@ -20,8 +20,6 @@ pub mod BatchDevServersAction;
 pub mod BatchRebootPoolNodes;
 #[cfg(feature = "BindDevServerPublicIP")]
 pub mod BindDevServerPublicIP;
-#[cfg(feature = "CancelObs")]
-pub mod CancelObs;
 #[cfg(feature = "ChangeAlgorithm")]
 pub mod ChangeAlgorithm;
 #[cfg(feature = "ChangeDevServerOS")]
@@ -166,6 +164,8 @@ pub mod DeleteWorkflowSubscription;
 pub mod DeleteWorkspace;
 #[cfg(feature = "DetachDevServerVolume")]
 pub mod DetachDevServerVolume;
+#[cfg(feature = "DetachDynamicStorage")]
+pub mod DetachDynamicStorage;
 #[cfg(feature = "GetAppAuthApiInfo")]
 pub mod GetAppAuthApiInfo;
 #[cfg(feature = "GetAppAuthApisInfo")]
