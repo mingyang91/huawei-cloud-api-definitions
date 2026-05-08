@@ -72,8 +72,6 @@ pub mod DeleteWatermarkTemplate;
 pub mod ListAreaDetail;
 #[cfg(feature = "ListBandwidthDetail")]
 pub mod ListBandwidthDetail;
-#[cfg(feature = "ListCarouselTaskDetail")]
-pub mod ListCarouselTaskDetail;
 #[cfg(feature = "ListCesDimsInfo")]
 pub mod ListCesDimsInfo;
 #[cfg(feature = "ListCesInstance")]
@@ -142,6 +140,8 @@ pub mod ListUsersOfStream;
 pub mod ListWatermarkRule;
 #[cfg(feature = "ListWatermarkTemplate")]
 pub mod ListWatermarkTemplate;
+#[cfg(feature = "ModifyDomainStreamBackup")]
+pub mod ModifyDomainStreamBackup;
 #[cfg(feature = "ModifyFlowOutput")]
 pub mod ModifyFlowOutput;
 #[cfg(feature = "ModifyFlowSources")]
@@ -178,6 +178,8 @@ pub mod ShowDomain;
 pub mod ShowDomainHttpsCert;
 #[cfg(feature = "ShowDomainKeyChain")]
 pub mod ShowDomainKeyChain;
+#[cfg(feature = "ShowDomainStreamBackup")]
+pub mod ShowDomainStreamBackup;
 #[cfg(feature = "ShowDomainVerification")]
 pub mod ShowDomainVerification;
 #[cfg(feature = "ShowFlowDetail")]
@@ -196,5 +198,3 @@ pub mod ShowRefererChain;
 pub mod ShowStreamCount;
 #[cfg(feature = "ShowStreamPortrait")]
 pub mod ShowStreamPortrait;
-#[cfg(feature = "ShowTranscodingsTemplate")]
-pub mod ShowTranscodingsTemplate;

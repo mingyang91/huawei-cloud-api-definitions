@@ -64,6 +64,10 @@ pub mod BatchScanSwrImage;
 pub mod BatchStartProtection;
 #[cfg(feature = "BatchStartWebTamperProtection")]
 pub mod BatchStartWebTamperProtection;
+#[cfg(feature = "BatchUpdateClusterResource")]
+pub mod BatchUpdateClusterResource;
+#[cfg(feature = "BatchUpdateHostResource")]
+pub mod BatchUpdateHostResource;
 #[cfg(feature = "BatchUpgradeAgentDaemonset")]
 pub mod BatchUpgradeAgentDaemonset;
 #[cfg(feature = "CancelHostsQuota")]
@@ -148,6 +152,8 @@ pub mod CreateClusterProtectionPolicy;
 pub mod CreateClustersInfo;
 #[cfg(feature = "CreateContainerNetworkPolicy")]
 pub mod CreateContainerNetworkPolicy;
+#[cfg(feature = "CreateCustomRuleConfig")]
+pub mod CreateCustomRuleConfig;
 #[cfg(feature = "CreateDecoyPortPolicy")]
 pub mod CreateDecoyPortPolicy;
 #[cfg(feature = "CreateGlobalAssetScanTask")]
@@ -190,11 +196,5 @@ pub mod DeleteCicdConfigurations;
 pub mod DeleteClusterProtectionPolicy;
 #[cfg(feature = "DeleteContainerNetworkPolicy")]
 pub mod DeleteContainerNetworkPolicy;
-#[cfg(feature = "DeleteDecoyPortHostPolicy")]
-pub mod DeleteDecoyPortHostPolicy;
-#[cfg(feature = "DeleteDecoyPortPolicy")]
-pub mod DeleteDecoyPortPolicy;
-#[cfg(feature = "DeleteDuplicationInfo")]
-pub mod DeleteDuplicationInfo;
-#[cfg(feature = "DeleteHostsGroup")]
-pub mod DeleteHostsGroup;
+#[cfg(feature = "DeleteCustomRuleConfig")]
+pub mod DeleteCustomRuleConfig;
