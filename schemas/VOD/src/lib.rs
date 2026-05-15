@@ -12,6 +12,8 @@ pub mod ConfirmImageUpload;
 pub mod CreateAssetByFileUpload;
 #[cfg(feature = "CreateAssetCategory")]
 pub mod CreateAssetCategory;
+#[cfg(feature = "CreateAssetEditTask")]
+pub mod CreateAssetEditTask;
 #[cfg(feature = "CreateAssetProcessTask")]
 pub mod CreateAssetProcessTask;
 #[cfg(feature = "CreateAssetReviewTask")]
@@ -32,6 +34,8 @@ pub mod CreateTranscodeTemplate;
 pub mod CreateWatermarkTemplate;
 #[cfg(feature = "DeleteAssetCategory")]
 pub mod DeleteAssetCategory;
+#[cfg(feature = "DeleteAssetEditTask")]
+pub mod DeleteAssetEditTask;
 #[cfg(feature = "DeleteAssets")]
 pub mod DeleteAssets;
 #[cfg(feature = "DeleteTemplateGroup")]
@@ -50,6 +54,8 @@ pub mod DeleteWatermarkTemplate;
 pub mod ListAssetCategory;
 #[cfg(feature = "ListAssetDailySummaryLog")]
 pub mod ListAssetDailySummaryLog;
+#[cfg(feature = "ListAssetEditTask")]
+pub mod ListAssetEditTask;
 #[cfg(feature = "ListAssetList")]
 pub mod ListAssetList;
 #[cfg(feature = "ListAssetTaskInfo")]

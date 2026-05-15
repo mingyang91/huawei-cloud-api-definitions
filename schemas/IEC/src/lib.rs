@@ -4,6 +4,8 @@ pub mod AddNics;
 pub mod AssociateSubnet;
 #[cfg(feature = "AttachVipBandwidth")]
 pub mod AttachVipBandwidth;
+#[cfg(feature = "BatchListMetricData")]
+pub mod BatchListMetricData;
 #[cfg(feature = "BatchRebootInstance")]
 pub mod BatchRebootInstance;
 #[cfg(feature = "BatchStartInstance")]

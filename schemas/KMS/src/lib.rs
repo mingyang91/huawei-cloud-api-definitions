@@ -46,6 +46,8 @@ pub mod DeleteKey;
 pub mod DeleteKeyStore;
 #[cfg(feature = "DeleteTag")]
 pub mod DeleteTag;
+#[cfg(feature = "DeriveSharedSecret")]
+pub mod DeriveSharedSecret;
 #[cfg(feature = "DisableKey")]
 pub mod DisableKey;
 #[cfg(feature = "DisableKeyRotation")]
@@ -84,6 +86,8 @@ pub mod ListKmsTags;
 pub mod ListRetirableGrants;
 #[cfg(feature = "ListSupportRegions")]
 pub mod ListSupportRegions;
+#[cfg(feature = "ReEncrypt")]
+pub mod ReEncrypt;
 #[cfg(feature = "ReplicateKey")]
 pub mod ReplicateKey;
 #[cfg(feature = "ShowKeyRotationStatus")]
