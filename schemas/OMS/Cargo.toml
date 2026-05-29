@@ -18,6 +18,7 @@ version = "0"
 [features]
 BatchUpdateTasks = []
 CheckPrefix = []
+CheckUrlSourceListFileFormat = []
 CreateSyncEvents = []
 CreateSyncTask = []
 CreateTask = []
@@ -50,7 +51,7 @@ StopTaskGroup = []
 UpdateBandwidthPolicy = []
 UpdatePrivacyAgreementRecord = []
 UpdateTaskGroup = []
-full = ["BatchUpdateTasks", "CheckPrefix", "CreateSyncEvents", "CreateSyncTask", "CreateTask", "CreateTaskGroup", "DeleteSyncTask", "DeleteTask", "DeleteTaskGroup", "ListApiVersions", "ListSyncTasks", "ListSyncTaskStatistic", "ListTaskGroup", "ListTasks", "RetryTaskGroup", "ShowApiInfo", "ShowBucketList", "ShowBucketObjects", "ShowBucketRegion", "ShowCdnInfo", "ShowCloudType", "ShowRegionInfo", "ShowSyncTask", "ShowTask", "ShowTaskGroup", "StartSyncTask", "StartTask", "StartTaskGroup", "StopSyncTask", "StopTask", "StopTaskGroup", "UpdateBandwidthPolicy", "UpdatePrivacyAgreementRecord", "UpdateTaskGroup"]
+full = ["BatchUpdateTasks", "CheckPrefix", "CheckUrlSourceListFileFormat", "CreateSyncEvents", "CreateSyncTask", "CreateTask", "CreateTaskGroup", "DeleteSyncTask", "DeleteTask", "DeleteTaskGroup", "ListApiVersions", "ListSyncTasks", "ListSyncTaskStatistic", "ListTaskGroup", "ListTasks", "RetryTaskGroup", "ShowApiInfo", "ShowBucketList", "ShowBucketObjects", "ShowBucketRegion", "ShowCdnInfo", "ShowCloudType", "ShowRegionInfo", "ShowSyncTask", "ShowTask", "ShowTaskGroup", "StartSyncTask", "StartTask", "StartTaskGroup", "StopSyncTask", "StopTask", "StopTaskGroup", "UpdateBandwidthPolicy", "UpdatePrivacyAgreementRecord", "UpdateTaskGroup"]
 
 [lib]
 name = "huawei_cloud_api_definitions_OMS"

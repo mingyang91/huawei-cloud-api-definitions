@@ -2,6 +2,8 @@
 pub mod BatchUpdateTasks;
 #[cfg(feature = "CheckPrefix")]
 pub mod CheckPrefix;
+#[cfg(feature = "CheckUrlSourceListFileFormat")]
+pub mod CheckUrlSourceListFileFormat;
 #[cfg(feature = "CreateSyncEvents")]
 pub mod CreateSyncEvents;
 #[cfg(feature = "CreateSyncTask")]
