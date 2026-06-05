@@ -144,6 +144,8 @@ pub mod ShowAccessClient;
 pub mod ShowAccessService;
 #[cfg(feature = "ShowAgency")]
 pub mod ShowAgency;
+#[cfg(feature = "ShowAgencyCredential")]
+pub mod ShowAgencyCredential;
 #[cfg(feature = "ShowAgreement")]
 pub mod ShowAgreement;
 #[cfg(feature = "ShowAgreementRule")]

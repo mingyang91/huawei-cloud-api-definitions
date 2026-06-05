@@ -12,6 +12,8 @@ pub mod BatchDeleteBackup;
 pub mod BatchTagAction;
 #[cfg(feature = "BatchUpgradeDatabaseVersion")]
 pub mod BatchUpgradeDatabaseVersion;
+#[cfg(feature = "BindPublicGateway")]
+pub mod BindPublicGateway;
 #[cfg(feature = "CancelEip")]
 pub mod CancelEip;
 #[cfg(feature = "CancelScheduledTask")]
@@ -196,5 +198,3 @@ pub mod ShowInstanceConfigurationModifyHistory;
 pub mod ShowJobDetail;
 #[cfg(feature = "ShowKillOpRuleRuleList")]
 pub mod ShowKillOpRuleRuleList;
-#[cfg(feature = "ShowQuotas")]
-pub mod ShowQuotas;
