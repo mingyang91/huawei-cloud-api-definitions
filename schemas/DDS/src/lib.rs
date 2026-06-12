@@ -8,6 +8,8 @@ pub mod AttachEip;
 pub mod AttachInternalIp;
 #[cfg(feature = "BatchDeleteBackup")]
 pub mod BatchDeleteBackup;
+#[cfg(feature = "BatchDeleteShards")]
+pub mod BatchDeleteShards;
 #[cfg(feature = "BatchTagAction")]
 pub mod BatchTagAction;
 #[cfg(feature = "BatchUpgradeDatabaseVersion")]
@@ -196,5 +198,3 @@ pub mod ShowEntityConfiguration;
 pub mod ShowInstanceConfigurationModifyHistory;
 #[cfg(feature = "ShowJobDetail")]
 pub mod ShowJobDetail;
-#[cfg(feature = "ShowKillOpRuleRuleList")]
-pub mod ShowKillOpRuleRuleList;

@@ -1,0 +1,69 @@
+[dependencies.chrono]
+features = ["serde"]
+version = "0"
+
+[dependencies.regress]
+version = "0"
+
+[dependencies.serde]
+features = ["derive"]
+version = "1"
+
+[dependencies.serde_json]
+version = "1"
+
+[dependencies.typify]
+version = "0"
+
+[features]
+BatchDeleteConfig = []
+BatchResumeInstances = []
+ChangeScalingGroup = []
+ChangeScalingTagInfo = []
+CreateLifecycleHook = []
+CreatePolicy = []
+CreateScalingConfig = []
+CreateScalingGroup = []
+DeleteConfig = []
+DeleteInstance = []
+DeleteLifecycleHook = []
+DeletePolicy = []
+DeleteScalingGroup = []
+DeleteScalingNotification = []
+InvokeInstanceLifecycleHook = []
+ListLifecycleHook = []
+ListPolicy = []
+ListPolicyInstance = []
+ListQuotas = []
+ListScalingActivityLog = []
+ListScalingConfig = []
+ListScalingGroup = []
+ListScalingGroupInstance = []
+ListScalingNotification = []
+ModifyLifecycleHook = []
+ModifyPolicy = []
+ResumePolicy = []
+ResumeScalingGroup = []
+SetScalingNotification = []
+ShowInstance = []
+ShowInstanceSuspend = []
+ShowLifecycleHook = []
+ShowPolicy = []
+ShowScalingConfig = []
+ShowScalingGroup = []
+ShowScalingTagInfoByResourceId = []
+ShowScalingTagInfoByTenantId = []
+full = ["BatchDeleteConfig", "BatchResumeInstances", "ChangeScalingGroup", "ChangeScalingTagInfo", "CreateLifecycleHook", "CreatePolicy", "CreateScalingConfig", "CreateScalingGroup", "DeleteConfig", "DeleteInstance", "DeleteLifecycleHook", "DeletePolicy", "DeleteScalingGroup", "DeleteScalingNotification", "InvokeInstanceLifecycleHook", "ListLifecycleHook", "ListPolicy", "ListPolicyInstance", "ListQuotas", "ListScalingActivityLog", "ListScalingConfig", "ListScalingGroup", "ListScalingGroupInstance", "ListScalingNotification", "ModifyLifecycleHook", "ModifyPolicy", "ResumePolicy", "ResumeScalingGroup", "SetScalingNotification", "ShowInstance", "ShowInstanceSuspend", "ShowLifecycleHook", "ShowPolicy", "ShowScalingConfig", "ShowScalingGroup", "ShowScalingTagInfoByResourceId", "ShowScalingTagInfoByTenantId"]
+
+[lib]
+name = "huawei_cloud_api_definitions_HCSAS"
+path = "src/lib.rs"
+
+[package]
+authors = ["mingyang91 <mingyang91@qq.com>"]
+description = "Huawei Cloud API definitions, generated from OpenAPI spec"
+edition = "2021"
+license = "MIT"
+name = "huawei-cloud-api-definitions-HCSAS"
+repository = "https://github.com/mingyang91/huawei-cloud-api-definitions"
+version = "CHANGE_ME"

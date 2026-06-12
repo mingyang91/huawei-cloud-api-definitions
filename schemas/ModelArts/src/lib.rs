@@ -30,8 +30,12 @@ pub mod ChangeHyperinstanceOS;
 pub mod ChangeTrainingExperiment;
 #[cfg(feature = "ChangeTrainingJobDescription")]
 pub mod ChangeTrainingJobDescription;
+#[cfg(feature = "CheckTrainingExperiment")]
+pub mod CheckTrainingExperiment;
 #[cfg(feature = "CreateAlgorithm")]
 pub mod CreateAlgorithm;
+#[cfg(feature = "CreateAlgorithmVersionToGallery")]
+pub mod CreateAlgorithmVersionToGallery;
 #[cfg(feature = "CreateAndAuthAppAuthApi")]
 pub mod CreateAndAuthAppAuthApi;
 #[cfg(feature = "CreateApigApp")]
@@ -80,6 +84,8 @@ pub mod CreateRoceNetwork;
 pub mod CreateSaveImageJob;
 #[cfg(feature = "CreateService")]
 pub mod CreateService;
+#[cfg(feature = "CreateTrainingExperiment")]
+pub mod CreateTrainingExperiment;
 #[cfg(feature = "CreateTrainingJob")]
 pub mod CreateTrainingJob;
 #[cfg(feature = "CreateTrainJobTags")]
@@ -148,6 +154,8 @@ pub mod DeletePool;
 pub mod DeleteProfilingDiagnosisJob;
 #[cfg(feature = "DeleteService")]
 pub mod DeleteService;
+#[cfg(feature = "DeleteTrainingExperiment")]
+pub mod DeleteTrainingExperiment;
 #[cfg(feature = "DeleteTrainingJob")]
 pub mod DeleteTrainingJob;
 #[cfg(feature = "DeleteTrainJobTags")]
@@ -190,11 +198,3 @@ pub mod GetHyperinstance;
 pub mod GetScaleEvaluationsDevServer;
 #[cfg(feature = "GetServiceAppAuthApiAuthInfo")]
 pub mod GetServiceAppAuthApiAuthInfo;
-#[cfg(feature = "GetTopologies")]
-pub mod GetTopologies;
-#[cfg(feature = "ListAlgorithms")]
-pub mod ListAlgorithms;
-#[cfg(feature = "ListAllDevServers")]
-pub mod ListAllDevServers;
-#[cfg(feature = "ListAllHyperinstances")]
-pub mod ListAllHyperinstances;

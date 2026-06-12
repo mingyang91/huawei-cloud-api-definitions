@@ -68,6 +68,8 @@ pub mod CreateDbUser;
 pub mod CreateDistribution;
 #[cfg(feature = "CreateDnsName")]
 pub mod CreateDnsName;
+#[cfg(feature = "CreateDrsJobTask")]
+pub mod CreateDrsJobTask;
 #[cfg(feature = "CreateInstance")]
 pub mod CreateInstance;
 #[cfg(feature = "CreateInstanceIam5")]
@@ -196,5 +198,3 @@ pub mod ListDbAgentJobHistorys;
 pub mod ListDbAgentJobHistorySteps;
 #[cfg(feature = "ListDbAgentJobs")]
 pub mod ListDbAgentJobs;
-#[cfg(feature = "ListDbUsers")]
-pub mod ListDbUsers;
