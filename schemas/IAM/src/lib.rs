@@ -1,3 +1,5 @@
+#[cfg(feature = "AddClientIDToOIDCProviderV5")]
+pub mod AddClientIDToOIDCProviderV5;
 #[cfg(feature = "AddUserToGroupV5")]
 pub mod AddUserToGroupV5;
 #[cfg(feature = "AssociateAgencyWithAllProjectsPermission")]
@@ -48,6 +50,8 @@ pub mod CreateLoginToken;
 pub mod CreateMetadata;
 #[cfg(feature = "CreateMfaDevice")]
 pub mod CreateMfaDevice;
+#[cfg(feature = "CreateOIDCProviderV5")]
+pub mod CreateOIDCProviderV5;
 #[cfg(feature = "CreateOpenIdConnectConfig")]
 pub mod CreateOpenIdConnectConfig;
 #[cfg(feature = "CreatePermanentAccessKey")]
@@ -56,6 +60,8 @@ pub mod CreatePermanentAccessKey;
 pub mod CreatePolicyV5;
 #[cfg(feature = "CreatePolicyVersionV5")]
 pub mod CreatePolicyVersionV5;
+#[cfg(feature = "CreateSAMLProviderV5")]
+pub mod CreateSAMLProviderV5;
 #[cfg(feature = "CreateServiceLinkedAgencyV5")]
 pub mod CreateServiceLinkedAgencyV5;
 #[cfg(feature = "CreateTemporaryAccessKeyByAgency")]
@@ -92,6 +98,8 @@ pub mod DeleteGroupV5;
 pub mod DeleteLoginProfileV5;
 #[cfg(feature = "DeleteMfaDevice")]
 pub mod DeleteMfaDevice;
+#[cfg(feature = "DeleteOIDCProviderV5")]
+pub mod DeleteOIDCProviderV5;
 #[cfg(feature = "DeletePermanentAccessKey")]
 pub mod DeletePermanentAccessKey;
 #[cfg(feature = "DeletePolicyV5")]
@@ -100,6 +108,8 @@ pub mod DeletePolicyV5;
 pub mod DeletePolicyVersionV5;
 #[cfg(feature = "DeleteResourceTagsV5")]
 pub mod DeleteResourceTagsV5;
+#[cfg(feature = "DeleteSAMLProviderV5")]
+pub mod DeleteSAMLProviderV5;
 #[cfg(feature = "DeleteServiceLinkedAgencyV5")]
 pub mod DeleteServiceLinkedAgencyV5;
 #[cfg(feature = "DeleteUserV5")]
@@ -188,13 +198,3 @@ pub mod KeystoneListDomainPermissionsForGroup;
 pub mod KeystoneListEndpoints;
 #[cfg(feature = "KeystoneListFederationDomains")]
 pub mod KeystoneListFederationDomains;
-#[cfg(feature = "KeystoneListFederationProjects")]
-pub mod KeystoneListFederationProjects;
-#[cfg(feature = "KeystoneListGroups")]
-pub mod KeystoneListGroups;
-#[cfg(feature = "KeystoneListGroupsForUser")]
-pub mod KeystoneListGroupsForUser;
-#[cfg(feature = "KeystoneListIdentityProviders")]
-pub mod KeystoneListIdentityProviders;
-#[cfg(feature = "KeystoneListMappings")]
-pub mod KeystoneListMappings;

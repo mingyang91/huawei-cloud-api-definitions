@@ -1,5 +1,9 @@
 #[cfg(feature = "AssumeAgency")]
 pub mod AssumeAgency;
+#[cfg(feature = "AssumeAgencyWithOIDC")]
+pub mod AssumeAgencyWithOIDC;
+#[cfg(feature = "AssumeAgencyWithSAML")]
+pub mod AssumeAgencyWithSAML;
 #[cfg(feature = "DecodeAuthorizationMessage")]
 pub mod DecodeAuthorizationMessage;
 #[cfg(feature = "GetCallerIdentity")]

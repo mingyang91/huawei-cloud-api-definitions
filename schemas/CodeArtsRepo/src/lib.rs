@@ -120,6 +120,8 @@ pub mod CreateRepositorySystemLabels;
 pub mod CreateReviewSetting;
 #[cfg(feature = "CreateTag")]
 pub mod CreateTag;
+#[cfg(feature = "CreateTenantKmsGrant")]
+pub mod CreateTenantKmsGrant;
 #[cfg(feature = "DeleteBranch")]
 pub mod DeleteBranch;
 #[cfg(feature = "DeleteDeployKey")]
@@ -196,5 +198,3 @@ pub mod ListCommitAssociatedMergeRequests;
 pub mod ListCommitAssociatedRefs;
 #[cfg(feature = "ListCommitDiscussions")]
 pub mod ListCommitDiscussions;
-#[cfg(feature = "ListCommits")]
-pub mod ListCommits;

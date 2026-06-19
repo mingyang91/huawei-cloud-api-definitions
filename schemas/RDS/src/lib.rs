@@ -22,6 +22,8 @@ pub mod BatchExecuteEvents;
 pub mod BatchModifyPublication;
 #[cfg(feature = "BatchModifySubscription")]
 pub mod BatchModifySubscription;
+#[cfg(feature = "BatchResizeFlavor")]
+pub mod BatchResizeFlavor;
 #[cfg(feature = "BatchRestoreDatabase")]
 pub mod BatchRestoreDatabase;
 #[cfg(feature = "BatchRestorePostgreSqlTables")]
@@ -196,5 +198,3 @@ pub mod ListDatastores;
 pub mod ListDbAgentJobHistorys;
 #[cfg(feature = "ListDbAgentJobHistorySteps")]
 pub mod ListDbAgentJobHistorySteps;
-#[cfg(feature = "ListDbAgentJobs")]
-pub mod ListDbAgentJobs;

@@ -32,6 +32,8 @@ pub mod ListInstancesByTag;
 pub mod ListQuotaStatus;
 #[cfg(feature = "ListSpecifications")]
 pub mod ListSpecifications;
+#[cfg(feature = "ListSwitchConfigInfo")]
+pub mod ListSwitchConfigInfo;
 #[cfg(feature = "ListTags")]
 pub mod ListTags;
 #[cfg(feature = "LoginCbh")]
