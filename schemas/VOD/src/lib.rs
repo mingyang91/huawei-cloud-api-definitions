@@ -100,6 +100,8 @@ pub mod ShowAssetMeta;
 pub mod ShowAssetTempAuthority;
 #[cfg(feature = "ShowCdnStatistics")]
 pub mod ShowCdnStatistics;
+#[cfg(feature = "ShowHttpsConfig")]
+pub mod ShowHttpsConfig;
 #[cfg(feature = "ShowPreheatingAsset")]
 pub mod ShowPreheatingAsset;
 #[cfg(feature = "ShowRefreshResult")]
@@ -126,6 +128,8 @@ pub mod UpdateAssetMeta;
 pub mod UpdateBucketAuthorized;
 #[cfg(feature = "UpdateCoverByThumbnail")]
 pub mod UpdateCoverByThumbnail;
+#[cfg(feature = "UpdateHttpsConfig")]
+pub mod UpdateHttpsConfig;
 #[cfg(feature = "UpdateStorageMode")]
 pub mod UpdateStorageMode;
 #[cfg(feature = "UpdateStorageModeType")]

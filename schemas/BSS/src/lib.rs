@@ -170,5 +170,7 @@ pub mod UpdateCustomerAccountAmount;
 pub mod UpdateIndirectPartnerAccount;
 #[cfg(feature = "UpdatePeriodToOnDemand")]
 pub mod UpdatePeriodToOnDemand;
+#[cfg(feature = "UpdatePeriodToOnDemandInstantly")]
+pub mod UpdatePeriodToOnDemandInstantly;
 #[cfg(feature = "UpdateSubEnterpriseAmount")]
 pub mod UpdateSubEnterpriseAmount;
