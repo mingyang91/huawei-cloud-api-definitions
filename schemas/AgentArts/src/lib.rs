@@ -1,0 +1,10 @@
+#[cfg(feature = "CreateCoreGateway")]
+pub mod CreateCoreGateway;
+#[cfg(feature = "DeleteCoreGateway")]
+pub mod DeleteCoreGateway;
+#[cfg(feature = "ListCoreGateways")]
+pub mod ListCoreGateways;
+#[cfg(feature = "ShowCoreGateway")]
+pub mod ShowCoreGateway;
+#[cfg(feature = "UpdateCoreGateway")]
+pub mod UpdateCoreGateway;

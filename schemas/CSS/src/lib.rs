@@ -158,8 +158,8 @@ pub mod StartPipeline;
 pub mod StartPublicWhitelist;
 #[cfg(feature = "StartTargetClusterConnectivityTest")]
 pub mod StartTargetClusterConnectivityTest;
-#[cfg(feature = "StartVpecp")]
-pub mod StartVpecp;
+#[cfg(feature = "StartVpcep")]
+pub mod StartVpcep;
 #[cfg(feature = "StopAutoCreateSnapshots")]
 pub mod StopAutoCreateSnapshots;
 #[cfg(feature = "StopHotPipeline")]
@@ -176,8 +176,8 @@ pub mod StopPublicKibanaWhitelist;
 pub mod StopPublicWhitelist;
 #[cfg(feature = "StopSnapshot")]
 pub mod StopSnapshot;
-#[cfg(feature = "StopVpecp")]
-pub mod StopVpecp;
+#[cfg(feature = "StopVpcep")]
+pub mod StopVpcep;
 #[cfg(feature = "UpdateAiOpsSetting")]
 pub mod UpdateAiOpsSetting;
 #[cfg(feature = "UpdateAlterKibana")]

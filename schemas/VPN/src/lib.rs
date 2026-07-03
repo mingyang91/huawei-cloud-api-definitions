@@ -62,12 +62,16 @@ pub mod DeleteVpnUser;
 pub mod DeleteVpnUserGroup;
 #[cfg(feature = "ExportClientConfig")]
 pub mod ExportClientConfig;
+#[cfg(feature = "ExportVpnConnectionPeerConfiguration")]
+pub mod ExportVpnConnectionPeerConfiguration;
 #[cfg(feature = "ImportClientCa")]
 pub mod ImportClientCa;
 #[cfg(feature = "ListAvailabilityZones")]
 pub mod ListAvailabilityZones;
 #[cfg(feature = "ListCgws")]
 pub mod ListCgws;
+#[cfg(feature = "ListConnectionIpsecSa")]
+pub mod ListConnectionIpsecSa;
 #[cfg(feature = "ListConnectionMonitors")]
 pub mod ListConnectionMonitors;
 #[cfg(feature = "ListExtendedAvailabilityZones")]
@@ -80,6 +84,8 @@ pub mod ListP2cVgwConnections;
 pub mod ListP2cVgws;
 #[cfg(feature = "ListP2cVpnGatewayJobs")]
 pub mod ListP2cVpnGatewayJobs;
+#[cfg(feature = "ListPeerConfigurationSupportedDevices")]
+pub mod ListPeerConfigurationSupportedDevices;
 #[cfg(feature = "ListProjectTags")]
 pub mod ListProjectTags;
 #[cfg(feature = "ListResourcesByTags")]
@@ -90,6 +96,8 @@ pub mod ListVgws;
 pub mod ListVpnAccessPolicies;
 #[cfg(feature = "ListVpnConnections")]
 pub mod ListVpnConnections;
+#[cfg(feature = "ListVpnGatewayCertificates")]
+pub mod ListVpnGatewayCertificates;
 #[cfg(feature = "ListVpnGatewayJobs")]
 pub mod ListVpnGatewayJobs;
 #[cfg(feature = "ListVpnServersByProject")]

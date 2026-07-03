@@ -150,6 +150,8 @@ pub mod ShowInstanceUsers;
 pub mod ShowKafkaCluster;
 #[cfg(feature = "ShowKafkaInstanceExtendProductInfo")]
 pub mod ShowKafkaInstanceExtendProductInfo;
+#[cfg(feature = "ShowKafkaLogTask")]
+pub mod ShowKafkaLogTask;
 #[cfg(feature = "ShowKafkaProductCores")]
 pub mod ShowKafkaProductCores;
 #[cfg(feature = "ShowKafkaProjectTags")]
@@ -188,13 +190,11 @@ pub mod ShowTopicAccessPolicy;
 pub mod ShowUpgradeInstanceVersion;
 #[cfg(feature = "ShowVolumeExpandConfig")]
 pub mod ShowVolumeExpandConfig;
+#[cfg(feature = "StartKafkaLogTask")]
+pub mod StartKafkaLogTask;
+#[cfg(feature = "StopKafkaLogTask")]
+pub mod StopKafkaLogTask;
 #[cfg(feature = "StopKafkaRebalanceLogTask")]
 pub mod StopKafkaRebalanceLogTask;
 #[cfg(feature = "UpdateInstance")]
 pub mod UpdateInstance;
-#[cfg(feature = "UpdateInstanceAutoCreateTopic")]
-pub mod UpdateInstanceAutoCreateTopic;
-#[cfg(feature = "UpdateInstanceConsumerGroup")]
-pub mod UpdateInstanceConsumerGroup;
-#[cfg(feature = "UpdateInstanceCrossVpcIp")]
-pub mod UpdateInstanceCrossVpcIp;
