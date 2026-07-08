@@ -12,6 +12,8 @@ pub mod AttachEip;
 pub mod AuthorizeBackupDownload;
 #[cfg(feature = "BatchDeleteInstanceTag")]
 pub mod BatchDeleteInstanceTag;
+#[cfg(feature = "BatchExecuteEvents")]
+pub mod BatchExecuteEvents;
 #[cfg(feature = "BatchSetBackupPolicy")]
 pub mod BatchSetBackupPolicy;
 #[cfg(feature = "BatchShowUpgradeCandidateVersions")]
@@ -188,13 +190,11 @@ pub mod ListEnhanceFullSqlStatistics;
 pub mod ListEnterpriseProjects;
 #[cfg(feature = "ListEpsQuotas")]
 pub mod ListEpsQuotas;
+#[cfg(feature = "ListEvents")]
+pub mod ListEvents;
 #[cfg(feature = "ListFeatures")]
 pub mod ListFeatures;
 #[cfg(feature = "ListFlavors")]
 pub mod ListFlavors;
 #[cfg(feature = "ListFlavorsDetails")]
 pub mod ListFlavorsDetails;
-#[cfg(feature = "ListFullSqlSwitches")]
-pub mod ListFullSqlSwitches;
-#[cfg(feature = "ListGaussDbDatastores")]
-pub mod ListGaussDbDatastores;

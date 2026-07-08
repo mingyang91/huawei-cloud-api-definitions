@@ -134,6 +134,8 @@ pub mod ListTransactions;
 pub mod LoginBuiltInAccount;
 #[cfg(feature = "LogoffBuiltInAccount")]
 pub mod LogoffBuiltInAccount;
+#[cfg(feature = "ParseDeadLock")]
+pub mod ParseDeadLock;
 #[cfg(feature = "ParseSqlLimitRules")]
 pub mod ParseSqlLimitRules;
 #[cfg(feature = "RegisterDbUser")]
@@ -146,6 +148,10 @@ pub mod SaveCredentialForBatchInspection;
 pub mod SetLockBlockingSwitch;
 #[cfg(feature = "SetThresholdForMetric")]
 pub mod SetThresholdForMetric;
+#[cfg(feature = "ShowAnalysisSessionResult")]
+pub mod ShowAnalysisSessionResult;
+#[cfg(feature = "ShowAnalysisSessionStatus")]
+pub mod ShowAnalysisSessionStatus;
 #[cfg(feature = "ShowApiVersion")]
 pub mod ShowApiVersion;
 #[cfg(feature = "ShowCredential")]
@@ -154,6 +160,10 @@ pub mod ShowCredential;
 pub mod ShowDasRecommendSqlLimitRule;
 #[cfg(feature = "ShowDbUser")]
 pub mod ShowDbUser;
+#[cfg(feature = "ShowDeadLockAnalysisResult")]
+pub mod ShowDeadLockAnalysisResult;
+#[cfg(feature = "ShowDeadLockTopology")]
+pub mod ShowDeadLockTopology;
 #[cfg(feature = "ShowFullDeadLockList")]
 pub mod ShowFullDeadLockList;
 #[cfg(feature = "ShowFullDeadLockSwitch")]
@@ -188,13 +198,3 @@ pub mod ShowSqlLimitSwitchStatus;
 pub mod ShowSqlSwitchStatus;
 #[cfg(feature = "ShowTransactionSwitchStatus")]
 pub mod ShowTransactionSwitchStatus;
-#[cfg(feature = "ShowTuning")]
-pub mod ShowTuning;
-#[cfg(feature = "SynchronizeInstances")]
-pub mod SynchronizeInstances;
-#[cfg(feature = "UpdateDbUser")]
-pub mod UpdateDbUser;
-#[cfg(feature = "UpdateEmailTemplate")]
-pub mod UpdateEmailTemplate;
-#[cfg(feature = "UpdateHealthReportSettings")]
-pub mod UpdateHealthReportSettings;
