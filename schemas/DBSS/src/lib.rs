@@ -6,6 +6,8 @@ pub mod AddAuditAgentNew;
 pub mod AddAuditDatabase;
 #[cfg(feature = "AddAuditDatabaseNew")]
 pub mod AddAuditDatabaseNew;
+#[cfg(feature = "AddDatabaseSslKey")]
+pub mod AddDatabaseSslKey;
 #[cfg(feature = "AddRdsDatabase")]
 pub mod AddRdsDatabase;
 #[cfg(feature = "AddRdsDatabaseNew")]
@@ -134,6 +136,8 @@ pub mod ListAuditInstanceJobs;
 pub mod ListAuditInstanceJobsNew;
 #[cfg(feature = "ListAuditInstances")]
 pub mod ListAuditInstances;
+#[cfg(feature = "ListAuditInstancesLast")]
+pub mod ListAuditInstancesLast;
 #[cfg(feature = "ListAuditInstancesNew")]
 pub mod ListAuditInstancesNew;
 #[cfg(feature = "ListAuditObsBuckets")]
@@ -174,6 +178,8 @@ pub mod ListAvailabilityZoneInfos;
 pub mod ListAvailabilityZoneInfosNew;
 #[cfg(feature = "ListDbEncryptInstances")]
 pub mod ListDbEncryptInstances;
+#[cfg(feature = "ListDomainAllResource")]
+pub mod ListDomainAllResource;
 #[cfg(feature = "ListEcsSpecification")]
 pub mod ListEcsSpecification;
 #[cfg(feature = "ListEcsSpecificationNew")]
@@ -192,9 +198,3 @@ pub mod ListSqlInjectionRules;
 pub mod ListSqlInjectionRulesNew;
 #[cfg(feature = "ListWhitelists")]
 pub mod ListWhitelists;
-#[cfg(feature = "RebootAuditInstance")]
-pub mod RebootAuditInstance;
-#[cfg(feature = "RebootAuditInstanceNew")]
-pub mod RebootAuditInstanceNew;
-#[cfg(feature = "RebootDbEncryptInstance")]
-pub mod RebootDbEncryptInstance;

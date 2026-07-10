@@ -86,6 +86,8 @@ pub mod CreateNodePool;
 pub mod CreateNotebook;
 #[cfg(feature = "CreateNotebookTags")]
 pub mod CreateNotebookTags;
+#[cfg(feature = "CreateOrderId")]
+pub mod CreateOrderId;
 #[cfg(feature = "CreatePool")]
 pub mod CreatePool;
 #[cfg(feature = "CreatePoolPlugin")]
@@ -196,5 +198,3 @@ pub mod GetDevServerJobTemplate;
 pub mod GetDevServerOperation;
 #[cfg(feature = "GetHyperCluster")]
 pub mod GetHyperCluster;
-#[cfg(feature = "GetHyperinstance")]
-pub mod GetHyperinstance;

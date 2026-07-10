@@ -104,6 +104,8 @@ pub mod ListQuotaCoupons;
 pub mod ListRateOnPeriodDetail;
 #[cfg(feature = "ListRenewRateOnPeriod")]
 pub mod ListRenewRateOnPeriod;
+#[cfg(feature = "ListResourceSpecs")]
+pub mod ListResourceSpecs;
 #[cfg(feature = "ListResourceTypes")]
 pub mod ListResourceTypes;
 #[cfg(feature = "ListResourceUsage")]
@@ -160,6 +162,10 @@ pub mod ShowCustomerOrderDetails;
 pub mod ShowMultiAccountTransferAmount;
 #[cfg(feature = "ShowRealnameAuthenticationReviewResult")]
 pub mod ShowRealnameAuthenticationReviewResult;
+#[cfg(feature = "ShowRealNameAuthQrCode")]
+pub mod ShowRealNameAuthQrCode;
+#[cfg(feature = "ShowRealNameAuthStatus")]
+pub mod ShowRealNameAuthStatus;
 #[cfg(feature = "ShowRefundOrderDetails")]
 pub mod ShowRefundOrderDetails;
 #[cfg(feature = "UpdateCouponQuotas")]
