@@ -2,8 +2,12 @@
 pub mod AddNode;
 #[cfg(feature = "AddNodesToNodePool")]
 pub mod AddNodesToNodePool;
+#[cfg(feature = "AssumeAgencyForPodIdentity")]
+pub mod AssumeAgencyForPodIdentity;
 #[cfg(feature = "AwakeCluster")]
 pub mod AwakeCluster;
+#[cfg(feature = "BatchChangeNodeToPeriod")]
+pub mod BatchChangeNodeToPeriod;
 #[cfg(feature = "BatchCreateAddonPrecheck")]
 pub mod BatchCreateAddonPrecheck;
 #[cfg(feature = "BatchCreateAutopilotClusterTags")]
@@ -56,6 +60,8 @@ pub mod CreateNode;
 pub mod CreateNodePool;
 #[cfg(feature = "CreatePartition")]
 pub mod CreatePartition;
+#[cfg(feature = "CreatePodIdentityAssociation")]
+pub mod CreatePodIdentityAssociation;
 #[cfg(feature = "CreatePostCheck")]
 pub mod CreatePostCheck;
 #[cfg(feature = "CreatePreCheck")]
@@ -92,6 +98,8 @@ pub mod DeleteImageCache;
 pub mod DeleteNode;
 #[cfg(feature = "DeleteNodePool")]
 pub mod DeleteNodePool;
+#[cfg(feature = "DeletePodIdentityAssociation")]
+pub mod DeletePodIdentityAssociation;
 #[cfg(feature = "DeleteRelease")]
 pub mod DeleteRelease;
 #[cfg(feature = "DownloadAutopilotChart")]
@@ -176,6 +184,8 @@ pub mod ListNodes;
 pub mod ListPackageProducts;
 #[cfg(feature = "ListPartitions")]
 pub mod ListPartitions;
+#[cfg(feature = "ListPodIdentityAssociations")]
+pub mod ListPodIdentityAssociations;
 #[cfg(feature = "ListPreCheckTasks")]
 pub mod ListPreCheckTasks;
 #[cfg(feature = "ListReleases")]
@@ -188,13 +198,3 @@ pub mod ListUpgradeWorkFlows;
 pub mod LockNodepoolNodeScaleDown;
 #[cfg(feature = "MigrateNode")]
 pub mod MigrateNode;
-#[cfg(feature = "MigrateToNodePool")]
-pub mod MigrateToNodePool;
-#[cfg(feature = "PauseUpgradeClusterTask")]
-pub mod PauseUpgradeClusterTask;
-#[cfg(feature = "RemoveNode")]
-pub mod RemoveNode;
-#[cfg(feature = "ResetNode")]
-pub mod ResetNode;
-#[cfg(feature = "ResizeCluster")]
-pub mod ResizeCluster;
