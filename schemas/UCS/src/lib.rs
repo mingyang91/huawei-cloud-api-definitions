@@ -1,7 +1,5 @@
 #[cfg(feature = "CreateAddonInstance")]
 pub mod CreateAddonInstance;
-#[cfg(feature = "CreateClusterConf")]
-pub mod CreateClusterConf;
 #[cfg(feature = "CreateClusterGroupPolicyInstance")]
 pub mod CreateClusterGroupPolicyInstance;
 #[cfg(feature = "CreateClusterKubeconfig")]
