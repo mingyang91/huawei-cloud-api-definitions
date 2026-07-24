@@ -132,6 +132,8 @@ pub mod ListCoreGatewayTargets;
 pub mod ListCoreIngresses;
 #[cfg(feature = "ListCoreIngressNetworks")]
 pub mod ListCoreIngressNetworks;
+#[cfg(feature = "ListCoreRuntimeByTags")]
+pub mod ListCoreRuntimeByTags;
 #[cfg(feature = "ListCoreRuntimeEndpointByTags")]
 pub mod ListCoreRuntimeEndpointByTags;
 #[cfg(feature = "ListCoreRuntimeEndpoints")]
@@ -140,8 +142,6 @@ pub mod ListCoreRuntimeEndpoints;
 pub mod ListCoreRuntimeEndpointTags;
 #[cfg(feature = "ListCoreRuntimes")]
 pub mod ListCoreRuntimes;
-#[cfg(feature = "ListCoreRuntimesByTags")]
-pub mod ListCoreRuntimesByTags;
 #[cfg(feature = "ListCoreRuntimeTags")]
 pub mod ListCoreRuntimeTags;
 #[cfg(feature = "ListCoreRuntimeVersions")]

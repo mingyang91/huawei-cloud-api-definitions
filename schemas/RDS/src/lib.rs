@@ -78,6 +78,8 @@ pub mod CreateInstance;
 pub mod CreateInstanceIam5;
 #[cfg(feature = "CreateIntelligentKillSession")]
 pub mod CreateIntelligentKillSession;
+#[cfg(feature = "CreateJobSchedule")]
+pub mod CreateJobSchedule;
 #[cfg(feature = "CreateManualBackup")]
 pub mod CreateManualBackup;
 #[cfg(feature = "CreatePostgresqlDatabase")]
@@ -122,6 +124,8 @@ pub mod DeleteDistribution;
 pub mod DeleteInstance;
 #[cfg(feature = "DeleteJob")]
 pub mod DeleteJob;
+#[cfg(feature = "DeleteJobSchedule")]
+pub mod DeleteJobSchedule;
 #[cfg(feature = "DeleteLogLtsConfigs")]
 pub mod DeleteLogLtsConfigs;
 #[cfg(feature = "DeleteManualBackup")]
@@ -194,7 +198,3 @@ pub mod ListDatabases;
 pub mod ListDatabaseUserRole;
 #[cfg(feature = "ListDatastores")]
 pub mod ListDatastores;
-#[cfg(feature = "ListDbAgentJobHistorys")]
-pub mod ListDbAgentJobHistorys;
-#[cfg(feature = "ListDbAgentJobHistorySteps")]
-pub mod ListDbAgentJobHistorySteps;
