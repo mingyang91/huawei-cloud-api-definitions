@@ -70,6 +70,8 @@ pub mod BatchUpdateClusterResource;
 pub mod BatchUpdateHostResource;
 #[cfg(feature = "BatchUpgradeAgentDaemonset")]
 pub mod BatchUpgradeAgentDaemonset;
+#[cfg(feature = "BindAgentPolicy")]
+pub mod BindAgentPolicy;
 #[cfg(feature = "CancelHostsQuota")]
 pub mod CancelHostsQuota;
 #[cfg(feature = "ChangeAgentAutoUpgradeStatus")]
@@ -132,6 +134,8 @@ pub mod ChangeVulScanPolicy;
 pub mod ChangeVulStatus;
 #[cfg(feature = "ChangeVulWhiteList")]
 pub mod ChangeVulWhiteList;
+#[cfg(feature = "CopyAiPolicyGroup")]
+pub mod CopyAiPolicyGroup;
 #[cfg(feature = "CopyBaselinePolicyGroup")]
 pub mod CopyBaselinePolicyGroup;
 #[cfg(feature = "CreateAgentDaemonset")]
@@ -180,6 +184,8 @@ pub mod CreateWebTamperProtectionConfig;
 pub mod DeleteAccount;
 #[cfg(feature = "DeleteAgentDaemonset")]
 pub mod DeleteAgentDaemonset;
+#[cfg(feature = "DeleteAiPolicyGroups")]
+pub mod DeleteAiPolicyGroups;
 #[cfg(feature = "DeleteAntivirusPolicy")]
 pub mod DeleteAntivirusPolicy;
 #[cfg(feature = "DeleteAppWhitelistPolicy")]
@@ -192,9 +198,3 @@ pub mod DeleteBackupHostInfo;
 pub mod DeleteBaselineWhiteList;
 #[cfg(feature = "DeleteCicdConfigurations")]
 pub mod DeleteCicdConfigurations;
-#[cfg(feature = "DeleteClusterProtectionPolicy")]
-pub mod DeleteClusterProtectionPolicy;
-#[cfg(feature = "DeleteContainerNetworkPolicy")]
-pub mod DeleteContainerNetworkPolicy;
-#[cfg(feature = "DeleteCustomRuleConfig")]
-pub mod DeleteCustomRuleConfig;

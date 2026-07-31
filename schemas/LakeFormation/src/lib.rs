@@ -36,6 +36,8 @@ pub mod CreateAgreement;
 pub mod CreateCatalog;
 #[cfg(feature = "CreateDatabase")]
 pub mod CreateDatabase;
+#[cfg(feature = "CreateDataset")]
+pub mod CreateDataset;
 #[cfg(feature = "CreateFunction")]
 pub mod CreateFunction;
 #[cfg(feature = "CreateLakeFormationInstance")]
@@ -54,6 +56,8 @@ pub mod DeleteAgreement;
 pub mod DeleteCatalog;
 #[cfg(feature = "DeleteDatabase")]
 pub mod DeleteDatabase;
+#[cfg(feature = "DeleteDataset")]
+pub mod DeleteDataset;
 #[cfg(feature = "DeleteFunction")]
 pub mod DeleteFunction;
 #[cfg(feature = "DeleteLakeFormationInstance")]
@@ -80,6 +84,8 @@ pub mod ListConfigs;
 pub mod ListDatabaseNames;
 #[cfg(feature = "ListDatabases")]
 pub mod ListDatabases;
+#[cfg(feature = "ListDatasets")]
+pub mod ListDatasets;
 #[cfg(feature = "ListFunctionNames")]
 pub mod ListFunctionNames;
 #[cfg(feature = "ListFunctions")]
@@ -156,6 +162,8 @@ pub mod ShowCatalog;
 pub mod ShowCredential;
 #[cfg(feature = "ShowDatabase")]
 pub mod ShowDatabase;
+#[cfg(feature = "ShowDataset")]
+pub mod ShowDataset;
 #[cfg(feature = "ShowFunction")]
 pub mod ShowFunction;
 #[cfg(feature = "ShowLakeFormationInstance")]
@@ -172,6 +180,8 @@ pub mod UpdateAccessClient;
 pub mod UpdateCatalog;
 #[cfg(feature = "UpdateDatabase")]
 pub mod UpdateDatabase;
+#[cfg(feature = "UpdateDataset")]
+pub mod UpdateDataset;
 #[cfg(feature = "UpdateFunction")]
 pub mod UpdateFunction;
 #[cfg(feature = "UpdateLakeFormationInstance")]
