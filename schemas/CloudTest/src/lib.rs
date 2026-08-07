@@ -154,6 +154,10 @@ pub mod ListResourcePools;
 pub mod ListScattersUsing;
 #[cfg(feature = "ListSubTaskCaseOverstockUsing")]
 pub mod ListSubTaskCaseOverstockUsing;
+#[cfg(feature = "ListSubTasksByPostUsing")]
+pub mod ListSubTasksByPostUsing;
+#[cfg(feature = "ListSubTestCaseByConditionsUsing")]
+pub mod ListSubTestCaseByConditionsUsing;
 #[cfg(feature = "ListTaskAssignCases")]
 pub mod ListTaskAssignCases;
 #[cfg(feature = "ListTaskResults")]
@@ -194,7 +198,3 @@ pub mod ListUserPopupInfo;
 pub mod ListUsingGet;
 #[cfg(feature = "ListVariables")]
 pub mod ListVariables;
-#[cfg(feature = "RemoveIssuesFromIterator")]
-pub mod RemoveIssuesFromIterator;
-#[cfg(feature = "RunTestCase")]
-pub mod RunTestCase;
