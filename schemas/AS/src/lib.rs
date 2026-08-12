@@ -124,6 +124,8 @@ pub mod ShowScalingGroup;
 pub mod ShowScalingPolicy;
 #[cfg(feature = "ShowScalingV2Policy")]
 pub mod ShowScalingV2Policy;
+#[cfg(feature = "ShowWarmPool")]
+pub mod ShowWarmPool;
 #[cfg(feature = "ShowWarmPoolNew")]
 pub mod ShowWarmPoolNew;
 #[cfg(feature = "UpdateGroupScheduledTask")]
