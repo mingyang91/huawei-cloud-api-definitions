@@ -22,6 +22,8 @@ pub mod CancelShareNew;
 pub mod ChangeChargeMode;
 #[cfg(feature = "ChangeFullDeadLockSwitch")]
 pub mod ChangeFullDeadLockSwitch;
+#[cfg(feature = "ChangePaymentModeNew")]
+pub mod ChangePaymentModeNew;
 #[cfg(feature = "ChangeSqlLimitSwitchStatus")]
 pub mod ChangeSqlLimitSwitchStatus;
 #[cfg(feature = "ChangeSqlSwitch")]
@@ -196,5 +198,3 @@ pub mod ShowHistoryTransactionExportTaskInfo;
 pub mod ShowHistoryTransactionSwitchNew;
 #[cfg(feature = "ShowIndexUsageSwitchNew")]
 pub mod ShowIndexUsageSwitchNew;
-#[cfg(feature = "ShowInstanceHealthReport")]
-pub mod ShowInstanceHealthReport;
