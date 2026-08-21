@@ -102,6 +102,8 @@ pub mod CreateInferIntranetConnection;
 pub mod CreateInferService;
 #[cfg(feature = "CreateInferServiceTag")]
 pub mod CreateInferServiceTag;
+#[cfg(feature = "CreateInferTempApiKey")]
+pub mod CreateInferTempApiKey;
 #[cfg(feature = "CreateModel")]
 pub mod CreateModel;
 #[cfg(feature = "CreateModelArtsAgency")]
@@ -196,5 +198,3 @@ pub mod DeleteModel;
 pub mod DeleteNetwork;
 #[cfg(feature = "DeleteNodePool")]
 pub mod DeleteNodePool;
-#[cfg(feature = "DeleteNotebook")]
-pub mod DeleteNotebook;

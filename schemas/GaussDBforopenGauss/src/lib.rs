@@ -26,6 +26,8 @@ pub mod BindLtsConfig;
 pub mod CancelScheduleTask;
 #[cfg(feature = "ChangeDemand2Period")]
 pub mod ChangeDemand2Period;
+#[cfg(feature = "ChangeDeploymentSolution")]
+pub mod ChangeDeploymentSolution;
 #[cfg(feature = "CollectAsp")]
 pub mod CollectAsp;
 #[cfg(feature = "CollectWdrSnapshot")]
@@ -196,5 +198,3 @@ pub mod ListEvents;
 pub mod ListFeatures;
 #[cfg(feature = "ListFlavors")]
 pub mod ListFlavors;
-#[cfg(feature = "ListFlavorsDetails")]
-pub mod ListFlavorsDetails;

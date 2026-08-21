@@ -62,6 +62,10 @@ pub mod DeleteInstanceGroup;
 pub mod DeleteProcess;
 #[cfg(feature = "DeleteSqlLimitRules")]
 pub mod DeleteSqlLimitRules;
+#[cfg(feature = "ExecuteExportTask")]
+pub mod ExecuteExportTask;
+#[cfg(feature = "ExecuteImportTask")]
+pub mod ExecuteImportTask;
 #[cfg(feature = "ExportFullSqlDetails")]
 pub mod ExportFullSqlDetails;
 #[cfg(feature = "ExportSlowQueryLogs")]
@@ -194,7 +198,3 @@ pub mod ShowGlobalPrivacyNew;
 pub mod ShowHealthReportSettings;
 #[cfg(feature = "ShowHistoryTransactionExportTaskInfo")]
 pub mod ShowHistoryTransactionExportTaskInfo;
-#[cfg(feature = "ShowHistoryTransactionSwitchNew")]
-pub mod ShowHistoryTransactionSwitchNew;
-#[cfg(feature = "ShowIndexUsageSwitchNew")]
-pub mod ShowIndexUsageSwitchNew;

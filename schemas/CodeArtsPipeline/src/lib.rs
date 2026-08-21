@@ -46,6 +46,8 @@ pub mod DeletePublisher;
 pub mod DeleteRule;
 #[cfg(feature = "DeleteStrategy")]
 pub mod DeleteStrategy;
+#[cfg(feature = "InvokeEndpointProxy")]
+pub mod InvokeEndpointProxy;
 #[cfg(feature = "ListActionsPipelineRuns")]
 pub mod ListActionsPipelineRuns;
 #[cfg(feature = "ListActionsPipelineRunsByRunIds")]
@@ -56,6 +58,10 @@ pub mod ListAvailablePublisher;
 pub mod ListBasePlugins;
 #[cfg(feature = "ListBasePluginsNewPost")]
 pub mod ListBasePluginsNewPost;
+#[cfg(feature = "ListEndpointsDetails")]
+pub mod ListEndpointsDetails;
+#[cfg(feature = "ListModulesDetail")]
+pub mod ListModulesDetail;
 #[cfg(feature = "ListPipelineRuns")]
 pub mod ListPipelineRuns;
 #[cfg(feature = "ListPipelines")]
