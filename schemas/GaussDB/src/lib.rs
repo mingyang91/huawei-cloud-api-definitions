@@ -6,6 +6,8 @@ pub mod BatchChangeInstanceSpecification;
 pub mod BatchDeleteBackup;
 #[cfg(feature = "BatchTagAction")]
 pub mod BatchTagAction;
+#[cfg(feature = "BatchUpdateBackupPolicy")]
+pub mod BatchUpdateBackupPolicy;
 #[cfg(feature = "BatchUpgradeDatabases")]
 pub mod BatchUpgradeDatabases;
 #[cfg(feature = "CancelGaussMySqlInstanceEip")]
@@ -18,6 +20,8 @@ pub mod ChangeGaussMySqlInstanceSpecification;
 pub mod ChangeGaussMySqlProxySpecification;
 #[cfg(feature = "CheckDataBaseConfig")]
 pub mod CheckDataBaseConfig;
+#[cfg(feature = "CheckKernelUpgrade")]
+pub mod CheckKernelUpgrade;
 #[cfg(feature = "CheckResource")]
 pub mod CheckResource;
 #[cfg(feature = "CheckScheduleTaskExist")]
@@ -28,6 +32,8 @@ pub mod CheckStarrocksParams;
 pub mod CheckStarRocksResource;
 #[cfg(feature = "CheckTableConfig")]
 pub mod CheckTableConfig;
+#[cfg(feature = "ClearOnlineDdlTaskTempTable")]
+pub mod ClearOnlineDdlTaskTempTable;
 #[cfg(feature = "CollectRealtimeSession")]
 pub mod CollectRealtimeSession;
 #[cfg(feature = "CopyConfigurations")]
@@ -90,6 +96,8 @@ pub mod DeleteGaussMySqlReadonlyNode;
 pub mod DeleteHtapProcessList;
 #[cfg(feature = "DeleteLtsConfigs")]
 pub mod DeleteLtsConfigs;
+#[cfg(feature = "DeleteOnlineDdlTaskRecord")]
+pub mod DeleteOnlineDdlTaskRecord;
 #[cfg(feature = "DeleteProxyPrivateDnsName")]
 pub mod DeleteProxyPrivateDnsName;
 #[cfg(feature = "DeleteScheduleTasK")]
@@ -114,6 +122,8 @@ pub mod DescribeBackupEncryptStatus;
 pub mod DownloadDdlLogs;
 #[cfg(feature = "DownloadImportExcelTemplate")]
 pub mod DownloadImportExcelTemplate;
+#[cfg(feature = "DownloadOnlineDdlTaskLog")]
+pub mod DownloadOnlineDdlTaskLog;
 #[cfg(feature = "DownloadRealtimeSession")]
 pub mod DownloadRealtimeSession;
 #[cfg(feature = "DownloadSlowLogFile")]
@@ -130,6 +140,8 @@ pub mod InvokeGaussMySqlInstanceSwitchOver;
 pub mod ListAuditLogDownloadLink;
 #[cfg(feature = "ListAuditLogs")]
 pub mod ListAuditLogs;
+#[cfg(feature = "ListColdTableMetas")]
+pub mod ListColdTableMetas;
 #[cfg(feature = "ListConfigurationsDifferences")]
 pub mod ListConfigurationsDifferences;
 #[cfg(feature = "ListConfigurationsInstances")]
@@ -180,21 +192,9 @@ pub mod ListLtsErrorLogDetails;
 pub mod ListLtsSlowlogDetails;
 #[cfg(feature = "ListModifyHistory")]
 pub mod ListModifyHistory;
+#[cfg(feature = "ListOnlineDdlTaskRecords")]
+pub mod ListOnlineDdlTaskRecords;
 #[cfg(feature = "ListParamsTemplateApplyHistory")]
 pub mod ListParamsTemplateApplyHistory;
 #[cfg(feature = "ListProjectTags")]
 pub mod ListProjectTags;
-#[cfg(feature = "ListRecycleInstances")]
-pub mod ListRecycleInstances;
-#[cfg(feature = "ListScheduleJobs")]
-pub mod ListScheduleJobs;
-#[cfg(feature = "ListStarRocksDataBases")]
-pub mod ListStarRocksDataBases;
-#[cfg(feature = "ListStarRocksDataReplicationConfig")]
-pub mod ListStarRocksDataReplicationConfig;
-#[cfg(feature = "ListStarRocksDataReplicationConfigByDataBase")]
-pub mod ListStarRocksDataReplicationConfigByDataBase;
-#[cfg(feature = "ListStarRocksDataReplications")]
-pub mod ListStarRocksDataReplications;
-#[cfg(feature = "ListStarRocksDbParameters")]
-pub mod ListStarRocksDbParameters;

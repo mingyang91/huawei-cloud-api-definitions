@@ -64,6 +64,8 @@ pub mod CreateOtaModule;
 pub mod CreateOtaPackage;
 #[cfg(feature = "CreateProduct")]
 pub mod CreateProduct;
+#[cfg(feature = "CreateProtocolConfig")]
+pub mod CreateProtocolConfig;
 #[cfg(feature = "CreateProvisioningTemplate")]
 pub mod CreateProvisioningTemplate;
 #[cfg(feature = "CreateRoutingBacklogPolicy")]
@@ -126,6 +128,8 @@ pub mod DeleteOtaModule;
 pub mod DeleteOtaPackage;
 #[cfg(feature = "DeleteProduct")]
 pub mod DeleteProduct;
+#[cfg(feature = "DeleteProtocolConfig")]
+pub mod DeleteProtocolConfig;
 #[cfg(feature = "DeleteProvisioningTemplate")]
 pub mod DeleteProvisioningTemplate;
 #[cfg(feature = "DeleteQueue")]
@@ -194,7 +198,3 @@ pub mod ListOtaModules;
 pub mod ListOtaPackageInfo;
 #[cfg(feature = "ListProducts")]
 pub mod ListProducts;
-#[cfg(feature = "ListProperties")]
-pub mod ListProperties;
-#[cfg(feature = "ListProvisioningTemplates")]
-pub mod ListProvisioningTemplates;

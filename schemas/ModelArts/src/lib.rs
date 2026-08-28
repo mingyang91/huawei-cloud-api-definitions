@@ -2,6 +2,8 @@
 pub mod AcceptScheduledEvent;
 #[cfg(feature = "ApigAppExists")]
 pub mod ApigAppExists;
+#[cfg(feature = "AttachDevServerPorts")]
+pub mod AttachDevServerPorts;
 #[cfg(feature = "AttachDevServerVolume")]
 pub mod AttachDevServerVolume;
 #[cfg(feature = "AttachDynamicStorage")]
@@ -26,8 +28,12 @@ pub mod BatchDeletePoolNodes;
 pub mod BatchDeletePoolTags;
 #[cfg(feature = "BatchDeleteServiceTags")]
 pub mod BatchDeleteServiceTags;
+#[cfg(feature = "BatchDeleteTrainingJob")]
+pub mod BatchDeleteTrainingJob;
 #[cfg(feature = "BatchDevServersAction")]
 pub mod BatchDevServersAction;
+#[cfg(feature = "BatchDrainPoolNodes")]
+pub mod BatchDrainPoolNodes;
 #[cfg(feature = "BatchLockPoolNodes")]
 pub mod BatchLockPoolNodes;
 #[cfg(feature = "BatchMigratePoolNodes")]
@@ -64,6 +70,8 @@ pub mod ChangeTrainingJobDescription;
 pub mod CheckTrainingExperiment;
 #[cfg(feature = "CountInferServicesByTags")]
 pub mod CountInferServicesByTags;
+#[cfg(feature = "CountTrainingJobsByTags")]
+pub mod CountTrainingJobsByTags;
 #[cfg(feature = "CreateAlgorithm")]
 pub mod CreateAlgorithm;
 #[cfg(feature = "CreateAlgorithmVersionToGallery")]
@@ -190,11 +198,3 @@ pub mod DeleteInferDeploymentInstance;
 pub mod DeleteInferDeploymentPod;
 #[cfg(feature = "DeleteInferDeploymentVersion")]
 pub mod DeleteInferDeploymentVersion;
-#[cfg(feature = "DeleteInferServiceTag")]
-pub mod DeleteInferServiceTag;
-#[cfg(feature = "DeleteModel")]
-pub mod DeleteModel;
-#[cfg(feature = "DeleteNetwork")]
-pub mod DeleteNetwork;
-#[cfg(feature = "DeleteNodePool")]
-pub mod DeleteNodePool;
