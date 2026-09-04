@@ -2,6 +2,8 @@
 pub mod AddCaseResultFour;
 #[cfg(feature = "AddFeature")]
 pub mod AddFeature;
+#[cfg(feature = "AddOrUpdateTestsuiteInfoUsing")]
+pub mod AddOrUpdateTestsuiteInfoUsing;
 #[cfg(feature = "AddTestCaseComment")]
 pub mod AddTestCaseComment;
 #[cfg(feature = "AddTestCaseResultLog")]
@@ -86,6 +88,8 @@ pub mod DeleteTemplateById;
 pub mod DeleteTestCaseComment;
 #[cfg(feature = "DeleteTestReportCustomDetailByUri")]
 pub mod DeleteTestReportCustomDetailByUri;
+#[cfg(feature = "DeleteTestsuiteInfosUsing")]
+pub mod DeleteTestsuiteInfosUsing;
 #[cfg(feature = "DownloadAssetTemplate")]
 pub mod DownloadAssetTemplate;
 #[cfg(feature = "DownloadStepImageNew")]
@@ -194,7 +198,3 @@ pub mod ListUserDnsMapping;
 pub mod ListUserPackageUsage;
 #[cfg(feature = "ListUserPopupInfo")]
 pub mod ListUserPopupInfo;
-#[cfg(feature = "ListUsingGet")]
-pub mod ListUsingGet;
-#[cfg(feature = "ListVariables")]
-pub mod ListVariables;

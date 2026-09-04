@@ -2,8 +2,8 @@
 pub mod AcceptScheduledEvent;
 #[cfg(feature = "ApigAppExists")]
 pub mod ApigAppExists;
-#[cfg(feature = "AttachDevServerPorts")]
-pub mod AttachDevServerPorts;
+#[cfg(feature = "AttachDevServerPort")]
+pub mod AttachDevServerPort;
 #[cfg(feature = "AttachDevServerVolume")]
 pub mod AttachDevServerVolume;
 #[cfg(feature = "AttachDynamicStorage")]
