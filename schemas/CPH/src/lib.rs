@@ -1,5 +1,9 @@
 #[cfg(feature = "AddImageMember")]
 pub mod AddImageMember;
+#[cfg(feature = "AttachShareFilesystem")]
+pub mod AttachShareFilesystem;
+#[cfg(feature = "AuthorizeScheduledEvent")]
+pub mod AuthorizeScheduledEvent;
 #[cfg(feature = "BatchCreateTags")]
 pub mod BatchCreateTags;
 #[cfg(feature = "BatchDeleteTags")]
@@ -26,6 +30,8 @@ pub mod DeleteImageMember;
 pub mod DeleteShareApps;
 #[cfg(feature = "DeleteShareFiles")]
 pub mod DeleteShareFiles;
+#[cfg(feature = "DetachShareFilesystem")]
+pub mod DetachShareFilesystem;
 #[cfg(feature = "ExpandPhoneDataVolumeSize")]
 pub mod ExpandPhoneDataVolumeSize;
 #[cfg(feature = "ImportTraffic")]
@@ -38,6 +44,8 @@ pub mod ListCloudPhoneImages;
 pub mod ListCloudPhoneModels;
 #[cfg(feature = "ListCloudPhones")]
 pub mod ListCloudPhones;
+#[cfg(feature = "ListCloudPhoneServerModelOfferings")]
+pub mod ListCloudPhoneServerModelOfferings;
 #[cfg(feature = "ListCloudPhoneServerModels")]
 pub mod ListCloudPhoneServerModels;
 #[cfg(feature = "ListCloudPhoneServers")]
@@ -56,6 +64,10 @@ pub mod ListProjectTags;
 pub mod ListResourceInstances;
 #[cfg(feature = "ListResourceTags")]
 pub mod ListResourceTags;
+#[cfg(feature = "ListScheduledEvents")]
+pub mod ListScheduledEvents;
+#[cfg(feature = "ListShareAppsSnapshot")]
+pub mod ListShareAppsSnapshot;
 #[cfg(feature = "ListShareFiles")]
 pub mod ListShareFiles;
 #[cfg(feature = "PushFile")]
@@ -98,5 +110,7 @@ pub mod UpdateImageMember;
 pub mod UpdateKeypair;
 #[cfg(feature = "UpdatePhoneName")]
 pub mod UpdatePhoneName;
+#[cfg(feature = "UpdateScheduledEvent")]
+pub mod UpdateScheduledEvent;
 #[cfg(feature = "UpdateServerName")]
 pub mod UpdateServerName;

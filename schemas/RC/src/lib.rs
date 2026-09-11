@@ -6,8 +6,12 @@ pub mod CollectAllResourcesSummary;
 pub mod CountAllResources;
 #[cfg(feature = "CreateResourceGroup")]
 pub mod CreateResourceGroup;
+#[cfg(feature = "CreateStoredQuery")]
+pub mod CreateStoredQuery;
 #[cfg(feature = "DeleteResourceGroup")]
 pub mod DeleteResourceGroup;
+#[cfg(feature = "DeleteStoredQuery")]
+pub mod DeleteStoredQuery;
 #[cfg(feature = "ListAllProviders")]
 pub mod ListAllProviders;
 #[cfg(feature = "ListAllResources")]
@@ -18,8 +22,14 @@ pub mod ListAllTags;
 pub mod ListResourceGroups;
 #[cfg(feature = "ListResources")]
 pub mod ListResources;
+#[cfg(feature = "ListSchemas")]
+pub mod ListSchemas;
+#[cfg(feature = "ListStoredQueries")]
+pub mod ListStoredQueries;
 #[cfg(feature = "RemoveResourceFromGroup")]
 pub mod RemoveResourceFromGroup;
+#[cfg(feature = "RunQuery")]
+pub mod RunQuery;
 #[cfg(feature = "ShowResourceById")]
 pub mod ShowResourceById;
 #[cfg(feature = "ShowResourceDetail")]
@@ -28,5 +38,9 @@ pub mod ShowResourceDetail;
 pub mod ShowResourceGroup;
 #[cfg(feature = "ShowResourceRelations")]
 pub mod ShowResourceRelations;
+#[cfg(feature = "ShowStoredQuery")]
+pub mod ShowStoredQuery;
 #[cfg(feature = "UpdateResourceGroup")]
 pub mod UpdateResourceGroup;
+#[cfg(feature = "UpdateStoredQuery")]
+pub mod UpdateStoredQuery;
