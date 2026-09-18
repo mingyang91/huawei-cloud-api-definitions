@@ -19,6 +19,7 @@ version = "0"
 BatchCreateVolumeTags = []
 BatchDeleteVolumeTags = []
 BatchResizeVolumes = []
+ChangeVolumeChargeMode = []
 CinderAcceptVolumeTransfer = []
 CinderCreateVolumeTransfer = []
 CinderDeleteVolumeTransfer = []
@@ -54,7 +55,7 @@ UnsubscribePostpaidVolume = []
 UpdateRecyclePolicy = []
 UpdateSnapshot = []
 UpdateVolume = []
-full = ["BatchCreateVolumeTags", "BatchDeleteVolumeTags", "BatchResizeVolumes", "CinderAcceptVolumeTransfer", "CinderCreateVolumeTransfer", "CinderDeleteVolumeTransfer", "CinderListAvailabilityZones", "CinderListQuotas", "CinderListVolumeTransfers", "CinderListVolumeTypes", "CinderShowVolumeTransfer", "CreateSnapshot", "CreateVolume", "DeleteSnapshot", "DeleteVolume", "DeleteVolumeInRecycle", "ListSnapshots", "ListVersions", "ListVolumes", "ListVolumesByTags", "ListVolumesInRecycle", "ListVolumeTags", "ModifyVolumeQoS", "ResizeVolume", "RetypeVolume", "RevertVolumeInRecycle", "RollbackSnapshot", "ShowJob", "ShowRecyclePolicy", "ShowSnapshot", "ShowVersion", "ShowVolume", "ShowVolumeInRecycle", "ShowVolumeTags", "UnsubscribePostpaidVolume", "UpdateRecyclePolicy", "UpdateSnapshot", "UpdateVolume"]
+full = ["BatchCreateVolumeTags", "BatchDeleteVolumeTags", "BatchResizeVolumes", "ChangeVolumeChargeMode", "CinderAcceptVolumeTransfer", "CinderCreateVolumeTransfer", "CinderDeleteVolumeTransfer", "CinderListAvailabilityZones", "CinderListQuotas", "CinderListVolumeTransfers", "CinderListVolumeTypes", "CinderShowVolumeTransfer", "CreateSnapshot", "CreateVolume", "DeleteSnapshot", "DeleteVolume", "DeleteVolumeInRecycle", "ListSnapshots", "ListVersions", "ListVolumes", "ListVolumesByTags", "ListVolumesInRecycle", "ListVolumeTags", "ModifyVolumeQoS", "ResizeVolume", "RetypeVolume", "RevertVolumeInRecycle", "RollbackSnapshot", "ShowJob", "ShowRecyclePolicy", "ShowSnapshot", "ShowVersion", "ShowVolume", "ShowVolumeInRecycle", "ShowVolumeTags", "UnsubscribePostpaidVolume", "UpdateRecyclePolicy", "UpdateSnapshot", "UpdateVolume"]
 
 [lib]
 name = "huawei_cloud_api_definitions_EVS"

@@ -1,3 +1,5 @@
+#[cfg(feature = "AcceptCheckpoint")]
+pub mod AcceptCheckpoint;
 #[cfg(feature = "AcceptManualReview")]
 pub mod AcceptManualReview;
 #[cfg(feature = "BatchMovePipelineToGroup")]
@@ -6,6 +8,8 @@ pub mod BatchMovePipelineToGroup;
 pub mod BatchShowPipelinesLatestStatus;
 #[cfg(feature = "BatchShowPipelinesStatus")]
 pub mod BatchShowPipelinesStatus;
+#[cfg(feature = "CreateAlertPolicy")]
+pub mod CreateAlertPolicy;
 #[cfg(feature = "CreateBasicPlugin")]
 pub mod CreateBasicPlugin;
 #[cfg(feature = "CreatePipelineByTemplate")]
@@ -16,6 +20,8 @@ pub mod CreatePipelineByTemplateId;
 pub mod CreatePipelineGroup;
 #[cfg(feature = "CreatePipelineNew")]
 pub mod CreatePipelineNew;
+#[cfg(feature = "CreatePipelineTag")]
+pub mod CreatePipelineTag;
 #[cfg(feature = "CreatePipelineTemplate")]
 pub mod CreatePipelineTemplate;
 #[cfg(feature = "CreatePluginDraft")]
@@ -28,14 +34,20 @@ pub mod CreatePublisher;
 pub mod CreateRule;
 #[cfg(feature = "CreateStrategy")]
 pub mod CreateStrategy;
+#[cfg(feature = "CreateVariableGroup")]
+pub mod CreateVariableGroup;
 #[cfg(feature = "DeleteActionsRunPipeline")]
 pub mod DeleteActionsRunPipeline;
+#[cfg(feature = "DeleteAlertPolicy")]
+pub mod DeleteAlertPolicy;
 #[cfg(feature = "DeleteBasicPlugin")]
 pub mod DeleteBasicPlugin;
 #[cfg(feature = "DeletePipeline")]
 pub mod DeletePipeline;
 #[cfg(feature = "DeletePipelineGroup")]
 pub mod DeletePipelineGroup;
+#[cfg(feature = "DeletePipelineTag")]
+pub mod DeletePipelineTag;
 #[cfg(feature = "DeletePipelineTemplate")]
 pub mod DeletePipelineTemplate;
 #[cfg(feature = "DeletePluginDraft")]
@@ -46,6 +58,8 @@ pub mod DeletePublisher;
 pub mod DeleteRule;
 #[cfg(feature = "DeleteStrategy")]
 pub mod DeleteStrategy;
+#[cfg(feature = "DeleteVariableGroup")]
+pub mod DeleteVariableGroup;
 #[cfg(feature = "InvokeEndpointProxy")]
 pub mod InvokeEndpointProxy;
 #[cfg(feature = "ListActionsPipelineRuns")]
@@ -68,6 +82,8 @@ pub mod ListPipelineRuns;
 pub mod ListPipelines;
 #[cfg(feature = "ListPipelineSimpleInfo")]
 pub mod ListPipelineSimpleInfo;
+#[cfg(feature = "ListPipelineTag")]
+pub mod ListPipelineTag;
 #[cfg(feature = "ListPipelineTemplates")]
 pub mod ListPipelineTemplates;
 #[cfg(feature = "ListPipleineBuildResult")]
@@ -90,6 +106,8 @@ pub mod ListStagePlugins;
 pub mod ListStrategy;
 #[cfg(feature = "ListTemplates")]
 pub mod ListTemplates;
+#[cfg(feature = "ListVariableGroups")]
+pub mod ListVariableGroups;
 #[cfg(feature = "PublishPlugin")]
 pub mod PublishPlugin;
 #[cfg(feature = "PublishPluginBind")]
@@ -110,6 +128,8 @@ pub mod RunActionsPipeline;
 pub mod RunPipeline;
 #[cfg(feature = "ShowActionsRunsDetail")]
 pub mod ShowActionsRunsDetail;
+#[cfg(feature = "ShowAlertPolicy")]
+pub mod ShowAlertPolicy;
 #[cfg(feature = "ShowBasicPlugin")]
 pub mod ShowBasicPlugin;
 #[cfg(feature = "ShowInstanceStatus")]
@@ -148,6 +168,8 @@ pub mod ShowStepOutputs;
 pub mod ShowStrategy;
 #[cfg(feature = "ShowTemplateDetail")]
 pub mod ShowTemplateDetail;
+#[cfg(feature = "ShowVariableGroupDetail")]
+pub mod ShowVariableGroupDetail;
 #[cfg(feature = "StartNewPipeline")]
 pub mod StartNewPipeline;
 #[cfg(feature = "StopPipelineNew")]
@@ -176,5 +198,3 @@ pub mod UpdateStrategy;
 pub mod UploadBasicPlugin;
 #[cfg(feature = "UploadPluginIcon")]
 pub mod UploadPluginIcon;
-#[cfg(feature = "UploadPublisherIcon")]
-pub mod UploadPublisherIcon;

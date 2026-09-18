@@ -40,6 +40,8 @@ pub mod createNamespacedDeployment;
 pub mod createNamespacedHorizontalPodAutoscaler;
 #[cfg(feature = "createNamespacedNetwork")]
 pub mod createNamespacedNetwork;
+#[cfg(feature = "createNamespacedPersistentVolumeClaim")]
+pub mod createNamespacedPersistentVolumeClaim;
 #[cfg(feature = "createNamespacedPod")]
 pub mod createNamespacedPod;
 #[cfg(feature = "createNamespacedSecret")]
@@ -48,6 +50,8 @@ pub mod createNamespacedSecret;
 pub mod createNamespacedService;
 #[cfg(feature = "createNetworkingCciIoV1beta1NamespacedNetwork")]
 pub mod createNetworkingCciIoV1beta1NamespacedNetwork;
+#[cfg(feature = "createPersistentVolume")]
+pub mod createPersistentVolume;
 #[cfg(feature = "createRbacAuthorizationV1NamespacedRoleBinding")]
 pub mod createRbacAuthorizationV1NamespacedRoleBinding;
 #[cfg(feature = "deleteAppsV1CollectionNamespacedDeployment")]
@@ -116,6 +120,8 @@ pub mod deleteNamespacedService;
 pub mod deleteNetworkingCciIoV1beta1CollectionNamespacedNetwork;
 #[cfg(feature = "deleteNetworkingCciIoV1beta1NamespacedNetwork")]
 pub mod deleteNetworkingCciIoV1beta1NamespacedNetwork;
+#[cfg(feature = "deletePersistentVolume")]
+pub mod deletePersistentVolume;
 #[cfg(feature = "deleteRbacAuthorizationV1NamespacedRoleBinding")]
 pub mod deleteRbacAuthorizationV1NamespacedRoleBinding;
 #[cfg(feature = "getAPIVersions")]
@@ -192,9 +198,3 @@ pub mod listCoreV1NamespacedPersistentVolumeClaim;
 pub mod listCoreV1NamespacedPod;
 #[cfg(feature = "listCoreV1NamespacedResourceQuota")]
 pub mod listCoreV1NamespacedResourceQuota;
-#[cfg(feature = "listCoreV1NamespacedSecret")]
-pub mod listCoreV1NamespacedSecret;
-#[cfg(feature = "listCoreV1NamespacedService")]
-pub mod listCoreV1NamespacedService;
-#[cfg(feature = "listCoreV1PodForAllNamespaces")]
-pub mod listCoreV1PodForAllNamespaces;

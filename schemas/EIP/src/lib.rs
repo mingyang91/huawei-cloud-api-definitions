@@ -30,8 +30,8 @@ pub mod CountEipAvailableResources;
 pub mod CountPublicIp;
 #[cfg(feature = "CountPublicIpInstance")]
 pub mod CountPublicIpInstance;
-#[cfg(feature = "CreateBandwidthRuleV3")]
-pub mod CreateBandwidthRuleV3;
+#[cfg(feature = "CreateBandwidthRule")]
+pub mod CreateBandwidthRule;
 #[cfg(feature = "CreatePrePaidPublicip")]
 pub mod CreatePrePaidPublicip;
 #[cfg(feature = "CreatePublicip")]
@@ -42,8 +42,8 @@ pub mod CreatePublicipTag;
 pub mod CreateSharedBandwidth;
 #[cfg(feature = "CreateTenantVpcIgw")]
 pub mod CreateTenantVpcIgw;
-#[cfg(feature = "DeleteBandwidthRuleV3")]
-pub mod DeleteBandwidthRuleV3;
+#[cfg(feature = "DeleteBandwidthRule")]
+pub mod DeleteBandwidthRule;
 #[cfg(feature = "DeletePublicip")]
 pub mod DeletePublicip;
 #[cfg(feature = "DeletePublicipTag")]
@@ -66,8 +66,8 @@ pub mod EnableNat64;
 pub mod ListBandwidth;
 #[cfg(feature = "ListBandwidthPkg")]
 pub mod ListBandwidthPkg;
-#[cfg(feature = "ListBandwidthRuleV3")]
-pub mod ListBandwidthRuleV3;
+#[cfg(feature = "ListBandwidthRule")]
+pub mod ListBandwidthRule;
 #[cfg(feature = "ListBandwidths")]
 pub mod ListBandwidths;
 #[cfg(feature = "ListBandwidthsLimit")]
@@ -106,8 +106,8 @@ pub mod NeutronUpdateFloatingIp;
 pub mod RemovePublicipsFromSharedBandwidth;
 #[cfg(feature = "ShowBandwidth")]
 pub mod ShowBandwidth;
-#[cfg(feature = "ShowBandwidthRuleV3")]
-pub mod ShowBandwidthRuleV3;
+#[cfg(feature = "ShowBandwidthRule")]
+pub mod ShowBandwidthRule;
 #[cfg(feature = "ShowInternalVpcIgw")]
 pub mod ShowInternalVpcIgw;
 #[cfg(feature = "ShowPublicip")]
@@ -124,8 +124,8 @@ pub mod ShowPublicIpType;
 pub mod ShowResourcesJobDetail;
 #[cfg(feature = "UpdateBandwidth")]
 pub mod UpdateBandwidth;
-#[cfg(feature = "UpdateBandwidthRuleV3")]
-pub mod UpdateBandwidthRuleV3;
+#[cfg(feature = "UpdateBandwidthRule")]
+pub mod UpdateBandwidthRule;
 #[cfg(feature = "UpdatePrePaidBandwidth")]
 pub mod UpdatePrePaidBandwidth;
 #[cfg(feature = "UpdatePublicip")]

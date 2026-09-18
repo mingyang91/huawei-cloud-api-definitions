@@ -24,6 +24,8 @@ pub mod CreatePersonalRealnameAuth;
 pub mod CreateSubCustomer;
 #[cfg(feature = "CreateSubEnterpriseAccount")]
 pub mod CreateSubEnterpriseAccount;
+#[cfg(feature = "ListBusinessDiscountInfo")]
+pub mod ListBusinessDiscountInfo;
 #[cfg(feature = "ListCities")]
 pub mod ListCities;
 #[cfg(feature = "ListConsumeSubCustomers")]

@@ -112,6 +112,8 @@ pub mod DeleteResourceTagsV5;
 pub mod DeleteSAMLProviderV5;
 #[cfg(feature = "DeleteServiceLinkedAgencyV5")]
 pub mod DeleteServiceLinkedAgencyV5;
+#[cfg(feature = "DeleteServiceSpecificCredentialV5")]
+pub mod DeleteServiceSpecificCredentialV5;
 #[cfg(feature = "DeleteUserV5")]
 pub mod DeleteUserV5;
 #[cfg(feature = "DeleteVirtualMfaDeviceV5")]
@@ -196,5 +198,3 @@ pub mod KeystoneListAuthProjects;
 pub mod KeystoneListDomainPermissionsForGroup;
 #[cfg(feature = "KeystoneListEndpoints")]
 pub mod KeystoneListEndpoints;
-#[cfg(feature = "KeystoneListFederationDomains")]
-pub mod KeystoneListFederationDomains;

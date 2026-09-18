@@ -128,6 +128,8 @@ pub mod GetLongAkskConfig;
 pub mod GetResourceTags;
 #[cfg(feature = "HibernateCluster")]
 pub mod HibernateCluster;
+#[cfg(feature = "InplaceMigrateNode")]
+pub mod InplaceMigrateNode;
 #[cfg(feature = "ListAccessPolicy")]
 pub mod ListAccessPolicy;
 #[cfg(feature = "ListAddonInstances")]
@@ -196,5 +198,3 @@ pub mod ListUpgradeClusterTasks;
 pub mod ListUpgradeWorkFlows;
 #[cfg(feature = "LockNodepoolNodeScaleDown")]
 pub mod LockNodepoolNodeScaleDown;
-#[cfg(feature = "MigrateNode")]
-pub mod MigrateNode;

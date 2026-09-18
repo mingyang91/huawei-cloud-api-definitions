@@ -104,6 +104,8 @@ pub mod CreateIpGroup;
 pub mod CreateIpReputationRule;
 #[cfg(feature = "CreatePolicy")]
 pub mod CreatePolicy;
+#[cfg(feature = "CreatePool")]
+pub mod CreatePool;
 #[cfg(feature = "CreatePremiumHost")]
 pub mod CreatePremiumHost;
 #[cfg(feature = "CreatePrepaidCloudWaf")]
@@ -152,6 +154,8 @@ pub mod DeleteIpGroup;
 pub mod DeleteIpReputationRule;
 #[cfg(feature = "DeletePolicy")]
 pub mod DeletePolicy;
+#[cfg(feature = "DeletePool")]
+pub mod DeletePool;
 #[cfg(feature = "DeletePremiumHost")]
 pub mod DeletePremiumHost;
 #[cfg(feature = "DeletePrivacyRule")]
@@ -194,7 +198,3 @@ pub mod ListCustomRules;
 pub mod ListEvent;
 #[cfg(feature = "ListEventLog")]
 pub mod ListEventLog;
-#[cfg(feature = "ListGeoIpPolicyRules")]
-pub mod ListGeoIpPolicyRules;
-#[cfg(feature = "ListGeoipRule")]
-pub mod ListGeoipRule;
