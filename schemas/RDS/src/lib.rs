@@ -168,6 +168,8 @@ pub mod DownloadErrorlog;
 pub mod DownloadSlowlog;
 #[cfg(feature = "EnableConfiguration")]
 pub mod EnableConfiguration;
+#[cfg(feature = "ExecuteOptimizeTableSpace")]
+pub mod ExecuteOptimizeTableSpace;
 #[cfg(feature = "ExecutePrivilegeDatabaseUserRole")]
 pub mod ExecutePrivilegeDatabaseUserRole;
 #[cfg(feature = "ExecuteRevokeDatabaseUserRole")]
@@ -192,9 +194,7 @@ pub mod ListAuthorizedDatabases;
 pub mod ListAuthorizedDbUsers;
 #[cfg(feature = "ListAuthorizedSqlserverDbUsers")]
 pub mod ListAuthorizedSqlserverDbUsers;
+#[cfg(feature = "ListAutoScalingHistory")]
+pub mod ListAutoScalingHistory;
 #[cfg(feature = "ListAutoScalingPolicy")]
 pub mod ListAutoScalingPolicy;
-#[cfg(feature = "ListBackups")]
-pub mod ListBackups;
-#[cfg(feature = "ListBackupTransfers")]
-pub mod ListBackupTransfers;

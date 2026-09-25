@@ -194,7 +194,7 @@ pub mod ListInstanceTags;
 pub mod ListInstanceWebhookJobs;
 #[cfg(feature = "ListInstanceWebhooks")]
 pub mod ListInstanceWebhooks;
-#[cfg(feature = "ListNamespaceRepositories")]
-pub mod ListNamespaceRepositories;
-#[cfg(feature = "ListNamespaces")]
-pub mod ListNamespaces;
+#[cfg(feature = "ListInternalEndpointConnections")]
+pub mod ListInternalEndpointConnections;
+#[cfg(feature = "ListInternalEndpointPermissions")]
+pub mod ListInternalEndpointPermissions;

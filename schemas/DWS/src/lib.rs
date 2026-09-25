@@ -1,3 +1,5 @@
+#[cfg(feature = "AddOperationalTask")]
+pub mod AddOperationalTask;
 #[cfg(feature = "AddQueueUserList")]
 pub mod AddQueueUserList;
 #[cfg(feature = "AddWorkloadPlanStage")]
@@ -90,6 +92,8 @@ pub mod DeleteEventSub;
 pub mod DeleteLogicalCluster;
 #[cfg(feature = "DeleteLogicalClusterPlan")]
 pub mod DeleteLogicalClusterPlan;
+#[cfg(feature = "DeleteOperationalTask")]
+pub mod DeleteOperationalTask;
 #[cfg(feature = "DeleteQueueUserList")]
 pub mod DeleteQueueUserList;
 #[cfg(feature = "DeleteSnapshot")]
@@ -134,6 +138,8 @@ pub mod ExpandInstanceStorage;
 pub mod ExportDatabaseUsers;
 #[cfg(feature = "ExportUserAuthority")]
 pub mod ExportUserAuthority;
+#[cfg(feature = "ListActions")]
+pub mod ListActions;
 #[cfg(feature = "ListAlarmConfigs")]
 pub mod ListAlarmConfigs;
 #[cfg(feature = "ListAlarmDetail")]
@@ -192,9 +198,3 @@ pub mod ListDisasterRecover;
 pub mod ListDssPools;
 #[cfg(feature = "ListElbs")]
 pub mod ListElbs;
-#[cfg(feature = "ListElbsInfo")]
-pub mod ListElbsInfo;
-#[cfg(feature = "ListEps")]
-pub mod ListEps;
-#[cfg(feature = "ListEvents")]
-pub mod ListEvents;

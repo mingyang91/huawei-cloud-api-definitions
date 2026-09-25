@@ -76,6 +76,8 @@ pub mod CreateGenJob;
 pub mod CreateImage;
 #[cfg(feature = "CreateLabel")]
 pub mod CreateLabel;
+#[cfg(feature = "CreateMessageAdditions")]
+pub mod CreateMessageAdditions;
 #[cfg(feature = "CreateMessageFeedback")]
 pub mod CreateMessageFeedback;
 #[cfg(feature = "CreateModelVendor")]

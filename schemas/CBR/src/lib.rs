@@ -134,6 +134,8 @@ pub mod UnregisterAgent;
 pub mod UpdateAgent;
 #[cfg(feature = "UpdateBackup")]
 pub mod UpdateBackup;
+#[cfg(feature = "UpdateExpirationTime")]
+pub mod UpdateExpirationTime;
 #[cfg(feature = "UpdateMemberStatus")]
 pub mod UpdateMemberStatus;
 #[cfg(feature = "UpdateOrder")]
