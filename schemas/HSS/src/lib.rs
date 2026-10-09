@@ -160,8 +160,6 @@ pub mod CreateContainerNetworkPolicy;
 pub mod CreateCustomRuleConfig;
 #[cfg(feature = "CreateDecoyPortPolicy")]
 pub mod CreateDecoyPortPolicy;
-#[cfg(feature = "CreateGeneralToken")]
-pub mod CreateGeneralToken;
 #[cfg(feature = "CreateGlobalAssetScanTask")]
 pub mod CreateGlobalAssetScanTask;
 #[cfg(feature = "CreateImageSynchronizeTask")]
@@ -198,3 +196,5 @@ pub mod DeleteAppWhitelistPolicyHost;
 pub mod DeleteBackupHostInfo;
 #[cfg(feature = "DeleteBaselineWhiteList")]
 pub mod DeleteBaselineWhiteList;
+#[cfg(feature = "DeleteCicdConfigurations")]
+pub mod DeleteCicdConfigurations;
