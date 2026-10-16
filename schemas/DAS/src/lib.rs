@@ -18,6 +18,8 @@ pub mod BatchAddFullSqlTasks;
 pub mod BatchDeleteConnectionNew;
 #[cfg(feature = "BatchSendEmail")]
 pub mod BatchSendEmail;
+#[cfg(feature = "BatchSetHealthReportConfig")]
+pub mod BatchSetHealthReportConfig;
 #[cfg(feature = "BatchSetSqlLimitingSwitch")]
 pub mod BatchSetSqlLimitingSwitch;
 #[cfg(feature = "BatchSetSqlSwitchNew")]
@@ -32,6 +34,8 @@ pub mod CancelInstanceProcess;
 pub mod CancelShareConnections;
 #[cfg(feature = "CancelShareNew")]
 pub mod CancelShareNew;
+#[cfg(feature = "ChangeBigKeyHotKeySwitch")]
+pub mod ChangeBigKeyHotKeySwitch;
 #[cfg(feature = "ChangeChargeMode")]
 pub mod ChangeChargeMode;
 #[cfg(feature = "ChangeDeadLockSwitchNew")]
@@ -68,6 +72,8 @@ pub mod CreateDbsConnection;
 pub mod CreateFullSqlBucket;
 #[cfg(feature = "CreateHealthReportTask")]
 pub mod CreateHealthReportTask;
+#[cfg(feature = "CreateHealthReportTemplate")]
+pub mod CreateHealthReportTemplate;
 #[cfg(feature = "CreateHistoryTransactionExportTask")]
 pub mod CreateHistoryTransactionExportTask;
 #[cfg(feature = "CreateIndexUsageExportTaskNew")]
@@ -114,6 +120,8 @@ pub mod DeleteExportTaskNew;
 pub mod DeleteExportTaskObsFileNew;
 #[cfg(feature = "DeleteFullSqlExportTaskObsFile")]
 pub mod DeleteFullSqlExportTaskObsFile;
+#[cfg(feature = "DeleteHealthReportTemplate")]
+pub mod DeleteHealthReportTemplate;
 #[cfg(feature = "DeleteHistoryTransactionExportTask")]
 pub mod DeleteHistoryTransactionExportTask;
 #[cfg(feature = "DeleteInstanceGroup")]
@@ -178,6 +186,8 @@ pub mod ListAnalysisResult;
 pub mod ListApiVersions;
 #[cfg(feature = "ListAutoIncrementUsage")]
 pub mod ListAutoIncrementUsage;
+#[cfg(feature = "ListBigKeys")]
+pub mod ListBigKeys;
 #[cfg(feature = "ListBinlogExports")]
 pub mod ListBinlogExports;
 #[cfg(feature = "ListBinlogFiles")]
@@ -188,13 +198,3 @@ pub mod ListBucketName;
 pub mod ListCloudDbaInstances;
 #[cfg(feature = "ListConnection")]
 pub mod ListConnection;
-#[cfg(feature = "ListConnectionProcesses")]
-pub mod ListConnectionProcesses;
-#[cfg(feature = "ListConnections")]
-pub mod ListConnections;
-#[cfg(feature = "ListDatabaseInfos")]
-pub mod ListDatabaseInfos;
-#[cfg(feature = "ListDatabaseObjects")]
-pub mod ListDatabaseObjects;
-#[cfg(feature = "ListDbNames")]
-pub mod ListDbNames;

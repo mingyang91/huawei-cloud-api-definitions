@@ -38,6 +38,8 @@ pub mod ListDriftDetails;
 pub mod ListEnabledControls;
 #[cfg(feature = "ListExternalConfigRuleCompliances")]
 pub mod ListExternalConfigRuleCompliances;
+#[cfg(feature = "ListLandingZoneVersion")]
+pub mod ListLandingZoneVersion;
 #[cfg(feature = "ListManagedAccounts")]
 pub mod ListManagedAccounts;
 #[cfg(feature = "ListManagedAccountsForParent")]
