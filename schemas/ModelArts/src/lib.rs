@@ -18,6 +18,8 @@ pub mod BatchBindPoolNodes;
 pub mod BatchCreatePoolTags;
 #[cfg(feature = "BatchCreateServiceTags")]
 pub mod BatchCreateServiceTags;
+#[cfg(feature = "BatchDeleteInferDeploymentPod")]
+pub mod BatchDeleteInferDeploymentPod;
 #[cfg(feature = "BatchDeleteInferIntranetConnections")]
 pub mod BatchDeleteInferIntranetConnections;
 #[cfg(feature = "BatchDeleteInferServices")]
@@ -92,6 +94,8 @@ pub mod CreateDevServer;
 pub mod CreateDevServerJob;
 #[cfg(feature = "CreateHyperCluster")]
 pub mod CreateHyperCluster;
+#[cfg(feature = "CreateHyperinstanceGroup")]
+pub mod CreateHyperinstanceGroup;
 #[cfg(feature = "CreateHyperinstanceTags")]
 pub mod CreateHyperinstanceTags;
 #[cfg(feature = "CreateImage")]
@@ -180,6 +184,8 @@ pub mod DeleteDevServerJobs;
 pub mod DeleteHyperCluster;
 #[cfg(feature = "DeleteHyperinstance")]
 pub mod DeleteHyperinstance;
+#[cfg(feature = "DeleteHyperinstanceGroup")]
+pub mod DeleteHyperinstanceGroup;
 #[cfg(feature = "DeleteHyperinstanceTags")]
 pub mod DeleteHyperinstanceTags;
 #[cfg(feature = "DeleteImage")]
@@ -192,9 +198,3 @@ pub mod DeleteInferApiKey;
 pub mod DeleteInferDeployment;
 #[cfg(feature = "DeleteInferDeploymentHpa")]
 pub mod DeleteInferDeploymentHpa;
-#[cfg(feature = "DeleteInferDeploymentInstance")]
-pub mod DeleteInferDeploymentInstance;
-#[cfg(feature = "DeleteInferDeploymentPod")]
-pub mod DeleteInferDeploymentPod;
-#[cfg(feature = "DeleteInferDeploymentVersion")]
-pub mod DeleteInferDeploymentVersion;

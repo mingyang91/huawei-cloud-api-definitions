@@ -70,6 +70,8 @@ pub mod ListApiVersion;
 pub mod ListAvailableFlavorInfos;
 #[cfg(feature = "ListBackups")]
 pub mod ListBackups;
+#[cfg(feature = "ListBiactiveInstanceCandidates")]
+pub mod ListBiactiveInstanceCandidates;
 #[cfg(feature = "ListCassandraSlowLogs")]
 pub mod ListCassandraSlowLogs;
 #[cfg(feature = "ListConfigurationDatastores")]
@@ -196,5 +198,3 @@ pub mod SetInstanceDataDump;
 pub mod SetRecyclePolicy;
 #[cfg(feature = "SetRedisPitrPolicy")]
 pub mod SetRedisPitrPolicy;
-#[cfg(feature = "ShowAllInstancesBackups")]
-pub mod ShowAllInstancesBackups;
