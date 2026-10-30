@@ -1,5 +1,7 @@
 #[cfg(feature = "BatchCreateOrDeleteTags")]
 pub mod BatchCreateOrDeleteTags;
+#[cfg(feature = "BatchGetSecretValue")]
+pub mod BatchGetSecretValue;
 #[cfg(feature = "BatchImportSecrets")]
 pub mod BatchImportSecrets;
 #[cfg(feature = "CheckSecrets")]

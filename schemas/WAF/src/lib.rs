@@ -138,8 +138,6 @@ pub mod CreateIpReputationRule;
 pub mod CreatePolicy;
 #[cfg(feature = "CreatePool")]
 pub mod CreatePool;
-#[cfg(feature = "CreatePostpaidResources")]
-pub mod CreatePostpaidResources;
 #[cfg(feature = "CreatePremiumHost")]
 pub mod CreatePremiumHost;
 #[cfg(feature = "CreatePrepaidCloudWaf")]
@@ -198,3 +196,5 @@ pub mod DeleteInstance;
 pub mod DeleteIpGroup;
 #[cfg(feature = "DeleteIpReputationRule")]
 pub mod DeleteIpReputationRule;
+#[cfg(feature = "DeletePolicy")]
+pub mod DeletePolicy;

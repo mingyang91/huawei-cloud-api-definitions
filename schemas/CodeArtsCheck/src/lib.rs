@@ -12,6 +12,8 @@ pub mod CreateTask;
 pub mod DeleteRuleset;
 #[cfg(feature = "DeleteTask")]
 pub mod DeleteTask;
+#[cfg(feature = "ListCriterionSetsByLanguage")]
+pub mod ListCriterionSetsByLanguage;
 #[cfg(feature = "ListRules")]
 pub mod ListRules;
 #[cfg(feature = "ListRulesets")]
@@ -36,6 +38,8 @@ pub mod ShowTaskDefects;
 pub mod ShowTaskDefectsStatistic;
 #[cfg(feature = "ShowTaskDetail")]
 pub mod ShowTaskDetail;
+#[cfg(feature = "ShowTaskInfoById")]
+pub mod ShowTaskInfoById;
 #[cfg(feature = "ShowTaskListByProjectId")]
 pub mod ShowTaskListByProjectId;
 #[cfg(feature = "ShowTasklog")]
@@ -44,10 +48,14 @@ pub mod ShowTasklog;
 pub mod ShowTaskPathTree;
 #[cfg(feature = "ShowTaskSettings")]
 pub mod ShowTaskSettings;
+#[cfg(feature = "ShowTasksList")]
+pub mod ShowTasksList;
 #[cfg(feature = "ShowTasksRulesets")]
 pub mod ShowTasksRulesets;
 #[cfg(feature = "StopTaskById")]
 pub mod StopTaskById;
+#[cfg(feature = "UpdateCodeGate")]
+pub mod UpdateCodeGate;
 #[cfg(feature = "UpdateDefectStatus")]
 pub mod UpdateDefectStatus;
 #[cfg(feature = "UpdateIgnorePath")]
