@@ -16,6 +16,8 @@ pub mod BatchBindInferApiKeys;
 pub mod BatchBindPoolNodes;
 #[cfg(feature = "BatchCreatePoolTags")]
 pub mod BatchCreatePoolTags;
+#[cfg(feature = "BatchCreateServiceOpens")]
+pub mod BatchCreateServiceOpens;
 #[cfg(feature = "BatchCreateServiceTags")]
 pub mod BatchCreateServiceTags;
 #[cfg(feature = "BatchDeleteInferDeploymentPod")]
@@ -86,6 +88,8 @@ pub mod CreateApigApp;
 pub mod CreateApigAppCode;
 #[cfg(feature = "CreateAppAuthApi")]
 pub mod CreateAppAuthApi;
+#[cfg(feature = "CreateAuthGrant")]
+pub mod CreateAuthGrant;
 #[cfg(feature = "CreateAuthorization")]
 pub mod CreateAuthorization;
 #[cfg(feature = "CreateDevServer")]
@@ -194,7 +198,3 @@ pub mod DeleteImage;
 pub mod DeleteImageGroup;
 #[cfg(feature = "DeleteInferApiKey")]
 pub mod DeleteInferApiKey;
-#[cfg(feature = "DeleteInferDeployment")]
-pub mod DeleteInferDeployment;
-#[cfg(feature = "DeleteInferDeploymentHpa")]
-pub mod DeleteInferDeploymentHpa;

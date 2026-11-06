@@ -106,6 +106,8 @@ pub mod ShowHostClusterDetail;
 pub mod ShowHostDetail;
 #[cfg(feature = "ShowProjectSuccessRate")]
 pub mod ShowProjectSuccessRate;
+#[cfg(feature = "ShowTaskLogs")]
+pub mod ShowTaskLogs;
 #[cfg(feature = "StartDeployTask")]
 pub mod StartDeployTask;
 #[cfg(feature = "UpdateAppDisableStatus")]

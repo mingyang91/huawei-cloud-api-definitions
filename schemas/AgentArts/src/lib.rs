@@ -10,6 +10,8 @@ pub mod BatchCreateCoreRuntimeEndpointTags;
 pub mod BatchCreateCoreRuntimeTags;
 #[cfg(feature = "BatchCreateCoreSpaceTags")]
 pub mod BatchCreateCoreSpaceTags;
+#[cfg(feature = "BatchCreateCustomModelProviderTags")]
+pub mod BatchCreateCustomModelProviderTags;
 #[cfg(feature = "BatchCreateOpsAgentTuningTaskTags")]
 pub mod BatchCreateOpsAgentTuningTaskTags;
 #[cfg(feature = "BatchCreateOpsAnalysisTaskTags")]
@@ -32,6 +34,8 @@ pub mod BatchDeleteCoreRuntimeEndpointTags;
 pub mod BatchDeleteCoreRuntimeTags;
 #[cfg(feature = "BatchDeleteCoreSpaceTags")]
 pub mod BatchDeleteCoreSpaceTags;
+#[cfg(feature = "BatchDeleteCustomModelProviderTags")]
+pub mod BatchDeleteCustomModelProviderTags;
 #[cfg(feature = "BatchDeleteOpsAgentTuningTaskTags")]
 pub mod BatchDeleteOpsAgentTuningTaskTags;
 #[cfg(feature = "BatchDeleteOpsAnalysisTaskTags")]
@@ -180,6 +184,8 @@ pub mod ListAllCoreRuntimeEndpointTags;
 pub mod ListAllCoreRuntimeTags;
 #[cfg(feature = "ListAllCoreSpaceTags")]
 pub mod ListAllCoreSpaceTags;
+#[cfg(feature = "ListAllCustomModelProviderTags")]
+pub mod ListAllCustomModelProviderTags;
 #[cfg(feature = "ListAllOpsAgentTuningTaskTags")]
 pub mod ListAllOpsAgentTuningTaskTags;
 #[cfg(feature = "ListAllOpsAnalysisTaskTags")]
@@ -192,9 +198,3 @@ pub mod ListAllOpsEvaluationTaskTmsTags;
 pub mod ListAllOpsEvaluatorTmsTags;
 #[cfg(feature = "ListAllOpsModelTuningTaskTags")]
 pub mod ListAllOpsModelTuningTaskTags;
-#[cfg(feature = "ListCoreCodeInterpreters")]
-pub mod ListCoreCodeInterpreters;
-#[cfg(feature = "ListCoreGatewayQuotas")]
-pub mod ListCoreGatewayQuotas;
-#[cfg(feature = "ListCoreGateways")]
-pub mod ListCoreGateways;

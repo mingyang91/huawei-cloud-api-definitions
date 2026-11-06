@@ -112,6 +112,8 @@ pub mod CreateSqlserverDatabase;
 pub mod CreateSqlserverDbUser;
 #[cfg(feature = "CreateSubscription")]
 pub mod CreateSubscription;
+#[cfg(feature = "CreateSupabaseApplication")]
+pub mod CreateSupabaseApplication;
 #[cfg(feature = "CreateXelLogDownload")]
 pub mod CreateXelLogDownload;
 #[cfg(feature = "DeleteBackupSelection")]
@@ -162,6 +164,8 @@ pub mod DeleteSqlserverDatabaseEx;
 pub mod DeleteSqlserverDbUser;
 #[cfg(feature = "DeleteSubscription")]
 pub mod DeleteSubscription;
+#[cfg(feature = "DeleteSupabaseApplication")]
+pub mod DeleteSupabaseApplication;
 #[cfg(feature = "DownloadErrorlog")]
 pub mod DownloadErrorlog;
 #[cfg(feature = "DownloadSlowlog")]
@@ -182,6 +186,8 @@ pub mod GetInstancesNoIndexTables;
 pub mod GetInstancesOpsMetricNames;
 #[cfg(feature = "GetInstancesOpsResourceUsage")]
 pub mod GetInstancesOpsResourceUsage;
+#[cfg(feature = "ListAiApplications")]
+pub mod ListAiApplications;
 #[cfg(feature = "ListApiVersion")]
 pub mod ListApiVersion;
 #[cfg(feature = "ListApiVersionNew")]
@@ -192,9 +198,3 @@ pub mod ListAuditlogs;
 pub mod ListAuthorizedDatabases;
 #[cfg(feature = "ListAuthorizedDbUsers")]
 pub mod ListAuthorizedDbUsers;
-#[cfg(feature = "ListAuthorizedSqlserverDbUsers")]
-pub mod ListAuthorizedSqlserverDbUsers;
-#[cfg(feature = "ListAutoScalingHistory")]
-pub mod ListAutoScalingHistory;
-#[cfg(feature = "ListAutoScalingPolicy")]
-pub mod ListAutoScalingPolicy;
