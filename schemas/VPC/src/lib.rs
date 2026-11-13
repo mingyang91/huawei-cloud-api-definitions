@@ -28,6 +28,8 @@ pub mod BatchCreateSubnetTags;
 pub mod BatchCreateSubNetworkInterface;
 #[cfg(feature = "BatchCreateSubNetworkInterfaceTags")]
 pub mod BatchCreateSubNetworkInterfaceTags;
+#[cfg(feature = "BatchCreateTrafficMirrorFilterRules")]
+pub mod BatchCreateTrafficMirrorFilterRules;
 #[cfg(feature = "BatchCreateVpcTags")]
 pub mod BatchCreateVpcTags;
 #[cfg(feature = "BatchDeleteFirewallTags")]
@@ -170,6 +172,8 @@ pub mod ListPortsByTags;
 pub mod ListPortTags;
 #[cfg(feature = "ListPrivateips")]
 pub mod ListPrivateips;
+#[cfg(feature = "ListResourceAssociations")]
+pub mod ListResourceAssociations;
 #[cfg(feature = "ListRouteTables")]
 pub mod ListRouteTables;
 #[cfg(feature = "ListSecurityGroupRules")]
@@ -194,7 +198,3 @@ pub mod ListSubNetworkInterfacesByTags;
 pub mod ListSubNetworkInterfaceTags;
 #[cfg(feature = "ListTrafficMirrorFilterRules")]
 pub mod ListTrafficMirrorFilterRules;
-#[cfg(feature = "ListTrafficMirrorFilters")]
-pub mod ListTrafficMirrorFilters;
-#[cfg(feature = "ListTrafficMirrorSessions")]
-pub mod ListTrafficMirrorSessions;
