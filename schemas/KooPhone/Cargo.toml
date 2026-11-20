@@ -16,7 +16,6 @@ version = "1"
 version = "0"
 
 [features]
-AsyncInvokeInstance = []
 BatchBackupInstances = []
 BatchPrepareInstances = []
 BatchRebootInstance = []
@@ -36,8 +35,7 @@ SetVideo = []
 ShowProgress = []
 StopInstancesSession = []
 StopInstancesStreaming = []
-SyncInvokeInstance = []
-full = ["AsyncInvokeInstance", "BatchBackupInstances", "BatchPrepareInstances", "BatchRebootInstance", "BatchResetInstance", "BatchShowInstance", "BatchShowSku", "CancelInstance", "CreateInstance", "DeleteInstance", "ExecuteInstanceAuthToken", "ExecuteJob", "InstallApp", "ListInstanceApp", "ListInstances", "ProvisionInstance", "SetVideo", "ShowProgress", "StopInstancesSession", "StopInstancesStreaming", "SyncInvokeInstance"]
+full = ["BatchBackupInstances", "BatchPrepareInstances", "BatchRebootInstance", "BatchResetInstance", "BatchShowInstance", "BatchShowSku", "CancelInstance", "CreateInstance", "DeleteInstance", "ExecuteInstanceAuthToken", "ExecuteJob", "InstallApp", "ListInstanceApp", "ListInstances", "ProvisionInstance", "SetVideo", "ShowProgress", "StopInstancesSession", "StopInstancesStreaming"]
 
 [lib]
 name = "huawei_cloud_api_definitions_KooPhone"

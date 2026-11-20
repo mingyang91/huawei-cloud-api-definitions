@@ -38,6 +38,8 @@ pub mod CreatePin;
 pub mod CreateRandom;
 #[cfg(feature = "CreateRsaDatakeyPair")]
 pub mod CreateRsaDatakeyPair;
+#[cfg(feature = "CreateTrustedKeySpace")]
+pub mod CreateTrustedKeySpace;
 #[cfg(feature = "DecryptData")]
 pub mod DecryptData;
 #[cfg(feature = "DecryptDatakey")]
@@ -58,6 +60,8 @@ pub mod DeleteKeyPolicy;
 pub mod DeleteKeyStore;
 #[cfg(feature = "DeleteTag")]
 pub mod DeleteTag;
+#[cfg(feature = "DeleteTrustedKeySpace")]
+pub mod DeleteTrustedKeySpace;
 #[cfg(feature = "DeriveSharedSecret")]
 pub mod DeriveSharedSecret;
 #[cfg(feature = "DisableAccessPoint")]
@@ -108,6 +112,8 @@ pub mod ListKmsTags;
 pub mod ListRetirableGrants;
 #[cfg(feature = "ListSupportRegions")]
 pub mod ListSupportRegions;
+#[cfg(feature = "ListTrustedKeySpace")]
+pub mod ListTrustedKeySpace;
 #[cfg(feature = "ReEncrypt")]
 pub mod ReEncrypt;
 #[cfg(feature = "ReplicateKey")]
@@ -120,6 +126,10 @@ pub mod ShowKeyPolicy;
 pub mod ShowKeyRotationStatus;
 #[cfg(feature = "ShowKeyStore")]
 pub mod ShowKeyStore;
+#[cfg(feature = "ShowKeyUsageFlow")]
+pub mod ShowKeyUsageFlow;
+#[cfg(feature = "ShowKmsSpec")]
+pub mod ShowKmsSpec;
 #[cfg(feature = "ShowKmsTags")]
 pub mod ShowKmsTags;
 #[cfg(feature = "ShowPublicKey")]
@@ -134,6 +144,8 @@ pub mod ShowVersion;
 pub mod ShowVersions;
 #[cfg(feature = "Sign")]
 pub mod Sign;
+#[cfg(feature = "TransferKey")]
+pub mod TransferKey;
 #[cfg(feature = "UpdateKeyAlias")]
 pub mod UpdateKeyAlias;
 #[cfg(feature = "UpdateKeyDescription")]
@@ -142,6 +154,8 @@ pub mod UpdateKeyDescription;
 pub mod UpdateKeyPolicy;
 #[cfg(feature = "UpdateKeyRotationInterval")]
 pub mod UpdateKeyRotationInterval;
+#[cfg(feature = "UpdateKeyStore")]
+pub mod UpdateKeyStore;
 #[cfg(feature = "UpdatePrimaryRegion")]
 pub mod UpdatePrimaryRegion;
 #[cfg(feature = "ValidateSignature")]

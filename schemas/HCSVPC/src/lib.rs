@@ -134,6 +134,8 @@ pub mod DeleteVpcRoute;
 pub mod DetachSubnetworkInterface;
 #[cfg(feature = "ListBandwidthLimitRules")]
 pub mod ListBandwidthLimitRules;
+#[cfg(feature = "ListBaremetalDedicatedNetworks")]
+pub mod ListBaremetalDedicatedNetworks;
 #[cfg(feature = "ListBaremetalDedicatedSubnets")]
 pub mod ListBaremetalDedicatedSubnets;
 #[cfg(feature = "ListComgetExNetworks")]
@@ -196,5 +198,3 @@ pub mod ListSubnets;
 pub mod ListSubnets2;
 #[cfg(feature = "ListSubnetworkInterface")]
 pub mod ListSubnetworkInterface;
-#[cfg(feature = "ListSubNetworkInterfaces")]
-pub mod ListSubNetworkInterfaces;

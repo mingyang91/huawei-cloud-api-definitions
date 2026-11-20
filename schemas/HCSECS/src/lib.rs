@@ -58,6 +58,8 @@ pub mod DeleteInstanceSnapshot;
 pub mod DeleteKeypair;
 #[cfg(feature = "DeleteSecurityRule")]
 pub mod DeleteSecurityRule;
+#[cfg(feature = "DeleteServerAgencyConfig")]
+pub mod DeleteServerAgencyConfig;
 #[cfg(feature = "DeleteServerMetaItem")]
 pub mod DeleteServerMetaItem;
 #[cfg(feature = "DeleteServerTag")]
@@ -82,6 +84,8 @@ pub mod ExecuteServerChangeOs;
 pub mod ExecuteServerMonitor;
 #[cfg(feature = "ExecuteServerReinstallOs")]
 pub mod ExecuteServerReinstallOs;
+#[cfg(feature = "GetServerAgencyInfo")]
+pub mod GetServerAgencyInfo;
 #[cfg(feature = "ListAggregates")]
 pub mod ListAggregates;
 #[cfg(feature = "ListApiVersions")]
@@ -194,7 +198,3 @@ pub mod NovaShowWindowsServerPassword;
 pub mod ResetExtServerPwd;
 #[cfg(feature = "ResizeExtLiveServer")]
 pub mod ResizeExtLiveServer;
-#[cfg(feature = "ResizeExtServer")]
-pub mod ResizeExtServer;
-#[cfg(feature = "SetExtServerAutoRecovery")]
-pub mod SetExtServerAutoRecovery;

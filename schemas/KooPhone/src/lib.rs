@@ -1,5 +1,3 @@
-#[cfg(feature = "AsyncInvokeInstance")]
-pub mod AsyncInvokeInstance;
 #[cfg(feature = "BatchBackupInstances")]
 pub mod BatchBackupInstances;
 #[cfg(feature = "BatchPrepareInstances")]
@@ -38,5 +36,3 @@ pub mod ShowProgress;
 pub mod StopInstancesSession;
 #[cfg(feature = "StopInstancesStreaming")]
 pub mod StopInstancesStreaming;
-#[cfg(feature = "SyncInvokeInstance")]
-pub mod SyncInvokeInstance;

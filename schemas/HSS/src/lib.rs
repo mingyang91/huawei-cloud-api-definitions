@@ -24,6 +24,8 @@ pub mod AddProtectionPolicy;
 pub mod AddRegistry;
 #[cfg(feature = "AddSecurityCheckPolicyGroup")]
 pub mod AddSecurityCheckPolicyGroup;
+#[cfg(feature = "AddSecurityReport")]
+pub mod AddSecurityReport;
 #[cfg(feature = "AddSystemUserWhiteList")]
 pub mod AddSystemUserWhiteList;
 #[cfg(feature = "AddVulWhiteList")]
@@ -56,6 +58,8 @@ pub mod BatchExportBaselineTask;
 pub mod BatchExportLocalVulTask;
 #[cfg(feature = "BatchModifyPortStatus")]
 pub mod BatchModifyPortStatus;
+#[cfg(feature = "BatchRegisterDefenderPlugin")]
+pub mod BatchRegisterDefenderPlugin;
 #[cfg(feature = "BatchScanLocalImage")]
 pub mod BatchScanLocalImage;
 #[cfg(feature = "BatchScanSwrImage")]
@@ -70,6 +74,8 @@ pub mod BatchUpdateClusterResource;
 pub mod BatchUpdateHostResource;
 #[cfg(feature = "BatchUpgradeAgentDaemonset")]
 pub mod BatchUpgradeAgentDaemonset;
+#[cfg(feature = "BatchUploadFiles")]
+pub mod BatchUploadFiles;
 #[cfg(feature = "BindAgentPolicy")]
 pub mod BindAgentPolicy;
 #[cfg(feature = "CancelHostsQuota")]
@@ -124,6 +130,8 @@ pub mod ChangePasswordComplexityStatus;
 pub mod ChangePolicyGroup;
 #[cfg(feature = "ChangePolicySwitchStatus")]
 pub mod ChangePolicySwitchStatus;
+#[cfg(feature = "ChangeSecurityReport")]
+pub mod ChangeSecurityReport;
 #[cfg(feature = "ChangeSensitiveInfo")]
 pub mod ChangeSensitiveInfo;
 #[cfg(feature = "ChangeSwitchesStatus")]
@@ -190,11 +198,3 @@ pub mod DeleteAiPolicyGroups;
 pub mod DeleteAntivirusPolicy;
 #[cfg(feature = "DeleteAppWhitelistPolicy")]
 pub mod DeleteAppWhitelistPolicy;
-#[cfg(feature = "DeleteAppWhitelistPolicyHost")]
-pub mod DeleteAppWhitelistPolicyHost;
-#[cfg(feature = "DeleteBackupHostInfo")]
-pub mod DeleteBackupHostInfo;
-#[cfg(feature = "DeleteBaselineWhiteList")]
-pub mod DeleteBaselineWhiteList;
-#[cfg(feature = "DeleteCicdConfigurations")]
-pub mod DeleteCicdConfigurations;
