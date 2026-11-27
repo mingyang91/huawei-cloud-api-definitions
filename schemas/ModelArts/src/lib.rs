@@ -88,6 +88,10 @@ pub mod CreateApigApp;
 pub mod CreateApigAppCode;
 #[cfg(feature = "CreateAppAuthApi")]
 pub mod CreateAppAuthApi;
+#[cfg(feature = "CreateAsset")]
+pub mod CreateAsset;
+#[cfg(feature = "CreateAssetFileDownLoadPath")]
+pub mod CreateAssetFileDownLoadPath;
 #[cfg(feature = "CreateAuthGrant")]
 pub mod CreateAuthGrant;
 #[cfg(feature = "CreateAuthorization")]
@@ -178,6 +182,8 @@ pub mod DeleteApigApp;
 pub mod DeleteApigAppCode;
 #[cfg(feature = "DeleteAppAuthApi")]
 pub mod DeleteAppAuthApi;
+#[cfg(feature = "DeleteAsset")]
+pub mod DeleteAsset;
 #[cfg(feature = "DeleteAuthorizations")]
 pub mod DeleteAuthorizations;
 #[cfg(feature = "DeleteDevServer")]
@@ -192,9 +198,3 @@ pub mod DeleteHyperinstance;
 pub mod DeleteHyperinstanceGroup;
 #[cfg(feature = "DeleteHyperinstanceTags")]
 pub mod DeleteHyperinstanceTags;
-#[cfg(feature = "DeleteImage")]
-pub mod DeleteImage;
-#[cfg(feature = "DeleteImageGroup")]
-pub mod DeleteImageGroup;
-#[cfg(feature = "DeleteInferApiKey")]
-pub mod DeleteInferApiKey;
